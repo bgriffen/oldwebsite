@@ -55,24 +55,57 @@ Here is the resulting graph (~20% of the total ~4,200 nodes available):
 <br/>
 <br/>
 
+<table style="font-size: 90%; text-align: center">
+<tr>
+<th>Name</th><th>Connections</th><th>Nationality</th><th>Born (B.C.)</th>
+</tr>
+<tr>
+<td>Thales</td><td>3390</td><td>Greek</td><td>624</td>
+</tr>
+<tr>
+<td>Pythagoras</td><td>3386</td><td>Greek</td><td>570</td>
+</tr>
+<tr>
+<td>Zeno of Elea</td><td>3378</td><td>Greek</td><td>490</td>
+</tr>
+<tr>
+<td>Socrates</td><td>3376</td><td>Greek</td><td>469</td>
+</tr>
+<tr>
+<td>Parmenides</td><td>3368</td><td>Greek</td><td>5th cent.</td>
+</tr>
+<tr>
+<td>Protagoras</td><td>3352</td><td>Greek</td><td>490</td>
+</tr>
+<tr>
+<td>Plato</td><td>3351</td><td>Greek</td><td>423</td>
+</tr>
+<tr>
+<td>Melissus of Samos</td><td>3332</td><td>Greek</td><td>5th cent.</td>
+</tr>
+<tr>
+<td>Leucippus</td><td>3329</td><td>Greek</td><td>5th cent.</td>
+</tr>
+<tr>
+<td>Zeno of Citium</td><td>3306</td><td>Greek</td><td>334</td>
+</tr>
+<tr>
+<td>Pyrrho</td><td>3306</td><td>Greek</td><td>360</td>
+</tr>
+<tr>
+<td>Stilpo</td><td>3300</td><td>Greek</td><td>360</td>
+</tr>
+<tr>
+<td>Posidonius</td><td>3288</td><td>Greek</td><td>135</td>
+</tr>
+<tr>
+<td>Panaetius</td><td>3286</td><td>Greek</td><td>185</td>
+</tr>
+<tr>
+<td>Lucretius</td><td>3275</td><td>Roman</td><td>99</td>
+</tr>
+</table>
 
-|Name|     Connections|    Nationality| Born (B.C.) |
-|:-------------:|:-----:|:-----:|:-----:|
-|Thales|  3390|    Greek|   624|
-|Pythagoras|  3386|    Greek|   570|
-|Zeno| of| Elea|    3378|    Greek   490|
-|Socrates|    3376|    Greek|   469|
-|Parmenides|  3368|    Greek|   5th cent.|
-|Protagoras|  3352|    Greek|   490|
-|Plato|   3351|    Greek|   423|
-|Melissus of Samos|   3332|    Greek|   5th cent.
-|Leucippus|   3329|    Greek|   5th cent.|
-|Zeno of Citium|  3306|    Greek  | 334|
-|Pyrrho|  3306|    Greek|   360|
-|Stilpo|  3300|    Greek|   360|
-|Posidonius|  3288|    Greek|   135|
-|Panaetius|   3286|    Greek|   185|
-|Lucretius|   3275|    Roman|   99|
 
 Bertrand Russell in his History of Western Philosophy (1945) wrote “Western Philosophy begins With Thales”. As we can see, his claim is backed up by this graph. Thales is the most connected individual with 3390 connections. This doesn’t mean he is the most influential or humanity’s biggest asset – it just means that if the data was complete (which it isn’t), then his ideas have influenced (in whatever arbitrary way you define it) the most number of people.
 
@@ -108,14 +141,16 @@ Once you make the matrix there are a whole heap of interesting things you can do
 
 For our example above, once you create the matrix, all you need to do now is simply create a .dl file which contains the following:
 
-dl n=3
-format = fullmatrix
-labels:
-Person A, Person B, Person C
-data:
-0 1 0
-0 0 1
-1 0 1
+{% highlight Text %}
+dl n=3  
+format = fullmatrix  
+labels:  
+Person A, Person B, Person C  
+data:  
+0 1 0  
+0 0 1  
+1 0 1  
+{% endhighlight %}
 
 This is the information which helped me. Once I obtained this matrix for the Wikipedia network, Gephi was able to import it. Thank-you to whoever made this extension – it is genius.
 
