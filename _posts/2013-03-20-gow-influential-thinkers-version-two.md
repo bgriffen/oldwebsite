@@ -40,20 +40,9 @@ Welcome back… so with all of this in mind I went ahead and made a little progr
 
 Here is the resulting graph (~20% of the total ~4,200 nodes available):
 
-<br/>
-<br/>
-![Comedians](/assets/wikipedia/Comedians.png)
-<br/>
-<br/>
-![Authors](/assets/wikipedia/Authors.png)
-<br/>
-<br/>
-![Writers](/assets/wikipedia/Writers.png)
-<br/>
-<br/>
-![Philosophers](/assets/wikipedia/Philosophers.png)
-<br/>
-<br/>
+![Image 1](/assets/wikipedia/gow_influence2_image0.png)
+![Image 2](/assets/wikipedia/gow_influence2_image1.png)
+![Image 3](/assets/wikipedia/gow_influence2_image2.png)
 
 <table style="font-size: 90%; text-align: center">
 <tr>
