@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="{{ page.description }}">
+  <!-- rss feed -->
+  <link rel="alternate" type="application/rss+xml" 
+  title="RSS Feed for sebpearce.com" 
+  href="http://feeds.feedburner.com/sebpearce" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="http://sebpearce.com/assets/profile.jpg">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description | escape_once }}">
+  <meta name="twitter:creator" content="@_sebu_">
+
+  <!-- Open Graph -->
+  <meta property="fb:admins" content="673372761">
+  <meta property="fb:app_id" content="646320802089541">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description | escape_once }}">
+  <meta property="og:url" content="{{ site.url}}{{ page.url }}/">
+  <meta property="og:site_name" content="sebpearce.com">
+
+  <!-- font-awesome CSS -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">        
+
+  <!-- Custom mobile CSS -->
+  <link rel="stylesheet" href="/css/mobile.css">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+
+</head>
+<body>
+
+  <div class="site">
+    
+  {% include bigmenu.html %}
+
+    <article>
+      <div class="content">
+
+        {{ content }}
+
+      </div> <!-- end of content -->
+    </article>
+
+  </div> <!-- end of site -->
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-48318340-1', 'sebpearce.com');
+  ga('send', 'pageview');
+  </script>
+
+</body>
+</html>

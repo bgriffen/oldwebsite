@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description }}">
+  <!-- rss feed -->
+  <link rel="alternate" type="application/rss+xml" 
+  title="RSS Feed for brendangriffen.com" 
+  href="http://feeds.feedburner.com/brendangriffen" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  {% include open_graph.html %}
+
+  {% include webfonts.html %}
+
+  <!-- font-awesome CSS -->
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">        
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+
+</head>
+<body>
+    
+  {% include masthead.html %}
+    
+    <article>
+      <div class="content">
+
+        {{ content }}
+        
+      </div> <!-- end of content -->
+    </article>
+
+  {% include analytics.html %}
+
+</body>
+</html>

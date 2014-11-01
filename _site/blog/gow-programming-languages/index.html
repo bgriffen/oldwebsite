@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Graphs of Wikipedia: Programming Languages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A crowd sourced influence map of various programming langauges via Wikipedia.">
+  <!-- rss feed -->
+  <link rel="alternate" type="application/rss+xml" 
+  title="RSS Feed for brendangriffen.com" 
+  href="http://feeds.feedburner.com/brendangriffen" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="http://sebpearce.com/assets/">
+  <meta name="twitter:title" content="Graphs of Wikipedia: Programming Languages">
+  <meta name="twitter:description" content="A crowd sourced influence map of various programming langauges via Wikipedia.">
+  <meta name="twitter:creator" content="@_sebu_">
+
+  <!-- Open Graph -->
+  <meta property="fb:admins" content="673372761">
+  <meta property="fb:app_id" content="646320802089541">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="http://sebpearce.com/assets/">
+  <meta property="og:title" content="Graphs of Wikipedia: Programming Languages">
+  <meta property="og:description" content="A crowd sourced influence map of various programming langauges via Wikipedia.">
+  <meta property="og:url" content="http://brendangriffen.com/blog/gow-programming-languages/">
+  <meta property="og:site_name" content="sebpearce.com">
+
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,700italic,700,300' rel='stylesheet' type='text/css'>
+
+  <!-- font-awesome CSS -->
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">        
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+
+</head>
+<body>
+    
+  
+
+<div class="masthead">
+  <div class="masthead-container">
+    <div class="rootlink-container">
+      <a href="/" class="rootlink">
+        <h3 class="myname">Brendan Griffen</h3><br>
+        <h4 class="mydescription">Astrophysicist, data enthusiast, ponderer, human.</h4>
+      </a>
+    </div>
+    <ul class="main-menu"><a href="/"><li>Blog</li></a>
+      <a href="/projects/"><li>Projects</li></a>
+      <a href="/about/"><li>About</li></a>
+      <a href="/vitae/"><li>Vitae</li></a>
+      <a href="/contact"><li>Contact</li></a>
+        <!-- <li><a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=brendangriffen&amp;loc=en_US"> -->
+      <!-- <a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=brendangriffen&amp;loc=en_US"><li>Subscribe</li></a> -->
+    </ul>
+    <ul class="socialmedia">
+      <li title="GitHub"><a href="http://github.com/bgriffen" class="fa fa-github fa-2x" rel="nofollow"></a></li>
+      <li title="Email"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;brendan.f.griffen&#64;gmail.com" class="fa fa-envelope fa-2x"></a></li>
+      <li title="Twitter"><a href="http://twitter.com/brendangriffen" class="fa fa-twitter fa-2x"></a></li>
+      <li title="RSS"><a href="http://feeds.feedburner.com/brendangriffen" class="fa fa-rss-square fa-2x"></a></li>
+    </ul>
+    <div style="clear:both;"></div>
+  </div> <!-- end of masthead-container -->
+</div> <!-- end of masthead -->
+
+
+    
+    <article>
+      <div class="content">
+
+        <h1>Graphs of Wikipedia: Programming Languages</h1>
+<p class="meta">19 January 2014</p>
+
+
+<div class="post">
+  <p>A while back I posted about <a href="http://brendangriffen.com/gow-influential-thinkers/">a graph of the personalities on Wikipedia</a>. This time I wanted to see which programming languages were linked to one another by user-entered “Influenced” and “Influenced-by” information. Take for instance the functional language Haskell:</p>
+
+<div style="text-align: center;">
+<IMG SRC="=/assets/wikipedia/Haskell-Programming-Wiki.png" ALT="Haskell Entry">
+</div>
+
+<p><br/>
+In the infobox on the side we find a large list of languages Haskell is connected to in one way or another. <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language">Wikipedia devotes an entire section</a>#Related_languages) to how it is related to other programming languages for those interested.</p>
+
+<div style="text-align: center;">
+<IMG SRC="=/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png" ALT="Haskell Zoom">
+</div>
+
+<p><br/>
+It must be emphasized that the links are user-generated and any such comparison is largely subjective in nature (especially when comparing concepts rather than syntax). The following query <a href="http://dbpedia.org/snorql/">executed here</a> provided me with the bulk of the data:</p>
+
+<div class="highlight"><pre><code class="sql"><span class="k">SELECT</span> <span class="o">*</span>
+<span class="k">WHERE</span> <span class="err">{</span> <span class="o">?</span><span class="n">p</span> <span class="n">a</span> <span class="o">&lt;</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">dbpedia</span><span class="p">.</span><span class="n">org</span><span class="o">/</span><span class="n">ontology</span><span class="o">/</span><span class="n">ProgrammingLanguage</span><span class="o">&gt;</span> <span class="p">.</span>
+<span class="o">?</span><span class="n">p</span> <span class="o">&lt;</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">dbpedia</span><span class="p">.</span><span class="n">org</span><span class="o">/</span><span class="n">ontology</span><span class="o">/</span><span class="n">influenced</span><span class="o">&gt;</span> <span class="o">?</span><span class="n">influenced</span> <span class="p">.</span> <span class="err">}</span>
+</code></pre></div>
+
+<p>The output was then decoded using a <a href="http://meyerweb.com/eric/tools/dencoder/">nifty URL decoder</a>. It was then fed through <a href="https://github.com/bgriffen/griffsgraphs/blob/master/programminglanguages/proglanguages.py">a Python script</a> to arrange it in a format most suitable for Gephi. The graph below represents the connections between all programming languages in Wikipedia. A force algorithm was applied such that closer nodes are more strongly connected in nature. The size of the node indicates how many connections that language has to the others in the network. The colors are achieved by carrying out a modularity algorithm applied by Gephi to highlight subnetworks. The curvature of outgoing edges is clockwise indicating influence direction. Lisp for example has many clockwise edges going out and only few counter-clockwise coming in. I can see some relations in the languages I am familiar with but perhaps you notice a few things that are flat out wrong? Please let me know in the comments as I’d be interested in hearing your thoughts. The raw Gephi graph data (.dl, .dfg, .gephi, .dexf, .gml etc.) can be <a href="http://brendangriffen.com/data/programminglanguage-data.zip">found here</a>.</p>
+
+<figure class="full">
+    <a href="=/assets/wikipedia/programminglanguages-label.png" title="Directional"><img src="=/assets/wikipedia/programminglanguages-label.png"></a>
+</figure> 
+
+<figure class="full">
+    <a href="=/assets/wikipedia/programminglanguagesarrows-label.png" title="Arrow Based"><img src="=/assets/wikipedia/programminglanguagesarrows-label.png"></a>
+</figure> 
+
+<p>As one might expect all of the major players are the biggest nodes. C, Haskell, Lisp, Python and Java all feature prominently. Anything strange you notice? Let me know in the comments. I really must commend the designers on their nomenclature. See if you can find one of the more humorous languages by zooming in. I also obtained the designer of each language and connected the people together based on the programming languages they were involved with. This was obtained by the following query:</p>
+
+<div class="highlight"><pre><code class="sql"><span class="k">SELECT</span> <span class="o">*</span>
+<span class="k">WHERE</span> <span class="err">{</span><span class="o">?</span><span class="n">p</span> <span class="n">a</span> <span class="o">&lt;</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">dbpedia</span><span class="p">.</span><span class="n">org</span><span class="o">/</span><span class="n">ontology</span><span class="o">/</span><span class="n">ProgrammingLanguage</span><span class="o">&gt;</span> <span class="p">.</span>
+<span class="o">?</span><span class="n">p</span> <span class="o">&lt;</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">dbpedia</span><span class="p">.</span><span class="n">org</span><span class="o">/</span><span class="n">ontology</span><span class="o">/</span><span class="n">designer</span><span class="o">&gt;</span> <span class="o">?</span><span class="n">designer</span> <span class="p">.</span> <span class="err">}</span>
+</code></pre></div>
+
+<p>Large nodes do not represent more influential people but simply the people whose work spawned the most number of languages in the subsequent years. As expected, it is a very homogeneous playing field as many people were involved in multiple languages and at times had many collaborators. It must be stressed that the dataset is incomplete and was the result of my somewhat rudimentary way of parsing the data. Without a doubt, things could be improved. I’ve setup <a href="https://github.com/bgriffen/griffsgraphs">a GitHub repository</a> for all (Gephi) graph files and images for those interested. Feel free to embed or share the above images. Lastly, please keep in mind where this data is coming from: contributors of Wikipedia. Whilst they are a studious bunch, they aren’t without faults so take up any problems with the graph with the pages themselves as that is all this represents.</p>
+
+<p><strong>Update!</strong> Since posting there has been some great feedback found on the web. Of particular interest is <a href="http://oreilly.com/news/graphics/prog_lang_poster.pdf">this PDF</a> of the history of programming languages and <a href="http://exploringdata.github.io/vis/programming-languages-influence-network/">this fantastic interactive version</a> of what I was trying to present by <a href="https://twitter.com/yaph">Ramiro Gomez</a>. I think it really is time to move to <a href="http://d3js.org/">D3.js</a> and <a href="http://sigmajs.org/">sigma.js</a>.</p>
+
+</div>
+
+<div class="footer">
+
+  Share:
+  <span class="social">
+    <a class="facebook-share" href="http://www.facebook.com/sharer/sharer.php?app_id=646320802089541&u=http://brendangriffen.com/blog/gow-programming-languages/" onclick="javascript:window.open(this.href,
+    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
+      <i class="fa fa-facebook-square"></i>
+    </a>&nbsp;
+    <a class="twitter-share" href="https://twitter.com/share?url=&text=Graphs of Wikipedia: Programming Languages+(via+@brendangriffen)" onclick="javascript:window.open(this.href,
+    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600');return false;">
+      <i class="fa fa-twitter-square"></i>
+    </a>&nbsp;
+    <a class="google-share" href="https://plus.google.com/share?url=http://brendangriffen.com/blog/gow-programming-languages/" onclick="javascript:window.open(this.href,
+    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        <i class="fa fa-google-plus-square"></i>
+    </a>
+  </span>
+  <br>
+  Follow: <strong><a class="follow-me-link" href="https://twitter.com/brendangriffen">@brendangriffen</a></strong>
+
+</div>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'brendangriffen'; // required: replace example with your forum shortname
+    var disqus_identifier = '/blog/gow-programming-languages';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        
+      </div> <!-- end of content -->
+    </article>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-48672309-1', 'brendangriffen.com');
+  ga('send', 'pageview');
+  </script>
+
+</body>
+</html>

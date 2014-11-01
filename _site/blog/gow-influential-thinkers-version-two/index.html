@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Graphs of Wikipedia: Influential Thinkers [Round II]</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An investigation in to the relationship between people on Wikipedia this time with upstream influence included.">
+  <!-- rss feed -->
+  <link rel="alternate" type="application/rss+xml" 
+  title="RSS Feed for brendangriffen.com" 
+  href="http://feeds.feedburner.com/brendangriffen" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="http://sebpearce.com/assets/">
+  <meta name="twitter:title" content="Graphs of Wikipedia: Influential Thinkers [Round II]">
+  <meta name="twitter:description" content="An investigation in to the relationship between people on Wikipedia this time with upstream influence included.">
+  <meta name="twitter:creator" content="@_sebu_">
+
+  <!-- Open Graph -->
+  <meta property="fb:admins" content="673372761">
+  <meta property="fb:app_id" content="646320802089541">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="http://sebpearce.com/assets/">
+  <meta property="og:title" content="Graphs of Wikipedia: Influential Thinkers [Round II]">
+  <meta property="og:description" content="An investigation in to the relationship between people on Wikipedia this time with upstream influence included.">
+  <meta property="og:url" content="http://brendangriffen.com/blog/gow-influential-thinkers-version-two/">
+  <meta property="og:site_name" content="sebpearce.com">
+
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,700italic,700,300' rel='stylesheet' type='text/css'>
+
+  <!-- font-awesome CSS -->
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">        
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+
+</head>
+<body>
+    
+  
+
+<div class="masthead">
+  <div class="masthead-container">
+    <div class="rootlink-container">
+      <a href="/" class="rootlink">
+        <h3 class="myname">Brendan Griffen</h3><br>
+        <h4 class="mydescription">Astrophysicist, data enthusiast, ponderer, human.</h4>
+      </a>
+    </div>
+    <ul class="main-menu"><a href="/"><li>Blog</li></a>
+      <a href="/projects/"><li>Projects</li></a>
+      <a href="/about/"><li>About</li></a>
+      <a href="/vitae/"><li>Vitae</li></a>
+      <a href="/contact"><li>Contact</li></a>
+        <!-- <li><a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=brendangriffen&amp;loc=en_US"> -->
+      <!-- <a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=brendangriffen&amp;loc=en_US"><li>Subscribe</li></a> -->
+    </ul>
+    <ul class="socialmedia">
+      <li title="GitHub"><a href="http://github.com/bgriffen" class="fa fa-github fa-2x" rel="nofollow"></a></li>
+      <li title="Email"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;brendan.f.griffen&#64;gmail.com" class="fa fa-envelope fa-2x"></a></li>
+      <li title="Twitter"><a href="http://twitter.com/brendangriffen" class="fa fa-twitter fa-2x"></a></li>
+      <li title="RSS"><a href="http://feeds.feedburner.com/brendangriffen" class="fa fa-rss-square fa-2x"></a></li>
+    </ul>
+    <div style="clear:both;"></div>
+  </div> <!-- end of masthead-container -->
+</div> <!-- end of masthead -->
+
+
+    
+    <article>
+      <div class="content">
+
+        <h1>Graphs of Wikipedia: Influential Thinkers [Round II]</h1>
+<p class="meta">20 March 2013</p>
+
+
+<div class="post">
+  <p>First of all, thanks very much for the feedback you all gave me on my graph of ideas. I wasn’t quite aware of how many people are interested in this sort of stuff. I now have lots of great ideas for new projects which will keep me busy for a long while. I must say making the graphs is the easy part – it is obtaining the data which takes time. I’ve made a note of all of your suggestions and will try to create something out of them soon. If you haven’t already, you can submit an idea here. I read them all.</p>
+
+<h2>Housekeeping</h2>
+
+<p>There were a great number of comments about my last graph and so I’ll try to answer the main questions here. I think many of them were from people who hadn’t actually read the post at all but went straight to the graphic with whatever catch line someone shared along with it. It was reposted at Gizmodo, Spiegel.de, Business Insider and FlowingData.com all of whom omitted the very important caveats I listed in the post. Please read the original post for the full discussion. These were a few of the common themes to the criticisms I saw floating around the interwebs:</p>
+
+<ul>
+<li><p><strong><em>It is way too biased towards Western ideas</em></strong>
+– Yes, see point one of the original blog post. I simply plotted what Wikipedia (dbpedia) gave me – of course it is biased, like any dataset and this was stated.</p></li>
+<li><p><strong><em>Where are all of the musicians and artists?</em></strong>
+– See original blog post. Artists don’t have the available information in the Wiki info-boxes (well except some, see bottom left, green part). I hope to make a musician/artist graph soon!</p></li>
+<li><p><strong><em>The title is very misleading.</em></strong>
+– The original post had an asterisk on the word ‘every’ which was meant to highlight the fact the graph had caveats. I didn’t anticipate people leaving this out when they shared it with their friends. I changed it to be simply ‘The Graph Of Ideas’. I’ll be more careful in future.</p></li>
+</ul>
+
+<p>Now that is out-of-the-way, I’d like to present my latest work. I’ve broken this post down into two sections: the network and the method. In order to fully understand the network, I suggest you also read the method. If you have better things to be doing with your life, quickly check out the plot below, glance at the caveats and then move on – I’ll catch up with you soon enough.</p>
+
+<h2>Version I vs. II</h2>
+
+<p>The first graph connected people via a single connection. That is to say, if Socrates influenced Plato and Plato influenced Aristotle then the following connections were made:</p>
+
+<p>Socrates –&gt; Plato –&gt; Aristotle</p>
+
+<p>Easy, right?</p>
+
+<p>However, as I briefly mentioned in the previous post, each individual in time represents the sum of their ancestors. This means that Socrates should technically be linked to Aristotle too! Whether we like to think about it or not — Socrates’ contribution to our body of understanding of the world is embodied in the way we speak and interact on a daily basis. Sure there is some dilution, but Socrates’ philosophies are for better or for worse, buried deep within you somewhere . This isn’t just true for Socrates either – it is true for everyone who has ever existed.</p>
+
+<p>On the September 5th, 1948, Jiddu Krishnamurti gave a public talk in Poona, India. It it he stated:</p>
+
+<blockquote>
+<p>You and I are not isolated; we are the result of the total process, the outcome of the whole human struggle, whether we live in India, Japan, or America. The sum total of humanity is you and me. Either we are conscious of that, or we are unconscious of it.</p>
+</blockquote>
+
+<p>Welcome back… so with all of this in mind I went ahead and made a little program which calculates these upstream connections which were missing in the first graph: hence the &#39;Version II&#39;.</p>
+
+<p>Here is the resulting graph (~20% of the total ~4,200 nodes available):</p>
+
+<p><br/>
+<br/>
+<img src="/assets/wikipedia/Comedians.png" alt="Comedians">
+<br/>
+<br/>
+<img src="/assets/wikipedia/Authors.png" alt="Authors">
+<br/>
+<br/>
+<img src="/assets/wikipedia/Writers.png" alt="Writers">
+<br/>
+<br/>
+<img src="/assets/wikipedia/Philosophers.png" alt="Philosophers">
+<br/>
+<br/></p>
+
+<p>|Name|     Connections|    Nationality| Born (B.C.) |
+|:-------------:|:-----:|:-----:|:-----:|
+|Thales|  3390|    Greek|   624|
+|Pythagoras|  3386|    Greek|   570|
+|Zeno| of| Elea|    3378|    Greek   490|
+|Socrates|    3376|    Greek|   469|
+|Parmenides|  3368|    Greek|   5th cent.|
+|Protagoras|  3352|    Greek|   490|
+|Plato|   3351|    Greek|   423|
+|Melissus of Samos|   3332|    Greek|   5th cent.
+|Leucippus|   3329|    Greek|   5th cent.|
+|Zeno of Citium|  3306|    Greek  | 334|
+|Pyrrho|  3306|    Greek|   360|
+|Stilpo|  3300|    Greek|   360|
+|Posidonius|  3288|    Greek|   135|
+|Panaetius|   3286|    Greek|   185|
+|Lucretius|   3275|    Roman|   99|</p>
+
+<p>Bertrand Russell in his History of Western Philosophy (1945) wrote “Western Philosophy begins With Thales”. As we can see, his claim is backed up by this graph. Thales is the most connected individual with 3390 connections. This doesn’t mean he is the most influential or humanity’s biggest asset – it just means that if the data was complete (which it isn’t), then his ideas have influenced (in whatever arbitrary way you define it) the most number of people.</p>
+
+<p>The margin separating top 5 is also quite small. This is presumably because there are only one or two degrees of separation connecting them all. Interestingly there is only one person not of Greek origin in the entire top 10. Again, this is largely due to the incompleteness of the dataset – these gentlemen also have antecedents which are either a) not entered into Wikipedia or b) have been lost in history. As one Redditor wrote: “the group that came up with fire should be in the middle and bigger than everything combined”.</p>
+
+<p>This type of graph just shows how much our perceptions of ideas can change depending on how we present information. This is my take home message for today.</p>
+
+<p>Those in a rush — scroll to the caveats!</p>
+
+<p>As you can see, we tossed around nested do and while loops but they were just too complicated – the solution matrices.  There are a whole host of ugly problems you encounter if you try solve this using nested do and while loops. All this means is that my connection map will look something like this:</p>
+
+<div class="highlight"><pre><code class="text">#,A,B,C
+A,0,1,0
+B,1,0,1
+C,1,0,1
+</code></pre></div>
+
+<p>The number 1 represents a connection between the row and corresponding column e.g. A is connected to B, B is connected A and C and C is connected to only A. I wrote a script in Matlab which calculates just this and generates a new list of new connections. Essentially this works by looping through the rows and checking if there is a connection (=1). If there is a connection, it then finds where the person they are connected to in the same group of rows. Once they are found, their entire row is added to the original person’s row. . If you’re a bit of a coding oracle please let me know if there are faster ways of achieving the same result. So for our matrix above, C influenced A but A influenced B so C should also influence B, right? This algorithm turns the above matrix into this (just for the looping component on 3rd row:</p>
+
+<div class="highlight"><pre><code class="text">#,A,B,C
+A,0,1,0
+B,1,0,1
+C,1,1,1
+</code></pre></div>
+
+<p>Specifically, row C is added to row A and the dot product of the two is subtracted. This ensures there is always either a ’1′ or a ’0′ in all cells. The algorithm loops over every row in the matrix and carries out this procedure.</p>
+
+<p>The original list had 14,560 connections so it took a reasonable while to do all of the permutations on my laptop (10 minutes). This new list has 4,239 nodes with over ~830,000 connections. Last time I checked, 830,000 &gt; 14,500 so there is a lot more connectivity going on in this graph than the previous one. My code can also contain self-references. This is because two people may be contemporaries of one another and influence one another. If I influence my brother and he influences me, do I not have a slight influence myself through the actions of my brother? I thought I would leave these in just to see where they would turn up. No harm done here.</p>
+
+<p>Once you make the matrix there are a whole heap of interesting things you can do. For example, who has the most connections in the network? Well, you just sum the row of each matrix and sort it in descending order (shown at the start). The last part of my script does this for you. I understand many of you won’t have Matlab and so I apologise in advance for this in advance. I might try to do it in Python next time. In the mean time, you could try a free trial version or use Octave which is a free version of matlab.</p>
+
+<p>For our example above, once you create the matrix, all you need to do now is simply create a .dl file which contains the following:</p>
+
+<p>dl n=3
+format = fullmatrix
+labels:
+Person A, Person B, Person C
+data:
+0 1 0
+0 0 1
+1 0 1</p>
+
+<p>This is the information which helped me. Once I obtained this matrix for the Wikipedia network, Gephi was able to import it. Thank-you to whoever made this extension – it is genius.</p>
+
+<p>Sorry to waffle on a bit but last time I had a number of people requesting more detail on how I go about making the graphs. Finally, to save you going back through the text, here are links to the data I used to create my map. I’ve compressed some of them but at most, they will expand to about 100MB.</p>
+
+<p>All of the data:
+* You’ll need Gephi (free) and Matlab (or Octave).
+* Original list of people and their influences from dbpedia.
+* The Matlab script which generated the linking matrix.
+* The list of names used in the network.
+* The csv matrix of 1′s and 0′s only.
+* The final .dl file require to import into Gephi.</p>
+
+<h2>Caveats</h2>
+
+<ul>
+<li>Many important people have been left out of the network. I am limited by the information provided by dbpedia. I mean I had to cut 80% of the network I had available just to make the plot I showed here!</li>
+<li>The communities are coloured by the Modularity module in Gephi – I do not personally colour anything.</li>
+<li>The graph is biased towards Western ideologies. The graph is biased towards Western ideologies. Yes 2x.</li>
+<li>That’s all for now. Let me know in the comments section if you have any questions.</li>
+</ul>
+
+</div>
+
+<div class="footer">
+
+  Share:
+  <span class="social">
+    <a class="facebook-share" href="http://www.facebook.com/sharer/sharer.php?app_id=646320802089541&u=http://brendangriffen.com/blog/gow-influential-thinkers-version-two/" onclick="javascript:window.open(this.href,
+    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
+      <i class="fa fa-facebook-square"></i>
+    </a>&nbsp;
+    <a class="twitter-share" href="https://twitter.com/share?url=&text=Graphs of Wikipedia: Influential Thinkers [Round II]+(via+@brendangriffen)" onclick="javascript:window.open(this.href,
+    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600');return false;">
+      <i class="fa fa-twitter-square"></i>
+    </a>&nbsp;
+    <a class="google-share" href="https://plus.google.com/share?url=http://brendangriffen.com/blog/gow-influential-thinkers-version-two/" onclick="javascript:window.open(this.href,
+    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        <i class="fa fa-google-plus-square"></i>
+    </a>
+  </span>
+  <br>
+  Follow: <strong><a class="follow-me-link" href="https://twitter.com/brendangriffen">@brendangriffen</a></strong>
+
+</div>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'brendangriffen'; // required: replace example with your forum shortname
+    var disqus_identifier = '/blog/gow-influential-thinkers-version-two';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        
+      </div> <!-- end of content -->
+    </article>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-48672309-1', 'brendangriffen.com');
+  ga('send', 'pageview');
+  </script>
+
+</body>
+</html>

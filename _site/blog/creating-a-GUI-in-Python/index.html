@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Creating a GUI in Python</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A tutorial and template to create a very basic GUI in Python.">
+  <!-- rss feed -->
+  <link rel="alternate" type="application/rss+xml" 
+  title="RSS Feed for brendangriffen.com" 
+  href="http://feeds.feedburner.com/brendangriffen" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="http://sebpearce.com/assets/">
+  <meta name="twitter:title" content="Creating a GUI in Python">
+  <meta name="twitter:description" content="A tutorial and template to create a very basic GUI in Python.">
+  <meta name="twitter:creator" content="@_sebu_">
+
+  <!-- Open Graph -->
+  <meta property="fb:admins" content="673372761">
+  <meta property="fb:app_id" content="646320802089541">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="http://sebpearce.com/assets/">
+  <meta property="og:title" content="Creating a GUI in Python">
+  <meta property="og:description" content="A tutorial and template to create a very basic GUI in Python.">
+  <meta property="og:url" content="http://brendangriffen.com/blog/creating-a-GUI-in-Python/">
+  <meta property="og:site_name" content="sebpearce.com">
+
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,700italic,700,300' rel='stylesheet' type='text/css'>
+
+  <!-- font-awesome CSS -->
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">        
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+
+</head>
+<body>
+    
+  
+
+<div class="masthead">
+  <div class="masthead-container">
+    <div class="rootlink-container">
+      <a href="/" class="rootlink">
+        <h3 class="myname">Brendan Griffen</h3><br>
+        <h4 class="mydescription">Astrophysicist, data enthusiast, ponderer, human.</h4>
+      </a>
+    </div>
+    <ul class="main-menu"><a href="/"><li>Blog</li></a>
+      <a href="/projects/"><li>Projects</li></a>
+      <a href="/about/"><li>About</li></a>
+      <a href="/vitae/"><li>Vitae</li></a>
+      <a href="/contact"><li>Contact</li></a>
+        <!-- <li><a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=brendangriffen&amp;loc=en_US"> -->
+      <!-- <a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=brendangriffen&amp;loc=en_US"><li>Subscribe</li></a> -->
+    </ul>
+    <ul class="socialmedia">
+      <li title="GitHub"><a href="http://github.com/bgriffen" class="fa fa-github fa-2x" rel="nofollow"></a></li>
+      <li title="Email"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;brendan.f.griffen&#64;gmail.com" class="fa fa-envelope fa-2x"></a></li>
+      <li title="Twitter"><a href="http://twitter.com/brendangriffen" class="fa fa-twitter fa-2x"></a></li>
+      <li title="RSS"><a href="http://feeds.feedburner.com/brendangriffen" class="fa fa-rss-square fa-2x"></a></li>
+    </ul>
+    <div style="clear:both;"></div>
+  </div> <!-- end of masthead-container -->
+</div> <!-- end of masthead -->
+
+
+    
+    <article>
+      <div class="content">
+
+        <h1>Creating a GUI in Python</h1>
+<p class="meta">26 February 2014</p>
+
+
+<div class="post">
+  <p>So you want to create a Graphical User Interface (GUI)? This tutorial/code might help getting you started. The first feeling I had when I decided to follow this path was <em>intimidation</em>. With much patience and Googling I managed to create something I think will save me time in the future. I&#39;ve used this tool countless times already, whether it be to improve my intuition of complex functions, speed up work flows or render dynamic data. The entire Pythonic GUI template I am about to introduce can be found at its own Github repository.</p>
+
+<p><center>
+<div markdown="0"><a href="https://github.com/bgriffen/PythonGUITemplate" class="btn">Python GUI Github Repository</a></div>
+</center></p>
+
+<h2>Where do I start?</h2>
+
+<p>Back in December of 2012, I wanted a tool which got me up and running relatively quickly without too much extra “fluff”. After some searching I found <a href="https://github.com/enthought/traits">Traits/TraitsUI</a>. It seemed like a good option since it allowed me to integrate a bunch of other features I already used at the time (e.g. matplotlib for plotting and <a href="http://mayavi.sourceforge.net/">Mayavi</a> for rendering) within one distribution. Enthought state it best.</p>
+
+<blockquote>
+<p>The TraitsUI package is a set of user interface tools designed to complement Traits. In the simplest case, it can automatically generate a user interface for editing a Traits-based object, with no additional coding on the part of the programmer-user. </p>
+</blockquote>
+
+<p>Conveniently, all of the tools required to get you started (and then some) come with the <a href="https://www.enthought.com/">Enthought distribution</a>. For more background on TraitsUI there is (as always) <a href="https://www.youtube.com/watch?v=ohHoU4qvsNs">a Youtube tutorial</a>. First we need to install our required tools.</p>
+
+<h2>Requirements</h2>
+
+<h4>Installing EPD</h4>
+
+<p>Download the <a href="https://www.enthought.com/">Enthought distribution tools</a> appropriate for your system. If you have an academic email then you can get it for free. Be sure to get the <strong>32-bit</strong> (rh5) version as the 64-bit version does not contain Mayavi. If you&#39;re on OSX then just get the .dmg image for OSX.</p>
+
+<div class="highlight"><pre><code class="bash">bash epd-7.3-2-rh5-x86.sh 
+</code></pre></div>
+
+<h4>Getting the GUI template</h4>
+
+<p>If you want to cut to the chase you can <a href="%22https://github.com/bgriffen/PythonGUITemplate%22">clone the template from the respository</a> and run in your terminal window:</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">python</span> <span class="n">main</span><span class="o">.</span><span class="n">py</span>
+</code></pre></div>
+
+<p>This should open up the template window with an empty canvas. Explore the code structure though there will be more on this later.</p>
+
+<h2>Googling &quot;make a GUI using Traits in Python&quot;</h2>
+
+<p>Much to my surprise, there are few examples of how to get started using TraitsUI. Sure you can build very small tool with a slide bar which changes one variable and re-plots it – but there is nothing which brings it all together: multiple tabs, plotting and 3D rendering. The <a href="http://docs.enthought.com/traitsui/tutorials/traits_ui_scientific_app.html#the-gui-elements">examples provided in the documentation</a> are either too basic or too complex for my liking so I spent a few months trying to create something in between -- basically what I wished the Internet had 12 months ago. Back in December 2012, I was transitioning my core research language to Python which took only a short while as I came from MATLAB/FORTRAN/SQL-land. Eventually built <a href="https://github.com/bgriffen/cme">a few useful tools</a> (well at least for me and my research group) with what I’m about to discuss.  Here is the most sophisticated example available in the documentation:
+<br/>
+<br/>
+<img src="/assets/pythongui/TraitsExample.png" alt="Traits Example">
+<br/>
+<br/>
+Good start right? Whilst it does bring together the main ideas, it didn’t immediately give me a blank slate. It uses a bunch of Pythonic features which at the time I was not familiar with. The <a href="http://docs.enthought.com/traitsui/tutorials/traits_ui_scientific_app.html#the-gui-elements">documentation</a> also didn’t incrementally build up to it (some basic tools then insta-migraine). I found myself back at the drawing board.</p>
+
+<h2>Introducing: &quot;The Blank Slate&quot;</h2>
+
+<p>To create the blank slate, I essentially had to take apart what was already available in the above example whilst being sure I didn’t remove any critical components of the application. This soon became tedious and I felt like I wasn’t learning anything new. There were also a number of features in the basic layout which were not included (e.g. 3D rendering). This was shortly remedied by finding out that Traits does <a href="http://docs.enthought.com/mayavi/mayavi/auto/example_mayavi_traits_ui.html">play nicely with Mayavi</a>. Though my problem now became that of integration: these features existed independent from one another and I couldn’t find anywhere to put them all together (interactivity, plotting, 3D rendering). Eventually, after much head scratching I got it all working. I then stripped it down with the help of a colleague (<a href="https://twitter.com/astrowizicist">@astrowizicist</a>) to create the following. I now use it as my default template to create new scientific applications.
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx1-1024x599.png" alt="Traits Example">
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx2-1024x598.png" alt="Traits Example"></p>
+
+<h2>Code Layout</h2>
+
+<p>Initially this was all constructed in one giant Python script but eventually it became unmanageable with all of the objects involved in my application so I broke it down into the following set of modules which can be <a href="https://github.com/bgriffen/PythonGUITemplate">found in the source</a> (<a href="http://git-scm.com/downloads">install git</a>, a version control system and clone the repository to get started). If you haven&#39;t already <a href="https://github.com/bgriffen/PythonGUITemplate">downloaded the code</a> I highly suggest you do so now so you are familiar with what I&#39;m about to discuss.</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">main</span><span class="o">.</span><span class="n">py</span>
+</code></pre></div>
+
+<p>This contains the master script which controls the application and integrates everything. Once you’ve installed the <a href="https://support.enthought.com/entries/23407541-Getting-Started-with-EPD-on-OS-X">Enthought Python Distribution tools</a>, you can just run this from the command line <code>python main.py</code> and it should launch.</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">Common</span><span class="o">.</span><span class="n">py</span>
+</code></pre></div>
+
+<p>This contains all of the modules which are used globally across the application. You can import function specific modules deeper in the code to improve launch time if you like as well. <code>Common.py</code> also constructs the matplotlib figure where you will be plotting (left panel). You’ll also find it imports a whole bunch of other things such as:</p>
+
+<div class="highlight"><pre><code class="python"><span class="kn">from</span> <span class="nn">enthought.traits.ui.api</span> <span class="kn">import</span> <span class="n">View</span><span class="p">,</span><span class="n">UItem</span><span class="p">,</span> <span class="n">Item</span><span class="p">,</span> <span class="n">Group</span><span class="p">,</span> <span class="n">Heading</span><span class="p">,</span> \
+<span class="n">Label</span><span class="p">,</span> <span class="n">HSplit</span><span class="p">,</span> <span class="n">Handler</span><span class="p">,</span> <span class="n">CheckListEditor</span><span class="p">,</span> <span class="n">EnumEditor</span><span class="p">,</span> <span class="n">TableEditor</span><span class="p">,</span> \
+<span class="n">ListEditor</span><span class="p">,</span> <span class="n">Tabbed</span><span class="p">,</span> <span class="n">VGroup</span><span class="p">,</span> <span class="n">HGroup</span><span class="p">,</span> <span class="n">RangeEditor</span><span class="p">,</span> <span class="n">Spring</span><span class="p">,</span> <span class="n">spring</span>
+</code></pre></div>
+
+<p>All of these are just apart of the Traits API which you call to put in your GUI. You’ll see how these are used later. I’ve also added a bunch of other commonly used modules for scientific processing but you can remove these if you don’t need them.</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">firstcalc</span><span class="o">.</span><span class="n">py</span>
+<span class="n">secondcalc</span><span class="o">.</span><span class="n">py</span>
+</code></pre></div>
+
+<p>These are effectively the tabs on the right hand panel and the place where you will add your buttons, sliders, tables. They both contain a clone of (roughly) the same thing:</p>
+
+<div class="highlight"><pre><code class="python"><span class="k">class</span> <span class="nc">FirstCalc</span><span class="p">(</span><span class="n">HasTraits</span><span class="p">):</span>
+    <span class="n">view</span> <span class="o">=</span> <span class="n">View</span><span class="p">()</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">main</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">HasTraits</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">main</span> <span class="o">=</span> <span class="n">main</span>
+</code></pre></div>
+
+<h2>Adding Some Basic Functionality</h2>
+
+<p>Say for instance you want to add a few of the typical buttons, directories etc. Traits has to offer. Your firstcalc.py simply becomes:</p>
+
+<div class="highlight"><pre><code class="python"><span class="kn">from</span> <span class="nn">Common</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="k">class</span> <span class="nc">FirstCalc</span><span class="p">(</span><span class="n">HasTraits</span><span class="p">):</span>
+    <span class="c"># Add Traits objects</span>
+    <span class="n">option</span> <span class="o">=</span> <span class="n">Bool</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+    <span class="n">rangex</span> <span class="o">=</span> <span class="n">Range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
+    <span class="n">yval</span> <span class="o">=</span> <span class="n">Float</span><span class="p">()</span>
+    <span class="n">listoptions</span> <span class="o">=</span> <span class="n">Enum</span><span class="p">([</span><span class="s">&#39;Option 1&#39;</span><span class="p">,</span> <span class="s">&#39;Option 2&#39;</span><span class="p">,</span><span class="s">&#39;Option 2&#39;</span><span class="p">])</span>
+    <span class="n">stringopt</span> <span class="o">=</span> <span class="n">Str</span><span class="p">(</span><span class="s">&quot;Default string which can also be empty.&quot;</span><span class="p">)</span>
+    <span class="n">stringoptread</span> <span class="o">=</span> <span class="n">Str</span><span class="p">(</span><span class="s">&quot;Default string which can also be empty [read-only version].&quot;</span><span class="p">)</span>
+    <span class="n">masterpath</span> <span class="o">=</span> <span class="n">Directory</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">())</span>
+    <span class="n">button1</span> <span class="o">=</span> <span class="n">Button</span><span class="p">(</span><span class="s">&quot;Button 1 Name&quot;</span><span class="p">)</span>
+    <span class="n">floatval</span> <span class="o">=</span> <span class="n">Float</span><span class="p">()</span>
+    <span class="n">changedcount</span> <span class="o">=</span> <span class="n">Int</span><span class="p">()</span>
+ 
+    <span class="c">#Construct the view</span>
+    <span class="n">view</span> <span class="o">=</span> <span class="n">View</span><span class="p">(</span>
+                <span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;rangex&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">&#39;X-Value&#39;</span><span class="p">),</span>
+                <span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;yval&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="s">&#39;readonly&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">&#39;1/x&#39;</span><span class="p">,</span><span class="n">format_str</span><span class="o">=</span><span class="s">&#39;</span><span class="si">%.2e</span><span class="s">&#39;</span><span class="p">),</span>
+                <span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;listoptions&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">&#39;list of options&#39;</span><span class="p">),</span>
+                <span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;stringopt&#39;</span><span class="p">),</span>
+                <span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;stringoptread&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="s">&#39;readonly&#39;</span><span class="p">),</span>
+                <span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;masterpath&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">&#39;Directory&#39;</span><span class="p">),</span>
+                <span class="n">Group</span><span class="p">(</span><span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;button1&#39;</span><span class="p">,</span><span class="n">show_label</span><span class="o">=</span><span class="bp">False</span><span class="p">)),</span>
+                <span class="n">Group</span><span class="p">(</span><span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;option&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">&#39;Boolean Option&#39;</span><span class="p">)</span>
+                     <span class="p">,</span><span class="n">enabled_when</span><span class="o">=</span><span class="s">&#39;floatval &lt; 0.5&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">&#39;Enabled Area Upon Random Value &lt; 0.5&#39;</span><span class="p">,</span><span class="n">show_border</span><span class="o">=</span><span class="bp">True</span><span class="p">),</span>
+                <span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;changedcount&#39;</span><span class="p">,</span><span class="n">style</span><span class="o">=</span><span class="s">&#39;readonly&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">&#39;Attempts&#39;</span><span class="p">),</span>
+                <span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;floatval&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">&#39;random generated&#39;</span><span class="p">)</span>
+                <span class="p">)</span>
+ 
+    <span class="k">def</span> <span class="nf">_rangex_changed</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">yval</span> <span class="o">=</span> <span class="mf">1.</span><span class="o">/</span><span class="bp">self</span><span class="o">.</span><span class="n">rangex</span>
+ 
+    <span class="k">def</span> <span class="nf">_button1_fired</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">changedcount</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">floatval</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span>
+ 
+    <span class="k">def</span> <span class="nf">_floatval_changed</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">stringopt</span> <span class="o">=</span> <span class="s">&quot;Hey, you changed the integer value!&quot;</span>
+ 
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">main</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">HasTraits</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="bp">self</span>
+</code></pre></div>
+
+<p>So let’s see what we’ve added when we relaunch.
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx3-1024x599.png" alt="Traits Example">
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx4Zoom.png" alt="Traits Example">
+<br/>
+<br/>
+Slide the X-value ruler we see the objects change accordingly.
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx5.png" alt="Traits Example">
+<br/>
+<br/>
+Hopefully you can match up each of the objects with what is in the code. It is hard to convey the interactivity here but I can show a snapshot. Let’s change the slider and hit the button a few times.
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx6.png" alt="Traits Example">
+<br/>
+<br/>
+As we can see from the code the output is simply 1/x which is updated in real-time. Also when I hit the button, a random number is generated. If that number is less than 0.5 then the enabled area becomes illuminated and we can access the objects within (i.e. the Boolean option).  This should give you a basic idea of how to add certain button. Now we want to plot something, say y = mx + c where x and c are dynamic. I added three objects needed:</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">plotbutton</span> <span class="o">=</span> <span class="n">Button</span><span class="p">(</span><span class="s">&quot;Plot Me!&quot;</span><span class="p">)</span>
+<span class="n">yintcept</span> <span class="o">=</span> <span class="n">Range</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">5.</span><span class="p">,</span><span class="mf">10.</span><span class="p">)</span>
+<span class="n">gradient</span> <span class="o">=</span> <span class="n">Range</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">5.0</span><span class="p">,</span><span class="mf">10.</span><span class="p">)</span>
+</code></pre></div>
+
+<p>which is inserted into the View() object just like the other objects.</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">Group</span><span class="p">(</span><span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;gradient&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">&#39;gradient&#39;</span><span class="p">),</span>
+      <span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;yintcept&#39;</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">&#39;y-intercept&#39;</span><span class="p">),</span>
+      <span class="n">Item</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&#39;plotbutton&#39;</span><span class="p">,</span><span class="n">show_label</span><span class="o">=</span><span class="bp">False</span><span class="p">),</span><span class="n">show_border</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s">&#39;Plotting Area&#39;</span><span class="p">)</span>
+</code></pre></div>
+
+<p>We also need to add an action for when the plot button is fired.</p>
+
+<div class="highlight"><pre><code class="python"><span class="k">def</span> <span class="nf">_plotbutton_fired</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">gradient</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">yintcept</span>
+    <span class="n">figure</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">display</span>
+    <span class="n">figure</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+    <span class="n">ax</span> <span class="o">=</span> <span class="n">figure</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">111</span><span class="p">)</span>
+    <span class="n">ax</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)),</span><span class="n">y</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">markercolor</span><span class="p">,</span>
+            <span class="n">marker</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">markerstyle</span><span class="p">,</span>
+            <span class="n">markersize</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">markersize</span><span class="p">,</span>
+            <span class="n">markeredgewidth</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span>
+            <span class="n">linestyle</span><span class="o">=</span><span class="s">&#39;-&#39;</span><span class="p">)</span>
+    <span class="n">wx</span><span class="o">.</span><span class="n">CallAfter</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">canvas</span><span class="o">.</span><span class="n">draw</span><span class="p">)</span>
+</code></pre></div>
+
+<p><img src="/assets/pythongui/PythonGUIEx7-1024x599.png" alt="Traits Example">
+<br/>
+<br/>
+Also note how the marker style and marker size is “brought in” or inherited from main.py via self.main.xxx. It is hard to convey here (<a href="https://github.com/bgriffen/PythonGUITemplate">try it out!</a>), but that now allows you to change the gradient and y-intercept dynamically and it updates on the plot in real-time. It is a much more intuitive (and faster) way to examine complex functions where it is unclear by looking at it how it will change using different inputs.</p>
+
+<h2>Adding Mayavi Functionality</h2>
+
+<p>To implement Mayavi functionality you simply add the following (or something similar which uses your underlying data) to a button function which runs when fired (as above). This will produce something like the next image in the left panel.  There is also some limited documentation here.</p>
+
+<div class="highlight"><pre><code class="python"><span class="k">def</span> <span class="nf">_mayavibutton_fired</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">scene</span><span class="o">.</span><span class="n">mlab</span><span class="o">.</span><span class="n">clf</span><span class="p">(</span><span class="n">figure</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">scene</span><span class="o">.</span><span class="n">mayavi_scene</span><span class="p">)</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#39;posX&#39;</span><span class="p">])</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#39;posY&#39;</span><span class="p">])</span>
+    <span class="n">z</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#39;posZ&#39;</span><span class="p">])</span>
+    <span class="n">vx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#39;pecVX&#39;</span><span class="p">])</span>
+    <span class="n">vy</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#39;pecVY&#39;</span><span class="p">])</span>
+    <span class="n">vz</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s">&#39;pecVZ&#39;</span><span class="p">])</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">scene</span><span class="o">.</span><span class="n">mlab</span><span class="o">.</span><span class="n">quiver3d</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">z</span><span class="p">,</span><span class="n">vx</span><span class="p">,</span><span class="n">vy</span><span class="p">,</span><span class="n">vz</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">scene</span><span class="o">.</span><span class="n">mlab</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">&#39;x-pos&#39;</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">scene</span><span class="o">.</span><span class="n">mlab</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">&#39;y-pos&#39;</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">scene</span><span class="o">.</span><span class="n">mlab</span><span class="o">.</span><span class="n">zlabel</span><span class="p">(</span><span class="s">&#39;z-pos&#39;</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">scene</span><span class="o">.</span><span class="n">mlab</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s">&#39;velocity [km/s]&#39;</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">scene</span><span class="o">.</span><span class="n">mlab</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">scene</span><span class="o">.</span><span class="n">mlab</span><span class="o">.</span><span class="n">outline</span><span class="p">()</span>
+</code></pre></div>
+
+<p>That’s the end of my “tutorial/demo” section. If you want to learn how to use the various other layout and object options I suggest taking a look at one of the tools I developed.</p>
+
+<h2>Example Project</h2>
+
+<p>The <a href="http://caterpillar.scripts.mit.edu/www/">Catepillar Project</a> is one of my main research tasks at MIT which involves looking at several hundreds of simulations of a similar kind. Rather than building endless panels in Matplotlib and tediously plotting different marker types and colors to inspect the data I decided to automate it using the tools described. Thus was born <a href="https://github.com/bgriffen/cme">Caterpillar Made Easy</a> which is one such tool which which allows you setup and run cosmological simulations on a large cluster, inspect the data dynamically in two and three dimensions. It is based on exactly the same template I have shown above (plus a few hundred hours of coding!). Here are a few screen shots of the sort of thing you can do in this environment. Perhaps you have a study you’re doing which might also benefit from such interactivity and automation. I haven&#39;t <em>officially</em> released it to the public but I might do so soon. This is just to give you an idea of the sort of things you can achieve.
+<center>
+<div markdown="0"><a href="https://github.com/bgriffen/cme" class="btn">CME Repository</a></div>
+</center>
+<br/>
+<img src="/assets/pythongui/inspectparams-1024x620.png" alt="Traits Example">
+<br/>
+<br/>
+<img src="/assets/pythongui/contaminationheatmap-1024x616.png" alt="Traits Example">
+<br/>
+<br/>
+<img src="/assets/pythongui/velocityhaloinspection-1024x619.png" alt="Traits Example">
+<br/>
+<br/>
+Head to the repository to see more screenshots. If there is a button, or particular feature you want, you can check through the source code to see how it is generated. Just check the <code>View()</code> section which is usually near the top. The rest of the code is just calculations etc. which is specific to the problems I am trying to solve. If you have questions about how to get started, please leave a comment below or if it is more technical in nature, drop me a line via email. Good luck and remember if you are new to this kind of thing: <em>be patient</em> -- good things will come.</p>
+
+</div>
+
+<div class="footer">
+
+  Share:
+  <span class="social">
+    <a class="facebook-share" href="http://www.facebook.com/sharer/sharer.php?app_id=646320802089541&u=http://brendangriffen.com/blog/creating-a-GUI-in-Python/" onclick="javascript:window.open(this.href,
+    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
+      <i class="fa fa-facebook-square"></i>
+    </a>&nbsp;
+    <a class="twitter-share" href="https://twitter.com/share?url=&text=Creating a GUI in Python+(via+@brendangriffen)" onclick="javascript:window.open(this.href,
+    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600');return false;">
+      <i class="fa fa-twitter-square"></i>
+    </a>&nbsp;
+    <a class="google-share" href="https://plus.google.com/share?url=http://brendangriffen.com/blog/creating-a-GUI-in-Python/" onclick="javascript:window.open(this.href,
+    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+        <i class="fa fa-google-plus-square"></i>
+    </a>
+  </span>
+  <br>
+  Follow: <strong><a class="follow-me-link" href="https://twitter.com/brendangriffen">@brendangriffen</a></strong>
+
+</div>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'brendangriffen'; // required: replace example with your forum shortname
+    var disqus_identifier = '/blog/creating-a-GUI-in-Python';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        
+      </div> <!-- end of content -->
+    </article>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-48672309-1', 'brendangriffen.com');
+  ga('send', 'pageview');
+  </script>
+
+</body>
+</html>
