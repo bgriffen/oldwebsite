@@ -14,7 +14,7 @@ title: Projects
   </a>
   </li>  
   <li>
-  <a href="http://brendangriffen.com/underconstruction/" target="_blank">
+  <a href="http://brendangriffen.com/underconstruction/">
       <img src="/assets/pages/gc_screenshot.jpg">
       <div class="container">
         <span class="projectlistheading">Globular Cluster Formation</span><br />
@@ -23,7 +23,7 @@ title: Projects
   </a>
   </li>
   <li>
-  <a href="http://brendangriffen.com/underconstruction/" target="_blank">
+  <a href="http://brendangriffen.com/underconstruction/">
       <img src="/assets/pages/sam_screenshot.jpg">
       <div class="container">
         <span class="projectlistheading">Semi-analytic Modelling Of Galaxy Formation</span><br />
@@ -32,7 +32,7 @@ title: Projects
   </a>
   </li>
   <li>
-  <a href="http://brendangriffen.com/underconstruction/" target="_blank">
+  <a href="http://brendangriffen.com/underconstruction/">
       <img src="/assets/pages/numerical_methods_screenshot.jpg">
       <div class="container">
         <span class="projectlistheading">Numerical Methods</span><br />
@@ -41,7 +41,7 @@ title: Projects
   </a>
   </li>
   <li>
-  <a href="http://brendangriffen.com/underconstruction/" target="_blank">
+  <a href="http://brendangriffen.com/underconstruction/">
       <img src="/assets/pages/data_science_screenshot.png">
       <div class="container">
         <span class="projectlistheading">Data Science</span><br />
