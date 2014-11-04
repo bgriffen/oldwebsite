@@ -78,8 +78,12 @@ Here is an example of what one of these emails might look like:
 
 [![Digest](/assets/adspython/monthly_arxiv_digest.png)](/assets/adspython/monthly_arxiv_digest.png)
 
-I then also wrote my own script to give me a list of papers which were the most read yesterday.
+I usually read my papers through Feedly.com which has a new feature which tells you roughly how many people have also bookmarked that paper. I think this is a rough proxy for 'interest'.
 
+[![Most popular](/assets/adspython/feedly_popular_papers.png)](/assets/adspython/feedly_popular_papers.png)
+
+ I wanted to generate a rank ordered list of the papers people read on ADS using their metrics which are now available. I wrote my own script to do just that and it goes as follows.
+ 
 {% highlight Python %}
 # Core libraries
 from time import localtime
@@ -137,7 +141,7 @@ if __name__ == "__main__":
 
 Here is an example of what one of these emails might look like:
 
-[![Digest](/assets/adspython/yesterdays_most_popular.png)](/assets/adspython/yesterdays_most_popular.png)
+[![Most popular](/assets/adspython/yesterdays_most_popular.png)](/assets/adspython/yesterdays_most_popular.png)
 
 This is really only the beginning of the sort of things you can do with nice Python-esk access to the ADS database.
 
