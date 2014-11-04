@@ -92,6 +92,7 @@ from fluentmail import FluentMail
 mail = FluentMail('smtp.gmail.com', 465, 'SSL')
 email_address = 'brendan.f.griffen@gmail.com'
 email_password = 'password'
+email_content = ""
 
 if __name__ == "__main__":
     current_time = localtime()
@@ -109,17 +110,21 @@ if __name__ == "__main__":
         num_reads = paper.metrics['all_reads']['Total_number_of_reads']
         num_reads_list.append(num_reads)
     
-    idx_num_reads = np.argsort(np.array(num_reads_list))
+    idx_num_reads = np.argsort(np.array(num_reads_list))[::-1]
     
     # Construct email content
-    email_content = "Top viewed papers for {day}/{month}/{year}"\
+    email_content = "Top viewed papers for {day}/{month}/{year}\n\n"\
                     .format(year=year, month=month, day=day)
 
-    for i in idx_num_reads[:10]:
-        email_content += papers[i].author[0].split(",")[0] + " et al. > reads: " + \
-        papers[i].metrics['all_reads']['Total_number_of_reads'] + "\n" + \
-        papers[i].title[0] + "\n" + papers[i].abstract + "\n" + papers[i].url + "\n\n"
-
+    for idx,i in enumerate(idx_num_reads[:10]):
+        email_content += str(idx+1) + ". " + \
+        papers[i].author[0].split(",")[0] + " et al. > # reads: " + \
+        str(papers[i].metrics['all_reads']['Total_number_of_reads']) + "\n" + \
+        papers[i].title[0] + "\n" + \
+        papers[i].abstract + "\n" + \
+        papers[i].url + "\n\n"
+    
+    print email_content
     # Email content
     mail.credentials(email_address, email_password)\
     .from_address(email_address)\
@@ -127,6 +132,7 @@ if __name__ == "__main__":
     .subject("Yesterday's most popular papers!")\
     .body(email_content)\
     .send()
+
 {% endhighlight %}
 
 Here is an example of what one of these emails might look like:
