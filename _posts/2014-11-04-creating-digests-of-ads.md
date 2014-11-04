@@ -78,11 +78,11 @@ Here is an example of what one of these emails might look like:
 
 [![Digest](/assets/adspython/monthly_arxiv_digest.png)](/assets/adspython/monthly_arxiv_digest.png)
 
-I usually read new papers through my RSS reader [Feedly.com](http://www.feedly.com) which has a new feature which tells you roughly how many people have also bookmarked that paper. I think this is a rough proxy for 'interest'.
+I usually read new papers through my RSS reader [Feedly.com](http://www.feedly.com), which has a feature which tells you roughly how many people have also bookmarked that paper (see left side). I think this is a rough proxy for 'interest' and I often take more notice of papers with a high number of bookmarks.
 
 [![Most popular](/assets/adspython/feedly_popular_papers.png)](/assets/adspython/feedly_popular_papers.png)
 
- I wanted a 'top 10 most popular' list from the ADS listings from 'yesterday' whenever that may be.
+ I wanted a 'top 10 most popular' list from the ADS listings from 'yesterday' whenever that may be. It is convenient to know what is making headlines in the community.
 
 {% highlight Python %}
 # Core libraries
