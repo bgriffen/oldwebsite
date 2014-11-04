@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating Digests Of The Astronomy Arxiv in Python"
+title: "Creating Digests Of The Astronomy Arxiv"
 description: "Does the genre of an artist determine their lifespan?"
 tags: [python, ADS, arxiv, astronomy]
 ---
@@ -12,10 +12,10 @@ I took another look at [ADS-python](https://github.com/andycasey/ads) (a python 
 from time import localtime
 import sys,os
 import subprocess as sub
-from fluentmail import FluentMail
 
 # Module Libraries
 import ads
+from fluentmail import FluentMail
 
 mail = FluentMail('smtp.gmail.com', 465, 'SSL')
 email_address = 'brendan.f.griffen@gmail.com'
