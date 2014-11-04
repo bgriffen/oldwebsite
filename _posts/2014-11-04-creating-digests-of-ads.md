@@ -78,12 +78,12 @@ Here is an example of what one of these emails might look like:
 
 [![Digest](/assets/adspython/monthly_arxiv_digest.png)](/assets/adspython/monthly_arxiv_digest.png)
 
-I usually read my papers through Feedly.com which has a new feature which tells you roughly how many people have also bookmarked that paper. I think this is a rough proxy for 'interest'.
+I usually read new papers through my RSS reader [Feedly.com](http://www.feedly.com) which has a new feature which tells you roughly how many people have also bookmarked that paper. I think this is a rough proxy for 'interest'.
 
 [![Most popular](/assets/adspython/feedly_popular_papers.png)](/assets/adspython/feedly_popular_papers.png)
 
  I wanted to generate a rank ordered list of the papers people read on ADS using their metrics which are now available. I wrote my own script to do just that and it goes as follows.
- 
+
 {% highlight Python %}
 # Core libraries
 from time import localtime
