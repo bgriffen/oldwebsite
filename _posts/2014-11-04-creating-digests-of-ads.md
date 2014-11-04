@@ -143,6 +143,6 @@ Here is an example of what one of these emails might look like:
 
 [![Most popular](/assets/adspython/yesterdays_most_popular.png)](/assets/adspython/yesterdays_most_popular.png)
 
-This is really only the beginning of the sort of things you can do with nice Python-esk access to the ADS database.
+This is really only the beginning of the sort of thing you can do with nice Python-esk access to the ADS database.
 
 
