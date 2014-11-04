@@ -61,7 +61,9 @@ if __name__ == "__main__":
                     .format(num=len(articles),my_affiliation=my_affiliation,year=year,month=month)
 
     for article in sorted_articles:
-        email_content += article.author[0].split(",")[0] + " et al." +  article.title[0] + "" + article.abstract + "" + article.url + " "
+        email_content += article.author[0].split(",")[0] + " et al.\n" +\
+                         article.title[0] + "\n" + article.abstract + "\n" +\
+                         article.url + "\n\n"
 
     # Email yourself the digest
     mail.credentials(email_address, email_password)\
@@ -116,8 +118,8 @@ if __name__ == "__main__":
 
     for i in idx_num_reads[:10]:
         email_content += papers[i].author[0].split(",")[0] + " et al. > reads: " + \
-        papers[i].metrics['all_reads']['Total_number_of_reads'] + " " + \
-        papers[i].title[0] + "" + papers[i].abstract + "" + papers[i].url + " "
+        papers[i].metrics['all_reads']['Total_number_of_reads'] + "\n" + \
+        papers[i].title[0] + "\n" + papers[i].abstract + "\n" + papers[i].url + "\n\n"
 
     # Email content
     mail.credentials(email_address, email_password)\
