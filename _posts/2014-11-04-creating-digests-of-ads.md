@@ -106,7 +106,7 @@ if __name__ == "__main__":
     
     # Get papers
     papers = list(ads.query(dates="{year}/{month}/{day}"\
-            .format(year=year, month=month, day=day),filter="database:astronomy", rows=20))
+            .format(year=year, month=month, day=day),filter="database:astronomy", rows=200))
 
     # Get number of reads
     num_reads_list = []
