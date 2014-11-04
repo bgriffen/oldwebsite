@@ -79,13 +79,14 @@ Here is an example of what an email might look like:
 I then also wrote my own script to give me a list of papers which were the most read yesterday.
 
 {% highlight Python %}
-# Core Libraries
+# Core libraries
 from time import localtime
 import numpy as np
 
 # Module Libraries
 import ads
 from fluentmail import FluentMail
+
 
 mail = FluentMail('smtp.gmail.com', 465, 'SSL')
 email_address = 'brendan.f.griffen@gmail.com'
