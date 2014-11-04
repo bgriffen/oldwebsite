@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
 {% endhighlight %}
 
-Here is an example of what an email might look like:
+Here is an example of what one of these emails might look like:
 
 [![Digest](/assets/adspython/monthly_arxiv_digest.png)](/assets/adspython/monthly_arxiv_digest.png)
 
