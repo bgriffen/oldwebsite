@@ -107,7 +107,7 @@ if __name__ == "__main__":
     # Get number of reads
     num_reads_list = []
     for paper in papers:
-        num_reads = paper.metrics['all_reads']['Total_number_of_downloads']
+        num_reads = paper.metrics['all_reads']['Total_number_of_reads']
         num_reads_list.append(num_reads)
     
     idx_num_reads = np.argsort(np.array(num_reads_list))
