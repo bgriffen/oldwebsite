@@ -82,7 +82,7 @@ I usually read new papers through my RSS reader [Feedly.com](http://www.feedly.c
 
 [![Most popular](/assets/adspython/feedly_popular_papers.png)](/assets/adspython/feedly_popular_papers.png)
 
- I wanted to generate a rank ordered list of the papers people read on ADS using their metrics which are now available. I wrote my own script to do just that and it goes as follows.
+ I wanted a 'top 10 most popular' list from the ADS listings from 'yesterday' whenever that may be.
 
 {% highlight Python %}
 # Core libraries
