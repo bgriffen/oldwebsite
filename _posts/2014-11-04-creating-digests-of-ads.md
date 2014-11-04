@@ -89,7 +89,6 @@ import numpy as np
 import ads
 from fluentmail import FluentMail
 
-
 mail = FluentMail('smtp.gmail.com', 465, 'SSL')
 email_address = 'brendan.f.griffen@gmail.com'
 email_password = 'password'
@@ -130,4 +129,10 @@ if __name__ == "__main__":
     .send()
 {% endhighlight %}
 
+Here is an example of what one of these emails might look like:
+
+[![Digest](/assets/adspython/yesterdays_most_popular.png)](/assets/adspython/yesterdays_most_popular.png)
+
 This is really only the beginning of the sort of things you can do with nice Python-esk access to the ADS database.
+
+
