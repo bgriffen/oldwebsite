@@ -82,7 +82,7 @@ I usually read new papers through my RSS reader [Feedly.com](http://www.feedly.c
 
 [![Most popular](/assets/adspython/feedly_popular_papers.png)](/assets/adspython/feedly_popular_papers.png)
 
- I wanted a 'top 10 most popular' list from the ADS listings from 'yesterday' whenever that may be. It is convenient to know what is making headlines in the community.
+ I wanted a 'top 10 most popular' list from the ADS listings from 'yesterday' - whenever that may be. It is convenient to know what is making headlines in the community.
 
 {% highlight Python %}
 # Core libraries
