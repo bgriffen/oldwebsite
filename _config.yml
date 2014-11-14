@@ -1,6 +1,6 @@
 name: Brendan Griffen
 description: Astrophysicist, data enthusiast, ponderer, human.
-url: http://www.brendangriffen.com
+url: http://brendangriffen.com
 markdown: redcarpet
 pygments: true
 permalink: /blog/:title

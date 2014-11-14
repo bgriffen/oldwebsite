@@ -7,10 +7,7 @@ tags: [python, SPARQL, DBpedia, wikipedia, mathematics,mathematicians]
 
 I've recently been digging around the topic of ***influences*** so I thought it would be interesting to examine a few subnetworks within the large network of everyone. This time I set my scopes on mathematicians. There is no primary reason why other than – I can. I’ve long been interested in the history of mathematics and so I wondered what a network of great mathematicians actually looked like? Could there be underlying structures between mathematicians who have influenced each other over history? This time I used Freebase which has an excellent query system which enables you to pull out information on pretty much anything you can think of. I focused on the influence node for this task. I set a few filters such as; everyone in the network has to have `Profession == Mathematician`. This removes a lot of fluff and creates a nice csv file which is usable within Gephi. As usual I had to do a bit of cleaning up in Microsoft Excel but in the end it turned out alright ([download](/assets/wikipedia/mathematicians.png)).
 
-<br/>
 [![Graph of Mathematicians](/assets/wikipedia/mathematicians.png)](/assets/wikipedia/mathematicians.png)
-<br/>
-<br/>
 
 As expected, Aristotle, Newton, Avicenna and Gauss are some of the biggest nodes in the network. Indeed, they were tremendously influential on the course of mathematics.
 Interestingly, after applying modularity, a few little subnetworks within the total network appear. Many of the ‘traditional’ mathematicians cluster together; i.e. Gauss, Jacobi, Riemann, Dedekind etc. Some broad categories I found include:
