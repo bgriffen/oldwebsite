@@ -5,15 +5,29 @@ description: "Want to see some live music, but not sure if you'll like the band?
 tags: [python, spotify, music]
 ---
 
-If you know a band it is easy to Google or search for them on Spotify to hear their music. This is great if you *already know* the music you are looking for. What about for bands you haven't heard of who happen to be playing a live show in the coming months in your area? I all too often found myself copying and pasting the band names into Spotify manually to hear what sort of music was on offer. Continually doing this led to the idea of automating this tedious process via a program.
+### The Pitch
 
-I decided to go ahead and create just that; a short program which finds bands with upcoming shows in your area (Cambridge/Boston, MA in my case) and load them into Spotify (15 seconds total). My data source for bands is the well known,[Bowery Boston](http://www.boweryboston.com/see-all-shows/) who promotes upcoming bands.
+If you know of a band it is easy to play them on Youtube or to search on Spotify to hear their music. This is great if you *already know* the music you are looking for. What about for bands you haven't heard of who happen to be playing a live show in the coming months in your area?
+
+### The Problem
+
+I all too often found myself copying and pasting the band names into Spotify manually to hear what sort of music was on offer. Continually doing this led to the idea of automating this tedious process via a program.
+
+### My Solution
+
+I decided to go ahead and create just that; a short program which finds bands with upcoming shows in your area (Cambridge/Boston, MA in my case) and load them into Spotify (15 seconds total). 
+
+### The Data
+
+My data source for bands is the well known,[Bowery Boston](http://www.boweryboston.com/see-all-shows/) who promotes upcoming bands.
 
 [![spotify-playlists](/assets/spotifylocalbands/bowery_boston.png)](/assets/spotifylocalbands/bowery_boston.png)
 
 Using this list I created a Spotify playlist containing the top few tracks (as judged by Spotify) of each of the bands about to have a show. I now run this once a month and sync it to my phone. If there is any new music which catches my ear and if I'm sufficiently interested, I'll go ahead and buy a ticket.
 
 My only point of reference was [this nice post](https://mborgerson.com/creating-a-playlist-in-spotify-using-python/) outlining the frame work by Matt Borgerson. His [original code](https://github.com/mborgerson/spotify-playlist-from-csv) convereted a csv file into a playlist - which is a great tool if you already know what bands *and* tracks you want to listen to. I had to design something slightly different.
+
+### The Code
 
 For this code to work you require Python, libspotify, the pyspotify bindings and critically a Premium Spotify account ($9.99/month, sorry). Alternatively, you can just scroll to the end of this post to get the Spotify link and I can updated the playlist for you. This code can be found at [this Github repository](https://github.com/bgriffen/spotifylocalbands).
 
@@ -124,11 +138,14 @@ Adding tracks to playlist: Upcoming LIVE Boston Music
 
 *Small Caveat: sometimes the program will scrape the wrong band - please forgive me.*
 
+### The Result
 
 It may take quite some time to show up in your playlist. Here is an example of what one of these playlists might look like inside Spotify (a restart sometimes helps):
 
 [![spotify-playlists](/assets/spotifylocalbands/spotify_playlist.png)](/assets/spotifylocalbands/spotify_playlist.png)
 
+### Take Home Message
+
 I made [this playlist public](http://open.spotify.com/user/1254170771/playlist/5QKiOM9egThI6u6oXgkTNh) for those that aren't too comfortable programming so feel free to follow it if you are in the Boston area (this will work if you have a free account). I'll use my Premium account update it periodically =)
 
-Just enjoy the new music, soon to be played live somewhere near you.
+If you know of a website which compiles local music in your area perhaps could try modifying what I've done and make your own playlist. That way you can just enjoy the new music - soon to be played live, somewhere near you.
