@@ -76,7 +76,6 @@ for band in all_bands:
         for i,track in enumerate(search.tracks):
             if i <= 2: all_tracks.append(track)
 
-
 print "Adding %i band, totalling %i tracks!" % (len(all_bands),len(all_tracks))
 session.playlist_container.add_new_playlist("Upcoming LIVE Boston Music")
 playlist = session.playlist_container[-1]
@@ -88,7 +87,7 @@ playlist.load()
 print
 print "Check your new playlist soon!"
 
-# just a chec
+# check the playlist now exists!
 for playlisti in session.playlist_container:
     print playlisti.name
 
