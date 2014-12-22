@@ -15,7 +15,7 @@ Using this list I created a Spotify playlist containing the top few tracks (as j
 
 My only point of reference was [this nice post](https://mborgerson.com/creating-a-playlist-in-spotify-using-python/) outlining the frame work by Matt Borgerson. His [original code](https://github.com/mborgerson/spotify-playlist-from-csv) convereted a csv file into a playlist - which is a great tool if you already know what bands *and* tracks you want to listen to. I had to design something slightly different.
 
-For this code to work you require Python, libspotify, the pyspotify bindings and critically a Premium Spotify account ($9.99/month, sorry). Code can be found at [this Github repository](https://github.com/bgriffen/spotifylocalbands).
+For this code to work you require Python, libspotify, the pyspotify bindings and critically a Premium Spotify account ($9.99/month, sorry). Alternatively, you can just scroll to the end of this post to get the Spotify link and I can updated the playlist for you. This code can be found at [this Github repository](https://github.com/bgriffen/spotifylocalbands).
 
 {% highlight Python %}
 import requests
