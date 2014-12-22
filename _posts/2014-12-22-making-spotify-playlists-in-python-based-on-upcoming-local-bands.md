@@ -5,7 +5,7 @@ description: "Want to see some live music, but not sure if you'll like the band?
 tags: [python, spotify, music]
 ---
 
-If you know a band it is easy to Google or search for them on Spotify to hear their music. This is great if you *already know* the music you are looking for. What about for bands you haven't heard of who happen to be playing a live show in the coming months in your area? I all too often found myself copying and pasting the band names into Spotify to hear what sort of music was on offer. Continually doing this led to the idea of automating this tedious process via a program.
+If you know a band it is easy to Google or search for them on Spotify to hear their music. This is great if you *already know* the music you are looking for. What about for bands you haven't heard of who happen to be playing a live show in the coming months in your area? I all too often found myself copying and pasting the band names into Spotify manually to hear what sort of music was on offer. Continually doing this led to the idea of automating this tedious process via a program.
 
 I decided to go ahead and create just that; a short program which finds bands with upcoming shows in your area (Cambridge/Boston, MA in my case) and load them into Spotify (15 seconds total). My data source for bands is the well known,[Bowery Boston](http://www.boweryboston.com/see-all-shows/) who promotes upcoming bands.
 
