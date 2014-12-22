@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Making Spotify Playlists In Python Based On Upcoming Local Bands"
-description: "Want to see some live music, but not sure if you'll like the band?"
-tags: [python, spotify]
+description: "Want to see some live music, but not sure if you'll like the band? Try this out."
+tags: [python, spotify, music]
 ---
 
 If you know a band it is easy to Google or search for them on Spotify to hear their music. This is great if you already know the music you are looking for. What about for bands you haven't heard of who happen to be playing a live show in the coming months in your area? 
@@ -77,19 +77,6 @@ for band in all_bands:
             if i <= 2:
                 all_tracks.append(track)
 
-
-# check if you've already made this playlist before
-#exists = False
-#for i,playlisti in enumerate(session.playlist_container):
-#    print playlisti.name
-#    if "Boston" in playlisti.name:
-#        idx_playlist = i
-#        exists = True
-#        print "Playlist already exists - updating!"
-
-# remove it if you have already made the playlist before
-#if exists:
-#    session.playlist_container.remove(idx_playlist)
 
 print "Adding %i band, totalling %i tracks!" % (len(all_bands),len(all_tracks))
 session.playlist_container.add_new_playlist("Upcoming LIVE Boston Music")
