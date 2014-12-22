@@ -127,5 +127,7 @@ It may take quite some time to show up in your playlist. Here is an example of w
 
 [![spotify-playlists](/assets/spotifylocalbands/spotify_playlist.png)](/assets/spotifylocalbands/spotify_playlist.png)
 
-I made [this playlist public](http://open.spotify.com/user/1254170771/playlist/5QKiOM9egThI6u6oXgkTNh) for those that aren't too comfortable programming so feel free to follow it if you are in the Boston area to save you the hassle. I'll update it periodically. Just enjoy the new music, soon to be played live somewhere near you.
+I made [this playlist public](http://open.spotify.com/user/1254170771/playlist/5QKiOM9egThI6u6oXgkTNh) for those that aren't too comfortable programming so feel free to follow it if you are in the Boston area (this will work if you have a free account). I'll use my Premium account update it periodically =)
+
+Just enjoy the new music, soon to be played live somewhere near you.
 
