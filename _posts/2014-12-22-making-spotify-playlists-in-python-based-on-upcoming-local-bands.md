@@ -127,5 +127,5 @@ It may take quite some time to show up in your playlist. Here is an example of w
 
 [![spotify-playlists](/assets/spotifylocalbands/spotify_playlist.png)](/assets/spotifylocalbands/spotify_playlist.png)
 
-Now just enjoy the new music, soon to be played live somewhere near you.
+I made [this playlist public](http://open.spotify.com/user/1254170771/playlist/5QKiOM9egThI6u6oXgkTNh) so feel free to follow it if you are in the Boston area. Now just enjoy the new music, soon to be played live somewhere near you.
 
