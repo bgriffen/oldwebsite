@@ -13,7 +13,7 @@ Ordinarily you might go to a website which lists local bands. Then the process o
 
 # A Solution
 
-A short program which finds bands with upcoming shows in your area and loads them into Spotify, automatically.
+A short program which finds bands with upcoming shows in your area and loads them into a Spotify playlist, auto-magically.
 
 # The Data
 
