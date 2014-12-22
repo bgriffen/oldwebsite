@@ -11,7 +11,7 @@ Today it is extremely easy to access music. The days of celebrating 4kb/s via Na
 
 # The Problem
 
-Ordinarily you might go to a website which lists local bands. Then the process of copying and pasting the band names into your music provided manually to hear what sort of music they offered would follow. Many hours of human life are wasted all over the world in carrying out this monotonous process. Continually doing this led to my idea of automating this tedious process via a short and simple program.
+Ordinarily you might go to a website which lists local bands. Then the process of copying and pasting the band names into your music provider manually to hear what sort of music they offered would follow. Many hours of human life are wasted all over the world in carrying out this monotonous process. Continually doing this led to my idea of automating this tedious process via a short and simple program.
 
 # A Solution
 
