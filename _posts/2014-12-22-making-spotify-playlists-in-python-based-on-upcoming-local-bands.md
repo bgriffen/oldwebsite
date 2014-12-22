@@ -19,7 +19,7 @@ A short program which finds bands with upcoming shows in your area and loads the
 
 # The Data
 
-My data source for bands is the well known,[Bowery Boston](http://www.boweryboston.com/see-all-shows/) who promotes upcoming bands.
+My data source for bands is the well known, [Bowery Boston](http://www.boweryboston.com/see-all-shows/) which  promotes upcoming bands playing in the Boston area.
 
 [![spotify-playlists](/assets/spotifylocalbands/bowery_boston.png)](/assets/spotifylocalbands/bowery_boston.png)
 
