@@ -23,7 +23,7 @@ My data source for bands is the well known, [Bowery Boston](http://www.bowerybos
 
 [![spotify-playlists](/assets/spotifylocalbands/bowery_boston.png)](/assets/spotifylocalbands/bowery_boston.png)
 
-Using this list I created a Spotify playlist containing the top few tracks (as judged by Spotify) of each of the bands about to have a show. I now run this once a month and sync it to my phone. If there is any new music which catches my ear and if I'm sufficiently interested, I'll go ahead and buy a ticket.
+Using this list I created a Spotify playlist containing the top few tracks (as judged by Spotify) of each of the bands about to have a show. I now run this once a month and sync it to my phone. If there is any new music which catches my ear and the price is right, I'll go ahead and buy a ticket.
 
 My only point of reference was [this nice post](https://mborgerson.com/creating-a-playlist-in-spotify-using-python/) outlining the frame work by Matt Borgerson. His [original code](https://github.com/mborgerson/spotify-playlist-from-csv) converted a csv file into a playlist - which is a great tool if you already know what bands *and* tracks you want to listen to. I had to design something slightly different.
 
