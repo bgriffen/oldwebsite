@@ -130,3 +130,5 @@ I made [this playlist public](http://open.spotify.com/user/1254170771/playlist/5
 
 Just enjoy the new music, soon to be played live somewhere near you.
 
+*Small Caveat: sometimes the program will scrape the wrong band - please forgive me.*
+
