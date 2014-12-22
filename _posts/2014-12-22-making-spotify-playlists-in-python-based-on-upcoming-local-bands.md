@@ -25,7 +25,7 @@ My data source for bands is the well known,[Bowery Boston](http://www.bowerybost
 
 Using this list I created a Spotify playlist containing the top few tracks (as judged by Spotify) of each of the bands about to have a show. I now run this once a month and sync it to my phone. If there is any new music which catches my ear and if I'm sufficiently interested, I'll go ahead and buy a ticket.
 
-My only point of reference was [this nice post](https://mborgerson.com/creating-a-playlist-in-spotify-using-python/) outlining the frame work by Matt Borgerson. His [original code](https://github.com/mborgerson/spotify-playlist-from-csv) convereted a csv file into a playlist - which is a great tool if you already know what bands *and* tracks you want to listen to. I had to design something slightly different.
+My only point of reference was [this nice post](https://mborgerson.com/creating-a-playlist-in-spotify-using-python/) outlining the frame work by Matt Borgerson. His [original code](https://github.com/mborgerson/spotify-playlist-from-csv) converted a csv file into a playlist - which is a great tool if you already know what bands *and* tracks you want to listen to. I had to design something slightly different.
 
 # The Code
 
@@ -90,7 +90,7 @@ for band in all_bands:
         for i,track in enumerate(search.tracks):
             if i <= 2: all_tracks.append(track)
 
-print "Adding %i band, totalling %i tracks!" % (len(all_bands),len(all_tracks))
+print "Adding %i band, totaling %i tracks!" % (len(all_bands),len(all_tracks))
 session.playlist_container.add_new_playlist("Upcoming LIVE Boston Music")
 playlist = session.playlist_container[-1]
 
@@ -132,7 +132,7 @@ Sorority Noise
 The Beautiful Ones
 ...
 Adding TOP 3 songs of each band to a Spotify playlist...
-Adding 222 band, totalling 541 tracks!
+Adding 222 band, totaling 541 tracks!
 Adding tracks to playlist: Upcoming LIVE Boston Music
 {% endhighlight %}
 
