@@ -140,7 +140,7 @@ Adding tracks to playlist: Upcoming LIVE Boston Music
 
 # The Result
 
-It may take quite some time to show up in your playlist. Here is an example of what one of these playlists might look like inside Spotify (a restart sometimes helps):
+Here is an example of what one of these playlists might look like inside Spotify. It may take a short while for it to show up (a restart sometimes helps).
 
 [![spotify-playlists](/assets/spotifylocalbands/spotify_playlist.png)](/assets/spotifylocalbands/spotify_playlist.png)
 
