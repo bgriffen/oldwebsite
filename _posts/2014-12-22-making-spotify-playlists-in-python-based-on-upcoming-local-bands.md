@@ -7,15 +7,15 @@ tags: [python, spotify, music]
 
 # The Pitch
 
-If you know of a band it is easy to play them on Youtube or to search on Spotify to hear their music. This is great if you *already know* the music you are looking for. What about for bands you haven't heard of who happen to be playing a live show in the coming months in your area?
+Today it is extremely easy to access music. The days of celebrating 4kb/s via Napster are long over. For a small fee or even for free, you can access large quantities of music, on demand. If you know of a band or song, it is easy to find it on Youtube or Spotify (or any of the other services). This is great if you *already know* the music you are looking for. What about for bands you haven't heard? Yes, there are ways to [discover new music based on current tastes](http://techcrunch.com/2012/12/06/spotify-following/) but what about something a little closer to home - what about finding new music which happens to be playing in your local area? 
 
 # The Problem
 
-I all too often found myself copying and pasting the band names into Spotify manually to hear what sort of music was on offer. Continually doing this led to the idea of automating this tedious process via a program.
+Ordinarily you might go to a website which lists local bands. Then the process of copying and pasting the band names into your music provided manually to hear what sort of music they offered would follow. Many hours of human life are wasted all over the world in carrying out this monotonous process. Continually doing this led to my idea of automating this tedious process via a short and simple program.
 
-# My Solution
+# A Solution
 
-I decided to go ahead and create just that; a short program which finds bands with upcoming shows in your area (Cambridge/Boston, MA in my case) and load them into Spotify (15 seconds total). 
+A short program which finds bands with upcoming shows in your area and loads them into Spotify, automatically.
 
 # The Data
 
