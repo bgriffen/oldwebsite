@@ -136,7 +136,7 @@ Adding 222 band, totaling 541 tracks!
 Adding tracks to playlist: Upcoming LIVE Boston Music
 {% endhighlight %}
 
-*Small Caveat: sometimes the program will scrape the wrong band - please forgive me.*
+*small caveat: rarely the program will scrape the wrong band - please forgive me if it does.*
 
 # The Result
 
