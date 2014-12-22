@@ -122,6 +122,9 @@ Adding 222 band, totalling 541 tracks!
 Adding tracks to playlist: Upcoming LIVE Boston Music
 {% endhighlight %}
 
+*Small Caveat: sometimes the program will scrape the wrong band - please forgive me.*
+
+
 It may take quite some time to show up in your playlist. Here is an example of what one of these playlists might look like inside Spotify (a restart sometimes helps):
 
 [![spotify-playlists](/assets/spotifylocalbands/spotify_playlist.png)](/assets/spotifylocalbands/spotify_playlist.png)
@@ -129,6 +132,4 @@ It may take quite some time to show up in your playlist. Here is an example of w
 I made [this playlist public](http://open.spotify.com/user/1254170771/playlist/5QKiOM9egThI6u6oXgkTNh) for those that aren't too comfortable programming so feel free to follow it if you are in the Boston area (this will work if you have a free account). I'll use my Premium account update it periodically =)
 
 Just enjoy the new music, soon to be played live somewhere near you.
-
-*Small Caveat: sometimes the program will scrape the wrong band - please forgive me.*
 
