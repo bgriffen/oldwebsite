@@ -146,4 +146,4 @@ Here is an example of what one of these playlists might look like inside Spotify
 
 I made [this playlist public](http://open.spotify.com/user/1254170771/playlist/5QKiOM9egThI6u6oXgkTNh) for those that aren't too comfortable programming so feel free to follow it if you are in the Boston area (this will work if you have a free account). I'll use my Premium account update it periodically =)
 
-If you know of a website which compiles local music in your area perhaps could try modifying what I've done and make your own playlist. That way you can just enjoy the new music - soon to be played live, somewhere near you.
+If you know of a website which compiles local music in your area perhaps you could try to modify what I've done and make your own playlist. In any case, I hope you enjoy the new music, soon to be playing live, somewhere near you.
