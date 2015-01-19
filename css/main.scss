@@ -1,21 +1,20 @@
 $page-width-max: 700px;
+$hue: 210;
 $heading-font: 'Roboto Condensed', 'Helvetica Neue', 'Arial', sans-serif;
 $article-font: 'Iowan Old Style', 'Georgia', 'Noto Sans', 'Source Sans Pro', 'Verdana', 'Tahoma', 
                'Hiragino Mincho Pro', 'Arial Unicode MS', sans-serif;
-$menu-font: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+$menu-font: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', 'Arial';
 $default-font: 'Source Sans Pro', 'Verdana', 'Helvetica', 'Arial', sans-serif;
 $base-font-size: 16px;
-$description-color: hsl(205, 60%, 65%);
-$description-size: 16px;
 // $my-name-color: hsl(205, 60%, 65%);
-$my-name-color: hsla(105, 40%, 60%, 1);
-$my-description-color: hsla(105, 40%, 60%, 1);
+$my-name-color: hsl($hue, 10%, 10%);
+$description-color: hsl($hue, 20%, 20%);
 $text-color: #444;
-$heading-color: #333;
+$heading-color: hsl($hue, 20%, 20%);
 $main-menu-background-color: hsla(0,0%,0%,0);
 $main-menu-hover-text-color: $my-name-color;
-$main-menu-text-color: #ccc;
-$link-color: hsl(210, 56%, 45%);
+$main-menu-text-color: hsl($hue, 16%, 25%);
+$link-color: hsl($hue, 54%, 50%);;
 $link-hover-color: hsl(200, 56%, 0%);
 $socialmedia-icon-color: #aaa;
 $github-icon-color: hsl(110,50%,60%);
@@ -25,7 +24,7 @@ $facebook-icon-color: hsl(221, 44%, 41%);
 $rss-icon-color: hsl(25, 85%, 56%);
 $text-shadow-color: hsla(0,0%,0%,0.8);
 $masthead-background: url('/assets/trees_sunlight_1400x933.jpg');
-$masthead-background-color: #484848;
+$masthead-background-color: hsl($hue, 54%, 50%);
 // $masthead-background: hsl(200,40%,25%);
 $facebook-share-color: hsl(221, 44%, 41%);
 $twitter-share-color: hsl(200, 93%, 44%);
@@ -129,6 +128,10 @@ sup { font-size: 80%; line-height: 100%; }
   // background-size: cover;
   // background-repeat: no-repeat;
   background-color: $masthead-background-color;
+  // background-color: gradient($masthead-background-color, darken($masthead-background-color,20%));
+  border-bottom: 1px solid darken($masthead-background-color,20%);
+
+  box-shadow: 0px 5px 15px #ccc;
 
   .masthead-container {
     min-height: 100px;
@@ -157,7 +160,7 @@ sup { font-size: 80%; line-height: 100%; }
       font-size: $base-font-size * 3.5;
       line-height: 100%;
       font-family: $menu-font;
-      font-weight: 400;
+      font-weight: 600;
       letter-spacing: -0.3px;
       // text-transform: uppercase;
       color: $my-name-color;

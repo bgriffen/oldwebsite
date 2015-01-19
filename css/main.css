@@ -28,7 +28,7 @@ hr {
   background-color: #ccc; }
 
 a {
-  color: #3273b3;
+  color: #3b7fc4;
   text-decoration: none; }
 
 sup {
@@ -62,10 +62,10 @@ sup {
         font-family: monospace; }
       .post-list-table .row .cell.menuarticle a {
         display: block;
-        color: #3273b3;
-        font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif; }
+        color: #3b7fc4;
+        font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial"; }
         .post-list-table .row .cell.menuarticle a:hover {
-          color: #85c270; }
+          color: #17191c; }
 
 /*****************************************************************************/
 /*
@@ -77,7 +77,9 @@ sup {
   display: block;
   padding: 2em 0;
   text-align: left;
-  background-color: #484848; }
+  background-color: #3b7fc4;
+  border-bottom: 1px solid #234c76;
+  box-shadow: 0px 5px 15px #ccc; }
   .masthead .masthead-container {
     min-height: 100px;
     max-width: 700px;
@@ -96,21 +98,21 @@ sup {
       display: inline-block;
       font-size: 56px;
       line-height: 100%;
-      font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
-      font-weight: 400;
+      font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial";
+      font-weight: 600;
       letter-spacing: -0.3px;
-      color: #85c270;
+      color: #17191c;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
     .masthead .rootlink .mydescription {
       display: inline-block;
       font-size: 20px;
       line-height: 100%;
-      font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+      font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial";
       font-weight: 100;
       letter-spacing: -0.3px;
-      color: #70afdb; }
+      color: #29333d; }
     .masthead .rootlink:hover .myname {
-      color: #a3d194; }
+      color: #2e3338; }
   .masthead .subtitle {
     font-size: 22.4px;
     margin: 0;
@@ -157,9 +159,9 @@ sup {
     line-height: 200%;
     text-align: left; }
     .masthead .main-menu li:hover {
-      color: #85c270; }
+      color: #17191c; }
     .masthead .main-menu a {
-      color: #ccc; }
+      color: #36404a; }
       .masthead .main-menu a li {
         padding: 0;
         margin-right: 30px;
@@ -181,7 +183,7 @@ sup {
   font-size: 16px;
   padding-bottom: 50px; }
   .content h1 {
-    color: #333;
+    color: #29333d;
     margin-bottom: 0;
     font-size: 40px;
     font-family: "Roboto Condensed", "Helvetica Neue", "Arial", sans-serif;
@@ -227,7 +229,7 @@ sup {
   .post h2,
   .post h3,
   .post h4 {
-    color: #333;
+    color: #29333d;
     font-weight: bold;
     font-family: "Roboto Condensed", "Helvetica Neue", "Arial", sans-serif;
     text-align: left; }
@@ -353,7 +355,7 @@ sup {
   .footer .follow-me-link {
     margin-left: 5px; }
     .footer .follow-me-link:hover {
-      color: #74a6d8; }
+      color: #89b2dc; }
 
 .social {
   display: inline-block;
@@ -440,7 +442,7 @@ ul.projectlist {
     padding: 1em;
     transition: opacity 0.2s ease;
     opacity: 0.5;
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif; }
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial"; }
     ul.projectlist li a {
       color: inherit;
       display: block; }
@@ -459,7 +461,7 @@ Tooltip
  */
 li.tooltip:after {
   content: attr(title);
-  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial";
   opacity: 0;
   position: absolute;
   margin-top: 50px;
