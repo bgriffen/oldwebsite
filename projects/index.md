@@ -5,7 +5,7 @@ title: Projects
 
 <ul class="projectlist">
   <li>
-  <a href="http://caterpillar.scripts.mit.edu/www/caterpillar/" target="_blank">
+  <a href="http://brendangriffen.com/caterpillar/">
       <img src="/assets/pages/caterpillar_screenshot.jpg">
       <div class="container">
         <span class="projectlistheading">The Caterpillar Project</span><br />
