@@ -5,11 +5,11 @@ title: Projects
 
 <ul class="projectlist">
   <li>
-  <a href="http://caterpillar.scripts.mit.edu/www/" target="_blank">
+  <a href="http://caterpillar.scripts.mit.edu/www/caterpillar/" target="_blank">
       <img src="/assets/pages/caterpillar_screenshot.jpg">
       <div class="container">
         <span class="projectlistheading">The Caterpillar Project</span><br />
-        An on-going series of state-of-the-art cosmological simulations focusing on halos similar in mass to that of our own Milky Way.
+        An on-going series of state-of-the-art cosmological simulations focusing on galaxies similar in mass to that of our own Milky Way.
       </div>
   </a>
   </li>  
