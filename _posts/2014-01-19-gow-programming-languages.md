@@ -12,7 +12,7 @@ A while back I posted about [a graph of the personalities on Wikipedia]({{ site.
 In the infobox on the side we find a large list of languages Haskell is connected to in one way or another. [Wikipedia devotes an entire section](https://en.wikipedia.org/wiki/Haskell_(programming_language)#Related_languages) to how it is related to other programming languages for those interested.
 
 {:.center}
-[![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)(/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)
+[![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)
 
 .center {
   text-align: center;
