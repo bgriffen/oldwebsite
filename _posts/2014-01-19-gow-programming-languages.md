@@ -11,12 +11,9 @@ A while back I posted about [a graph of the personalities on Wikipedia]({{ site.
 
 In the infobox on the side we find a large list of languages Haskell is connected to in one way or another. [Wikipedia devotes an entire section](https://en.wikipedia.org/wiki/Haskell_(programming_language)#Related_languages) to how it is related to other programming languages for those interested.
 
-{:.center}
+<center>
 [![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)
-
-.center {
-  text-align: center;
-}
+</center>
 
 It must be emphasized that the links are user-generated and any such comparison is largely subjective in nature (especially when comparing concepts rather than syntax). The following query [executed here](http://dbpedia.org/snorql/) provided me with the bulk of the data:
 
