@@ -7,11 +7,12 @@ tags: [programming languages, ruby, C, python, fortran, gephi, C++, language, ne
 
 A while back I posted about [a graph of the personalities on Wikipedia]({{ site.url }}/gow-influential-thinkers/). This time I wanted to see which programming languages were linked to one another by user-entered “Influenced” and “Influenced-by” information. Take for instance the functional language Haskell:
 
-[![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki.png)](/assets/wikipedia/Haskell-Programming-Wiki.png)
+->![![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki.png)](/assets/wikipedia/Haskell-Programming-Wiki.png)<-
 
 In the infobox on the side we find a large list of languages Haskell is connected to in one way or another. [Wikipedia devotes an entire section](https://en.wikipedia.org/wiki/Haskell_(programming_language)#Related_languages) to how it is related to other programming languages for those interested.
 
-[![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)
+
+->![![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)<-
 
 It must be emphasized that the links are user-generated and any such comparison is largely subjective in nature (especially when comparing concepts rather than syntax). The following query [executed here](http://dbpedia.org/snorql/) provided me with the bulk of the data:
 
@@ -24,10 +25,10 @@ WHERE { ?p a <http://dbpedia.org/ontology/ProgrammingLanguage> .
 The output was then decoded using a [nifty URL decoder](http://meyerweb.com/eric/tools/dencoder/). It was then fed through [a Python script](https://github.com/bgriffen/griffsgraphs/blob/master/programminglanguages/proglanguages.py) to arrange it in a format most suitable for Gephi. The graph below represents the connections between all programming languages in Wikipedia. A force algorithm was applied such that closer nodes are more strongly connected in nature. The size of the node indicates how many connections that language has to the others in the network. The colors are achieved by carrying out a modularity algorithm applied by Gephi to highlight subnetworks. The curvature of outgoing edges is clockwise indicating influence direction. Lisp for example has many clockwise edges going out and only few counter-clockwise coming in. I can see some relations in the languages I am familiar with but perhaps you notice a few things that are flat out wrong? Please let me know in the comments as I’d be interested in hearing your thoughts. The raw Gephi graph data (.dl, .dfg, .gephi, .dexf, .gml etc.) can be [found here]({{ site.url }}/data/programminglanguage-data.zip).
 
 The first is using curved edges:
-[![gow-wikipedia](/assets/wikipedia/programminglanguages-label.png)](/assets/wikipedia/programminglanguages-label.png)
+->![![gow-wikipedia](/assets/wikipedia/programminglanguages-label.png)](/assets/wikipedia/programminglanguages-label.png)<-
 
 The second uses directed edges:
-[![gow-wikipedia](/assets/wikipedia/programminglanguagesarrows-label.png)](/assets/wikipedia/programminglanguagesarrows-label.png)
+->![![gow-wikipedia](/assets/wikipedia/programminglanguagesarrows-label.png)](/assets/wikipedia/programminglanguagesarrows-label.png)<-
 
 
 As one might expect all of the major players are the biggest nodes. C, Haskell, Lisp, Python and Java all feature prominently. Anything strange you notice? Let me know in the comments. I really must commend the designers on their nomenclature. See if you can find one of the more humorous languages by zooming in. I also obtained the designer of each language and connected the people together based on the programming languages they were involved with. This was obtained by the following query:
