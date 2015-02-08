@@ -7,16 +7,12 @@ tags: [programming languages, ruby, C, python, fortran, gephi, C++, language, ne
 
 A while back I posted about [a graph of the personalities on Wikipedia]({{ site.url }}/gow-influential-thinkers/). This time I wanted to see which programming languages were linked to one another by user-entered “Influenced” and “Influenced-by” information. Take for instance the functional language Haskell:
 
-<div style="text-align: center;">
-<IMG SRC="=/assets/wikipedia/Haskell-Programming-Wiki.png" ALT="Haskell Entry">
-</div>
-<br/>
+[![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki.png)](/assets/wikipedia/Haskell-Programming-Wiki.png)
+
 In the infobox on the side we find a large list of languages Haskell is connected to in one way or another. [Wikipedia devotes an entire section](https://en.wikipedia.org/wiki/Haskell_(programming_language)#Related_languages) to how it is related to other programming languages for those interested.
 
-<div style="text-align: center;">
-<IMG SRC="=/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png" ALT="Haskell Zoom">
-</div>
-<br/>
+[![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)
+
 It must be emphasized that the links are user-generated and any such comparison is largely subjective in nature (especially when comparing concepts rather than syntax). The following query [executed here](http://dbpedia.org/snorql/) provided me with the bulk of the data:
 
 {% highlight SQL %}
