@@ -11,9 +11,12 @@ A while back I posted about [a graph of the personalities on Wikipedia]({{ site.
 
 In the infobox on the side we find a large list of languages Haskell is connected to in one way or another. [Wikipedia devotes an entire section](https://en.wikipedia.org/wiki/Haskell_(programming_language)#Related_languages) to how it is related to other programming languages for those interested.
 
-<div style="text-align:center" markdown="1">
-[![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)
-</div>
+{:.center}
+[![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)(/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)
+
+.center {
+  text-align: center;
+}
 
 It must be emphasized that the links are user-generated and any such comparison is largely subjective in nature (especially when comparing concepts rather than syntax). The following query [executed here](http://dbpedia.org/snorql/) provided me with the bulk of the data:
 
@@ -43,3 +46,4 @@ WHERE {?p a <http://dbpedia.org/ontology/ProgrammingLanguage> .
 Large nodes do not represent more influential people but simply the people whose work spawned the most number of languages in the subsequent years. As expected, it is a very homogeneous playing field as many people were involved in multiple languages and at times had many collaborators. It must be stressed that the dataset is incomplete and was the result of my somewhat rudimentary way of parsing the data. Without a doubt, things could be improved. I’ve setup [a GitHub repository](https://github.com/bgriffen/griffsgraphs) for all (Gephi) graph files and images for those interested. Feel free to embed or share the above images. Lastly, please keep in mind where this data is coming from: contributors of Wikipedia. Whilst they are a studious bunch, they aren’t without faults so take up any problems with the graph with the pages themselves as that is all this represents.
 
 **Update!** Since posting there has been some great feedback found on the web. Of particular interest is [this PDF](http://oreilly.com/news/graphics/prog_lang_poster.pdf) of the history of programming languages and [this fantastic interactive version](http://exploringdata.github.io/vis/programming-languages-influence-network/) of what I was trying to present by [Ramiro Gomez](https://twitter.com/yaph). I think it really is time to move to [D3.js](http://d3js.org/) and [sigma.js](http://sigmajs.org/).
+
