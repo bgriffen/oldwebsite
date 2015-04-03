@@ -35,7 +35,7 @@ Minors: Cognitive Science & Philosophy
 **The Illustris Simulation: Public Data Release**
 Dylan Nelson, Annalisa Pillepich, Shy Genel, Mark Vogelsberger, Volker Springel, Paul Torrey, Vicente
 Rodriguez-Gomez, Debora Sijacki, Gregory F. Snyder, **Brendan Griffen**, Federico Marinacci
-**http://arxiv.org/abs/1504.00362** [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.00362 "Link to publication.")
+*arxiv.org/abs/1504.00362*, 2015. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.00362 "Link to publication.")  
 <br/>
 **Contribution of stripped nuclear clusters to globular cluster and ultracompact dwarf galaxy populations**  
 Joel Pfeffer, **Brendan Griffen**, Holger Baumgardt, Michael Hilker  
