@@ -32,6 +32,11 @@ Majors:  Physics & Mathematics
 Minors: Cognitive Science & Philosophy
 
 ## Recent Publications
+**The Illustris Simulation: Public Data Release**
+Dylan Nelson, Annalisa Pillepich, Shy Genel, Mark Vogelsberger, Volker Springel, Paul Torrey, Vicente
+Rodriguez-Gomez, Debora Sijacki, Gregory F. Snyder, **Brendan Griffen**, Federico Marinacci
+**http://arxiv.org/abs/1504.00362** [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.00362 "Link to publication.")
+<br/>
 **Contribution of stripped nuclear clusters to globular cluster and ultracompact dwarf galaxy populations**  
 Joel Pfeffer, **Brendan Griffen**, Holger Baumgardt, Michael Hilker  
 *Montly Notices of the Royal Astronomical Society*, 444, 4, **2014.** [ADS](http://adsabs.harvard.edu/abs/2014MNRAS.444.3670P "Link to publication.")  
