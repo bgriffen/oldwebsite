@@ -32,7 +32,7 @@ Majors:  Physics & Mathematics
 Minors: Cognitive Science & Philosophy
 
 ## Recent Publications
-**The Illustris Simulation: Public Data Release**
+**The Illustris Simulation: Public Data Release**  
 Dylan Nelson, Annalisa Pillepich, Shy Genel, Mark Vogelsberger, Volker Springel, Paul Torrey, Vicente
 Rodriguez-Gomez, Debora Sijacki, Gregory F. Snyder, **Brendan Griffen**, Federico Marinacci
 *arxiv.org/abs/1504.00362*, 2015. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.00362 "Link to publication.")  
