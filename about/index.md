@@ -13,7 +13,7 @@ title: About me
 </ul>
 
 <img src="/assets/pages/profile_small.jpg" alt="Brendan Griffen" style="float: right; width: 40%; margin-left: 4%; margin-bottom: 5px;">
-I am an astrophysicist and data enthusiast currently working as a postdoctoral research fellow at the Kavli Institute for Astrophysics & Space Research at MIT in Cambridge, Massachusetts. I'm currently leading the [Caterpillar Project](http://www.caterpillarproject.com) with the objective of better understanding the formation of the Milky Way and its satellite companions. This is being carried out within the [Kavli Institute](http://space.mit.edu/‎) at [MIT](http://mit.edu) and the [Center for Astrophysics](http://www.cfa.harvard.edu/) at [Harvard University](http://www.harvard.edu/). 
+I am an astrophysicist and data enthusiast currently working as a postdoctoral research fellow at the Kavli Institute for Astrophysics & Space Research at MIT in Cambridge, Massachusetts. I'm currently leading the [Caterpillar Project](http://www.caterpillarproject.org) with the objective of better understanding the formation of the Milky Way and its satellite companions. This is being carried out within the [Kavli Institute](http://space.mit.edu/‎) at [MIT](http://mit.edu) and the [Center for Astrophysics](http://www.cfa.harvard.edu/) at [Harvard University](http://www.harvard.edu/). 
 
 On any given day, I can be found investigating these core research topics:
 
