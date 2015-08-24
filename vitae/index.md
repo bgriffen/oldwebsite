@@ -32,8 +32,9 @@ Majors:  Physics & Mathematics
 Minors: Cognitive Science & Philosophy
 
 ## Recent Publications
+
 **An analysis of the evolving comoving number density of galaxies in hydrodynamical simulations** 
-Paul Torrey, Sarah Wellons, Francisco Machado, **Brendan Griffen**, Dylan Nelson, Vicente Rodriguez-Gomez, Ryan McKinnon, Annalisa Pillepich, Chung-Pei Ma, Mark Vogelsberger, Volker Springel, Lars Hernquist   
+Paul Torrey, Sarah Wellons, Francisco Machado, **Brendan Griffen**, Dylan Nelson, Vicente Rodriguez-Gomez, Ryan McKinnon, Annalisa Pillepich, Chung-Pei Ma, Mark Vogelsberger, Volker Springel, Lars Hernquist
 *http://arxiv.org/abs/1507.01942*, **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1507.01942 "Link to publication.")  
 <br/>
 **The Illustris Simulation: Public Data Release**  
