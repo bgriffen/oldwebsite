@@ -76,7 +76,7 @@ sup {
   line-height: 1.5em;
   display: block;
   padding: 2em 0;
-  text-align: center;
+  text-align: left;
   background-color: #3b7fc4;
   border-bottom: 1px solid #234c76;
   box-shadow: 0px 5px 15px #ccc; }
@@ -89,7 +89,7 @@ sup {
     display: table;
     clear: both; }
   .masthead .rootlink-container {
-    text-align: left;
+    text-align: center;
     display: block;
     margin-bottom: 1em; }
   .masthead .rootlink {
