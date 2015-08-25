@@ -132,3 +132,15 @@ PHYS1001 - Mechanics & Thermal Physics I
 PHYS1002 - Electromagnetism & Modern Physics (+Lab work)   
 PHYS2082 - Modern Astrophysics  
 PHYS2011 - Philosophy of Modern Physics  
+
+
+## Outreach
+
+*Science By The Pint*  
+The Burren, Somerville, Massachusetts, USA  
+
+*Mad Scientist Tea Party*  
+Brisbane State Library, Brisbane, Australia  
+
+*Claptrap*  
+Weekly Community Radioshow, Brisbane, Australia  
