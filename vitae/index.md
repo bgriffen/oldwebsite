@@ -90,7 +90,7 @@ Kaptyn Institute, Groningen, Netherlands
 *Local Group Astrostatistics*  
 Michigan State University, Michigan, USA  
 
-*Near Field, Far Field Connection
+*Near Field, Far Field Connection*
 UC Irvine, California, USA   
 
 *ComputeFest*
@@ -106,19 +106,19 @@ Heidelberg, Germany
 Stradbroke Island, Australia  
 
 *ANITA/gSTAR Astrophysics Conference*  
-Swinburne, Melbourne, Australia  
+Swinburne University, Melbourne, Australia  
 
 *Stellar Nucleosynthesis Summer School*  
 Monash University, Melbourne, Australia  
 
 *Unity of the Universe*  
-Institute For Computational Cosmology, Portsmouth, U.K.  
+Institute For Computational Cosmology, Portsmouth, UK  
 
 *Astronomcal Society of Australia AGM*  
 University of Western Australia, Australia  
 
 *5th Stromlo Symposium*  
-Mt. Stomolo, ANU, Australia  
+Mt. Stomolo, Australian National University, Australia  
 
 
 ## Teaching Experience
