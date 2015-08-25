@@ -84,16 +84,16 @@ Joel Pfeffer, University of Queensland
 *Stellar Streams In The Local Universe*  
 Max-Planck Institute For Astronomy, Ringberg Castle, Germany  
 
-*First Stars, Galaxies & Black Holes*  
+*First Stars, Galaxies & Black Holes: Now & Then*  
 Kaptyn Institute, Groningen, Netherlands  
 
 *Local Group Astrostatistics*  
 Michigan State University, Michigan, USA  
 
-*Near Field, Far Field Connection*
+*Near Field, Far Field Connection*  
 UC Irvine, California, USA   
 
-*ComputeFest*
+*ComputeFest*  
 Harvard University, Cambridge, Massachusetts, USA  
 
 *Self-interacting Dark Matter*  
@@ -111,7 +111,7 @@ Swinburne University, Melbourne, Australia
 *Stellar Nucleosynthesis Summer School*  
 Monash University, Melbourne, Australia  
 
-*Unity of the Universe*  
+*Unity Of The Universe*  
 Institute For Computational Cosmology, Portsmouth, UK  
 
 *Astronomcal Society of Australia AGM*  
