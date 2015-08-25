@@ -65,7 +65,7 @@ sup {
         color: #3b7fc4;
         font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial"; }
         .post-list-table .row .cell.menuarticle a:hover {
-          color: #17191c; }
+          color: white; }
 
 /*****************************************************************************/
 /*
@@ -101,7 +101,7 @@ sup {
       font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial";
       font-weight: 600;
       letter-spacing: -0.3px;
-      color: #17191c;
+      color: white;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
     .masthead .rootlink .mydescription {
       display: inline-block;
@@ -110,17 +110,17 @@ sup {
       font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial";
       font-weight: 100;
       letter-spacing: -0.3px;
-      color: #29333d; }
+      color: white; }
     .masthead .rootlink:hover .myname {
-      color: #2e3338; }
+      color: white; }
   .masthead .subtitle {
     font-size: 22.4px;
     margin: 0;
     display: none; }
   .masthead .socialmedia {
     display: block;
-    float: right;
-    text-align: right;
+    float: center;
+    text-align: center;
     list-style: none; }
     .masthead .socialmedia li {
       display: inline-block;
@@ -152,14 +152,14 @@ sup {
           color: #ee7f2f; }
   .masthead .main-menu {
     display: block;
-    float: left;
+    float: center;
     padding: 0;
     margin: 0;
     list-style-type: none;
     line-height: 200%;
     text-align: center; }
     .masthead .main-menu li:hover {
-      color: #17191c; }
+      color: white; }
     .masthead .main-menu a {
       color: #36404a; }
       .masthead .main-menu a li {
@@ -441,13 +441,13 @@ ul.projectlist {
     min-height: 110px;
     padding: 1em;
     transition: opacity 0.2s ease;
-    opacity: 0.5;
+    opacity: 1.0;
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial"; }
     ul.projectlist li a {
       color: inherit;
       display: block; }
     ul.projectlist li:hover {
-      background-color: #ecf4f9;
+      background-color: #e2e0d7;
       color: #444;
       opacity: 1.0; }
 
