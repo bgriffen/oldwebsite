@@ -83,7 +83,7 @@ Joel Pfeffer, University of Queensland
 
 Stellar Streams In The Local Universe, Ringberg Castle, Germany  
 First Stars, Galaxies & Black Holes, Groningen, Netherlands  
-Local Group Astrostatistics, Michigan 
+Local Group Astrostatistics, Michigan  
 Near Field, Far Field Connection, UC Irvine  
 ComputeFest, Harvard University  
 Self-interacting Dark Matter, Harvard University  
