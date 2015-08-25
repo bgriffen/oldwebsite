@@ -81,42 +81,44 @@ Joel Pfeffer, University of Queensland
 
 ## Conferences
 
-Stellar Streams In The Local Universe
-Ringberg Castle, Germany  
+*Stellar Streams In The Local Universe*  
+Max-Planck Institute For Astronomy, Ringberg Castle, Germany  
 
-First Stars, Galaxies & Black Holes
-Groningen, Netherlands  
+*First Stars, Galaxies & Black Holes*  
+Kaptyn Institute, Groningen, Netherlands  
 
-Local Group Astrostatistics
-MSU, Michigan  
+*Local Group Astrostatistics*  
+Michigan State University, Michigan, USA  
 
-Near Field, Far Field Connection
-UC Irvine, California  
+*Near Field, Far Field Connection
+UC Irvine, California, USA   
 
-ComputeFest
-Harvard University, USA  
+*ComputeFest*
+Harvard University, Cambridge, Massachusetts, USA  
 
-Self-interacting Dark Matter
-Harvard University, USA  
+*Self-interacting Dark Matter*  
+Harvard University, Cambridge, Massachusetts, USA    
 
-IMPRS: First Stars & Cosmic Reionization
+*IMPRS: First Stars & Cosmic Reionization**
 Heidelberg, Germany  
 
-OSA Teach At The Beach
+*OSA Teach At The Beach*  
 Stradbroke Island, Australia  
 
-ANITA/gSTAR Astrophysics Conference
-Swinburne, Australia  
+*ANITA/gSTAR Astrophysics Conference*  
+Swinburne, Melbourne, Australia  
 
-Stellar Nucleosynthesis Summer School, Monash, Australia  
-Unity of the Universe
-Portsmouth, U.K.  
+*Stellar Nucleosynthesis Summer School*  
+Monash University, Melbourne, Australia  
 
-Astronomcal Society of Australia AGM
-UWA, Australia  
+*Unity of the Universe*  
+Institute For Computational Cosmology, Portsmouth, U.K.  
 
-5th Stromlo Symposium
-MSO, Australia  
+*Astronomcal Society of Australia AGM*  
+University of Western Australia, Australia  
+
+*5th Stromlo Symposium*  
+Mt. Stomolo, ANU, Australia  
 
 
 ## Teaching Experience
