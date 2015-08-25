@@ -6,7 +6,7 @@ title: Projects
 <ul class="projectlist">
   <li>
   <a href="http://brendangriffen.com/caterpillar/">
-      <img src="/assets/pages/caterpillar_screenshot.jpg">
+      <img src="/assets/caterpillar/cat10.jpg">
       <div class="container">
         <span class="projectlistheading">The Caterpillar Project</span><br />
         An on-going series of state-of-the-art cosmological simulations focusing on galaxies similar in mass to that of our own Milky Way.
@@ -14,10 +14,10 @@ title: Projects
   </a>
   </li>  
   <li>
-  <a href="http://brendangriffen.com/underconstruction/">
+  <a href="http://brendangriffen.com/globular/">
       <img src="/assets/pages/gc_screenshot.jpg">
       <div class="container">
-        <span class="projectlistheading">Globular Cluster Formation</span><br />
+        <span class="projectlistheading">Globular Cluster Formation & Reionization</span><br />
         The oldest stellar laboratories in the Universe. Encoded with information about an earlier time in the Universe's history, astronomers still don't know exactly how the formed.
       </div>
   </a>
