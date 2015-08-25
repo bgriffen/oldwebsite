@@ -3,7 +3,7 @@ layout: static
 title: Globular Clusters & Reionization
 ---
 
-![Sample of the Caterpillar halos][47tuc]
+![47Tucanae][47tuc]
 <sup>*47 Tucanae; 17k light years away from Earth, 120 light years across and visible to the naked eye.* Source: wiki.org</sup>
 
 It is now well understood that the universe emerged from the so-called *dark ages* (\\(30 \leq z \leq 1100\\)) when light from the first stars and quasars ignited and radiated large quantities of ionizing photons into the inter-galactic medium (IGM). This radiation reionized the universe in two epochs: one for hydrogen (\\(7 \leq z \leq 15\\)), and one for helium (z ~ 3.5). Though the most likely sources of helium reionization are quasars, the sources of hydrogen reionization are far less well known. 
@@ -70,7 +70,7 @@ These works comprised the bulk of my PhD thesis and can be summarized in the fol
 
 Whilst I currently do not directly work on globular cluster formation at the moment as my time is primarily occupied with the [*Caterpillar Project*](http://www.caterpillarproject.org/), I am still reading the literature and am encouraged to see more complete models of globular cluster formation coming out complimenting the ever increasing quality of data we have of globular cluster populations in the nearby universe.
 
-[47tuc]: /assets/globular/47tuc.jpg "47 Tucana"
+[47tuc]: /assets/globular/47tuc.jpg "47 Tucanae"
 [reioniz_contribution_griffen2013]: /assets/globular/reionizationcontribution_griffen2013.png "Griffen et al. (2013)"  
 [radiationfield_griffen2013]: /assets/globular/radiationfield_griffen2013.png "Griffen et al. (2013)"  
 [nformed_griffen2013]: /assets/globular/nformed_griffen2013.png "Griffen et al. (2013)"  
