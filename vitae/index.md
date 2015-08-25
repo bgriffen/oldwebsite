@@ -99,7 +99,7 @@ Harvard University, Cambridge, Massachusetts, USA
 *Self-interacting Dark Matter*  
 Harvard University, Cambridge, Massachusetts, USA    
 
-*IMPRS: First Stars & Cosmic Reionization**
+*IMPRS: First Stars & Cosmic Reionization*
 Heidelberg, Germany  
 
 *OSA Teach At The Beach*  
