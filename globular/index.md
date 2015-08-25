@@ -70,7 +70,7 @@ These works comprised the bulk of my PhD thesis and can be summarized in the fol
 
 Whilst I currently do not directly work on globular cluster formation at the moment as my time is primarily occupied with the [*Caterpillar Project*](http://www.caterpillarproject.org/), I am still reading the literature and am encouraged to see more complete models of globular cluster formation coming out complimenting the ever increasing quality of data we have of globular cluster populations in the nearby universe.
 
-[47tuc]: /assets/globular/47tuc.jpg "47 Tucanae"
+[47tuc]: /assets/globular/47Tuc.jpg "47 Tucanae"
 [reioniz_contribution_griffen2013]: /assets/globular/reionizationcontribution_griffen2013.png "Griffen et al. (2013)"  
 [radiationfield_griffen2013]: /assets/globular/radiationfield_griffen2013.png "Griffen et al. (2013)"  
 [nformed_griffen2013]: /assets/globular/nformed_griffen2013.png "Griffen et al. (2013)"  
