@@ -7,8 +7,8 @@ $menu-font: 'Source Sans Pro', 'Open Sans', 'Helvetica Neue', 'Arial';
 $default-font: 'Source Sans Pro', 'Verdana', 'Helvetica', 'Arial', sans-serif;
 $base-font-size: 16px;
 // $my-name-color: hsl(205, 60%, 65%);
-$my-name-color: hsl($hue, 10%, 10%);
-$description-color: hsl($hue, 20%, 20%);
+$my-name-color: hsl($hue, 100%, 100%);
+$description-color: hsl($hue, 100%, 100%);
 $text-color: #444;
 $heading-color: hsl($hue, 20%, 20%);
 $main-menu-background-color: hsla(0,0%,0%,0);
@@ -29,8 +29,8 @@ $masthead-background-color: hsl($hue, 54%, 50%);
 $facebook-share-color: hsl(221, 44%, 41%);
 $twitter-share-color: hsl(200, 93%, 44%);
 $google-share-color: #dd4b39;
-$project-list-hover-background-color: rgba(0,50,100,0.05);
-$project-list-hover-background-color: hsl(200,50%,95%);
+// $project-list-hover-background-color: rgba(0,50,100,0.05);
+$project-list-hover-background-color: #e2e0d7; 
 
 /*****************************************************************************/
 /*
@@ -121,7 +121,7 @@ sup { font-size: 80%; line-height: 100%; }
   display: block;
   // margin-bottom: 2em;
   padding: 2em 0;
-  text-align: center;
+  text-align: left;
   // border-bottom: 2px solid #eee;
   // background-image: $masthead-background;
   // background-position: center;
@@ -147,7 +147,7 @@ sup { font-size: 80%; line-height: 100%; }
   }
 
   .rootlink-container {
-    text-align: left;
+    text-align: center;
     display: block;
     margin-bottom: 1em;
   }
@@ -193,8 +193,8 @@ sup { font-size: 80%; line-height: 100%; }
 
   .socialmedia {
     display: block;
-    float: right;
-    text-align: right;
+    float: center;
+    text-align: center;
     list-style: none;
     // margin: 0 0 1em 0;
     // background-color: #ddd;
@@ -233,13 +233,13 @@ sup { font-size: 80%; line-height: 100%; }
   .main-menu {
 
     display: block;
-    float: left;
+    float: center;
     padding: 0;
     margin: 0;
     // min-width: 50%;
     list-style-type: none;
     line-height: 200%;
-    text-align: left;
+    text-align: center;
     // background-color: #444;
 
 
@@ -637,7 +637,7 @@ ul.projectlist {
     min-height: 110px;
     padding: 1em;
     transition: opacity 0.2s ease;
-    opacity:0.5;
+    opacity:1.0;
     font-family: $menu-font;
     a {
       color: inherit;
