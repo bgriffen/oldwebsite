@@ -143,3 +143,5 @@ Using this data, we can take a look at the distribution of citations, papers and
 * There are more students than any other position.  
 * Students publish the most number of papers.  
 * Postdocs, faculty and students roughly equally share overall citation count.
+
+Though it must be stated that there could be false-positives being found for people who have the same name and this would inflate the number of publications. In any case, I just wanted to demonstrate some basic utility of the data.
