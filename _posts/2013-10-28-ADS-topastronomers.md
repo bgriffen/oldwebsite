@@ -92,6 +92,9 @@ Without further ado, I present the Top 100 most cited astronomers as of today. I
 <td>12</td><td>Goldreich, Peter</td><td><img src="/assets/astronomers/Goldreich.jpg " alt="Goldreich, Peter" style="width:75px"></td><td>13174</td>
 </tr>
 <tr>
+<td>12*</td><td>Padmanabhan, T. (updated by request)</td><td><img src="/assets/astronomers/Padmanabhan.jpg " alt="Padmanabhan, T." style="width:75px"></td><td>13043</td>
+</tr>
+<tr>
 <td>13</td><td>Landau, Lev Davidovich</td><td><img src="/assets/astronomers/Landau.jpg " alt="Landau, Lev Davidovich" style="width:75px"></td><td>12915</td>
 </tr>
 <tr>
@@ -189,9 +192,6 @@ Without further ado, I present the Top 100 most cited astronomers as of today. I
 </tr>
 <tr>
 <td>45</td><td>Guth, Alan H.</td><td><img src="/assets/astronomers/Guth.jpg " alt="Guth, Alan H." style="width:75px"></td><td>7275</td>
-</tr>
-<tr>
-<td>46</td><td>Padmanabhan, T.</td><td><img src="/assets/astronomers/Padmanabhan.jpg " alt="Padmanabhan, T." style="width:75px"></td><td>7268</td>
 </tr>
 <tr>
 <td>47</td><td>Harris, William E.</td><td><img src="/assets/astronomers/Harris.jpg " alt="Harris, William E." style="width:75px"></td><td>7226</td>
