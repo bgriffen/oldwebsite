@@ -33,8 +33,8 @@ Minors: Cognitive Science & Philosophy
 
 ## Recent Publications
 
-**The Caterpillar Project: A Large Suite of Milky Way Sized Halos**  
-**Brendan Griffen**, Alexander Ji, Gregory Dooley, Facundo Gómez, Mark Vogelsberger, Brian O'Shea, Anna Frebel  
+**The Caterpillar Project: A Large Suite of Milky Way Sized Halos**    
+**Brendan Griffen**, Alexander Ji, Gregory Dooley, Facundo Gómez, Mark Vogelsberger, Brian O'Shea, Anna Frebel   
 *arxiv.org/abs/1509.01255v1*, **2015**. [arXiv](http://arxiv.org/abs/1509.01255v1 "Link to publication.")  
 <br/>
 **An analysis of the evolving comoving number density of galaxies in hydrodynamical simulations**  
