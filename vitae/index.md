@@ -33,6 +33,10 @@ Minors: Cognitive Science & Philosophy
 
 ## Recent Publications
 
+**The Caterpillar Project: A Large Suite of Milky Way Sized Halos**  
+**Brendan F. Griffen**, Alexander Ji, Gregory Dooley, Facundo Gómez, Mark Vogelsberger, Brian O'Shea, Anna Frebel  
+*arxiv.org/abs/1509.01255v1*, **2015**. [ADS](http://arxiv.org/abs/1509.01255v1 "Link to publication.")
+<br/>
 **An analysis of the evolving comoving number density of galaxies in hydrodynamical simulations**  
 Paul Torrey, Sarah Wellons, Francisco Machado, **Brendan Griffen**, Dylan Nelson, Vicente Rodriguez-Gomez, Ryan McKinnon, Annalisa Pillepich, Chung-Pei Ma, Mark Vogelsberger, Volker Springel, Lars Hernquist  
 *arxiv.org/abs/1507.01942*, **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1507.01942 "Link to publication.")  
