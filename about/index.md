@@ -5,6 +5,7 @@ title: About me
 
 
 
+
 <div><ul class="aboutmelist">
 <li><strong>Nationality:</strong> Australian</li> 
 <li><strong>Residence:</strong> Cambridge, Massachusetts, USA</li> 
@@ -12,7 +13,8 @@ title: About me
 <li><strong>Education:</strong> B.Sc. (Hons), Ph.D (Astrophysics), University of Queensland</li> 
 </ul>
 
-<img src="/assets/pages/profile_small.jpg" alt="Brendan Griffen" style="float: right; width: 40%; margin-left: 4%; margin-bottom: 5px;">
+<img src="/assets/pages/profile.jpg" alt="Brendan Griffen" style="float: center; width: 100%; margin-left: 0%; margin-bottom: 0px;">
+
 I am an astrophysicist and data enthusiast currently working as a postdoctoral research fellow at the Kavli Institute for Astrophysics & Space Research at MIT in Cambridge, Massachusetts. I'm currently leading the [Caterpillar Project](http://www.caterpillarproject.org) with the objective of better understanding the formation of the Milky Way and its satellite companions. This is being carried out within the [Kavli Institute](http://space.mit.edu/‎) at [MIT](http://mit.edu) and the [Center for Astrophysics](http://www.cfa.harvard.edu/) at [Harvard University](http://www.harvard.edu/). 
 
 On any given day, I can be found investigating these core research topics:
