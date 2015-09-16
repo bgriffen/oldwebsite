@@ -1,6 +1,6 @@
 ---
 layout: static
-title: About me
+title: About
 ---
 
 
