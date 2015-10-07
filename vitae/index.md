@@ -76,12 +76,13 @@ Ferguson Bursary, King's College
 **Web**: SPARQL, HTML, CSS, WordPress, Drupal, Plone, DBpedia  
 **Other**: openMP, MPI, LaTex   
 
-## Advisory Roles (PhD Students)
+## Advisory Roles
 
-Greg Dooley, MIT  
-Alex Ji, MIT  
-David Hernandez, MIT  
-Joel Pfeffer, University of Queensland  
+Greg Dooley, PhD Student, MIT  
+Alex Ji, PhD Student, MIT  
+David Hernandez, PhD Student, MIT  
+Joel Pfeffer, PhD Student, University of Queensland  
+Sergio, UROP Student, MIT
 
 ## Conferences
 
