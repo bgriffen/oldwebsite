@@ -85,7 +85,7 @@ Joel Pfeffer, University of Queensland
 
 ## Conferences
 
-*Resolving Galaxies In The Era of Extremely Large Telescopes*
+*Resolving Galaxies In The Era of Extremely Large Telescopes*  
 GMT Community Meeting, Asilomar, Monterey, California, USA  
 
 *Stellar Streams In The Local Universe*  
