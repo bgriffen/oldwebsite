@@ -78,6 +78,7 @@ sup {
   display: block;
   padding: 2em 0;
   text-align: left;
+  background-image: url("/assets/pages/background.png");
   background-color: #38A1D8;
   border-bottom: 1px solid #1c678e;
   box-shadow: 0px 5px 15px #ccc; }
@@ -134,7 +135,7 @@ sup {
         margin-right: 0; }
       .masthead .socialmedia li a {
         text-decoration: none;
-        color: #141365;
+        color: white;
         display: inline-block;
         margin-left: auto;
         margin-right: auto; }
@@ -160,9 +161,9 @@ sup {
     line-height: 200%;
     text-align: center; }
     .masthead .main-menu li:hover {
-      color: white; }
-    .masthead .main-menu a {
       color: #36404a; }
+    .masthead .main-menu a {
+      color: white; }
       .masthead .main-menu a li {
         padding: 0;
         margin-right: 30px;

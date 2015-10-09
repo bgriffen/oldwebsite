@@ -12,19 +12,19 @@ $description-color: hsl($hue, 100%, 100%);
 $text-color: #444;
 $heading-color: hsl($hue, 20%, 20%);
 $main-menu-background-color: hsla(0,0%,0%,0);
-$main-menu-hover-text-color: $my-name-color;
-$main-menu-text-color: hsl($hue, 16%, 25%);
+$main-menu-hover-text-color:  hsl($hue, 16%, 25%);
+$main-menu-text-color: hsl($hue, 100%, 100%);
 $link-color: hsl($hue, 54%, 50%);;
 $link-hover-color: hsl(200, 56%, 0%);
-$socialmedia-icon-color: #aaa;
+$socialmedia-icon-color: hsl($hue, 100%, 100%);
 $github-icon-color: hsl(110,50%,60%);
 $email-icon-color: #dd4b39;
 $twitter-icon-color: hsl(200, 93%, 44%);
 $facebook-icon-color: hsl(221, 44%, 41%);
 $rss-icon-color: hsl(25, 85%, 56%);
 $text-shadow-color: hsla(0,0%,0%,0.8);
-$masthead-background: url('/assets/trees_sunlight_1400x933.jpg');
-$masthead-background-color: hsl($hue, 54%, 50%);
+$masthead-background: url('/assets/pages/background.png');
+$masthead-background-color: #38A1D8; //hsl($hue, 54%, 50%);
 // $masthead-background: hsl(200,40%,25%);
 $facebook-share-color: hsl(221, 44%, 41%);
 $twitter-share-color: hsl(200, 93%, 44%);
@@ -102,7 +102,8 @@ sup { font-size: 80%; line-height: 100%; }
           color: $link-color;
           font-family: $menu-font;
           &:hover {
-            color: $my-name-color;
+            color: $link-color;
+            text-decoration: underline;
           }
         }
 
@@ -123,7 +124,7 @@ sup { font-size: 80%; line-height: 100%; }
   padding: 2em 0;
   text-align: left;
   // border-bottom: 2px solid #eee;
-  // background-image: $masthead-background;
+   background-image: $masthead-background;
   // background-position: center;
   // background-size: cover;
   // background-repeat: no-repeat;
