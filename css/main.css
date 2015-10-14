@@ -78,7 +78,9 @@ sup {
   display: block;
   padding: 2em 0;
   text-align: left;
-  background-image: url("/assets/pages/background.png");
+  background-image: url("/assets/pages/background.jpg");
+  background-position: center;
+  background-size: cover;
   background-color: #38A1D8;
   border-bottom: 1px solid #1c678e;
   box-shadow: 0px 5px 15px #ccc; }
