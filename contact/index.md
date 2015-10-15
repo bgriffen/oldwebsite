@@ -13,11 +13,11 @@ Skype: brendan.griffen
 Massachusetts Institute of Technology  
 Kavli Institute for Astrophysics & Space Research  
 77 Massachusetts Avenue 
-Building 37, Room 535   
+Building 37, Room 521   
 Cambridge, MA 02139, USA  
 
 ## Physical Address
 Massachusetts Institute of Technology  
 70 Vassar St, McNair Building  
-Building 37, Room 535  
+Building 37, Room 521  
 Cambridge, MA 02139, USA  
