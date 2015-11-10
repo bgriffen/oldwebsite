@@ -82,7 +82,7 @@ Greg Dooley, PhD Student, MIT
 Alex Ji, PhD Student, MIT  
 David Hernandez, PhD Student, MIT  
 Joel Pfeffer, PhD Student, University of Queensland  
-Sergio, UROP Student, MIT
+Sergio Mundo, UROP Student, MIT
 
 ## Conferences
 
