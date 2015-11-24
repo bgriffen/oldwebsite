@@ -27,7 +27,20 @@ Download the [Enthought distribution tools](https://www.enthought.com/) appropri
 
 {% highlight Bash %}
 bash epd-7.3-2-rh5-x86.sh 
-{% endhighlight %}
+{% endhighlight %}  
+
+_edit_: if you don't want to use EPD's distribution and just want to use standalone `TraitsUI`, please change the import modules inside the `Common.py` folder to the following (you will need [TraitsUI](https://github.com/enthought/traitsui) however):
+
+```python
+from traits.api import *
+from traitsui.api import View,UItem, Item, Group, Heading, Label, \
+        HSplit, Handler, CheckListEditor, EnumEditor, TableEditor, FileEditor, \
+        ListEditor, Tabbed, VGroup, HGroup, RangeEditor, Spring, spring
+from traitsui.menu import NoButtons
+from traitsui.wx.editor import Editor
+from traitsui.wx.basic_editor_factory import BasicEditorFactory
+from traitsui.api import ColorTrait
+```
 
 #### Getting the GUI template
 
