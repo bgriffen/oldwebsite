@@ -35,16 +35,16 @@ Minors: Cognitive Science & Philosophy
 
 **The Caterpillar Project: A Large Suite of Milky Way Sized Halos**    
 **Brendan Griffen**, Alexander Ji, Gregory Dooley, Facundo Gómez, Mark Vogelsberger, Brian O'Shea, Anna Frebel  
-*arxiv.org/abs/1509.01255v1*, **2015**. [arXiv](http://arxiv.org/abs/1509.01255v1 "Link to publication.")  
+*arxiv.org/abs/1509.01255v1*, **2015**. [arXiv](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1509.01255 "Link to publication.")  
 <br/>
 **An analysis of the evolving comoving number density of galaxies in hydrodynamical simulations**  
 Paul Torrey, Sarah Wellons, Francisco Machado, **Brendan Griffen**, Dylan Nelson, Vicente Rodriguez-Gomez, Ryan McKinnon, Annalisa Pillepich, Chung-Pei Ma, Mark Vogelsberger, Volker Springel, Lars Hernquist  
-*arxiv.org/abs/1507.01942*, **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1507.01942 "Link to publication.")  
+*Monthly Notices of the Royal Astronomical Society, 454, 3*, **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1507.01942 "Link to publication.")  
 <br/>
 **The Illustris Simulation: Public Data Release**  
 Dylan Nelson, Annalisa Pillepich, Shy Genel, Mark Vogelsberger, Volker Springel, Paul Torrey, Vicente
 Rodriguez-Gomez, Debora Sijacki, Gregory F. Snyder, **Brendan Griffen**, Federico Marinacci   
-*arxiv.org/abs/1504.00362*, **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.00362 "Link to publication.")  
+*Astronomy and Computing, 13*, **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.00362 "Link to publication.")  
 <br/>
 **Contribution of stripped nuclear clusters to globular cluster and ultracompact dwarf galaxy populations**  
 Joel Pfeffer, **Brendan Griffen**, Holger Baumgardt, Michael Hilker  
