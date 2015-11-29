@@ -39,12 +39,12 @@ Minors: Cognitive Science & Philosophy
 <br/>
 **An analysis of the evolving comoving number density of galaxies in hydrodynamical simulations**  
 Paul Torrey, Sarah Wellons, Francisco Machado, **Brendan Griffen**, Dylan Nelson, Vicente Rodriguez-Gomez, Ryan McKinnon, Annalisa Pillepich, Chung-Pei Ma, Mark Vogelsberger, Volker Springel, Lars Hernquist  
-*Monthly Notices of the Royal Astronomical Society, 454, 3*, **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1507.01942 "Link to publication.")  
+*Monthly Notices of the Royal Astronomical Society*, 454, 3, **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1507.01942 "Link to publication.")  
 <br/>
 **The Illustris Simulation: Public Data Release**  
 Dylan Nelson, Annalisa Pillepich, Shy Genel, Mark Vogelsberger, Volker Springel, Paul Torrey, Vicente
 Rodriguez-Gomez, Debora Sijacki, Gregory F. Snyder, **Brendan Griffen**, Federico Marinacci   
-*Astronomy and Computing, 13*, **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.00362 "Link to publication.")  
+*Astronomy and Computing*, 13 **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.00362 "Link to publication.")  
 <br/>
 **Contribution of stripped nuclear clusters to globular cluster and ultracompact dwarf galaxy populations**  
 Joel Pfeffer, **Brendan Griffen**, Holger Baumgardt, Michael Hilker  
