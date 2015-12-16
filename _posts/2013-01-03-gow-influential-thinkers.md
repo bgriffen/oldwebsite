@@ -21,7 +21,7 @@ Here we see a list of people that have been influenced by Aristotle. We also see
 
 ## Collect Data
 
-First we require a database-like, indexed version of Wikipedia to collect our data. [DBpedia]("http://dbpedia.org/About") is one such venture which has been created as part of the [Wikipedia project]("https://en.wikipedia.org/wiki/Wikipedia:WikiProject"). This [structured content]("https://en.wikipedia.org/wiki/Structured_content") is then made available to the public at no cost. DBpedia allows you to query relationships and properties associated with Wikipedia resources, including links to other related datasets. The first graph will connect people via their known influences. The snippet of code entered into the [SPARQL Explorer]("http://dbpedia.org/snorql/") looks something like this:
+First we require a database-like, indexed version of Wikipedia to collect our data. [DBpedia](http://dbpedia.org/About) is one such venture which has been created as part of the [Wikipedia project](https://en.wikipedia.org/wiki/Wikipedia:WikiProject). This [structured content]("https://en.wikipedia.org/wiki/Structured_content") is then made available to the public at no cost. DBpedia allows you to query relationships and properties associated with Wikipedia resources, including links to other related datasets. The first graph will connect people via their known influences. The snippet of code entered into the [SPARQL Explorer](http://dbpedia.org/snorql/) looks something like this:
 
 {% highlight SQL %}
 SELECT * WHERE
