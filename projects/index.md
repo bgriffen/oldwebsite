@@ -18,7 +18,7 @@ title: Projects
       <img src="/assets/pages/gc_screenshot.jpg">
       <div class="container">
         <span class="projectlistheading">Globular Cluster Formation & Reionization</span><br />
-        The oldest stellar laboratories in the Universe. Encoded with information about an earlier time in the Universe's history, astronomers still don't know exactly how the formed.
+        The oldest stellar laboratories in the Universe. Encoded with information about an earlier time in the Universe's history, astronomers still don't know exactly how they formed.
       </div>
   </a>
   </li>
