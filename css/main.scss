@@ -367,12 +367,6 @@ sup { font-size: 80%; line-height: 100%; }
     margin-bottom: 1em;
   }
 
-  pre {
-    background-color: #D1D1D0;
-    overflow: auto;
-    font-family: 'Monaco', monospace;
-    padding: 0 1em;
-  }
 
   ul, ol {
     padding-left: 1.5em;
@@ -405,24 +399,9 @@ sup { font-size: 80%; line-height: 100%; }
   }
 
   code {
-    font-family: Monaco, monospace;
-    font-size: $base-font-size;
-    line-height: 100%;
-    background-color: #eee;
-    padding: 0 .2em;
-    letter-spacing: -0.05em;
-    word-break: normal;
-    /*border-radius: 5px;*/
+    font-size: $base-font-size * 0.9;
   }
 
-  pre code {
-    border: none;
-    background: none;
-    font-size: $base-font-size * 0.875;
-    line-height: 1em;
-    letter-spacing: normal;
-    word-break: break-all;
-  }
 
   /* terminal */
   pre.terminal {

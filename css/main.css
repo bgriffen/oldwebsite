@@ -250,11 +250,6 @@ sup {
     font-size: 19.2px;
     margin-top: 1em;
     margin-bottom: 1em; }
-  .post pre {
-    background-color: #D1D1D0;
-    overflow: auto;
-    font-family: 'Monaco', monospace;
-    padding: 0 1em; }
   .post ul, .post ol {
     padding-left: 1.5em;
     margin-left: 0.5em; }
@@ -275,21 +270,7 @@ sup {
     padding-left: 1em;
     font-style: italic; }
   .post code {
-    font-family: Monaco, monospace;
-    font-size: 16px;
-    line-height: 100%;
-    background-color: #eee;
-    padding: 0 .2em;
-    letter-spacing: -0.05em;
-    word-break: normal;
-    /*border-radius: 5px;*/ }
-  .post pre code {
-    border: none;
-    background: none;
-    font-size: 14px;
-    line-height: 1em;
-    letter-spacing: normal;
-    word-break: break-all; }
+    font-size: 14.4px; }
   .post pre.terminal {
     border: 1px solid #000;
     background-color: #333;
