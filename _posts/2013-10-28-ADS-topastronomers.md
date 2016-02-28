@@ -152,7 +152,7 @@ Without further ado, I present the Top 100 most cited astronomers as of today. I
 <td>31</td><td>Schlegel, David J.</td><td><img src="/assets/astronomers/Schlegel.jpg " alt="Schlegel, David J." style="width:75px"></td><td>8576</td>
 </tr>
 <tr>
-<td>32</td><td>Linde, A. D.</td><td><img src="/assets/astronomers/Linde.jpg " alt="Linde, A. D." style="width:75px"></td><td>8343</td>
+<td>32</td><td>Linde, A. D.</td><td><img src="/assets/astronomers/empty.jpg " alt="Linde, A. D." style="width:75px"></td><td>8343</td>
 </tr>
 <tr>
 <td>33</td><td>Gunn, James E.</td><td><img src="/assets/astronomers/Gunn.jpg " alt="Gunn, James E." style="width:75px"></td><td>8296</td>
@@ -284,7 +284,7 @@ Without further ado, I present the Top 100 most cited astronomers as of today. I
 <td>76</td><td>Fukuda, Y.</td><td><img src="/assets/astronomers/empty.jpg " alt="Fukuda, Y." style="width:75px"></td><td>4968</td>
 </tr>
 <tr>
-<td>77</td><td>Ferrarese, Laura</td><td><img src="/assets/astronomers/Ferrarese.jpg " alt="Ferrarese, Laura" style="width:75px"></td><td>4954</td>
+<td>77</td><td>Ferrarese, Laura</td><td><img src="/assets/astronomers/empty.jpg " alt="Ferrarese, Laura" style="width:75px"></td><td>4954</td>
 </tr>
 <tr>
 <td>78</td><td>Shapiro, Stuart L.</td><td><img src="/assets/astronomers/Shapiro.jpg " alt="Shapiro, Stuart L." style="width:75px"></td><td>4888</td>
