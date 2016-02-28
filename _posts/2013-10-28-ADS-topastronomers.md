@@ -332,7 +332,7 @@ Without further ado, I present the Top 100 most cited astronomers as of today. I
 <td>92</td><td>Novoselov, K. S.</td><td><img src="/assets/astronomers/Novoselov.jpg " alt="Novoselov, K. S." style="width:75px"></td><td>4248</td>
 </tr>
 <tr>
-<td>93</td><td>Skrutskie, M. F.</td><td><img src="/assets/astronomers/Skrutskie.jpg " alt="Skrutskie, M. F." style="width:75px"></td><td>4218</td>
+<td>93</td><td>Skrutskie, M. F.</td><td><img src="/assets/astronomers/empty.jpg " alt="Skrutskie, M. F." style="width:75px"></td><td>4218</td>
 </tr>
 <tr>
 <td>94</td><td>Schechter, P.</td><td><img src="/assets/astronomers/Schechter.jpg " alt="Schechter, P." style="width:75px"></td><td>4136</td>
