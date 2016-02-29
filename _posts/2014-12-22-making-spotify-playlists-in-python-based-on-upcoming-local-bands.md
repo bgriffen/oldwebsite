@@ -9,7 +9,7 @@ Today it is extremely easy to access music. The days of celebrating 4kb/s via Na
 
 Ordinarily you might go to a website which lists local bands. Then the process of copying and pasting the band names into your music provider manually to hear what sort of music they offered would follow. Many hours of human life are wasted all over the world in carrying out this monotonous process. Continually doing this led to my idea of automating this tedious process via a short and simple program.
 
-I set about making a short program which finds bands with upcoming shows in your area and loads them into a Spotify playlist, auto-magically. My data source for bands is the well known, [Bowery Boston](http://www.boweryboston.com/see-all-shows/) which  promotes upcoming bands playing in the Boston area.
+I set about making a short program which finds bands with upcoming shows in your area and loads them into a Spotify playlist, auto-magically. My data source for bands is the well known, [Bowery Boston](http://www.boweryboston.com/see-all-shows/) which promotes upcoming bands playing in the Boston area.
 
 [![spotify-playlists](/assets/spotifylocalbands/bowery_boston.png)](/assets/spotifylocalbands/bowery_boston.png)
 
@@ -141,6 +141,6 @@ Here is an example of what one of these playlists might look like inside Spotify
 
 [![spotify-playlists](/assets/spotifylocalbands/spotify_playlist.png)](/assets/spotifylocalbands/spotify_playlist.png)
 
-Again, if you can't program or don't have a Premium Spotify account [this playlist](https://open.spotify.com/user/1254170771/playlist/1Shh4ljWPQrcsvpTKtppm5) is public if you still want the playlist for the Boston area (this will work if you have a free account). I'll use my account update it once a month.
+Again, if you don't have any programming experience or don't have a Premium Spotify account [this playlist](https://open.spotify.com/user/1254170771/playlist/1Shh4ljWPQrcsvpTKtppm5) is public if you still want the playlist for the Boston area (this will work if you have a free account). I'll use my account update it at the start of the every month.
 
 If you know of a website which compiles local music in your area perhaps you could try to modify what I've done and make your own playlist. In any case, I hope you enjoy the new music, soon to be playing live, somewhere near you.
