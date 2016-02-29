@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Making The Astronomy Job Hunt Easier"
+title: "The Astronomy Job Hunt Made Easy"
 description: "Here are some tools to help making the job hunt easier."
 tags: [python, aas, astronomy, academia]
 ---
