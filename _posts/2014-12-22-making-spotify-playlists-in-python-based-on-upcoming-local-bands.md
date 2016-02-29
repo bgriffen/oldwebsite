@@ -52,7 +52,6 @@ while not logged_in_event.wait(0.1):
      session.process_events()
 
 url_name = "http://www.boweryboston.com/see-all-shows/"
-
 response = requests.get(url_name)
 soup = bs4.BeautifulSoup(response.text)
 
@@ -61,13 +60,10 @@ bands_split = [elm.a.text.split(",") for elm in soup.find_all('h1',class_='headl
 
 # don't forget the support acts!
 supports = [elm.a.text for elm in soup.find_all('h2',class_='supports')]
-
 bands = sum(bands_split,[])
-
 all_bands = list(set(bands+supports))
 
 print "Upcoming bands playing around Boston."
-
 for band in all_bands:
     print band
 print
@@ -103,10 +99,8 @@ if not exists:
 print "Adding tracks to:",playlisti.name
 playlisti.add_tracks(all_tracks)
 playlisti.load()
-
 session.logout()
 
-print
 print "Check your new playlist soon!"
 
 {% endhighlight %}
