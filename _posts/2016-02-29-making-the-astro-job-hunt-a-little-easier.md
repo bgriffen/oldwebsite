@@ -14,9 +14,7 @@ I wanted to make this process easier so I coded up [Easy AAS Jobs](https://githu
 In order to get the code working, here are some instructions:
 
 1. Select the career options you would like to query.
-2. Select your display options. Note: it is best to just do a full query on
-   your keywords first, then from the in-browser table, select `jobids` (1st column)
-   which are of interest to you. Add those job ids to the job_ids_filter below.
+2. Select your display options. Note: it is best to just do a full query on your keywords first, then from the in-browser table, select `jobids` (1st column) which are of interest to you. Add those job ids to the job_ids_filter below.
 3. Re-run code with your `jobids` selected and create your deadline plot.
 
 ```python
