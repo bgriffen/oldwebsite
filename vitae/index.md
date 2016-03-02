@@ -33,7 +33,7 @@ Minors: Cognitive Science & Philosophy
 
 ## Recent Publications
 
-**Constraining ultra-compact dwarf galaxy formation with galaxy clusters in the local universe**
+**Constraining ultra-compact dwarf galaxy formation with galaxy clusters in the local universe**  
 Joel Pfeffer, Michael Hilker, Holger Baumgardt, **Brendan Griffen**  
 *Monthly Notices of the Royal Astronomical Society*, Accepted, **2016**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1603.00032 "Link to publication.")
 <br/>
