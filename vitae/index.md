@@ -35,7 +35,7 @@ Minors: Cognitive Science & Philosophy
 
 **Constraining ultra-compact dwarf galaxy formation with galaxy clusters in the local universe**  
 Joel Pfeffer, Michael Hilker, Holger Baumgardt, **Brendan Griffen**  
-*Monthly Notices of the Royal Astronomical Society*, Accepted, **2016**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1603.00032 "Link to publication.")
+*Monthly Notices of the Royal Astronomical Society*, Accepted, **2016**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1603.00032 "Link to publication.")  
 <br/>
 **The Caterpillar Project: A Large Suite of Milky Way Sized Halos**    
 **Brendan Griffen**, Alexander Ji, Gregory Dooley, Facundo Gómez, Mark Vogelsberger, Brian O'Shea, Anna Frebel  
