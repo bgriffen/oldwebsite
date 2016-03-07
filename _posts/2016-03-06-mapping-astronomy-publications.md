@@ -97,6 +97,8 @@ Max Planck Institute for extraterrestrische Physik (MPE), Garching,  Germany
 
 All of these had to be put in the same bin so I had to write some edge cases for insitutes like these.  Once I had the unique self-similar keys for each location I simply populated them with the relevant paper information (e.g. `bibcode`). Again, a little coding gymnastics was required to get this all in working order.
 
+Once all of the time-consuming part is complete, it is trivial to populate a map with the relevant information in Folium.
+
 ```python
 import folium
 # center the map above the equator.
@@ -118,7 +120,7 @@ pub_map.save('map.html')
 ```
 Here is the resulting map.
 
-[<img src="/assets/paperquake/paperquake.png">](<img src="/assets/paperquake/paperquake.png)
+[<img src="http://brendangriffen.com/assets/paperquake/paperquake.png">](<img src="http://brendangriffen.com/assets/paperquake/paperquake.png")
 [Interactive version here!](/assets/paperquake/map.html "Paper Quake!")
 
 One could now extend this to look at the publications over different time periods (e.g. one year). One could also improve the GUI to better investigate papers or institutes of particular interest. I leave these as an exercise to the reader.
