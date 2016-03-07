@@ -105,9 +105,9 @@ for key in data.keys():
 # write to file
 pub_map.save('map.html') 
 ```
+Here is the resulting map.
 
-[Here is the resulting map!](/assets/paperquake/map.html "Paper Quake!")
-
-<object width="800" height="500" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="/assets/paperquake/map.html" /><embed width="800" height="500" type="application/x-shockwave-flash" src="/assets/paperquake/map.html" /></object>
+![Paper Quake](/assets/paperquake/paperquake.png "Paper Quake Map")
+[Interactive version here!](/assets/paperquake/map.html "Paper Quake!")
 
 One could now extend this to look at the publications over different time periods (e.g. one year). One could also add more interactivity to intereact with the papers which come from each institute. I leave these as an exercise to the reader.
