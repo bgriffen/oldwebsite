@@ -13,9 +13,9 @@ This is a great way to get an instant understanding of the recent earthquake act
 
 ![Quake Map](/assets/paperquake/aff.png "Affiliation List")
 
-This [Python ADS tool](https://github.com/andycasey/ads) enables me to scrape this affiliation informaiton for all papers in the ADS database. I wanted to see if I could turn this list into a similar map to visualize the "pulse of research". My goal it to create a map akin to the seismic map above where the size of the node is proportional to the number of papers from a given institute or university. 
+This [Python ADS tool](https://github.com/andycasey/ads) enables me to scrape this affiliation informaiton for all papers in the ADS database. I wanted to see if I could turn this list into a similar map to visualize the "pulse of research". My goal here is to create a map akin to the seismic map above where the size of the node is proportional to the number of papers from a given institute or university. 
 
-I didn't want to spend much time developing the mapping library so I went searching for a library which has taken care of that for me. I discovered [Folium](https://github.com/python-visualization/folium) which is fantastic tool for mapping and very versatile. It uses other tools such as [Leaflet](http://leafletjs.com/), [MapBox](https://www.mapbox.com/) and [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100). I highly recommend you check them out if you're interested in digital cartography.
+I didn't want to spend much time developing the mapping library so I went searching for a library which has already taken care of the dirty work. I discovered [Folium](https://github.com/python-visualization/folium) which is fantastic for mapping and extremely versatile. It uses other tools such as [Leaflet](http://leafletjs.com/), [MapBox](https://www.mapbox.com/) and [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100). I highly recommend you check them out if you're interested in digital cartography.
 
 First I needed to get the papers that have been published last month.
 
@@ -29,7 +29,7 @@ papers = list(ads.SearchQuery(pubdate='{0}-{1}'.format(today.year, today.month-1
                               database='astronomy'))
 ```
 
-Then I cycled through all of the paper's affiliations and used [Geopy](https://github.com/geopy/geopy.git) to get the latitude and longtitude. The tricky part is converting what are normally very specific affiliations into more general affiliations which can be parsed by `geocode`. This took a lot more time than I would have liked. To clean the affiliations, I selected only those which contained the following strings: `depart`, `instit`, `observ`, `laboratory`, `univers`. This limits the search to primarily universities, institutes, departments and observatories. Please let me know in the comments if there is a tag which might discount an important part of the dataset.
+I then cycled through all of the paper's affiliations and used [Geopy](https://github.com/geopy/geopy.git) to get the latitude and longtitude. The tricky part is converting what are normally very specific affiliations into more general affiliations which can be parsed by Geopy. This took a lot more time than I would have liked. To clean the affiliations, I selected only those which contained the following strings: "depart", "instit", "observ", "laboratory", "univers". This limits the search to primarily universities, institutes, departments and observatories. Please let me know in the comments if there is a tag which might discount an important part of the dataset.
 
 ```python
 for paper in papers:
@@ -65,14 +65,14 @@ Paper Aff:      Instituto de Astrofísica de Canarias, Vía Lácteas/n E-38205 L
 After Cleaning: Instituto de Astrofísica de Canarias, Spain
 Google Output:  IAC, Avenida de los Menceyes, La Hornera, Cercado Mesa, San Cristóbal de La Lagu
 Lat/Long:       28.47470, -16.30822
-Paper Aff:     Instituto de Astronomía,Universidad Nacional Autonóma de México, A.P. 70-264, 04510 México D.F., México
+Paper Aff:      Instituto de Astronomía,Universidad Nacional Autonóma de México, A.P. 70-264, 04510 México D.F., México
 After Cleaning: Universidad Nacional Autonóma de México
 Google Output:  UNAM, Circuito Exterior, Universidad Nacional Autónoma de México, Coyoacán, D.F.
-Lat/Long:      19.32160, -99.18490
-Paper Aff:     Institut für Raumfahrttechnik und Weltraumnutzung, Universität der Bundeswehr München, 85577 Neubiberg, Germany
+Lat/Long:       19.32160, -99.18490
+Paper Aff:      Institut für Raumfahrttechnik und Weltraumnutzung, Universität der Bundeswehr München, 85577 Neubiberg, Germany
 After Cleaning: Universität der Bundeswehr München, Germany
 Google Output:  Universitätsbibliothek der Universität der Bundeswehr München, 39, Werner-Heisen
-Lat/Long:      48.08041, 11.63819
+Lat/Long:       48.08041, 11.63819
 ```
 
 As you can see, there is quite a bit of success with the non-english institution names. I was worried it wouldn't return anything due to encoding issues. It didn't always work and I often couldn't find ways to code around the edge cases. There were a number of institutes/departments/centers which didn't always work as well.
@@ -89,7 +89,7 @@ Input: Woods Hole Oceanographic Institute,  USA
 Address: Geology and Geophysics Department, Woods Hole Oceanographic Institute, Woods Hole, MA, USA
 ```
 
-My code didn't every institute so I apologize if your paper isn't on the map. Some of the addresses seem perfectly normal and return good Google results but alas, they weren't picked up. The only hurdle remaining was to make sure that I didn't double count papers and collected papers which came from the same institute across multiple papers. Take for instance the Max Planck papers from Garching:
+My code didn't every institute so I apologize if your paper isn't on the map. Some of the addresses seem perfectly normal and return good Google results but alas, they weren't picked up. The only hurdle remaining was to make sure that I didn't double count papers and collected papers which came from the same institute across multiple papers. Take for instance the Max Planck Institute papers from Garching:
 
 ```text
 Max Planck Institut for Astrophysics, Garching,  Germany
