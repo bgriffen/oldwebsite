@@ -102,7 +102,7 @@ Max Planck Institute for extraterrestrische Physik (MPE), Garching,  Germany
 
 All of these had to be put in the same bin otherwise they would be separate institutes.  Once I took care of these edge cases and had the unique self-similar keys for each location I simply populated them with the relevant paper information (e.g. authors). Again, a little coding gymnastics was required to get this all in working order.
 
-Once all of the time-consuming part is complete, it is trivial to populate a map with the relevant information in Folium.
+Once all the time-consuming part is finished, it was trivial to populate a map with the relevant information using Folium.
 
 ```python
 import folium
