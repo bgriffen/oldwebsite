@@ -79,7 +79,7 @@ Address: Variable Star Observers League in Japan (VSOLJ), 7-1 Kitahatsutomi, Kam
 Input: Netherlands Institute for Radio Astronomy (ASTRON)
 Address: Research and Development, Netherlands Institute for Radio Astronomy (ASTRON)
 Input: National Astronomical Observatory of Japan, Japan
-Address ADD: National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka-shi, Tokyo 181-8588, Japan
+Address: National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka-shi, Tokyo 181-8588, Japan
 Input: Woods Hole Oceanographic Institute,  USA
 Address: Geology and Geophysics Department, Woods Hole Oceanographic Institute, Woods Hole, MA, USA
 ```
