@@ -124,6 +124,6 @@ pub_map.save('map.html')
 ```
 Here is the resulting map (click to enlarge) or use the [interactive version here!](/assets/paperquake/map.html "Paper Quake!").
 
-[<img src="/assets/paperquake/paperquake.png">](<img src="/assets/paperquake/paperquake.png")
+[<img src="http://brendangriffen.com/assets/paperquake/paperquake.png">](<img src="http://brendangriffen.com/assets/paperquake/paperquake.png")
 
 One could now extend this to look at the publications over different time periods (e.g. one year) or clusterings of co-authorship geographically. One could also improve the GUI to better investigate papers or institutes of particular interest. I leave these as an exercise to the reader.
