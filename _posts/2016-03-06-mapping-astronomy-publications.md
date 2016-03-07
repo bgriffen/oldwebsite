@@ -43,7 +43,7 @@ for paper in papers:
 
 This output the specific addresses into something which could be understood by `geolocator`. An example of a successfull output is the following:
 
-```bash
+```text
 # successful addresses
 Paper Aff:      Department of Geological Sciences, University of Michigan, Ann Arbor, MI, USA
 After Cleaning: University of Michigan,  USA
@@ -72,7 +72,7 @@ Lat/Long:      48.08041, 11.63819
 
 As you can see, there is quite a bit of success with the non-english institution names. I was worried it wouldn't return anything due to encoding issues. It didn't always work and I often I couldn't find ways to code around the edge cases (Max Planck Insitutes and the University of California family caused quite a few headaches). There were a number of institutes/departments/centers which didn't always work as well.
 
-```bash
+```text
 # failed addresses
 Input: Variable Star Observers League in Japan (VSOLJ), Japan
 Address: Variable Star Observers League in Japan (VSOLJ), 7-1 Kitahatsutomi, Kamagaya, Chiba 273-0126, Japan
@@ -89,15 +89,15 @@ My code won't get every institute so I apologize if your paper isn't on the map.
 ```python
 import folium
 # center the map above the equator.
-pub_map = folium.Map(location=[30,0],zoom_start=zoom)
+pub_map = folium.Map(location=[30,0],zoom_start=2)
 # set base circle
-base = 500
+base = 1500
 # loop through all the institutions and set the size of the circle based on the number of papers
 for key in data.keys():    
     npapers = len(data[key]['bibcode'])
     marker_name = key.title() + " published " + str(npapers) + " paper(s)"
     folium.CircleMarker([data[key]['lat'], data[key]['long']],
-                         radius=base*np.exp(npapers),
+                         radius=base*npapers,
                          color='#3186cc',
                          popup=marker_name,
                          fill_color='#3186cc').add_to(pub_map)
