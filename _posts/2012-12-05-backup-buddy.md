@@ -5,7 +5,11 @@ description: "Bash script to backup your work to a server."
 tags: [bash, code, backup]
 ---
 
-[It nearly happened to Toy Story 2](http://www.youtube.com/watch?v=yIz9eqwLt9U), it could happen to you. I’ve come close on many occasions to losing my entire life’s work. At some point (existential reasons aside), I decided to write a small script to backup everything I needed should my laptop explode. I’ve stripped it down and provided it to you.
+It nearly happened to Toy Story 2, it could happen to you. 
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/yIz9eqwLt9U/0.jpg)](https://youtu.be/yIz9eqwLt9U "The day Toy Story 2 nearly got deleted.")
+
+I’ve come close on many occasions to losing my entire life’s work. At some point (existential reasons aside), I decided to write a small script to backup everything I needed should my laptop explode. I’ve stripped it down and provided it to you.
 
 I’ve written a little bash script to backup a particular folder to a server. It creates a tar file and then synchronises the directories. In the header of the file you will have to change it to suit your needs. You will need to execute it every time you want to backup your work, though this can be easily automated using [cron](https://bradmontgomery.net/blog/automatic-backups-with-cron-tar-and-ssh/#). See [Github repository](https://github.com/bgriffen/backupbuddy).
 
