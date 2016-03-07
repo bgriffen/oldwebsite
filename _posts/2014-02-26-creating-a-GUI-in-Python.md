@@ -234,10 +234,8 @@ def _mayavibutton_fired(self):
 That’s the end of my “tutorial/demo” section. If you want to learn how to use the various other layout and object options I suggest taking a look at one of the tools I developed.
 
 ## Example Project
-The [Catepillar Project](http://caterpillar.scripts.mit.edu/www/) is one of my main research tasks at MIT which involves looking at several hundreds of simulations of a similar kind. Rather than building endless panels in Matplotlib and tediously plotting different marker types and colors to inspect the data I decided to automate it using the tools described. Thus was born [Caterpillar Made Easy](https://github.com/bgriffen/cme) which is one such tool which which allows you setup and run cosmological simulations on a large cluster, inspect the data dynamically in two and three dimensions. It is based on exactly the same template I have shown above (plus a few hundred hours of coding!). Here are a few screen shots of the sort of thing you can do in this environment. Perhaps you have a study you’re doing which might also benefit from such interactivity and automation. I haven't *officially* released it to the public but I might do so soon. This is just to give you an idea of the sort of things you can achieve.
-<center>
-<div markdown="0"><a href="https://github.com/bgriffen/cme" class="btn">CME Repository</a></div>
-</center>
+The [Catepillar Project](http://caterpillar.scripts.mit.edu/www/) is one of my main research tasks at MIT which involves looking at several hundreds of simulations of a similar kind. Rather than building endless panels in Matplotlib and tediously plotting different marker types and colors to inspect the data I decided to automate it using the tools described. Thus was born [Caterpillar Made Easy](https://github.com/bgriffen/cme) which is one such tool which which allows you setup and run cosmological simulations on a large cluster, inspect the data dynamically in two and three dimensions. It is based on exactly the same template I have shown above (plus a few hundred hours of coding!). Here are a few screen shots of the sort of thing you can do in this environment. Perhaps you have a study you’re doing which might also benefit from such interactivity and automation. I haven't *officially* released it to the public but I might do so soon. This is just to give you an idea of the sort of things you can achieve. See the project on [Github](https://github.com/bgriffen/cme).
+
 <br/>
 ![Traits Example](/assets/pythongui/inspectparams-1024x620.png)
 <br/>
