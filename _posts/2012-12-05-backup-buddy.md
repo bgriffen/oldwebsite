@@ -7,7 +7,7 @@ tags: [bash, code, backup]
 
 It nearly happened to Toy Story 2, it could happen to you. 
 
-<iframe width="100%" src="https://www.youtube.com/embed/yIz9eqwLt9U" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/yIz9eqwLt9U" frameborder="0" allowfullscreen></iframe>
 
 I’ve come close on many occasions to losing my entire life’s work. At some point (existential reasons aside), I decided to write a small script to backup everything I needed should my laptop explode. I’ve stripped it down and provided it to you.
 
