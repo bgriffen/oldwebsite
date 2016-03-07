@@ -5,11 +5,15 @@ description: "Turning the affiliation list on papers into a map."
 tags: [python, folium, maps, ads]
 ---
 
-A casual Google search of the most recent earthquake events provides a long list of interactive maps. [Here](http://quakes.globalincidentmap.com/) which has the following kind of display.
+A casual Google search of the most recent earthquake events provides a long list of interactive maps. [This site](http://quakes.globalincidentmap.com/) has one such example. Generally they look like the following.
 
 ![Quake Map](/assets/paperquake/quakemap.png "Quake Map")
 
-I wanted to see if I could turn the affiliation list attached to each paper into a similar map to sort visualize the "pulse of research". My goal it to create a map akin to the seismic map above where the size of the node is proportional to the number of papers from a given institute or university. To my knowledge, this hasn't been done before and seemed like a fairly tractable problem.
+Each paper in the literature has the following list of author affiliations:
+
+![Quake Map](/assets/paperquake/aff.png "Affiliation List")
+
+Using a [Python ADS tool](https://github.com/andycasey/ads) which enables me to scrape this affiliation for all papers on the ADS database, I wanted to see if I could turn this list into a similar map to visualize the "pulse of research". My goal it to create a map akin to the seismic map above where the size of the node is proportional to the number of papers from a given institute or university. 
 
 I didn't want to spend much time developing the mapping library so I went searching for a library which has taken care of that for me. I discovered [Folium](https://github.com/python-visualization/folium) which is fantastic tool for mapping and very versatile. It uses other fantastic tools such as [Leaflet](http://leafletjs.com/), [MapBox](https://www.mapbox.com/) and [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100). I highly recommend you check them out if you're interested in digital cartography.
 
@@ -122,4 +126,4 @@ Here is the resulting map (click to enlarge) or use the [interactive version her
 
 [<img src="/assets/paperquake/paperquake.png">](<img src="/assets/paperquake/paperquake.png")
 
-One could now extend this to look at the publications over different time periods (e.g. one year). One could also improve the GUI to better investigate papers or institutes of particular interest. I leave these as an exercise to the reader.
+One could now extend this to look at the publications over different time periods (e.g. one year) or clusterings of co-authorship geographically. One could also improve the GUI to better investigate papers or institutes of particular interest. I leave these as an exercise to the reader.
