@@ -5,30 +5,31 @@ description: "Turning the affiliation list on papers into a map."
 tags: [python, folium, maps, ads]
 ---
 
-A casual Google search of the most recent earthquake events provides a long list of interactive maps. [This site](http://quakes.globalincidentmap.com/) has one such example. Generally they look like the following.
+A casual Google search of the most recent earthquake events provides a long list of [interactive maps]((http://quakes.globalincidentmap.com/)).Generally they look like this:
 
 ![Quake Map](/assets/paperquake/quakemap.png "Quake Map")
 
-Each paper in the literature has the following list of author affiliations:
+This is a great way to get an instant understanding of the recent earthquake activity. Browsing one of these sites got me thinking about how I could connect this to astronomy papers. See, each paper in the literature has the following list of author affiliations:
 
 ![Quake Map](/assets/paperquake/aff.png "Affiliation List")
 
-Using a [Python ADS tool](https://github.com/andycasey/ads) which enables me to scrape this affiliation for all papers on the ADS database, I wanted to see if I could turn this list into a similar map to visualize the "pulse of research". My goal it to create a map akin to the seismic map above where the size of the node is proportional to the number of papers from a given institute or university. 
+This [Python ADS tool](https://github.com/andycasey/ads) enables me to scrape this affiliation informaiton for all papers in the ADS database. I wanted to see if I could turn this list into a similar map to visualize the "pulse of research". My goal it to create a map akin to the seismic map above where the size of the node is proportional to the number of papers from a given institute or university. 
 
-I didn't want to spend much time developing the mapping library so I went searching for a library which has taken care of that for me. I discovered [Folium](https://github.com/python-visualization/folium) which is fantastic tool for mapping and very versatile. It uses other fantastic tools such as [Leaflet](http://leafletjs.com/), [MapBox](https://www.mapbox.com/) and [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100). I highly recommend you check them out if you're interested in digital cartography.
+I didn't want to spend much time developing the mapping library so I went searching for a library which has taken care of that for me. I discovered [Folium](https://github.com/python-visualization/folium) which is fantastic tool for mapping and very versatile. It uses other tools such as [Leaflet](http://leafletjs.com/), [MapBox](https://www.mapbox.com/) and [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100). I highly recommend you check them out if you're interested in digital cartography.
 
-First I needed to get the papers that have been published in the past month.
+First I needed to get the papers that have been published last month.
 
 ```python
 import ads
 from datetime import date
 today = date.today()
-papers = list(ads.SearchQuery(pubdate='{0}-{1}'.format(today.year, today.month), 
+papers = list(ads.SearchQuery(pubdate='{0}-{1}'.format(today.year, today.month-1), 
                               property="refereed",
+                              fl=['first_author','aff','author','bibcode'],
                               database='astronomy'))
 ```
 
-Next I cycle through all of the paper's affiliations and use [Geopy](https://github.com/geopy/geopy.git) to get the latitude and longtitude for each of them. The tricky part is converting what are normally very specific affiliations into more general affiliations which can be parsed by `geocode`. This took a lot more tinkering that I would have liked but I soon realized that many of the papers that are in the `database=astronomy` are not actually what the mainstream of astronomers read. To clean the affiliations, I selected only those which contained the following strings: `depart`, `instit`, `observ`, `laboratory`, `univers`. This limits the search to primarily universities, institutes, departments and observatories. Please let me know in the comments if there is a tag which might discount an important part of the dataset.
+Then I cycled through all of the paper's affiliations and used [Geopy](https://github.com/geopy/geopy.git) to get the latitude and longtitude. The tricky part is converting what are normally very specific affiliations into more general affiliations which can be parsed by `geocode`. This took a lot more time than I would have liked. To clean the affiliations, I selected only those which contained the following strings: `depart`, `instit`, `observ`, `laboratory`, `univers`. This limits the search to primarily universities, institutes, departments and observatories. Please let me know in the comments if there is a tag which might discount an important part of the dataset.
 
 ```python
 for paper in papers:
@@ -45,7 +46,7 @@ for paper in papers:
             print "Lat/Long:           %.5f, %.5f" % (location.latitude, location.longitude)
 ```
 
-This output the specific addresses into something which could be understood by `geolocator`. An example of a successfull output is the following:
+This outputs the specific addresses into something which could be understood by [Geopy](https://github.com/geopy/geopy.git). Here are some examples of successful outputs:
 
 ```text
 # successful addresses
@@ -74,7 +75,7 @@ Google Output:  Universitätsbibliothek der Universität der Bundeswehr München
 Lat/Long:      48.08041, 11.63819
 ```
 
-As you can see, there is quite a bit of success with the non-english institution names. I was worried it wouldn't return anything due to encoding issues. It didn't always work and I often I couldn't find ways to code around the edge cases (Max Planck Insitutes and the University of California family caused quite a few headaches). There were a number of institutes/departments/centers which didn't always work as well.
+As you can see, there is quite a bit of success with the non-english institution names. I was worried it wouldn't return anything due to encoding issues. It didn't always work and I often couldn't find ways to code around the edge cases. There were a number of institutes/departments/centers which didn't always work as well.
 
 ```text
 # failed addresses
@@ -88,7 +89,7 @@ Input: Woods Hole Oceanographic Institute,  USA
 Address: Geology and Geophysics Department, Woods Hole Oceanographic Institute, Woods Hole, MA, USA
 ```
 
-My code won't get every institute so I apologize if your paper isn't on the map. Some of the addresses seem perfectly normal and return good Google results but alas, they weren't picked up. The only hurdle remaining was to make sure that I didn't double count papers and collected papers which came from the same institute across multiple papers. Take for instance the Max Planck papers from Garching:
+My code didn't every institute so I apologize if your paper isn't on the map. Some of the addresses seem perfectly normal and return good Google results but alas, they weren't picked up. The only hurdle remaining was to make sure that I didn't double count papers and collected papers which came from the same institute across multiple papers. Take for instance the Max Planck papers from Garching:
 
 ```text
 Max Planck Institut for Astrophysics, Garching,  Germany
@@ -99,7 +100,7 @@ Max Planck Institute fur Astrophysics, Garching,  Germany
 Max Planck Institute for extraterrestrische Physik (MPE), Garching,  Germany
 ```
 
-All of these had to be put in the same bin so I had to write some edge cases for insitutes like these.  Once I had the unique self-similar keys for each location I simply populated them with the relevant paper information (e.g. `bibcode`). Again, a little coding gymnastics was required to get this all in working order.
+All of these had to be put in the same bin otherwise they would be separate institutes.  Once I took care of these edge cases and had the unique self-similar keys for each location I simply populated them with the relevant paper information (e.g. authors). Again, a little coding gymnastics was required to get this all in working order.
 
 Once all of the time-consuming part is complete, it is trivial to populate a map with the relevant information in Folium.
 
