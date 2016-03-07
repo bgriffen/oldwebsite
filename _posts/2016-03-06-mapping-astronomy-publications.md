@@ -123,7 +123,7 @@ for key in data.keys():
 # write to file
 pub_map.save('map.html') 
 ```
-Click here for either the [PNG](http://www.brendangriffen.com/assets/paperquake/paperquake.png) or [interactive](/assets/paperquake/map.html "Paper Quake!") versions.
+Click for either the [PNG](http://www.brendangriffen.com/assets/paperquake/paperquake.png) or [interactive](/assets/paperquake/map.html "Paper Quake!") versions. The image below also links to the interactive version.
 
 [<img src="http://www.brendangriffen.com/assets/paperquake/paperquake.png">](http://brendangriffen.com/assets/paperquake/map.html)
 
