@@ -5,11 +5,7 @@ description: "A tutorial and template to create a very basic GUI in Python."
 tags: [Python, GUI, Traits, Visualisation, Interactive]
 ---
 
-So you want to create a Graphical User Interface (GUI)? This tutorial/code might help getting you started. The first feeling I had when I decided to follow this path was *intimidation*. With much patience and Googling I managed to create something I think will save me time in the future. I've used this tool countless times already, whether it be to improve my intuition of complex functions, speed up work flows or render dynamic data. The entire Pythonic GUI template I am about to introduce can be found at its own Github repository.
-
-<center>
-<div markdown="0"><a href="https://github.com/bgriffen/PythonGUITemplate" class="btn">Python GUI Github Repository</a></div>
-</center>
+So you want to create a Graphical User Interface (GUI)? This tutorial/code might help getting you started. The first feeling I had when I decided to follow this path was *intimidation*. With much patience and Googling I managed to create something I think will save me time in the future. I've used this tool countless times already, whether it be to improve my intuition of complex functions, speed up work flows or render dynamic data. The entire Pythonic GUI template I am about to introduce can be found at its own [Github repository](https://github.com/bgriffen/PythonGUITemplate).
 
 ## Where do I start?
 
@@ -42,6 +38,8 @@ from traitsui.wx.basic_editor_factory import BasicEditorFactory
 from traitsui.api import ColorTrait
 ```
 
+Keep in mind the software may be updated so some of these imports might not work in future versions.
+
 #### Getting the GUI template
 
 If you want to cut to the chase you can [clone the template from the respository]("https://github.com/bgriffen/PythonGUITemplate") and run in your terminal window:
@@ -53,13 +51,13 @@ python main.py
 This should open up the template window with an empty canvas. Explore the code structure though there will be more on this later.
 
 ## Googling "make a GUI using Traits in Python"
-Much to my surprise, there are few examples of how to get started using TraitsUI. Sure you can build very small tool with a slide bar which changes one variable and re-plots it – but there is nothing which brings it all together: multiple tabs, plotting and 3D rendering. The [examples provided in the documentation](http://docs.enthought.com/traitsui/tutorials/traits_ui_scientific_app.html#the-gui-elements) are either too basic or too complex for my liking so I spent a few months trying to create something in between -- basically what I wished the Internet had 12 months ago. Back in December 2012, I was transitioning my core research language to Python which took only a short while as I came from MATLAB/FORTRAN/SQL-land. Eventually built [a few useful tools](https://github.com/bgriffen/cme) (well at least for me and my research group) with what I’m about to discuss.  Here is the most sophisticated example available in the documentation:
+Much to my surprise, there are few examples of how to get started using TraitsUI. Sure you can build very small tool with a slide bar which changes one variable and re-plots it – but there is nothing which brings it all together: multiple tabs, plotting and 3D rendering. The [examples provided in the documentation](http://docs.enthought.com/traitsui/tutorials/traits_ui_scientific_app.html#the-gui-elements) are either too basic or too complex for my liking so I spent a few months trying to create something in between -- basically what I wished the Internet had 12 months ago. Back in December 2012, I was transitioning my core research language to Python which took only a short while as I came from MATLAB/FORTRAN/SQL-land. I eventually built [a few useful tools](https://github.com/bgriffen/cme) (well at least for me and my research group) with what I’m about to discuss.  Here is the most sophisticated example available in the documentation:
 <br/>
 <br/>
 ![Traits Example](/assets/pythongui/TraitsExample.png)
 <br/>
 <br/>
-Good start right? Whilst it does bring together the main ideas, it didn’t immediately give me a blank slate. It uses a bunch of Pythonic features which at the time I was not familiar with. The [documentation](http://docs.enthought.com/traitsui/tutorials/traits_ui_scientific_app.html#the-gui-elements) also didn’t incrementally build up to it (some basic tools then insta-migraine). I found myself back at the drawing board.
+Good start right? Whilst it does bring together the main ideas, it didn’t immediately give me a blank slate. It uses a bunch of Pythonic features which at the time I was not familiar with. The [documentation](http://docs.enthought.com/traitsui/tutorials/traits_ui_scientific_app.html#the-gui-elements) also didn’t incrementally build up to it. It was a steep learning curve and I often found myself in very deep water.
 
 ## Introducing: "The Blank Slate"
 To create the blank slate, I essentially had to take apart what was already available in the above example whilst being sure I didn’t remove any critical components of the application. This soon became tedious and I felt like I wasn’t learning anything new. There were also a number of features in the basic layout which were not included (e.g. 3D rendering). This was shortly remedied by finding out that Traits does [play nicely with Mayavi](http://docs.enthought.com/mayavi/mayavi/auto/example_mayavi_traits_ui.html). Though my problem now became that of integration: these features existed independent from one another and I couldn’t find anywhere to put them all together (interactivity, plotting, 3D rendering). Eventually, after much head scratching I got it all working. I then stripped it down with the help of a colleague ([@astrowizicist](https://twitter.com/astrowizicist)) to create the following. I now use it as my default template to create new scientific applications.
