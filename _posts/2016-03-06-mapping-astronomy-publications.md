@@ -11,7 +11,7 @@ A casual Google search of the most recent earthquake events provides a long list
 
 I wanted to see if I could turn the affiliation list attached to each paper into a similar map to sort visualize the "pulse of research". My goal it to create a map akin to the seismic map above where the size of the node is proportional to the number of papers from a given institute or university. To my knowledge, this hasn't been done before and seemed like a fairly tractable problem.
 
-I didn't want to spend much time developing the mapping library so I went searching for a library which has taken care of that for me. I discovered [Folium](https://github.com/python-visualization/folium) which is fantastic tool for mapping and very versatile.
+I didn't want to spend much time developing the mapping library so I went searching for a library which has taken care of that for me. I discovered [Folium](https://github.com/python-visualization/folium) which is fantastic tool for mapping and very versatile. It uses other fantastic tools such as [Leaflet](http://leafletjs.com/), [MapBox](https://www.mapbox.com/) and [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100). I highly recommend you check them out if you're interested in digital cartography.
 
 First I needed to get the papers that have been published in the past month.
 
