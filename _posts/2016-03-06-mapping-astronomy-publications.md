@@ -11,7 +11,7 @@ A casual Google search of the most recent earthquake events provides a long list
 
 This is a great way to get an instant understanding of the recent earthquake activity. Browsing one of these sites got me thinking about how I could connect this to astronomy papers. See, each paper in the literature has the following list of author affiliations:
 
-![Quake Map](/assets/paperquake/aff.png "Affiliation List")
+[<img src="http://www.brendangriffen.com/assets/paperquake/aff.png">](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1509.01255)
 
 This [Python ADS tool](https://github.com/andycasey/ads) enables me to scrape this affiliation information for all papers in the ADS database. I wanted to see if I could turn this list into a similar map to visualize the "pulse of research". My goal here is to create a map akin to the seismic map above where the size of the node is proportional to the number of papers from a given institute or university. 
 
@@ -125,8 +125,8 @@ pub_map.save('map.html')
 ```
 Here is the resulting map (click to enlarge) or use the [interactive version here!](/assets/paperquake/map.html "Paper Quake!").
 
-[<img src="http://www.brendangriffen.com/assets/paperquake/paperquake.png">](http://brendangriffen.com/assets/paperquake/paperquake.png")
+[<img src="http://www.brendangriffen.com/assets/paperquake/paperquake.png">](http://brendangriffen.com/assets/paperquake/paperquake.png)
 
-I must confess this map only shows ~200 paper's worth of affiliations. I maxed out my API request to Google and couldn't get the full list for the month of February. Also, if the name isn't associated with the institute you select that is because it is the *first author* of the paper, not necessarily the person attached to that institute.
+I must confess this map only shows ~200 paper's worth of affiliations. I maxed out my API request to Google and couldn't get the full list for the month of February. Also, if the name isn't associated with the institute you select that is because it is the *first author* of the paper, not necessarily the person attached to that institute. Shoutout to [Johnny Elliot](mailto:"jonathan.elliott@cfa.harvard.edu") at ADS for assiting with some query optimization.
 
 This is all I had time for last night but one could in principle extend this map to look at the publications over different time periods (e.g. one year) or perhaps geographic clusterings of co-authorship. One could also improve the GUI to better investigate papers or institutes of particular interest. I leave these as an exercise to the reader. 
