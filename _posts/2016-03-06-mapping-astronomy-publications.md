@@ -127,6 +127,6 @@ Here is the resulting map (click to enlarge) or use the [interactive version her
 
 [<img src="http://www.brendangriffen.com/assets/paperquake/paperquake.png">](http://brendangriffen.com/assets/paperquake/paperquake.png)
 
-I must confess this map only shows ~200 paper's worth of affiliations. I maxed out my API request to Google and couldn't get the full list for the month of February. Also, if the name isn't associated with the institute you select that is because it is the *first author* of the paper, not necessarily the person attached to that institute. Shoutout to [Johnny Elliot](mailto:"jonathan.elliott@cfa.harvard.edu") at ADS for assiting with some query optimization.
+I must confess this map only shows ~200 paper's worth of affiliations. I maxed out my API request to Google and couldn't get the full list for the month of February. Also, if the name isn't associated with the institute you select that is because it is the *first author* of the paper, not necessarily the person attached to that institute. Shoutout to [Johnny Elliot](mailto:"jonathan.elliott@cfa.harvard.edu") at ADS for assisting with some query optimization.
 
 This is all I had time for last night but one could in principle extend this map to look at the publications over different time periods (e.g. one year) or perhaps geographic clusterings of co-authorship. One could also improve the GUI to better investigate papers or institutes of particular interest. I leave these as an exercise to the reader. 
