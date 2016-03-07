@@ -13,7 +13,7 @@ This is a great way to get an instant understanding of the recent earthquake act
 
 ![Quake Map](/assets/paperquake/aff.png "Affiliation List")
 
-This [Python ADS tool](https://github.com/andycasey/ads) enables me to scrape this affiliation informaiton for all papers in the ADS database. I wanted to see if I could turn this list into a similar map to visualize the "pulse of research". My goal here is to create a map akin to the seismic map above where the size of the node is proportional to the number of papers from a given institute or university. 
+This [Python ADS tool](https://github.com/andycasey/ads) enables me to scrape this affiliation information for all papers in the ADS database. I wanted to see if I could turn this list into a similar map to visualize the "pulse of research". My goal here is to create a map akin to the seismic map above where the size of the node is proportional to the number of papers from a given institute or university. 
 
 I didn't want to spend much time developing the mapping library so I went searching for a library which has already taken care of the dirty work. I discovered [Folium](https://github.com/python-visualization/folium) which is fantastic for mapping and extremely versatile. It uses other tools such as [Leaflet](http://leafletjs.com/), [MapBox](https://www.mapbox.com/) and [OpenStreetMap](https://www.openstreetmap.org/#map=5/51.500/-0.100). I highly recommend you check them out if you're interested in digital cartography.
 
@@ -29,7 +29,7 @@ papers = list(ads.SearchQuery(pubdate='{0}-{1}'.format(today.year, today.month-1
                               database='astronomy'))
 ```
 
-I then cycled through all of the paper's affiliations and used [Geopy](https://github.com/geopy/geopy.git) to get the latitude and longtitude. The tricky part is converting what are normally very specific affiliations into more general affiliations which can be parsed by Geopy. This took a lot more time than I would have liked. To clean the affiliations, I selected only those which contained the following strings: "depart", "instit", "observ", "laboratory", "univers". This limits the search to primarily universities, institutes, departments and observatories. Please let me know in the comments if there is a tag which might discount an important part of the dataset.
+I then cycled through all of the paper's affiliations and used [Geopy](https://github.com/geopy/geopy.git) to get the latitude and longitude. The tricky part is converting what are normally very specific affiliations into more general affiliations which can be parsed by Geopy. This took a lot more time than I would have liked. To clean the affiliations, I selected only those which contained the following strings: "depart", "instit", "observ", "laboratory", "univers". This limits the search to primarily universities, institutes, departments and observatories. Please let me know in the comments if there is a tag which might discount an important part of the dataset.
 
 ```python
 for paper in papers:
@@ -129,4 +129,4 @@ Here is the resulting map (click to enlarge) or use the [interactive version her
 
 I must confess this map only shows ~200 paper's worth of affiliations. I maxed out my API request to Google and couldn't get the full list for the month of February. Also, if the name isn't associated with the institute you select that is because it is the *first author* of the paper, not necessarily the person attached to that institute.
 
-This is all I had time for last night but now one could now extend this map to look at the publications over different time periods (e.g. one year) or possible geographic clusterings of co-authorship perhaps. One could also improve the GUI to better investigate papers or institutes of particular interest. I leave these as an exercise to the reader. 
+This is all I had time for last night but one could in principle extend this map to look at the publications over different time periods (e.g. one year) or perhaps geographic clusterings of co-authorship. One could also improve the GUI to better investigate papers or institutes of particular interest. I leave these as an exercise to the reader. 
