@@ -123,9 +123,9 @@ for key in data.keys():
 # write to file
 pub_map.save('map.html') 
 ```
-Here is the resulting map (click to enlarge) or use the [interactive version here!](/assets/paperquake/map.html "Paper Quake!").
+Click here for either the [PNG](http://www.brendangriffen.com/assets/paperquake/paperquake.png) or [interactive version](/assets/paperquake/map.html "Paper Quake!").
 
-[<img src="http://www.brendangriffen.com/assets/paperquake/paperquake.png">](http://brendangriffen.com/assets/paperquake/paperquake.png)
+[<img src="http://www.brendangriffen.com/assets/paperquake/paperquake.png">](http://brendangriffen.com/assets/paperquake/map.html)
 
 I must confess this map only shows ~200 paper's worth of affiliations. I maxed out my API request to Google and couldn't get the full list for the month of February. Also, if the name isn't associated with the institute you select that is because it is the *first author* of the paper, not necessarily the person attached to that institute. Shoutout to [Johnny Elliot](mailto:"jonathan.elliott@cfa.harvard.edu") at ADS for assisting with some query optimization.
 
