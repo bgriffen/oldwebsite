@@ -133,4 +133,4 @@ Click to turn interactive.
 
 [<img src="http://www.brendangriffen.com/assets/currencymap/currencymap.png">](http://www.brendangriffen.com/assets/currencymap/world.html)
 
-This could further be expanded to make it able to take user input and scale the colors to be country GDP, population etc. Though I’m sure many maps of this kind already exist, I’ve found it a nice way to learn a new programming language.
+This could further be expanded to make it able to take user input and scale the colors to be country GDP, population etc. Though I’m sure many maps of this kind already exist, I’ve found it a nice way to help learn a new programming language.
