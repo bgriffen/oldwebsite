@@ -38,11 +38,11 @@ for paper in papers:
     for affiliation in unique_affiliations:
         addresses = affiliation.strip().split('; ')
         for address in addresses:
-            clean_address = generate_searchname(add)
+            clean_address = generate_searchname(address)
             location = geolocator.geocode(clean_address)
-            print "Affiliation:      ",add
-            print "Clean Affiliation:",search_add[:80]
-            print "Google Output:    ",full_address[:80]
+            print "Affiliation:      ",address
+            print "Clean Affiliation:",clean_address[:80]
+            print "Google Output:    ",location.address[:80]
             print "Lat/Long:           %.5f, %.5f" % (location.latitude, location.longitude)
 ```
 
