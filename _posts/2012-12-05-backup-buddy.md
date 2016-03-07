@@ -7,7 +7,7 @@ tags: [bash, code, backup]
 
 It nearly happened to Toy Story 2, it could happen to you. 
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/yIz9eqwLt9U/0.jpg)](https://youtu.be/yIz9eqwLt9U "The day Toy Story 2 nearly got deleted.")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/yIz9eqwLt9U/0.jpg width=100%)](https://youtu.be/yIz9eqwLt9U "The day Toy Story 2 nearly got deleted.")
 
 I’ve come close on many occasions to losing my entire life’s work. At some point (existential reasons aside), I decided to write a small script to backup everything I needed should my laptop explode. I’ve stripped it down and provided it to you.
 
