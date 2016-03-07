@@ -130,8 +130,10 @@ subprocess.call(';'.join([mving]), shell=True)
 print "conversion complete!"
 {% endhighlight %}
 
-## Interactive Map
+## Final Map
 
-<object width="800" height="500" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://bgriffen.scripts.mit.edu/www/data/currencymap/world.html" /><embed width="800" height="500" type="application/x-shockwave-flash" src="http://bgriffen.scripts.mit.edu/www/data/currencymap/world.html" /></object>
+Click to turn interactive.
+
+[<img src="http://www.brendangriffen.com/assets/currencymap/currencymap.png">](http://www.brendangriffen.com/assets/currencymap/world.html)
 
 This could further be expanded to make it able to take user input and scale the colors to be country GDP, population etc. Though I’m sure many maps of this kind already exist, I’ve found it a nice way to learn a new programming language.
