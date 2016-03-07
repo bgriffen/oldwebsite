@@ -307,8 +307,8 @@ Louis Chauvin
 Leslie Harvey
 Mia Zapata
 Jim Morrison
-Ron "Pigpen" McKernan
-Rockin' Robin Roberts
+Ron Pigpen McKernan
+Rockin Robin Roberts
 Alan Wilson 
 Chris Austin
 Jeremy Michael Ward
