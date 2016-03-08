@@ -49,15 +49,22 @@ A full graph I generated was used at the 2013 TEDx at Huntsville, Alabama and ca
 To make it blog friendly, I zoomed in on a few areas of interest:
 
 ### Authors
+
 ![gow-12](/assets/wikipedia/gow_image12.png)
 ![gow-13](/assets/wikipedia/gow_image13.png)
 ![gow-14](/assets/wikipedia/gow_image14.png)
 ![gow-15](/assets/wikipedia/gow_image15.png)
+
 ### Artists
+
 ![gow-7](/assets/wikipedia/gow_image7.png)
+
 ### Comedians
+
 ![gow-8](/assets/wikipedia/gow_image8.png)
+
 ### Philosphers
+
 ![gow-11](/assets/wikipedia/gow_image11.png)
 
 ## Interactive Version
