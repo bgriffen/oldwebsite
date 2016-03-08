@@ -68,10 +68,12 @@ To make it blog friendly, I zoomed in on a few areas of interest:
 ![gow-11](/assets/wikipedia/gow_image11.png)
 
 ## Interactive Version
-I also exported this to a JSON file  to make an interactive version [available soon].
 
-![Interactive Version](/assets/wikipedia/FullInfluenceGraph.png)
-![Zoom of Interactive Version](/assets/wikipedia/Nietzsche.png)
+I also exported this to a JSON file to make it an interactive version.
+
+![<img src="/assets/wikipedia/FullInfluenceGraph.png>](http://brendangriffen.com/assets/thinkers/)
+
+![<img src="/assets/wikipedia/Nietzsche.png>](http://brendangriffen.com/assets/wikipedia/Nietzsche.png)
 
 If I am interested in one author and want some inspiration as to who to read next I can just search this graph and find a name I don't know but is closely related by influence.
 
