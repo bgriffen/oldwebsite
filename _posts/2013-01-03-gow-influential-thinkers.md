@@ -69,7 +69,7 @@ To make it blog friendly, I zoomed in on a few areas of interest:
 
 ## Interactive Version
 
-I also exported this to a JSON file to make it an interactive version.
+I also exported this to a JSON file to make it an interactive version (click to activate)
 
 ![<img src="/assets/wikipedia/FullInfluenceGraph.png">](http://brendangriffen.com/assets/thinkers/)
 
