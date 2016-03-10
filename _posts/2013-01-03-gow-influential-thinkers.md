@@ -50,32 +50,30 @@ To make it blog friendly, I zoomed in on a few areas of interest:
 
 ### Authors
 
-[<img src="http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png">](http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png)
-
-![gow-12](/assets/wikipedia/gow_image12.png)
-![gow-13](/assets/wikipedia/gow_image13.png)
-![gow-14](/assets/wikipedia/gow_image14.png)
-![gow-15](/assets/wikipedia/gow_image15.png)
+[<img src="http://www.brendangriffen.com/assets/wikipedia/gow_image12.png">](/assets/wikipedia/gow_image12.png)
+[<img src="http://www.brendangriffen.com/assets/wikipedia/gow_image13.png">](/assets/wikipedia/gow_image13.png)
+[<img src="http://www.brendangriffen.com/assets/wikipedia/gow_image14.png">](/assets/wikipedia/gow_image14.png)
+[<img src="http://www.brendangriffen.com/assets/wikipedia/gow_image15.png">](/assets/wikipedia/gow_image15.png)
 
 ### Artists
 
-![gow-7](/assets/wikipedia/gow_image7.png)
+[<img src="http://www.brendangriffen.com/assets/wikipedia/gow_image7.png">](/assets/wikipedia/gow_image7.png)
 
 ### Comedians
 
-![gow-8](/assets/wikipedia/gow_image8.png)
+[<img src="http://www.brendangriffen.com/assets/wikipedia/gow_image8.png">](/assets/wikipedia/gow_image8.png)
 
 ### Philosphers
 
-![gow-11](/assets/wikipedia/gow_image11.png)
+[<img src="http://www.brendangriffen.com/assets/wikipedia/gow_image11.png">](/assets/wikipedia/gow_image11.png)
 
 ## Interactive Version
 
 I also exported this to a JSON file to make it an interactive version (click to activate).
 
-[<img src="http://www.brendangriffen.com/assets/wikipedia/FullInfluenceGraph.png">](http://brendangriffen.com/assets/thinkers/)
+[<img src="http://www.brendangriffen.com/assets/wikipedia/FullInfluenceGraph.png">](/assets/thinkers/)
 
-[<img src="http://www.brendangriffen.com/assets/wikipedia/Nietzsche.png">](http://brendangriffen.com/assets/wikipedia/Nietzsche.png)
+[<img src="http://www.brendangriffen.com/assets/wikipedia/Nietzsche.png">](/assets/wikipedia/Nietzsche.png)
 
 If I am interested in one author and want some inspiration as to who to read next I can just search this graph and find a name I don't know but is closely related by influence.
 
