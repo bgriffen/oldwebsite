@@ -44,7 +44,7 @@ Once you get to this point, it really is a matter of aesthetics as to how you wi
 
 A full graph I generated was used at the 2013 TEDx at Huntsville, Alabama and can be downloaded [here](/assets/wikipedia/fullgraph-huntsville.png).
 
-![<img src="http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png">](/assets/wikipedia/gow_huntsville.png)
+![<img src="http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png">](http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png)
 
 To make it blog friendly, I zoomed in on a few areas of interest:
 
