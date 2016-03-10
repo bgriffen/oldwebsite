@@ -42,7 +42,7 @@ Duplicates found in the ‘influences’ list were then removed. This ensured a 
 
 Once you get to this point, it really is a matter of aesthetics as to how you wish to present the data. These CSV files can be directly imported into Gephi and graphed. For those new to these types of graphs: the nodes represent an object or person and the size represents the number of connections to each other node. Around these nodes, cluster other personalities who are similarly related thinkers/authors.The Fruchterman-Reingold algorithm and Force Atlas 2 algorithms were used to cluster the data based on their connections. Communities are then identified using the ‘Modularity’ module. Once you are happy with how the graph looks, you can export it to your favourite format (PNG, PDF etc.).
 
-A full graph I generated was used at the 2013 TEDx at Huntsville, Alabama and can be downloaded [here](/assets/wikipedia/fullgraph-huntsville.png).
+A full graph I generated was used at the 2013 TEDx at Huntsville, Alabama and can be downloaded [here](/assets/wikipedia/gow_huntsville.png) or by clicking the image below.
 
 ![<img src="http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png">](http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png)
 
