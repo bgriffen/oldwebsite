@@ -44,11 +44,13 @@ Once you get to this point, it really is a matter of aesthetics as to how you wi
 
 A full graph I generated was used at the 2013 TEDx at Huntsville, Alabama and can be downloaded [here](/assets/wikipedia/gow_huntsville.png) or by clicking the image below.
 
-![<img src="http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png">](http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png)
+[<img src="http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png">](/assets/wikipedia/gow_huntsville.png)
 
 To make it blog friendly, I zoomed in on a few areas of interest:
 
 ### Authors
+
+[<img src="http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png">](http://www.brendangriffen.com/assets/wikipedia/gow_huntsville.png)
 
 ![gow-12](/assets/wikipedia/gow_image12.png)
 ![gow-13](/assets/wikipedia/gow_image13.png)
