@@ -9,7 +9,7 @@ title: Projects
       <img src="/assets/caterpillar/Cat10.jpg">
       <div class="container">
         <span class="projectlistheading">The Caterpillar Project</span><br />
-        An on-going series of state-of-the-art cosmological simulations focusing on galaxies similar in mass to that of our own Milky Way.
+        An on-going series of state-of-the-art cosmological simulations focusing on galaxies similar in mass to that of our own Milky Way. 
       </div>
   </a>
   </li>  
@@ -27,7 +27,7 @@ title: Projects
       <img src="/assets/pages/sam_screenshot.jpg">
       <div class="container">
         <span class="projectlistheading">Semi-analytic Modelling Of Galaxy Formation</span><br />
-        Trying to understand how galaxies are formed using a confluence of pen and paper, fast algorithms and supercomputers.
+        Rather than running expensive, hydrodynamic simulations, one can quickly explore the parameter space of physically motivated prescriptions for galaxy formation using semi-analytic models.
       </div>
   
   </li>
@@ -36,7 +36,7 @@ title: Projects
       <img src="/assets/pages/numerical_methods_screenshot.jpg">
       <div class="container">
         <span class="projectlistheading">Numerical Methods</span><br />
-        A quest to balance numerical accuracy without added cost. Using novel algorithms, one can achieve the desired balance.
+        A quest to balance numerical accuracy without added cost.
       </div>
   
   </li>
@@ -45,7 +45,7 @@ title: Projects
       <img src="/assets/pages/data_science_screenshot.png">
       <div class="container">
         <span class="projectlistheading">Data Science</span><br />
-        Using online semantic data as a window into human nature. An attempt to see the forest through the trees.
+        Using online semantic data as a window into human nature.
       </div>
   </a>
   </li>
