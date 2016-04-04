@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Brief Analysis of Einstein, Hubble and Sagan Fellows With ADS"
+title: "A Brief Analysis of Hubble, Einstein and Sagan Fellows With ADS"
 description: "Broad brush trends of the three main astronomy fellowship holders"
 tags: [python, fellowship, job, scrape]
 ---
@@ -9,7 +9,7 @@ Now that the job hunt is largely over, I thought it might be interesting to brie
 
 ## Introduction 
 
-For this study I use only the [ADS python](https://github.com/andycasey/ads) explorer and some other mainstream Python tools (primarily [Pandas](http://pandas.pydata.org/)). The only part of this analysis which took time was compiling the names and years for all fellowship holders. I eventually found the previous receipients on various NASA related webpages and got the remainder on this years [Rumour Mill page](http://www.astrobetter.com/wiki/Rumor+Mill). The primary data set is a list of the following quantities: fellowship type, name, gender, year received, host institution and current institution. In some cases there was no data (only for institutions). Feel free to [download the csv file](/assets/fellowships/data/fellowship_data.csv). You can also get the full [Google Doc with the postprocessed analysis]((https://docs.google.com/spreadsheets/d/1ByyiRw91dAFzmwZql2kfKbFuv_glNgk1VP76J92mSnM/edit?usp=sharing)) but please read on first!
+For this study I use only the [ADS python](https://github.com/andycasey/ads) explorer and some other mainstream Python tools (primarily [Pandas](http://pandas.pydata.org/)). The only part of this analysis which took time was compiling the names and years for all fellowship holders. I eventually found the previous receipients on various NASA related webpages and got the remainder on this years [Rumour Mill page](http://www.astrobetter.com/wiki/Rumor+Mill). The primary data set is a list of the following quantities: fellowship type, name, gender, year received, host institution and current institution. In some cases there was no data (only for institutions). Feel free to download the [csv file](/assets/fellowships/data/processed.csv) or the [dictionary file](/assets/fellowships/data/processed_dict). You can also get the full [Google Doc with the postprocessed analysis]((https://docs.google.com/spreadsheets/d/1ByyiRw91dAFzmwZql2kfKbFuv_glNgk1VP76J92mSnM/edit?usp=sharing)) but please read on first!
 
 This is an example of the type of data I started with:
 
