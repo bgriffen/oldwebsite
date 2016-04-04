@@ -31,13 +31,14 @@ Sagan    | 2015 | m |  Daniel Foreman-Mackey  | University of Washington |  -
 
 A few natural questions one might ask with a list such as this are:
 
-* How many fellowship holders have there been over time?
-* What is the ratio of female-to-male fellowship holders over time?
-* How many papers on average do each type of fellowship holder typically have before being awarded?
-* How many citations to each fellowship holder typically have at the time of their award?
-* How well do their previous track record correlate with the paper production and citations after the award?
-* Is there any difference between the number of citations women and men have at the time of being awarded?
-* What is the overall paper production over time?
+*  How many fellowship holders have there been over time?
+*  What is the ratio of male-to-female fellowship holders over time?
+*  How many papers on average do each type of fellowship holder typically have before being awarded?
+*  Is there any difference between the number of citations women and men have at the time of being awarded?
+*  How many citations do they have before, during and after the award?
+*  Do men or women have more co-authors?
+*  How many co-authors do each fellow type have?
+*  How many citations do they have when awarded compared to later in their careers?
 
 I must say up front that this analysis is not without its drawbacks. 
 
@@ -113,7 +114,7 @@ With this curated dataset, I could now turn to my original list of questions
 
 As I expected, there are a great many more Hubble fellows, followed by Einstein and Sagan fellows.
 
-##  What is the ratio of female-to-male fellowship holders over time?
+##  What is the ratio of male-to-female fellowship holders over time?
 
 ![total number based on sex](/assets/fellowships/sex_number.png "total number based on sex")
 
@@ -149,7 +150,7 @@ It seems, women have more co-authors per paper (median difference ~ 2).
 
 It seems Sagan fellows have by far the most number of co-authors followed by Hubble and Einstein fellows.
 
-## Citations prior to award against citations after award?
+## How many citations do they have when awarded compared to later in their careers?
 
 ![future publications](/assets/fellowships/malevsfemale_cites.png "future publications")
 
