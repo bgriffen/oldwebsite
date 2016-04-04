@@ -5,7 +5,7 @@ description: "Broad brush trends of the three main astronomy fellowship holders"
 tags: [python, fellowship, job, scrape]
 ---
 
-Now that the job hunt is largely over, I thought it might be interesting to briefly examine the publication profiles of previous and current holders of fellowships which are the most in demand. The core fellowships I will be focusing on for this brief study are the NASA-funded Einstein, Hubble and Sagan fellowships which often get hundreds of applications each.
+Now that the job hunt is largely over, I thought it might be interesting to briefly examine the publication profiles of previous and current holders of fellowships which are the most in demand. The core fellowships I focus on are the NASA-funded Einstein, Hubble and Sagan fellowships which often get hundreds of applications each.
 
 # Introduction 
 
