@@ -7,7 +7,7 @@ tags: [python, fellowship, job, scrape]
 
 Now that the job hunt is largely over, I thought it might be interesting to briefly examine the publication profiles of previous and current holders of fellowships which are the most in demand. The core fellowships I will be focusing on for this brief study are the NASA-funded Einstein, Hubble and Sagan fellowships which often get hundreds of applications each.
 
-## Introduction 
+# Introduction 
 
 For this study I use only the [ADS python](https://github.com/andycasey/ads) explorer and some other mainstream Python tools (primarily [Pandas](http://pandas.pydata.org/)). The only part of this analysis which took time was compiling the names and years for all fellowship holders. I eventually found the previous receipients on various NASA related webpages and got the remainder on this years [Rumour Mill page](http://www.astrobetter.com/wiki/Rumor+Mill). The primary data set is a list of the following quantities: fellowship type, name, gender, year received, host institution and current institution. In some cases there was no data (only for institutions). Feel free to download the [csv file](/assets/fellowships/data/processed.csv) or the [dictionary file](/assets/fellowships/data/processed_dict). You can also get the full [Google Doc with the postprocessed analysis]((https://docs.google.com/spreadsheets/d/1ByyiRw91dAFzmwZql2kfKbFuv_glNgk1VP76J92mSnM/edit?usp=sharing)) but please read on first!
 
@@ -25,7 +25,7 @@ Einstein | 2015 | m | Simeon Bird    | - | Johns Hopkins University
 Sagan    | 2015 | f |  Courtney Dressing  | California Institute of Technology |  -
 Sagan    | 2015 | m |  Daniel Foreman-Mackey  | University of Washington |  -
 
-## Goals & Caveats
+# Goals & Caveats
 
 A few natural questions one might ask with a list such as this are:
 
@@ -43,7 +43,7 @@ I must say up front that this analysis is not without its drawbacks.
 * When querying the ADS database, I used the last name and the first initial. Thankfully, most of the names a quite unique but if there are duplicate names in the ADS database, then their paper count and citation count will be inflated. In most plots, it is clear who is affected by this and in most cases, I'm simply interested in broad trends.
 * I combined the Einstein, Chandra and Femi fellows into just "Einstein fellows" (as per [this page](http://cxc.harvard.edu/fellows/fellowslist.html)).
 
-## Obtaining publications statistics
+# Method
 
 First I queried the ADS database for all publication data for each person. This involved constructing a simple dictionary with the relevant quantities I wanted to calculate. With this pruned version of the code:
 
@@ -100,6 +100,8 @@ I obtained the following new set of variables (the names of which are fairly sel
 I have added these quantites to a Google Document which you can explore.
 
 [<img src="/assets/fellowships/table.png">](https://docs.google.com/spreadsheets/d/1ByyiRw91dAFzmwZql2kfKbFuv_glNgk1VP76J92mSnM/edit?usp=sharing)
+
+# Results
 
 With this curated dataset, I could now turn to my original list of questions
 
