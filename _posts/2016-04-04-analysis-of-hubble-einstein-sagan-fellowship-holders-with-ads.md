@@ -44,7 +44,7 @@ I must say up front that this analysis is not without its drawbacks.
 
 * I had to manually create the sex category based on first names. I actually wrote a gender classifier but I found that I could just do the laborious activity whilst watching a film and achieve a much higher accuracy than my classifier could, even if it did do it in seconds.
 * When querying the ADS database, I used the last name and the first initial. Thankfully, most of the names a quite unique but if there are duplicate names in the ADS database, then their paper count and citation count will be inflated. In most plots, it is clear who is affected by this and in most cases, I'm simply interested in broad trends.
-* I combined the Einstein, Chandra and Femi fellows into just "Einstein fellows" (as per [this page](http://cxc.harvard.edu/fellows/fellowslist.html)).
+* I combined the Einstein, Chandra and Fermi fellows into just "Einstein fellows" (as per [this page](http://cxc.harvard.edu/fellows/fellowslist.html)).
 
 # Method
 
