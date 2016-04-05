@@ -48,7 +48,7 @@ I must say up front that this analysis is not without its drawbacks.
 
 # Method
 
-First I queried the ADS database for all publication data for each person. This involved constructing a simple dictionary with the relevant quantities I wanted to calculate. With this pruned version of the code:
+First I queried the ADS database for the publication profiles for each person. This involved constructing a simple dictionary with the relevant quantities I wanted to calculate. With this pruned version of the code:
 
 
 ```python
