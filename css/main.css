@@ -78,7 +78,7 @@ sup {
   display: block;
   padding: 2em 0;
   text-align: left;
-  background-image: url("/assets/pages/background.jpg");
+  background-image: url("/assets/pages/beech_background.jpg");
   background-position: center;
   background-size: cover;
   background-color: #38A1D8;
@@ -116,7 +116,7 @@ sup {
       letter-spacing: -0.3px;
       color: white; }
     .masthead .rootlink:hover .myname {
-      color: white; }
+      color: #8c8478; }
   .masthead .subtitle {
     font-size: 22.4px;
     margin: 0;
@@ -153,7 +153,7 @@ sup {
         .masthead .socialmedia li a.fa-facebook-square:hover {
           color: #3b5897; }
         .masthead .socialmedia li a.fa-rss-square:hover {
-          color: #ee7f2f; }
+          color: #fcdc3b; }
   .masthead .main-menu {
     display: block;
     float: center;
@@ -163,7 +163,7 @@ sup {
     line-height: 200%;
     text-align: center; }
     .masthead .main-menu li:hover {
-      color: #36404a; }
+      color: #8c8478; }
     .masthead .main-menu a {
       color: white; }
       .masthead .main-menu a li {
