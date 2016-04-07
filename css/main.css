@@ -19,6 +19,19 @@ body {
   text-align: left;
   color: #444; }
 
+.signature {
+  padding-bottom: 2em;
+  text-align: center;
+  font-size: 19.2px;
+  line-height: 150%;
+  font-family: "Iowan Old Style", "Georgia", "Noto Sans", "Source Sans Pro", "Verdana", "Tahoma", "Hiragino Mincho Pro", "Arial Unicode MS", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  -ms-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern";
+  /* terminal */ }
+
 p {
   margin: 1em 0; }
 
