@@ -1,0 +1,46 @@
+{% assign image = page.image %}
+
+{% unless image %}
+  {% if page.tag %}
+    {% assign tag = site.data.tags[page.tag] %}
+    {% assign image = tag.image %}
+  {% else %}
+    {% if page.tags.size > 0 %}
+      {% assign tag_name = page.tags[0] %}
+      {% assign tag = site.data.tags[tag_name] %}
+      {% assign image = tag.image %}
+    {% endif %}
+  {% endif %}
+{% endunless %}
+
+{% unless image %}
+  {% assign image = site.image %}
+{% endunless %}
+
+<div   id="_backdrop"></div>
+<a     id="_menu" href="#_sidebar">☰</a>
+<aside id="_sidebar" class="sidebar" {% if image %}style="background-image:url('{{ image }}')"{% endif %}>
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      {{ site.description | markdownify }}
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/about/"><li>About</li></a>
+      <a class="sidebar-nav-item" href="/projects/"><li>Projects</li></a>
+      <a class="sidebar-nav-item" href="/vitae/"><li>Vitae</li></a>
+      <a class="sidebar-nav-item" href="/contact"><li>Contact</li></a>
+    </nav>
+    <center>
+    <div class="sidebar-social">
+      <a href="https://github.com/{{ site.author.github }}"><span class="fa fa-github fa-1x"></span></a>
+      <a href="https://www.twitter.com/{{ site.author.twitter }}"><span class="fa fa-twitter fa-1x"></span></a>
+      <a href="mailto:{{ site.author.email }}"><span class="fa fa-envelope fa-1x"></span></a>
+      <a href="https://feeds.feedburner.com/{{ site.author.rss }}"><span class="fa fa-rss fa-1x"></span></a>
+    </div>
+    </center>
+  </div>
+</aside>
+
+{% include analytics.html %}
