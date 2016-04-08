@@ -1,9 +1,0 @@
-name: Brendan Griffen
-description: Astrophysicist, Massachusetts Institute of Technology
-url: http://brendangriffen.com
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-highlighter: rouge
-permalink: /blog/:title
