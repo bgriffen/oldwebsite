@@ -2,7 +2,7 @@
 layout: post
 title: "Making Spotify Playlists In Python Based On Upcoming Local Bands"
 description: "Want to see some live music, but not sure if you'll like the band? Try this out."
-tags: [python, music, tools]
+tags: [python, music, tools, interactive]
 ---
 
 Today it is extremely easy to access music. The days of celebrating 4kb/s via Napster are long over. For a small fee or even for free, you can access large quantities of music, on demand. If you know of a band or song, it is easy to find it on Youtube or Spotify (or any of the other services). This is great if you *already know* the music you are looking for. What about for bands you haven't heard? Yes, there are ways to [discover new music based on current tastes](http://techcrunch.com/2012/12/06/spotify-following/) but what about something a little closer to home - what about finding new music which happens to be playing in your local area? 
