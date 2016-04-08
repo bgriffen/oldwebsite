@@ -2,7 +2,7 @@
 layout: post
 title: "Music and Mortality"
 description: "Does the genre of an artist determine their lifespan?"
-tags: [python, SPARQL, DBpedia, wikipedia, musicians]
+tags: [python, SPARQL, wikipedia, music]
 ---
 The [27-club](https://en.wikipedia.org/wiki/27_Club) is a group of musicians who have died at the age of 27. Charles Cross, a Hendrix biographer put it as follows:
 

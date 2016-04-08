@@ -2,7 +2,7 @@
 layout: post
 title: "Graphs Of Wikipedia: Sports"
 description: "How are the various teams and players of different sporting communities connected?"
-tags: [python, SPARQL, DBpedia, wikipedia, sport, football, basketball, ice hockey, baseball, soccer]
+tags: [gephi, graphs, wikipedia, viz, interactive, python, sport]
 ---
 
 My goal here is to see if I can create a network of famous sports people based on only two pieces of information: their name and their team. I’m going to need your help on this one so keep your wits about you as you read on. The sports I chose for this study were:

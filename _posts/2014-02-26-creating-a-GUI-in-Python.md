@@ -2,7 +2,7 @@
 layout: post
 title: "Creating a GUI in Python"
 description: "A tutorial and template to create a very basic GUI in Python."
-tags: [Python, GUI, Traits, Visualisation, Interactive]
+tags: [python, viz, interactive]
 ---
 
 So you want to create a Graphical User Interface (GUI)? This tutorial/code might help getting you started. The first feeling I had when I decided to follow this path was *intimidation*. With much patience and Googling I managed to create something I think will save me time in the future. I've used this tool countless times already, whether it be to improve my intuition of complex functions, speed up work flows or render dynamic data. The entire Pythonic GUI template I am about to introduce can be found at its own [Github repository](https://github.com/bgriffen/PythonGUITemplate).

@@ -2,7 +2,7 @@
 layout: post
 title: "Graphs of Wikipedia: Programming Languages"
 description: "A crowd sourced influence map of various programming langauges via Wikipedia."
-tags: [programming languages, ruby, C, python, fortran, gephi, C++, language, network]
+tags: [programming, python, language, graphs, gephi]
 ---
 
 A while back I posted about [a graph of the personalities on Wikipedia]({{ site.url }}/gow-influential-thinkers/). This time I wanted to see which programming languages were linked to one another by user-entered “Influenced” and “Influenced-by” information. Take for instance the functional language Haskell:

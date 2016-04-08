@@ -2,7 +2,7 @@
 layout: post
 title: "Backup Buddy"
 description: "Bash script to backup your work to a server."
-tags: [bash, code, backup]
+tags: [programming]
 ---
 
 It nearly happened to Toy Story 2, it could happen to you. 

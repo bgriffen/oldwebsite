@@ -2,7 +2,7 @@
 layout: post
 title: "A Brief Analysis of Hubble, Einstein and Sagan Fellows With ADS"
 description: "Broad brush trends of the three main astronomy fellowship holders"
-tags: [python, fellowship, job, scrape]
+tags: [python, astronomy, ads]
 ---
 
 Now that the job hunt is largely over, I thought it might be interesting to briefly examine the publication profiles of previous and current holders of fellowships which are the most in demand. The core fellowships I focus on are the NASA-funded Einstein, Hubble and Sagan fellowships which often get hundreds of applicants each year. I also include the last round (2016) fellowship holders in this analysis.

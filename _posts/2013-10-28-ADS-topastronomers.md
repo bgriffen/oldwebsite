@@ -2,7 +2,7 @@
 layout: post
 title: "Top 100 Astronomers By Citation"
 description: "An investigation into ADS astronomers."
-tags: [python, astronomy, ADS, citation, API]
+tags: [python, astronomy, ads]
 ---
 
 <figure class="full">

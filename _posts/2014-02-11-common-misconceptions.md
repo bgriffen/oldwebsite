@@ -2,7 +2,7 @@
 layout: post
 title: "Scraping Wikipedia: Common Misconceptions"
 description: "A very basic example of scraping Wikipedia using the Pattern suite."
-tags: [scraping, misconceptions, Pattern]
+tags: [python, wikipedia]
 ---
 
 I recently stumbled upon this [list of common misconceptions on Wikipedia](https://en.wikipedia.org/wiki/List_of_common_misconceptions) which contains a wide range of interesting tidbits. For instance, did you know Napoleon was taller than average for a Frenchman and that Vikings did not wear helmets with horns? There are a great number of little factoids and I wondered if I could not just scrape the first sentence to get the core facts of the article. I ended up writing a ~20 line Python script which uses the very useful Pattern suite to strip down the Wikipedia article into its basic content and output the first sentence. This work can also be found on Github. There are a few minor parsing errors but it turned out OK. Extremely basic, but fun.

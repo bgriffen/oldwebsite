@@ -2,7 +2,7 @@
 layout: post
 title: "Mapping Astronomy Publications"
 description: "Turning the affiliation list on papers into a map."
-tags: [python, folium, maps, ads]
+tags: [python, maps, ads]
 ---
 
 A casual Google search of the most recent earthquake events provides a long list of [interactive maps]((http://quakes.globalincidentmap.com/)). Generally they look like this:

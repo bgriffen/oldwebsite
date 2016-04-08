@@ -2,7 +2,7 @@
 layout: post
 title: "Graphs of Wikipedia: Influential Thinkers"
 description: "An investigation in to the relationship between people on Wikipedia."
-tags: [SPARQL, snorql, python, Gephi, graphs, semantic, inluence, influential]
+tags: [gephi, graphs, wikipedia, viz, interactive, python, SPARQL]
 ---
 
 The internet is big — very big. One such way to investigate all of this free online content is through graphs. The network visualisations by Simon Raper in his [fantastic post](http://drunks-and-lampposts.com/2012/06/13/graphing-the-history-of-philosophy/) about graphing the history of philosophy is one example of how to exploit such data. Let’s take this a step further and create a series of graphs using everyone on Wikipedia. Using subsets of this dataset (authors, actors, sports players etc.), we can investigate sub-networks within the larger dataset. In the next series of posts, I will present a few of my findings in each of these sub-networks. For now, I’ll focus on generating the core data set using everyone on Wikipedia as of January 2013. To start, let’s look at how people influenced each other throughout history as entered by the authors of Wikipedia. If you search for a notable figure you might find the following on the sidebar:

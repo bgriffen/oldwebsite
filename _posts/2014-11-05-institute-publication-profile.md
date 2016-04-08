@@ -2,7 +2,7 @@
 layout: post
 title: "Generating An Institute's Publication Profile"
 description: "Does the genre of an artist determine their lifespan?"
-tags: [python, ADS, arxiv, astronomy]
+tags: [python, ADS, astronomy, academia]
 ---
 
 Today I wanted to get an idea of my home institute's publication profile based on the [staff list from its own website](http://space.mit.edu/people/all). I'm sure if you're in academia you would have the same for your own. My list includes members which belong to various categories: faculty, affiliated faculty, postdoctoral scholar, student and technical staff.

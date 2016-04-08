@@ -2,7 +2,7 @@
 layout: post
 title: "The Astronomy Job Hunt Made Easy"
 description: "Here are some tools to help making the job hunt easier."
-tags: [python, aas, astronomy, academia]
+tags: [python, astronomy, academia]
 ---
 
 Most of the job hunting season is behind us and for many astronomers, firm decisions about the direction of our careers and lives have been set in motion. For the uninitiated, every Fall (northern hemisphere) astronomers facing the end of their contracts (whether that be as a PhD student, postdoc or research scientist) head to the dreaded [ADS Job Register](https://jobregister.aas.org/) to see what possible future awaits them (assuming they decide to stay in the field).

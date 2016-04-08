@@ -2,7 +2,7 @@
 layout: post
 title: "Basic Interactive Currency Map With jQuery + Python"
 description: "A basic exploration of jQuery and Python."
-tags: [jQuery, Python, map, interactive]
+tags: [python, maps, interactive]
 ---
 
 The good people over at [jQuery Vector Maps](http://jqvmap.com/) have a nice little package for making interactive maps. I wanted to go beyond the standard vector map of countries. All it requires is a connection to a currency conversion module and some “find and replace” code. The most time consuming aspect was finding the correct python module which connected to an online currency exchange. I have added the code to a GitHub repository so fee free to improve upon it ([core code](https://github.com/bgriffen/jcurrency/blob/master/code/constructmap.py)).  It is quite poorly coded as I have never actually dealt with json data before and so I had to invoke sed and subprocesses to do some tasks which can most definitely done more cleanly. I welcome constructive criticisms and suggestions. See my code on [Github](https://github.com/bgriffen/jcurrency).

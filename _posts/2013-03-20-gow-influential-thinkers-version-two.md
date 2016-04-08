@@ -2,7 +2,7 @@
 layout: post
 title: "Graphs of Wikipedia: Influential Thinkers [Round II]"
 description: "An investigation in to the relationship between people on Wikipedia this time with upstream influence included."
-tags: [SPARQL, snorql, python, Gephi, graphs, semantic, inluence, influential]
+tags: [gephi, graphs, wikipedia, viz, interactive, python, SPARQL]
 ---
 
 First of all, thanks very much for the feedback you all gave me on my graph of ideas. I wasn’t quite aware of how many people are interested in this sort of stuff. I now have lots of great ideas for new projects which will keep me busy for a long while. I must say making the graphs is the easy part – it is obtaining the data which takes time. I’ve made a note of all of your suggestions and will try to create something out of them soon. If you haven’t already, you can submit an idea here. I read them all.
