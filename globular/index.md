@@ -1,5 +1,5 @@
 ---
-layout: static
+layout: subpage
 title: Globular Clusters & Reionization
 ---
 

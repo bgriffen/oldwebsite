@@ -1,5 +1,5 @@
 ---
-layout: static
+layout: page
 title: Contact
 ---
 
