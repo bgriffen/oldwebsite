@@ -1,0 +1,40 @@
+# Permalinks
+permalink:        /blog/:title
+
+# Setup
+url:              http://brendangriffen.com
+
+# Set to '' in case of hosting on `http://<your-github-name>.github.io`
+#baseurl:          /
+
+title:            Brendan Griffen
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+highlighter: rouge
+
+# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
+description:      >
+  Astrophysicist @ MIT
+
+# The tags listed as entries in the sidebar
+sidebar_tags:     []
+
+# Fallback image and color if not overwritten for tag or post
+image:            /assets/pages/background_small.jpg
+color:            '#A85641'
+
+author:
+  name:           'Brendan Griffen'
+  twitter:        brendangriffen
+  github:         bgriffen
+  email:          brendan.f.griffen@gmail.com
+  youtube:        itsisfullofstars
+  photo:          /assets/pages/profile_large.jpg
+  vimeo:          brendangriffen
+  rss:            brendangriffen
+  facebook:       brendan.griffen
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:          |
+    I'm Brendan and I'm astrophysicist at MIT's Kavli Institute for Astrophysics and Space Research. Apart from astrophysics I'm also interested in using data as a window into human nature.
