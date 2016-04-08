@@ -1,4 +1,4 @@
 ---
-layout: static
+layout: page
 title: Data Science
 ---
