@@ -1,4 +1,5 @@
 bgriffen.github.io
 ==================
 
-Jekyll Site
+Personal Jekyll Site
+-- new and improved
