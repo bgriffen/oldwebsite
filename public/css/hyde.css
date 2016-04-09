@@ -410,6 +410,14 @@ float:center
   font-weight: normal;
 }
 
+.sidebarme {
+    text-align: center;
+    width: 6.5rem;
+    border-radius: 100%;
+    float: center;
+    margin-top: -4.8rem;
+}
+
 .me {
     text-align: center;
     width: 6.5rem;
@@ -420,6 +428,7 @@ float:center
     z-index: 2;
     float: right;
 }
+
 @media (min-width: 38rem) {
   .me {
 

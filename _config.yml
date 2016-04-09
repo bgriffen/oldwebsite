@@ -16,7 +16,7 @@ highlighter: rouge
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:      >
-  Astrophysicist @ MIT
+ Astrophysicist @ MIT
 
 # The tags listed as entries in the sidebar
 sidebar_tags:     []
