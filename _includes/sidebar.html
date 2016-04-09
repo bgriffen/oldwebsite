@@ -22,9 +22,15 @@
 <aside id="_sidebar" class="sidebar" {% if image %}style="background-image:url('{{ image }}')"{% endif %}>
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <center>
+      <img class="sidebarme" src="{{ site.author.photo }}">
+      <center>
+      <h2><a href="{{ site.baseurl }}/">{{ site.title }}</a></h2>
       {{ site.description | markdownify }}
     </div>
+
+    
+
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item" href="/about/"><li>About</li></a>
