@@ -19,7 +19,7 @@
 
 <div   id="_backdrop"></div>
 <a     id="_menu" href="#_sidebar">☰</a>
-<aside id="_sidebar" class="sidebar" {% if image %}style="background-image:url('{{ image }}')"{% endif %}>
+<aside id="_sidebar" class="sidebar" style="background-image:url('{{ image }}')">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <center>
@@ -28,10 +28,7 @@
       <h2><a href="{{ site.baseurl }}/">{{ site.title }}</a></h2>
       {{ site.description | markdownify }}
     </div>
-
     
-
-
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item" href="/about/"><li>About</li></a>
       <a class="sidebar-nav-item" href="/projects/"><li>Projects</li></a>
