@@ -4,10 +4,6 @@ title: About
 ---
 
 
-{% if site.author. %}
-  ![{{ site.author.name }}]({{ site.author.photo }}){:.me}
-{% endif %}
-
 <div><ul class="aboutmelist">
 <li><strong>Nationality:</strong> Australian</li> 
 <li><strong>Based:</strong> Cambridge, Massachusetts, USA</li> 
