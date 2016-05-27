@@ -40,8 +40,28 @@ title: Projects
       </div>
   
   </li>
+
   <li>
-  
+      
+      <a href="http://www.scaledbiolabs.com/"><img src="/assets/pages/scaledbiolabslogo.png"></a>
+      <div class="container">
+        <span class="projectlistheading">Scaled Biolabs </span><br />
+        I'm a co-founder of Scaled Biolabs, a company dedicated to turbocharging biomedical R&D to deliver better outcomes for researchers patients and funding bodies. 
+      </div>
+  </a>
+  </li>
+
+  <li>
+      <a href="http://curriculumredesign.org/"><img src="/assets/pages/ccrlogo.png"></a>
+      <div class="container">
+        <span class="projectlistheading">Center For Curriculum Redesign</span><br />
+        I am a consultant for the Center For Curriculum Redesign which is a non-profit focused on creating holistic, data-driven curriculums for schools in the 21st century.
+      </div>
+  </a>
+  </li>
+
+  <li>
+      
       <img src="/assets/pages/data_science_screenshot.png">
       <div class="container">
         <span class="projectlistheading">Data Science</span><br />
