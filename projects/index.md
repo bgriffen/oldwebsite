@@ -59,7 +59,7 @@ title: Projects
   </li>
 
   <li>
-      <a href="/blog/">
+      <a href="/">
       <img src="/assets/pages/data_science_screenshot.png">
       <div class="container">
         <span class="projectlistheading">Data Science</span><br />
