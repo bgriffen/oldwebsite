@@ -14,7 +14,7 @@ title: Projects
   </a>
   </li>  
   <li>
-  <a href="http://brendangriffen.com/globular/">
+      <a href="http://brendangriffen.com/globular/">
       <img src="/assets/pages/gc_screenshot.jpg">
       <div class="container">
         <span class="projectlistheading">Globular Cluster Formation & Reionization</span><br />
@@ -23,51 +23,49 @@ title: Projects
   </a>
   </li>
   <li>
-  
       <img src="/assets/pages/sam_screenshot.jpg">
       <div class="container">
         <span class="projectlistheading">Semi-analytic Models</span><br />
         One can quickly explore the parameter space of physically motivated prescriptions for galaxy formation using semi-analytic models.
       </div>
-  
   </li>
   <li>
-  
       <img src="/assets/pages/numerical_methods_screenshot.jpg">
       <div class="container">
         <span class="projectlistheading">Numerical Methods</span><br />
         To model the Universe, I employ a variety of numerical methods across large distributed computing architectures.
       </div>
-  
   </li>
 
   <li>
       
-      <a href="http://www.scaledbiolabs.com/"><img src="/assets/pages/scaledbiolabslogo.png"></a>
+      <a href="http://www.scaledbiolabs.com/">
+      <img src="/assets/pages/scaledbiolabslogo.png">
       <div class="container">
         <span class="projectlistheading">Scaled Biolabs </span><br />
         I'm a co-founder of Scaled Biolabs, a company dedicated to turbocharging biomedical R&D to deliver better outcomes for researchers patients and funding bodies. 
       </div>
-  </a>
+      </a>
   </li>
 
   <li>
-      <a href="http://curriculumredesign.org/"><img src="/assets/pages/ccrlogo.png"></a>
+      <a href="http://curriculumredesign.org/">
+      <img src="/assets/pages/ccrlogo.png">
       <div class="container">
         <span class="projectlistheading">Center For Curriculum Redesign</span><br />
         I am a consultant for the Center For Curriculum Redesign which is a non-profit focused on creating holistic, data-driven curriculums for schools in the 21st century.
       </div>
-  </a>
+      </a>
   </li>
 
   <li>
-      
+      <a href="/blog/">
       <img src="/assets/pages/data_science_screenshot.png">
       <div class="container">
         <span class="projectlistheading">Data Science</span><br />
         In my spare time, I explore online semantic data sets as a window into human nature. A lot of this work can be found on my blog.
       </div>
-  </a>
+      </a>
   </li>
 </ul>
 
