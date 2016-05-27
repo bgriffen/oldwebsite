@@ -53,7 +53,7 @@ title: Projects
       <img src="/assets/pages/ccrlogo.png">
       <div class="container">
         <span class="projectlistheading">Center For Curriculum Redesign</span><br />
-        I am a consultant for the Center For Curriculum Redesign which is a non-profit focused on creating holistic, data-driven curriculums for schools in the 21st century.
+        I am a consultant for the Center For Curriculum Redesign focused on creating holistic, data-driven curriculums for schools in the 21st century.
       </div>
       </a>
   </li>
