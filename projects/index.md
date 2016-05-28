@@ -43,7 +43,7 @@ title: Projects
       <img src="/assets/pages/scaledbiolabslogo.png">
       <div class="container">
         <span class="projectlistheading">Scaled Biolabs</span><br />
-        I'm a co-founder of Scaled Biolabs, a company dedicated to deliver better outcomes for researchers, patients and funding bodies. 
+        I'm a co-founder of Scaled Biolabs, a company dedicated to delivering better outcomes for researchers, patients and funding bodies. 
       </div>
       </a>
   </li>
