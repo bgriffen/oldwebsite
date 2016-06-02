@@ -122,23 +122,16 @@ function initSigma(config) {
 function setupGUI(config) {
 	// Initialise main interface elements
 	var logo=""; // Logo elements
-	if (config.logo.file) {
-
-        logo = "<img src=\"" + "./images/logo.png" +"\"";
-        if (config.logo.text) logo+=" alt=\"" + config.logo.text + "\"";
-        logo+=">";
-    } else if (config.logo.text) {
-        logo="<h1>"+config.logo.text+"</h1>";
-    }
-    if (config.logo.link) logo="<a href=\"" + config.logo.link + "\">"+logo+"</a>";
+	
+    logo = '<a href="'+config.logo.link+'"><img src="'+config.logo.file+'" width="220"></a>';
     
-    $("#maintitle").html("<img src=\"" + "./images/logo.png" +"\""+" width=\"220\">");
+    $("#maintitle").html(logo);
 
     // #title
     $("#title").html("<h2>"+config.text.title+"</h2>");
 
     // #titletext
-    $("#titletext").html("This graph shows the interconnections between education disciplines. It was constructed based on the links connecting the content of wikipedia. The colors represent communities within the larger network. Similarly colored nodes belong to similar communities. The edge thickness indicates the weight of the connection or how strongly connected the disciplines are connected to one another.");
+    $("#titletext").html(config.text.titletext);
 
     // More information
     if (config.text.more) {
