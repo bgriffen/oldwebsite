@@ -47,9 +47,9 @@ function initSigma(config) {
 	var data=config.data
 	
 	var drawProps, graphProps,mouseProps;
-    // if (config.sigma && config.sigma.drawingProperties) 
-    //  drawProps=config.sigma.drawingProperties;
-    // else
+    if (config.sigma && config.sigma.drawingProperties) 
+     drawProps=config.sigma.drawingProperties;
+    else
         drawProps={
         defaultLabelColor: "#000",
         defaultLabelSize: 14,
@@ -69,7 +69,7 @@ function initSigma(config) {
     	graphProps={
         minNodeSize: 1,
         maxNodeSize: 15,
-        minEdgeSize: 0.2,
+        minEdgeSize: 0.3,
         maxEdgeSize: 5
         };
 	
@@ -78,7 +78,7 @@ function initSigma(config) {
 	else
 		mouseProps={
         minRatio: 0.75, // How far can we zoom out?
-        maxRatio: 20, // How far can we zoom in?
+        maxRatio: 1, // How far can we zoom in?
     	};
 	
     var a = sigma.init(document.getElementById("sigma-canvas")).drawingProperties(drawProps).graphProperties(graphProps).mouseProperties(mouseProps);
