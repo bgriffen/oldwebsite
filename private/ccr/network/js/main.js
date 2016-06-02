@@ -47,38 +47,38 @@ function initSigma(config) {
 	var data=config.data
 	
 	var drawProps, graphProps,mouseProps;
-    if (config.sigma && config.sigma.drawingProperties) 
-     drawProps=config.sigma.drawingProperties;
-    else
-        drawProps={
+	if (config.sigma && config.sigma.drawingProperties) 
+		drawProps=config.sigma.drawingProperties;
+	else
+		drawProps={
         defaultLabelColor: "#000",
         defaultLabelSize: 14,
         defaultLabelBGColor: "#ddd",
         defaultHoverLabelBGColor: "#002147",
         defaultLabelHoverColor: "#fff",
-        labelThreshold: 0,
+        labelThreshold: 10,
         defaultEdgeType: "curve",
         hoverFontStyle: "bold",
         fontStyle: "bold",
         activeFontStyle: "bold"
     };
     
-    // if (config.sigma && config.sigma.graphProperties)	
-    // 	graphProps=config.sigma.graphProperties;
-    // else
+    if (config.sigma && config.sigma.graphProperties)	
+    	graphProps=config.sigma.graphProperties;
+    else
     	graphProps={
         minNodeSize: 1,
-        maxNodeSize: 15,
-        minEdgeSize: 0.3,
-        maxEdgeSize: 5
-        };
+        maxNodeSize: 7,
+        minEdgeSize: 0.2,
+        maxEdgeSize: 0.5
+    	};
 	
 	if (config.sigma && config.sigma.mouseProperties) 
 		mouseProps=config.sigma.mouseProperties;
 	else
 		mouseProps={
         minRatio: 0.75, // How far can we zoom out?
-        maxRatio: 1, // How far can we zoom in?
+        maxRatio: 20, // How far can we zoom in?
     	};
 	
     var a = sigma.init(document.getElementById("sigma-canvas")).drawingProperties(drawProps).graphProperties(graphProps).mouseProperties(mouseProps);
@@ -140,13 +140,13 @@ function setupGUI(config) {
     // #titletext
     $("#titletext").html("This graph shows the interconnections between education disciplines. It was constructed based on the links connecting the content of wikipedia. The colors represent communities within the larger network. Similarly colored nodes belong to similar communities. The edge thickness indicates the weight of the connection or how strongly connected the disciplines are connected to one another.");
 
-	// More information
-	if (config.text.more) {
-		$("#information").html(config.text.more);
-	} else {
-		//hide more information link
-		$("#moreinformation").hide();
-	}
+    // More information
+    if (config.text.more) {
+        $("#information").html(config.text.more);
+    } else {
+        //hide more information link
+        $("#moreinformation").hide();
+    }
 
 	// Legend
 

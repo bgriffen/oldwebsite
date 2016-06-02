@@ -3,14 +3,14 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "",
+    "file": "./images/logo.png",
     "link": "http://www.brendangriffen.com",
     "text": "Brendan Griffen"
   },
   "text": {
     "more": "",
     "intro": "",
-    "title": "Interdisciplinarity of Knowledge"
+    "title": "Two Nearest Neighbors"
   },
   "legend": {
     "edgeLabel": "Relationship",
@@ -19,7 +19,7 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
+    "groupSelectorAttribute": "Modularity Class",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
@@ -36,13 +36,13 @@
       "labelThreshold": 0,
       "defaultLabelHoverColor": "#fff",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 18
+      "defaultLabelSize": 20
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
+      "maxEdgeSize": 10,
+      "minEdgeSize": 0.1,
       "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxNodeSize": 10
     },
     "mouseProperties": {
       "maxRatio": 20,
