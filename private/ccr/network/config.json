@@ -8,10 +8,10 @@
     "text": "Center For Curriculum Redesign"
   },
   "text": {
-    "more": "",
+    "more": "We pruned the total Wikipedia network to only show the disciplines of interest. We do retain the modularity class (color or community type) identified within the larger network. To create the appropriate weight between each node, we assign one point for pages separated by one degree (i.e. they link directly to each other, ½ a point for nodes separated by two degrees and ⅓ a point for nodes separated by three degrees. Once this has been calculated the actual weight displayed is the logarithm of their tally.",
     "intro": "",
     "title": "Knowledge Graph Using Wikipedia",
-    "titletext" : "This graph shows the interconnections between education disciplines. It was constructed based on the links connecting the content of wikipedia. The colors represent communities within the larger network. Similarly colored nodes belong to similar communities. The edge thickness indicates the weight of the connection or how strongly connected the disciplines are connected to one another."
+    "titletext" : "This graph shows the interconnections between knowledge disciplines contained within the links of Wikipedia. It was constructed based on the links connecting the content of wikipedia. The colors represent communities within the larger network. Similarly colored nodes belong to similar communities. The edge thickness indicates the weight of the connection or how strongly connected the disciplines are connected to one another."
   },
   "legend": {
     "edgeLabel": "Relationship",
