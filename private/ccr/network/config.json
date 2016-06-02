@@ -4,13 +4,14 @@
   "data": "data.json",
   "logo": {
     "file": "./images/logo.png",
-    "link": "http://www.brendangriffen.com",
-    "text": "Brendan Griffen"
+    "link": "http://curriculumredesign.org/",
+    "text": "Center For Curriculum Redesign"
   },
   "text": {
     "more": "",
     "intro": "",
-    "title": "Two Nearest Neighbors"
+    "title": "Knowledge Graph Using Wikipedia",
+    "titletext" : "This graph shows the interconnections between education disciplines. It was constructed based on the links connecting the content of wikipedia. The colors represent communities within the larger network. Similarly colored nodes belong to similar communities. The edge thickness indicates the weight of the connection or how strongly connected the disciplines are connected to one another."
   },
   "legend": {
     "edgeLabel": "Relationship",
