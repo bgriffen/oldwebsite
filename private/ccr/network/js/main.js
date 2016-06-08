@@ -531,7 +531,17 @@ function nodeActive(a) {
 		f.push("<h2>Outgoing (" + size + ")</h2>");
 		(size>0)? f=f.concat(createList(outgoing)) : f.push("No outgoing links<br>");
 	} else {
-		f=f.concat(createList(sigInst.neighbors));
+		//size=Object.size(mutual);
+        //f.push("<h2>Mututal (" + size + ")</h2>");
+        //(size>0)? f=f.concat(createList(mutual)) : f.push("No mutual links<br>");
+        size=Object.size(outgoing);
+        f.push("<h2>Top 5 Outgoing (" + size + ")</h2>");
+        (size>0)? f=f.concat(createList(outgoing)) : f.push("No outgoing links<br>");
+        size=Object.size(incoming);
+        f.push("<h2>Incoming (" + size + ")</h2>");
+        (size>0)? f=f.concat(createList(incoming)) : f.push("No incoming links<br>");
+        
+    
 	}
 	//b is object of active node -- SAH
     b.hidden = !1;
@@ -545,6 +555,7 @@ function nodeActive(a) {
         var a = $(this),
             b = a.attr("rel");
     });
+
     f = b.attr;
     if (f.attributes) {
   		var image_attribute = false;
@@ -554,32 +565,39 @@ function nodeActive(a) {
         e = [];
         temp_array = [];
         g = 0;
-        for (var attr in f.attributes) {
-            var d = f.attributes[attr],
-                h = "";
-			if (attr!=image_attribute) {
-                h = '<span><strong>' + attr + ':</strong> ' + d + '</span><br/>'
-			}
-            //temp_array.push(f.attributes[g].attr);
-            e.push(h)
-        }
 
-        if (image_attribute) {
-        	//image_index = jQuery.inArray(image_attribute, temp_array);
-        	$GP.info_name.html("<div><img src=" + f.attributes[image_attribute] + " style=\"vertical-align:middle\" /> <span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
+        h = '<span><strong>Discipline Group:</strong> '+f.attributes["Modularity Class"]+'</span><br/>'
+        e.push(h)
+
+        h = '<span><strong>Link:</strong> '+f.attributes["Link"]+'</span><br/>'
+        e.push(h)
+
+        h = '<span><strong>Values for centrality below are given a rank from 0 to 1 where 1 is the least central and 0 being the most central for each measure, respectively.</strong><br>'
+        e.push(h)
+
+        h = '<span><strong>How far is it to other disciplines? (closeness centrality):</strong> '+f.attributes["closeness"]+'</span><br/>'
+        e.push(h)
+
+        h = '<span><strong>How likely is this discipline on the path to other disciplines (betweenness centrality):</strong> '+f.attributes["betweenness"]+'</span><br/>'
+        e.push(h)
+        
+         if (image_attribute) {
+            //image_index = jQuery.inArray(image_attribute, temp_array);
+            $GP.info_name.html("<div><img src=" + f.attributes[image_attribute] + " style=\"vertical-align:middle\" /> <span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
         } else {
-        	$GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
+            $GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
         }
         // Image field for attribute pane
         $GP.info_data.html(e.join("<br/>"))
     }
     $GP.info_data.show();
-    $GP.info_p.html("Connections:");
+    $GP.info_p.html("Strongest Connections");
     $GP.info.animate({width:'show'},350);
 	$GP.info_donnees.hide();
 	$GP.info_donnees.show();
     sigInst.active = a;
     window.location.hash = b.label;
+
 }
 
 function showCluster(a) {
@@ -602,7 +620,7 @@ function showCluster(a) {
         }
         sigInst.clusters[a] = e;
         sigInst.draw(2, 2, 2, 2);
-        $GP.info_name.html("<b>" + a + "</b>");
+        $GP.info_name.html("<b>"+a+"</b>");
         $GP.info_data.hide();
         $GP.info_p.html("Group Members:");
         $GP.info_link.find("ul").html(f.join(""));
