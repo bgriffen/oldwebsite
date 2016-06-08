@@ -10,18 +10,18 @@
   "text": {
     "more": "We pruned the total Wikipedia network to only show the disciplines of interest. We do retain the modularity class (color or community type) identified within the larger network. To create the appropriate weight between each node, we assign one point for pages separated by one degree (i.e. they link directly to each other, ½ a point for nodes separated by two degrees and ⅓ a point for nodes separated by three degrees. Once this has been calculated the actual weight displayed is the logarithm of their tally.",
     "intro": "",
-    "title": "Knowledge Graph Using Wikipedia",
-    "titletext" : "This graph shows the interconnections between knowledge disciplines contained within the links of Wikipedia. Similarly colored nodes belong to similar communities. The edge thickness indicates the weight of the connection or how strongly connected the disciplines are connected to one another."
+    "title": "Graph Of Disciplines Using Links In Wikipedia",
+    "titletext" : "This graph shows the interconnections between knowledge disciplines contained within the links of Wikipedia. Similarly colored nodes belong to similar communities calculated within the enter network. The edge thickness indicates the weight of the connection or how strongly connected the disciplines are connected to one another. Click below for more information."
   },
   "legend": {
     "edgeLabel": "Relationship",
-    "colorLabel": "Community",
+    "colorLabel": "Group",
     "nodeLabel": "Discipline"
   },
   "features": {
     "search": true,
     "groupSelectorAttribute": "Modularity Class",
-    "hoverBehavior": "dim"
+    "hoverBehavior": "default"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
@@ -29,7 +29,7 @@
   },
   "sigma": {
     "drawingProperties": {
-      "defaultEdgeType": "curve",
+      "defaultEdgeType": "straight",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
