@@ -578,7 +578,7 @@ function nodeActive(a) {
         h = '<span><strong>How far is it to other disciplines? (closeness centrality):</strong> '+f.attributes["closeness"]+'</span><br/>'
         e.push(h)
 
-        h = '<span><strong>How likely is this discipline on the path to other disciplines (betweenness centrality):</strong> '+f.attributes["betweenness"]+'</span><br/>'
+        h = '<span><strong>How likely is this discipline on the path between two disciplines (betweenness centrality):</strong> '+f.attributes["betweenness"]+'</span><br/>'
         e.push(h)
         
          if (image_attribute) {
