@@ -1,1 +1,1602 @@
-{"nodes": [{"color": "rgb(154,150,229)", "label": "Environmental Science", "x": -106.1130142211914, "y": -7.917048454284668, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/environmental_science\" target=\"_blank\">/wiki/environmental_science</a>", "Modularity Class": "science", "closeness": "0.364", "betweenness": "0.914"}, "id": "5", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Zoology", "x": -63.77210235595703, "y": -15.814403533935547, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/zoology\" target=\"_blank\">/wiki/zoology</a>", "Modularity Class": "science", "closeness": "0.402", "betweenness": "0.212"}, "id": "18", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Economics", "x": -12.75311279296875, "y": 29.305919647216797, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/economics\" target=\"_blank\">/wiki/economics</a>", "Modularity Class": "science", "closeness": "0.424", "betweenness": "0.561"}, "id": "29", "size": 10.0}, {"color": "rgb(40,179,106)", "label": "Music", "x": 47.859947204589844, "y": -5.857846736907959, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/music\" target=\"_blank\">/wiki/music</a>", "Modularity Class": "arts", "closeness": "0.461", "betweenness": "0.213"}, "id": "11", "size": 10.0}, {"color": "rgb(40,179,106)", "label": "Architecture", "x": -4.438786029815674, "y": -52.81429672241211, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/architecture\" target=\"_blank\">/wiki/architecture</a>", "Modularity Class": "arts", "closeness": "0.457", "betweenness": "0.918"}, "id": "36", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Linguistics", "x": 20.873937606811523, "y": 13.99483871459961, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/linguistics\" target=\"_blank\">/wiki/linguistics</a>", "Modularity Class": "science", "closeness": "0.430", "betweenness": "0.408"}, "id": "7", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Biology", "x": -44.5095100402832, "y": -14.684877395629883, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/biology\" target=\"_blank\">/wiki/biology</a>", "Modularity Class": "science", "closeness": "0.413", "betweenness": "0.410"}, "id": "23", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "Law", "x": 9.914349555969238, "y": 31.326065063476562, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/law\" target=\"_blank\">/wiki/law</a>", "Modularity Class": "humanities", "closeness": "0.433", "betweenness": "0.996"}, "id": "31", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Agriculture", "x": -27.153057098388672, "y": -47.70082473754883, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/agriculture\" target=\"_blank\">/wiki/agriculture</a>", "Modularity Class": "science", "closeness": "0.405", "betweenness": "0.811"}, "id": "33", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Mechanical Engineering", "x": -38.27210235595703, "y": -83.89221954345703, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/mechanical_engineering\" target=\"_blank\">/wiki/mechanical_engineering</a>", "Modularity Class": "science", "closeness": "0.417", "betweenness": "0.327"}, "id": "32", "size": 10.0}, {"color": "rgb(40,179,106)", "label": "Design", "x": -8.67099380493164, "y": -74.2666015625, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/design\" target=\"_blank\">/wiki/design</a>", "Modularity Class": "arts", "closeness": "0.394", "betweenness": "0.109"}, "id": "24", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "Religion", "x": 23.407501220703125, "y": -5.011497974395752, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/religion\" target=\"_blank\">/wiki/religion</a>", "Modularity Class": "humanities", "closeness": "0.478", "betweenness": "0.125"}, "id": "44", "size": 10.0}, {"color": "rgb(40,179,106)", "label": "Drawing", "x": 52.81378173828125, "y": -77.42172241210938, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/drawing\" target=\"_blank\">/wiki/drawing</a>", "Modularity Class": "arts", "closeness": "0.375", "betweenness": "0.561"}, "id": "6", "size": 10.0}, {"color": "rgb(40,179,106)", "label": "Photography", "x": 14.240927696228027, "y": -78.79926300048828, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/photography\" target=\"_blank\">/wiki/photography</a>", "Modularity Class": "arts", "closeness": "0.396", "betweenness": "0.617"}, "id": "30", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "Journalism", "x": 51.32545471191406, "y": 48.47331237792969, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/journalism\" target=\"_blank\">/wiki/journalism</a>", "Modularity Class": "humanities", "closeness": "0.374", "betweenness": "0.641"}, "id": "27", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "Poetry", "x": 52.084083557128906, "y": -29.17551612854004, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/poetry\" target=\"_blank\">/wiki/poetry</a>", "Modularity Class": "humanities", "closeness": "0.409", "betweenness": "0.599"}, "id": "13", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Geology", "x": -31.322860717773438, "y": -27.569780349731445, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/geology\" target=\"_blank\">/wiki/geology</a>", "Modularity Class": "science", "closeness": "0.391", "betweenness": "0.339"}, "id": "3", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Geography", "x": -27.563310623168945, "y": -4.580410957336426, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/geography\" target=\"_blank\">/wiki/geography</a>", "Modularity Class": "science", "closeness": "0.438", "betweenness": "0.194"}, "id": "9", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Computer Science", "x": -97.13682556152344, "y": -27.08736228942871, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/computer_science\" target=\"_blank\">/wiki/computer_science</a>", "Modularity Class": "science", "closeness": "0.423", "betweenness": "0.158"}, "id": "17", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Finance", "x": -52.02909851074219, "y": 36.87745666503906, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/finance\" target=\"_blank\">/wiki/finance</a>", "Modularity Class": "science", "closeness": "0.359", "betweenness": "0.108"}, "id": "40", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Psychology", "x": -12.442535400390625, "y": 4.941435813903809, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/psychology\" target=\"_blank\">/wiki/psychology</a>", "Modularity Class": "science", "closeness": "0.444", "betweenness": "0.853"}, "id": "39", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "Literature", "x": 32.1915168762207, "y": -23.147594451904297, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/literature\" target=\"_blank\">/wiki/literature</a>", "Modularity Class": "humanities", "closeness": "0.418", "betweenness": "0.520"}, "id": "20", "size": 10.0}, {"color": "rgb(40,179,106)", "label": "Painting", "x": 38.897483825683594, "y": -48.43567657470703, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/painting\" target=\"_blank\">/wiki/painting</a>", "Modularity Class": "arts", "closeness": "0.444", "betweenness": "0.428"}, "id": "8", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Physics", "x": -12.437284469604492, "y": -30.931957244873047, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/physics\" target=\"_blank\">/wiki/physics</a>", "Modularity Class": "science", "closeness": "0.414", "betweenness": "0.734"}, "id": "28", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Electrical Engineering", "x": -72.85440826416016, "y": -67.49481201171875, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/electrical_engineering\" target=\"_blank\">/wiki/electrical_engineering</a>", "Modularity Class": "science", "closeness": "0.410", "betweenness": "0.451"}, "id": "35", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "Writing", "x": 44.54043197631836, "y": 19.24551773071289, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/writing\" target=\"_blank\">/wiki/writing</a>", "Modularity Class": "humanities", "closeness": "0.396", "betweenness": "0.176"}, "id": "22", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Pharmacy", "x": -71.98137664794922, "y": 12.957548141479492, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/pharmacy\" target=\"_blank\">/wiki/pharmacy</a>", "Modularity Class": "science", "closeness": "0.410", "betweenness": "0.162"}, "id": "2", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Biotechnology", "x": -47.488182067871094, "y": -58.70249938964844, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/biotechnology\" target=\"_blank\">/wiki/biotechnology</a>", "Modularity Class": "science", "closeness": "0.410", "betweenness": "0.227"}, "id": "37", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Materials Science", "x": -80.72209167480469, "y": -44.77425003051758, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/materials_science\" target=\"_blank\">/wiki/materials_science</a>", "Modularity Class": "science", "closeness": "0.411", "betweenness": "0.104"}, "id": "21", "size": 10.0}, {"color": "rgb(40,179,106)", "label": "Theater", "x": 70.7513198852539, "y": -57.8855094909668, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/theater\" target=\"_blank\">/wiki/theater</a>", "Modularity Class": "arts", "closeness": "0.398", "betweenness": "0.737"}, "id": "42", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Political Science", "x": 17.805892944335938, "y": 50.75323486328125, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/political_science\" target=\"_blank\">/wiki/political_science</a>", "Modularity Class": "science", "closeness": "0.407", "betweenness": "0.484"}, "id": "0", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Anthropology", "x": 4.703856468200684, "y": -0.8384426236152649, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/anthropology\" target=\"_blank\">/wiki/anthropology</a>", "Modularity Class": "science", "closeness": "0.469", "betweenness": "0.163"}, "id": "4", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "Business", "x": -19.310346603393555, "y": 49.117942810058594, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/business\" target=\"_blank\">/wiki/business</a>", "Modularity Class": "humanities", "closeness": "0.363", "betweenness": "0.127"}, "id": "10", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Botany", "x": -51.484378814697266, "y": -34.468509674072266, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/botany\" target=\"_blank\">/wiki/botany</a>", "Modularity Class": "science", "closeness": "0.412", "betweenness": "0.800"}, "id": "16", "size": 10.0}, {"color": "rgb(40,179,106)", "label": "Dance", "x": 82.48037719726562, "y": -22.428197860717773, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/dance\" target=\"_blank\">/wiki/dance</a>", "Modularity Class": "arts", "closeness": "0.383", "betweenness": "0.227"}, "id": "25", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "Education", "x": -26.536685943603516, "y": 16.731815338134766, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/education\" target=\"_blank\">/wiki/education</a>", "Modularity Class": "humanities", "closeness": "0.451", "betweenness": "0.367"}, "id": "38", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "Philosophy", "x": 9.731565475463867, "y": -17.52652359008789, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/philosophy\" target=\"_blank\">/wiki/philosophy</a>", "Modularity Class": "humanities", "closeness": "0.459", "betweenness": "0.641"}, "id": "14", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Astronomy", "x": 8.6456937789917, "y": -36.79521942138672, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/astronomy\" target=\"_blank\">/wiki/astronomy</a>", "Modularity Class": "science", "closeness": "0.396", "betweenness": "0.614"}, "id": "19", "size": 10.0}, {"color": "rgb(40,179,106)", "label": "Sculpture", "x": 20.779247283935547, "y": -56.145599365234375, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/sculpture\" target=\"_blank\">/wiki/sculpture</a>", "Modularity Class": "arts", "closeness": "0.441", "betweenness": "0.163"}, "id": "26", "size": 10.0}, {"color": "rgb(40,179,106)", "label": "Cinematography", "x": 5.985936164855957, "y": -93.7733154296875, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/cinematography\" target=\"_blank\">/wiki/cinematography</a>", "Modularity Class": "arts", "closeness": "0.374", "betweenness": "0.210"}, "id": "12", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "Sociology", "x": 0.8114391565322876, "y": 15.833236694335938, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/sociology\" target=\"_blank\">/wiki/sociology</a>", "Modularity Class": "humanities", "closeness": "0.431", "betweenness": "0.495"}, "id": "43", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Civil Engineering", "x": -72.6234130859375, "y": -92.40875244140625, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/civil_engineering\" target=\"_blank\">/wiki/civil_engineering</a>", "Modularity Class": "science", "closeness": "0.406", "betweenness": "0.298"}, "id": "1", "size": 10.0}, {"color": "rgb(154,150,229)", "label": "Medicine", "x": -46.55205535888672, "y": 6.556131362915039, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/medicine\" target=\"_blank\">/wiki/medicine</a>", "Modularity Class": "science", "closeness": "0.429", "betweenness": "0.905"}, "id": "15", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "History", "x": -8.930870056152344, "y": -13.039822578430176, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/history\" target=\"_blank\">/wiki/history</a>", "Modularity Class": "humanities", "closeness": "0.442", "betweenness": "0.577"}, "id": "34", "size": 10.0}, {"color": "rgb(249,119,67)", "label": "Archeology", "x": 69.09051513671875, "y": 5.267372131347656, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/archeology\" target=\"_blank\">/wiki/archeology</a>", "Modularity Class": "humanities", "closeness": "0.469", "betweenness": "0.568"}, "id": "41", "size": 10.0}], "edges": [{"target": "6", "color": "rgb(0,109,44)", "source": "26", "attributes": {}, "id": "2136", "size": 14.5}, {"target": "8", "color": "rgb(0,109,44)", "source": "12", "attributes": {}, "id": "1704", "size": 5.0}, {"target": "28", "color": "rgb(0,109,44)", "source": "2", "attributes": {}, "id": "1395", "size": 11.5}, {"target": "13", "color": "rgb(0,109,44)", "source": "42", "attributes": {}, "id": "2632", "size": 0.5}, {"target": "11", "color": "rgb(0,109,44)", "source": "42", "attributes": {}, "id": "2631", "size": 0.5}, {"target": "23", "color": "rgb(0,109,44)", "source": "15", "attributes": {}, "id": "1825", "size": 27.0}, {"target": "31", "color": "rgb(0,109,44)", "source": "20", "attributes": {}, "id": "1970", "size": 16.0}, {"target": "14", "color": "rgb(0,109,44)", "source": "20", "attributes": {}, "id": "1955", "size": 20.5}, {"target": "33", "color": "rgb(0,109,44)", "source": "10", "attributes": {}, "id": "1650", "size": 5.0}, {"target": "28", "color": "rgb(0,109,44)", "source": "35", "attributes": {}, "id": "2429", "size": 0.5}, {"target": "14", "color": "rgb(0,109,44)", "source": "27", "attributes": {}, "id": "2177", "size": 2.0}, {"target": "4", "color": "rgb(0,109,44)", "source": "11", "attributes": {}, "id": "1663", "size": 16.0}, {"target": "37", "color": "rgb(0,109,44)", "source": "15", "attributes": {}, "id": "1837", "size": 15.5}, {"target": "13", "color": "rgb(0,109,44)", "source": "25", "attributes": {}, "id": "2106", "size": 5.5}, {"target": "14", "color": "rgb(0,109,44)", "source": "7", "attributes": {}, "id": "1525", "size": 44.0}, {"target": "11", "color": "rgb(0,109,44)", "source": "13", "attributes": {}, "id": "1742", "size": 14.0}, {"target": "14", "color": "rgb(0,109,44)", "source": "44", "attributes": {}, "id": "2688", "size": 174.0}, {"target": "12", "color": "rgb(0,109,44)", "source": "30", "attributes": {}, "id": "2284", "size": 11.5}, {"target": "14", "color": "rgb(0,109,44)", "source": "19", "attributes": {}, "id": "1924", "size": 6.0}, {"target": "37", "color": "rgb(0,109,44)", "source": "32", "attributes": {}, "id": "2355", "size": 0.5}, {"target": "8", "color": "rgb(0,109,44)", "source": "26", "attributes": {}, "id": "2138", "size": 32.5}, {"target": "28", "color": "rgb(0,109,44)", "source": "5", "attributes": {}, "id": "1484", "size": 0.5}, {"target": "4", "color": "rgb(0,109,44)", "source": "31", "attributes": {}, "id": "2315", "size": 35.5}, {"target": "26", "color": "rgb(0,109,44)", "source": "30", "attributes": {}, "id": "2296", "size": 11.5}, {"target": "34", "color": "rgb(0,109,44)", "source": "31", "attributes": {}, "id": "2341", "size": 34.5}, {"target": "4", "color": "rgb(0,109,44)", "source": "34", "attributes": {}, "id": "2393", "size": 58.0}, {"target": "39", "color": "rgb(0,109,44)", "source": "4", "attributes": {}, "id": "1474", "size": 51.0}, {"target": "20", "color": "rgb(0,109,44)", "source": "13", "attributes": {}, "id": "1749", "size": 43.0}, {"target": "33", "color": "rgb(0,109,44)", "source": "18", "attributes": {}, "id": "1905", "size": 13.0}, {"target": "33", "color": "rgb(0,109,44)", "source": "3", "attributes": {}, "id": "1430", "size": 13.0}, {"target": "29", "color": "rgb(0,109,44)", "source": "33", "attributes": {}, "id": "2378", "size": 8.0}, {"target": "11", "color": "rgb(0,109,44)", "source": "12", "attributes": {}, "id": "1707", "size": 3.0}, {"target": "36", "color": "rgb(0,109,44)", "source": "35", "attributes": {}, "id": "2431", "size": 0.5}, {"target": "33", "color": "rgb(0,109,44)", "source": "36", "attributes": {}, "id": "2463", "size": 113.0}, {"target": "4", "color": "rgb(0,109,44)", "source": "44", "attributes": {}, "id": "2680", "size": 35.0}, {"target": "14", "color": "rgb(0,109,44)", "source": "24", "attributes": {}, "id": "2068", "size": 8.0}, {"target": "39", "color": "rgb(0,109,44)", "source": "14", "attributes": {}, "id": "1801", "size": 47.0}, {"target": "14", "color": "rgb(0,109,44)", "source": "4", "attributes": {}, "id": "1451", "size": 51.5}, {"target": "29", "color": "rgb(0,109,44)", "source": "31", "attributes": {}, "id": "2338", "size": 42.5}, {"target": "19", "color": "rgb(0,109,44)", "source": "30", "attributes": {}, "id": "2290", "size": 8.5}, {"target": "3", "color": "rgb(0,109,44)", "source": "34", "attributes": {}, "id": "2392", "size": 99.5}, {"target": "33", "color": "rgb(0,109,44)", "source": "26", "attributes": {}, "id": "2159", "size": 22.0}, {"target": "31", "color": "rgb(0,109,44)", "source": "10", "attributes": {}, "id": "1649", "size": 10.0}, {"target": "29", "color": "rgb(0,109,44)", "source": "27", "attributes": {}, "id": "2187", "size": 2.5}, {"target": "22", "color": "rgb(0,109,44)", "source": "7", "attributes": {}, "id": "1532", "size": 38.0}, {"target": "43", "color": "rgb(0,109,44)", "source": "31", "attributes": {}, "id": "2350", "size": 41.0}, {"target": "43", "color": "rgb(0,109,44)", "source": "7", "attributes": {}, "id": "1552", "size": 45.0}, {"target": "43", "color": "rgb(0,109,44)", "source": "34", "attributes": {}, "id": "2427", "size": 39.0}, {"target": "33", "color": "rgb(0,109,44)", "source": "1", "attributes": {}, "id": "1370", "size": 0.5}, {"target": "13", "color": "rgb(0,109,44)", "source": "8", "attributes": {}, "id": "1563", "size": 53.0}, {"target": "29", "color": "rgb(0,109,44)", "source": "37", "attributes": {}, "id": "2498", "size": 16.5}, {"target": "18", "color": "rgb(0,109,44)", "source": "16", "attributes": {}, "id": "1857", "size": 38.5}, {"target": "36", "color": "rgb(0,109,44)", "source": "32", "attributes": {}, "id": "2354", "size": 0.5}, {"target": "30", "color": "rgb(0,109,44)", "source": "36", "attributes": {}, "id": "2460", "size": 116.5}, {"target": "33", "color": "rgb(0,109,44)", "source": "35", "attributes": {}, "id": "2430", "size": 0.5}, {"target": "23", "color": "rgb(0,109,44)", "source": "19", "attributes": {}, "id": "1929", "size": 7.5}, {"target": "15", "color": "rgb(0,109,44)", "source": "2", "attributes": {}, "id": "1383", "size": 34.5}, {"target": "30", "color": "rgb(0,109,44)", "source": "24", "attributes": {}, "id": "2082", "size": 111.0}, {"target": "28", "color": "rgb(0,109,44)", "source": "40", "attributes": {}, "id": "2603", "size": 3.0}, {"target": "15", "color": "rgb(0,109,44)", "source": "16", "attributes": {}, "id": "1856", "size": 23.0}, {"target": "33", "color": "rgb(0,109,44)", "source": "32", "attributes": {}, "id": "2353", "size": 0.5}, {"target": "7", "color": "rgb(0,109,44)", "source": "4", "attributes": {}, "id": "1444", "size": 59.0}, {"target": "10", "color": "rgb(0,109,44)", "source": "27", "attributes": {}, "id": "2174", "size": 5.5}, {"target": "19", "color": "rgb(0,109,44)", "source": "28", "attributes": {}, "id": "2215", "size": 41.0}, {"target": "43", "color": "rgb(0,109,44)", "source": "22", "attributes": {}, "id": "2022", "size": 14.0}, {"target": "10", "color": "rgb(0,109,44)", "source": "40", "attributes": {}, "id": "2597", "size": 12.0}, {"target": "13", "color": "rgb(0,109,44)", "source": "20", "attributes": {}, "id": "1954", "size": 90.5}, {"target": "43", "color": "rgb(0,109,44)", "source": "38", "attributes": {}, "id": "2551", "size": 44.0}, {"target": "14", "color": "rgb(0,109,44)", "source": "13", "attributes": {}, "id": "1744", "size": 13.5}, {"target": "15", "color": "rgb(0,109,44)", "source": "28", "attributes": {}, "id": "2212", "size": 20.5}, {"target": "43", "color": "rgb(0,109,44)", "source": "39", "attributes": {}, "id": "2591", "size": 56.0}, {"target": "39", "color": "rgb(0,109,44)", "source": "29", "attributes": {}, "id": "2269", "size": 38.5}, {"target": "19", "color": "rgb(0,109,44)", "source": "34", "attributes": {}, "id": "2406", "size": 64.5}, {"target": "29", "color": "rgb(0,109,44)", "source": "9", "attributes": {}, "id": "1617", "size": 35.5}, {"target": "37", "color": "rgb(0,109,44)", "source": "1", "attributes": {}, "id": "1372", "size": 0.5}, {"target": "30", "color": "rgb(0,109,44)", "source": "6", "attributes": {}, "id": "1504", "size": 9.5}, {"target": "37", "color": "rgb(0,109,44)", "source": "17", "attributes": {}, "id": "1882", "size": 0.5}, {"target": "7", "color": "rgb(0,109,44)", "source": "22", "attributes": {}, "id": "1993", "size": 44.0}, {"target": "23", "color": "rgb(0,109,44)", "source": "17", "attributes": {}, "id": "1878", "size": 0.5}, {"target": "4", "color": "rgb(0,109,44)", "source": "9", "attributes": {}, "id": "1595", "size": 38.0}, {"target": "3", "color": "rgb(0,109,44)", "source": "18", "attributes": {}, "id": "1884", "size": 14.5}, {"target": "2", "color": "rgb(0,109,44)", "source": "21", "attributes": {}, "id": "1982", "size": 0.5}, {"target": "25", "color": "rgb(0,109,44)", "source": "11", "attributes": {}, "id": "1681", "size": 22.0}, {"target": "28", "color": "rgb(0,109,44)", "source": "21", "attributes": {}, "id": "1985", "size": 0.5}, {"target": "23", "color": "rgb(0,109,44)", "source": "2", "attributes": {}, "id": "1390", "size": 10.0}, {"target": "4", "color": "rgb(0,109,44)", "source": "22", "attributes": {}, "id": "1991", "size": 13.0}, {"target": "39", "color": "rgb(0,109,44)", "source": "7", "attributes": {}, "id": "1548", "size": 47.5}, {"target": "20", "color": "rgb(0,109,44)", "source": "27", "attributes": {}, "id": "2180", "size": 3.0}, {"target": "39", "color": "rgb(0,109,44)", "source": "2", "attributes": {}, "id": "1404", "size": 12.5}, {"target": "15", "color": "rgb(0,109,44)", "source": "5", "attributes": {}, "id": "1481", "size": 0.5}, {"target": "33", "color": "rgb(0,109,44)", "source": "23", "attributes": {}, "id": "2047", "size": 20.0}, {"target": "23", "color": "rgb(0,109,44)", "source": "5", "attributes": {}, "id": "1483", "size": 0.5}, {"target": "14", "color": "rgb(0,109,44)", "source": "39", "attributes": {}, "id": "2565", "size": 49.0}, {"target": "31", "color": "rgb(0,109,44)", "source": "44", "attributes": {}, "id": "2704", "size": 40.0}, {"target": "44", "color": "rgb(0,109,44)", "source": "26", "attributes": {}, "id": "2169", "size": 16.5}, {"target": "4", "color": "rgb(0,109,44)", "source": "0", "attributes": {}, "id": "1358", "size": 0.5}, {"target": "39", "color": "rgb(0,109,44)", "source": "22", "attributes": {}, "id": "2018", "size": 13.5}, {"target": "29", "color": "rgb(0,109,44)", "source": "40", "attributes": {}, "id": "2604", "size": 21.0}, {"target": "7", "color": "rgb(0,109,44)", "source": "0", "attributes": {}, "id": "1359", "size": 0.5}, {"target": "4", "color": "rgb(0,109,44)", "source": "39", "attributes": {}, "id": "2557", "size": 58.0}, {"target": "43", "color": "rgb(0,109,44)", "source": "9", "attributes": {}, "id": "1630", "size": 35.0}, {"target": "31", "color": "rgb(0,109,44)", "source": "27", "attributes": {}, "id": "2189", "size": 3.5}, {"target": "22", "color": "rgb(0,109,44)", "source": "13", "attributes": {}, "id": "1750", "size": 10.5}, {"target": "3", "color": "rgb(0,109,44)", "source": "23", "attributes": {}, "id": "2025", "size": 30.0}, {"target": "18", "color": "rgb(0,109,44)", "source": "23", "attributes": {}, "id": "2037", "size": 43.5}, {"target": "4", "color": "rgb(0,109,44)", "source": "18", "attributes": {}, "id": "1885", "size": 25.0}, {"target": "4", "color": "rgb(0,109,44)", "source": "43", "attributes": {}, "id": "2639", "size": 73.0}, {"target": "39", "color": "rgb(0,109,44)", "source": "31", "attributes": {}, "id": "2346", "size": 33.5}, {"target": "4", "color": "rgb(0,109,44)", "source": "7", "attributes": {}, "id": "1517", "size": 48.0}, {"target": "38", "color": "rgb(0,109,44)", "source": "25", "attributes": {}, "id": "2125", "size": 3.0}, {"target": "36", "color": "rgb(0,109,44)", "source": "6", "attributes": {}, "id": "1508", "size": 11.5}, {"target": "39", "color": "rgb(0,109,44)", "source": "9", "attributes": {}, "id": "1626", "size": 31.0}, {"target": "28", "color": "rgb(0,109,44)", "source": "32", "attributes": {}, "id": "2352", "size": 0.5}, {"target": "34", "color": "rgb(0,109,44)", "source": "38", "attributes": {}, "id": "2543", "size": 46.0}, {"target": "38", "color": "rgb(0,109,44)", "source": "40", "attributes": {}, "id": "2611", "size": 3.0}, {"target": "39", "color": "rgb(0,109,44)", "source": "44", "attributes": {}, "id": "2711", "size": 46.5}, {"target": "7", "color": "rgb(0,109,44)", "source": "11", "attributes": {}, "id": "1666", "size": 16.0}, {"target": "23", "color": "rgb(0,109,44)", "source": "33", "attributes": {}, "id": "2372", "size": 15.0}, {"target": "34", "color": "rgb(0,109,44)", "source": "0", "attributes": {}, "id": "1365", "size": 0.5}, {"target": "38", "color": "rgb(0,109,44)", "source": "2", "attributes": {}, "id": "1403", "size": 8.0}, {"target": "29", "color": "rgb(0,109,44)", "source": "34", "attributes": {}, "id": "2415", "size": 37.5}, {"target": "23", "color": "rgb(0,109,44)", "source": "16", "attributes": {}, "id": "1860", "size": 72.0}, {"target": "8", "color": "rgb(0,109,44)", "source": "6", "attributes": {}, "id": "1488", "size": 25.0}, {"target": "34", "color": "rgb(0,109,44)", "source": "4", "attributes": {}, "id": "1469", "size": 49.5}, {"target": "39", "color": "rgb(0,109,44)", "source": "43", "attributes": {}, "id": "2672", "size": 65.5}, {"target": "23", "color": "rgb(0,109,44)", "source": "37", "attributes": {}, "id": "2493", "size": 40.0}, {"target": "29", "color": "rgb(0,109,44)", "source": "10", "attributes": {}, "id": "1648", "size": 15.5}, {"target": "30", "color": "rgb(0,109,44)", "source": "12", "attributes": {}, "id": "1723", "size": 28.5}, {"target": "23", "color": "rgb(0,109,44)", "source": "21", "attributes": {}, "id": "1984", "size": 0.5}, {"target": "37", "color": "rgb(0,109,44)", "source": "33", "attributes": {}, "id": "2383", "size": 12.5}, {"target": "39", "color": "rgb(0,109,44)", "source": "15", "attributes": {}, "id": "1839", "size": 20.5}, {"target": "19", "color": "rgb(0,109,44)", "source": "3", "attributes": {}, "id": "1420", "size": 17.5}, {"target": "39", "color": "rgb(0,109,44)", "source": "11", "attributes": {}, "id": "1693", "size": 21.0}, {"target": "7", "color": "rgb(0,109,44)", "source": "20", "attributes": {}, "id": "1948", "size": 19.5}, {"target": "38", "color": "rgb(0,109,44)", "source": "29", "attributes": {}, "id": "2268", "size": 37.0}, {"target": "31", "color": "rgb(0,109,44)", "source": "38", "attributes": {}, "id": "2541", "size": 41.0}, {"target": "33", "color": "rgb(0,109,44)", "source": "21", "attributes": {}, "id": "1986", "size": 0.5}, {"target": "38", "color": "rgb(0,109,44)", "source": "39", "attributes": {}, "id": "2587", "size": 44.5}, {"target": "28", "color": "rgb(0,109,44)", "source": "15", "attributes": {}, "id": "1830", "size": 16.0}, {"target": "7", "color": "rgb(0,109,44)", "source": "13", "attributes": {}, "id": "1738", "size": 17.0}, {"target": "28", "color": "rgb(0,109,44)", "source": "19", "attributes": {}, "id": "1931", "size": 26.5}, {"target": "7", "color": "rgb(0,109,44)", "source": "17", "attributes": {}, "id": "1876", "size": 0.5}, {"target": "43", "color": "rgb(0,109,44)", "source": "29", "attributes": {}, "id": "2272", "size": 44.5}, {"target": "3", "color": "rgb(0,109,44)", "source": "19", "attributes": {}, "id": "1915", "size": 11.5}, {"target": "3", "color": "rgb(0,109,44)", "source": "16", "attributes": {}, "id": "1845", "size": 21.0}, {"target": "30", "color": "rgb(0,109,44)", "source": "19", "attributes": {}, "id": "1933", "size": 7.0}, {"target": "14", "color": "rgb(0,109,44)", "source": "17", "attributes": {}, "id": "1877", "size": 0.5}, {"target": "31", "color": "rgb(0,109,44)", "source": "29", "attributes": {}, "id": "2262", "size": 39.5}, {"target": "33", "color": "rgb(0,109,44)", "source": "37", "attributes": {}, "id": "2502", "size": 120.5}, {"target": "20", "color": "rgb(0,109,44)", "source": "25", "attributes": {}, "id": "2112", "size": 5.5}, {"target": "29", "color": "rgb(0,109,44)", "source": "38", "attributes": {}, "id": "2539", "size": 44.0}, {"target": "8", "color": "rgb(0,109,44)", "source": "30", "attributes": {}, "id": "2280", "size": 15.5}, {"target": "23", "color": "rgb(0,109,44)", "source": "18", "attributes": {}, "id": "1899", "size": 58.5}, {"target": "36", "color": "rgb(0,109,44)", "source": "37", "attributes": {}, "id": "2505", "size": 109.5}, {"target": "26", "color": "rgb(0,109,44)", "source": "6", "attributes": {}, "id": "1502", "size": 14.5}, {"target": "39", "color": "rgb(0,109,44)", "source": "38", "attributes": {}, "id": "2547", "size": 44.0}, {"target": "40", "color": "rgb(0,109,44)", "source": "10", "attributes": {}, "id": "1656", "size": 17.5}, {"target": "28", "color": "rgb(0,109,44)", "source": "3", "attributes": {}, "id": "1426", "size": 17.5}, {"target": "19", "color": "rgb(0,109,44)", "source": "41", "attributes": {}, "id": "2619", "size": 0.5}, {"target": "37", "color": "rgb(0,109,44)", "source": "35", "attributes": {}, "id": "2432", "size": 0.5}, {"target": "25", "color": "rgb(0,109,44)", "source": "42", "attributes": {}, "id": "2634", "size": 0.5}, {"target": "14", "color": "rgb(0,109,44)", "source": "8", "attributes": {}, "id": "1564", "size": 22.0}, {"target": "44", "color": "rgb(0,109,44)", "source": "14", "attributes": {}, "id": "1806", "size": 61.5}, {"target": "20", "color": "rgb(0,109,44)", "source": "42", "attributes": {}, "id": "2633", "size": 0.5}, {"target": "36", "color": "rgb(0,109,44)", "source": "1", "attributes": {}, "id": "1371", "size": 0.5}, {"target": "14", "color": "rgb(0,109,44)", "source": "15", "attributes": {}, "id": "1818", "size": 19.5}, {"target": "36", "color": "rgb(0,109,44)", "source": "26", "attributes": {}, "id": "2162", "size": 25.5}, {"target": "7", "color": "rgb(0,109,44)", "source": "14", "attributes": {}, "id": "1774", "size": 42.5}, {"target": "36", "color": "rgb(0,109,44)", "source": "8", "attributes": {}, "id": "1582", "size": 61.0}, {"target": "16", "color": "rgb(0,109,44)", "source": "33", "attributes": {}, "id": "2367", "size": 63.0}, {"target": "14", "color": "rgb(0,109,44)", "source": "11", "attributes": {}, "id": "1672", "size": 24.5}, {"target": "23", "color": "rgb(0,109,44)", "source": "3", "attributes": {}, "id": "1423", "size": 30.0}, {"target": "4", "color": "rgb(0,109,44)", "source": "29", "attributes": {}, "id": "2239", "size": 35.0}, {"target": "28", "color": "rgb(0,109,44)", "source": "1", "attributes": {}, "id": "1369", "size": 0.5}, {"target": "34", "color": "rgb(0,109,44)", "source": "9", "attributes": {}, "id": "1621", "size": 33.5}, {"target": "36", "color": "rgb(0,109,44)", "source": "17", "attributes": {}, "id": "1881", "size": 0.5}, {"target": "16", "color": "rgb(0,109,44)", "source": "23", "attributes": {}, "id": "2036", "size": 46.5}, {"target": "29", "color": "rgb(0,109,44)", "source": "24", "attributes": {}, "id": "2081", "size": 9.0}, {"target": "31", "color": "rgb(0,109,44)", "source": "14", "attributes": {}, "id": "1795", "size": 52.0}, {"target": "23", "color": "rgb(0,109,44)", "source": "28", "attributes": {}, "id": "2218", "size": 30.0}, {"target": "18", "color": "rgb(0,109,44)", "source": "5", "attributes": {}, "id": "1482", "size": 0.5}, {"target": "3", "color": "rgb(0,109,44)", "source": "5", "attributes": {}, "id": "1480", "size": 0.5}, {"target": "11", "color": "rgb(0,109,44)", "source": "25", "attributes": {}, "id": "2104", "size": 12.5}, {"target": "26", "color": "rgb(0,109,44)", "source": "12", "attributes": {}, "id": "1719", "size": 3.0}, {"target": "36", "color": "rgb(0,109,44)", "source": "33", "attributes": {}, "id": "2382", "size": 8.5}, {"target": "15", "color": "rgb(0,109,44)", "source": "37", "attributes": {}, "id": "2486", "size": 22.0}, {"target": "22", "color": "rgb(0,109,44)", "source": "6", "attributes": {}, "id": "1498", "size": 5.0}, {"target": "29", "color": "rgb(0,109,44)", "source": "43", "attributes": {}, "id": "2663", "size": 71.5}, {"target": "34", "color": "rgb(0,109,44)", "source": "43", "attributes": {}, "id": "2667", "size": 52.5}, {"target": "34", "color": "rgb(0,109,44)", "source": "3", "attributes": {}, "id": "1431", "size": 13.0}, {"target": "14", "color": "rgb(0,109,44)", "source": "28", "attributes": {}, "id": "2211", "size": 31.5}, {"target": "29", "color": "rgb(0,109,44)", "source": "41", "attributes": {}, "id": "2621", "size": 0.5}, {"target": "26", "color": "rgb(0,109,44)", "source": "8", "attributes": {}, "id": "1574", "size": 66.5}, {"target": "15", "color": "rgb(0,109,44)", "source": "21", "attributes": {}, "id": "1983", "size": 0.5}, {"target": "27", "color": "rgb(0,109,44)", "source": "22", "attributes": {}, "id": "2008", "size": 32.5}, {"target": "37", "color": "rgb(0,109,44)", "source": "41", "attributes": {}, "id": "2626", "size": 0.5}, {"target": "43", "color": "rgb(0,109,44)", "source": "44", "attributes": {}, "id": "2715", "size": 42.0}, {"target": "16", "color": "rgb(0,109,44)", "source": "18", "attributes": {}, "id": "1895", "size": 34.0}, {"target": "15", "color": "rgb(0,109,44)", "source": "23", "attributes": {}, "id": "2035", "size": 22.5}, {"target": "33", "color": "rgb(0,109,44)", "source": "16", "attributes": {}, "id": "1867", "size": 90.5}, {"target": "10", "color": "rgb(0,109,44)", "source": "24", "attributes": {}, "id": "2064", "size": 8.0}, {"target": "43", "color": "rgb(0,109,44)", "source": "4", "attributes": {}, "id": "1478", "size": 75.0}, {"target": "26", "color": "rgb(0,109,44)", "source": "36", "attributes": {}, "id": "2456", "size": 61.0}, {"target": "31", "color": "rgb(0,109,44)", "source": "40", "attributes": {}, "id": "2606", "size": 4.0}, {"target": "38", "color": "rgb(0,109,44)", "source": "0", "attributes": {}, "id": "1366", "size": 0.5}, {"target": "28", "color": "rgb(0,109,44)", "source": "0", "attributes": {}, "id": "1362", "size": 0.5}, {"target": "36", "color": "rgb(0,109,44)", "source": "12", "attributes": {}, "id": "1727", "size": 5.0}, {"target": "33", "color": "rgb(0,109,44)", "source": "41", "attributes": {}, "id": "2623", "size": 0.5}, {"target": "11", "color": "rgb(0,109,44)", "source": "8", "attributes": {}, "id": "1561", "size": 19.5}, {"target": "24", "color": "rgb(0,109,44)", "source": "36", "attributes": {}, "id": "2454", "size": 120.5}, {"target": "14", "color": "rgb(0,109,44)", "source": "43", "attributes": {}, "id": "2649", "size": 70.0}, {"target": "37", "color": "rgb(0,109,44)", "source": "36", "attributes": {}, "id": "2466", "size": 108.0}, {"target": "14", "color": "rgb(0,109,44)", "source": "25", "attributes": {}, "id": "2107", "size": 4.0}, {"target": "36", "color": "rgb(0,109,44)", "source": "30", "attributes": {}, "id": "2304", "size": 12.0}, {"target": "3", "color": "rgb(0,109,44)", "source": "28", "attributes": {}, "id": "2202", "size": 23.0}, {"target": "43", "color": "rgb(0,109,44)", "source": "14", "attributes": {}, "id": "1805", "size": 47.0}, {"target": "7", "color": "rgb(0,109,44)", "source": "41", "attributes": {}, "id": "2617", "size": 0.5}, {"target": "34", "color": "rgb(0,109,44)", "source": "20", "attributes": {}, "id": "1972", "size": 21.0}, {"target": "7", "color": "rgb(0,109,44)", "source": "39", "attributes": {}, "id": "2559", "size": 45.0}, {"target": "38", "color": "rgb(0,109,44)", "source": "10", "attributes": {}, "id": "1654", "size": 5.5}, {"target": "36", "color": "rgb(0,109,44)", "source": "24", "attributes": {}, "id": "2086", "size": 117.5}]}
+{"nodes": [{"color": "rgb(154,150,229)", 
+
+    "label": "Environmental Science"
+    , "x": -106.1130142211914
+    , "y": -7.917048454284668
+    , "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/environmental_science\" target=\"_blank\">/wiki/environmental_science</a>"
+    , "Modularity Class": "science"
+    , "closeness": "0.364"
+    , "betweenness": "0.914"}
+    , "id": "5"
+    , "size": 10.0},
+
+     {"color": "rgb(154,150,229)", 
+    "label": "Zoology"
+    , "x": -63.77210235595703
+    , "y": -15.814403533935547
+    , "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/zoology\" target=\"_blank\">/wiki/zoology</a>"
+    , "Modularity Class": "science"
+    , "closeness": "0.402"
+    , "betweenness": "0.212"}
+    , "id": "18"
+    , "size": 10.0},
+
+     {"color": "rgb(154,150,229)", 
+"label": "Economics"
+, "x": -12.75311279296875
+, "y": 29.305919647216797
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/economics\" target=\"_blank\">/wiki/economics</a>"
+, "Modularity Class": "science"
+, "closeness": "0.424"
+, "betweenness": "0.561"}
+, "id": "29"
+, "size": 10.0},
+
+ {"color": "rgb(40,179,106)", 
+"label": "Music"
+, "x": 47.859947204589844
+, "y": -5.857846736907959
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/music\" target=\"_blank\">/wiki/music</a>"
+, "Modularity Class": "arts"
+, "closeness": "0.461"
+, "betweenness": "0.213"}
+, "id": "11"
+, "size": 10.0},
+
+ {"color": "rgb(40,179,106)", 
+"label": "Architecture"
+, "x": -4.438786029815674
+, "y": -52.81429672241211
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/architecture\" target=\"_blank\">/wiki/architecture</a>"
+, "Modularity Class": "arts"
+, "closeness": "0.457"
+, "betweenness": "0.918"}
+, "id": "36"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Linguistics"
+, "x": 20.873937606811523
+, "y": 13.99483871459961
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/linguistics\" target=\"_blank\">/wiki/linguistics</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.430"
+, "betweenness": "0.408"}
+, "id": "7"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Biology"
+, "x": -44.5095100402832
+, "y": -14.684877395629883
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/biology\" target=\"_blank\">/wiki/biology</a>"
+, "Modularity Class": "science"
+, "closeness": "0.413"
+, "betweenness": "0.410"}
+, "id": "23"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Law"
+, "x": 9.914349555969238
+, "y": 31.326065063476562
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/law\" target=\"_blank\">/wiki/law</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.433"
+, "betweenness": "0.996"}
+, "id": "31"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Agriculture"
+, "x": -27.153057098388672
+, "y": -47.70082473754883
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/agriculture\" target=\"_blank\">/wiki/agriculture</a>"
+, "Modularity Class": "science"
+, "closeness": "0.405"
+, "betweenness": "0.811"}
+, "id": "33"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Mechanical Engineering"
+, "x": -38.27210235595703
+, "y": -83.89221954345703
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/mechanical_engineering\" target=\"_blank\">/wiki/mechanical_engineering</a>"
+, "Modularity Class": "science"
+, "closeness": "0.417"
+, "betweenness": "0.327"}
+, "id": "32"
+, "size": 10.0},
+
+ {"color": "rgb(40,179,106)", 
+"label": "Design"
+, "x": -8.67099380493164
+, "y": -74.2666015625
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/design\" target=\"_blank\">/wiki/design</a>"
+, "Modularity Class": "arts"
+, "closeness": "0.394"
+, "betweenness": "0.109"}
+, "id": "24"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Religion"
+, "x": 23.407501220703125
+, "y": -5.011497974395752
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/religion\" target=\"_blank\">/wiki/religion</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.478"
+, "betweenness": "0.125"}
+, "id": "44"
+, "size": 10.0},
+
+ {"color": "rgb(40,179,106)", 
+"label": "Drawing"
+, "x": 52.81378173828125
+, "y": -77.42172241210938
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/drawing\" target=\"_blank\">/wiki/drawing</a>"
+, "Modularity Class": "arts"
+, "closeness": "0.375"
+, "betweenness": "0.561"}
+, "id": "6"
+, "size": 10.0},
+
+ {"color": "rgb(40,179,106)", 
+"label": "Photography"
+, "x": 14.240927696228027
+, "y": -78.79926300048828
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/photography\" target=\"_blank\">/wiki/photography</a>"
+, "Modularity Class": "arts"
+, "closeness": "0.396"
+, "betweenness": "0.617"}
+, "id": "30"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Journalism"
+, "x": 51.32545471191406
+, "y": 48.47331237792969
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/journalism\" target=\"_blank\">/wiki/journalism</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.374"
+, "betweenness": "0.641"}
+, "id": "27"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Poetry"
+, "x": 52.084083557128906
+, "y": -29.17551612854004
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/poetry\" target=\"_blank\">/wiki/poetry</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.409"
+, "betweenness": "0.599"}
+, "id": "13"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Geology"
+, "x": -31.322860717773438
+, "y": -27.569780349731445
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/geology\" target=\"_blank\">/wiki/geology</a>"
+, "Modularity Class": "science"
+, "closeness": "0.391"
+, "betweenness": "0.339"}
+, "id": "3"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Geography"
+, "x": -27.563310623168945
+, "y": -4.580410957336426
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/geography\" target=\"_blank\">/wiki/geography</a>"
+, "Modularity Class": "science"
+, "closeness": "0.438"
+, "betweenness": "0.194"}
+, "id": "9"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Computer Science"
+, "x": -97.13682556152344
+, "y": -27.08736228942871
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/computer_science\" target=\"_blank\">/wiki/computer_science</a>"
+, "Modularity Class": "science"
+, "closeness": "0.423"
+, "betweenness": "0.158"}
+, "id": "17"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Finance"
+, "x": -52.02909851074219
+, "y": 36.87745666503906
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/finance\" target=\"_blank\">/wiki/finance</a>"
+, "Modularity Class": "science"
+, "closeness": "0.359"
+, "betweenness": "0.108"}
+, "id": "40"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Psychology"
+, "x": -12.442535400390625
+, "y": 4.941435813903809
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/psychology\" target=\"_blank\">/wiki/psychology</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.444"
+, "betweenness": "0.853"}
+, "id": "39"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Literature"
+, "x": 32.1915168762207
+, "y": -23.147594451904297
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/literature\" target=\"_blank\">/wiki/literature</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.418"
+, "betweenness": "0.520"}
+, "id": "20"
+, "size": 10.0},
+
+ {"color": "rgb(40,179,106)", 
+"label": "Painting"
+, "x": 38.897483825683594
+, "y": -48.43567657470703
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/painting\" target=\"_blank\">/wiki/painting</a>"
+, "Modularity Class": "arts"
+, "closeness": "0.444"
+, "betweenness": "0.428"}
+, "id": "8"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Physics"
+, "x": -12.437284469604492
+, "y": -30.931957244873047
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/physics\" target=\"_blank\">/wiki/physics</a>"
+, "Modularity Class": "science"
+, "closeness": "0.414"
+, "betweenness": "0.734"}
+, "id": "28"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Electrical Engineering"
+, "x": -72.85440826416016
+, "y": -67.49481201171875
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/electrical_engineering\" target=\"_blank\">/wiki/electrical_engineering</a>"
+, "Modularity Class": "science"
+, "closeness": "0.410"
+, "betweenness": "0.451"}
+, "id": "35"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Writing"
+, "x": 44.54043197631836
+, "y": 19.24551773071289
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/writing\" target=\"_blank\">/wiki/writing</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.396"
+, "betweenness": "0.176"}
+, "id": "22"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Pharmacy"
+, "x": -71.98137664794922
+, "y": 12.957548141479492
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/pharmacy\" target=\"_blank\">/wiki/pharmacy</a>"
+, "Modularity Class": "science"
+, "closeness": "0.410"
+, "betweenness": "0.162"}
+, "id": "2"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Biotechnology"
+, "x": -47.488182067871094
+, "y": -58.70249938964844
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/biotechnology\" target=\"_blank\">/wiki/biotechnology</a>"
+, "Modularity Class": "science"
+, "closeness": "0.410"
+, "betweenness": "0.227"}
+, "id": "37"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Materials Science"
+, "x": -80.72209167480469
+, "y": -44.77425003051758
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/materials_science\" target=\"_blank\">/wiki/materials_science</a>"
+, "Modularity Class": "science"
+, "closeness": "0.411"
+, "betweenness": "0.104"}
+, "id": "21"
+, "size": 10.0},
+
+ {"color": "rgb(40,179,106)", 
+"label": "Theater"
+, "x": 70.7513198852539
+, "y": -57.8855094909668
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/theater\" target=\"_blank\">/wiki/theater</a>"
+, "Modularity Class": "arts"
+, "closeness": "0.398"
+, "betweenness": "0.737"}
+, "id": "42"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Political Science"
+, "x": 17.805892944335938
+, "y": 50.75323486328125
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/political_science\" target=\"_blank\">/wiki/political_science</a>"
+, "Modularity Class": "science"
+, "closeness": "0.407"
+, "betweenness": "0.484"}
+, "id": "0"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Anthropology"
+, "x": 4.703856468200684
+, "y": -0.8384426236152649
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/anthropology\" target=\"_blank\">/wiki/anthropology</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.469"
+, "betweenness": "0.163"}
+, "id": "4"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Business"
+, "x": -19.310346603393555
+, "y": 49.117942810058594
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/business\" target=\"_blank\">/wiki/business</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.363"
+, "betweenness": "0.127"}
+, "id": "10"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Botany"
+, "x": -51.484378814697266
+, "y": -34.468509674072266
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/botany\" target=\"_blank\">/wiki/botany</a>"
+, "Modularity Class": "science"
+, "closeness": "0.412"
+, "betweenness": "0.800"}
+, "id": "16"
+, "size": 10.0},
+
+ {"color": "rgb(40,179,106)", 
+"label": "Dance"
+, "x": 82.48037719726562
+, "y": -22.428197860717773
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/dance\" target=\"_blank\">/wiki/dance</a>"
+, "Modularity Class": "arts"
+, "closeness": "0.383"
+, "betweenness": "0.227"}
+, "id": "25"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Education"
+, "x": -26.536685943603516
+, "y": 16.731815338134766
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/education\" target=\"_blank\">/wiki/education</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.451"
+, "betweenness": "0.367"}
+, "id": "38"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Philosophy"
+, "x": 9.731565475463867
+, "y": -17.52652359008789
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/philosophy\" target=\"_blank\">/wiki/philosophy</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.459"
+, "betweenness": "0.641"}
+, "id": "14"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Astronomy"
+, "x": 8.6456937789917
+, "y": -36.79521942138672
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/astronomy\" target=\"_blank\">/wiki/astronomy</a>"
+, "Modularity Class": "science"
+, "closeness": "0.396"
+, "betweenness": "0.614"}
+, "id": "19"
+, "size": 10.0},
+
+ {"color": "rgb(40,179,106)", 
+"label": "Sculpture"
+, "x": 20.779247283935547
+, "y": -56.145599365234375
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/sculpture\" target=\"_blank\">/wiki/sculpture</a>"
+, "Modularity Class": "arts"
+, "closeness": "0.441"
+, "betweenness": "0.163"}
+, "id": "26"
+, "size": 10.0},
+
+ {"color": "rgb(40,179,106)", 
+"label": "Cinematography"
+, "x": 5.985936164855957
+, "y": -93.7733154296875
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/cinematography\" target=\"_blank\">/wiki/cinematography</a>"
+, "Modularity Class": "arts"
+, "closeness": "0.374"
+, "betweenness": "0.210"}
+, "id": "12"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Sociology"
+, "x": 0.8114391565322876
+, "y": 15.833236694335938
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/sociology\" target=\"_blank\">/wiki/sociology</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.431"
+, "betweenness": "0.495"}
+, "id": "43"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Civil Engineering"
+, "x": -72.6234130859375
+, "y": -92.40875244140625
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/civil_engineering\" target=\"_blank\">/wiki/civil_engineering</a>"
+, "Modularity Class": "science"
+, "closeness": "0.406"
+, "betweenness": "0.298"}
+, "id": "1"
+, "size": 10.0},
+
+ {"color": "rgb(154,150,229)", 
+"label": "Medicine"
+, "x": -46.55205535888672
+, "y": 6.556131362915039
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/medicine\" target=\"_blank\">/wiki/medicine</a>"
+, "Modularity Class": "science"
+, "closeness": "0.429"
+, "betweenness": "0.905"}
+, "id": "15"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "History"
+, "x": -8.930870056152344
+, "y": -13.039822578430176
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/history\" target=\"_blank\">/wiki/history</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.442"
+, "betweenness": "0.577"}
+, "id": "34"
+, "size": 10.0},
+
+ {"color": "rgb(249,119,67)", 
+"label": "Archeology"
+, "x": 69.09051513671875
+, "y": 5.267372131347656
+, "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/archeology\" target=\"_blank\">/wiki/archeology</a>"
+, "Modularity Class": "humanities"
+, "closeness": "0.469"
+, "betweenness": "0.568"}
+, "id": "41"
+, "size": 10.0}]
+
+, "edges": [{"target": "6"
+    , "color": "rgb(0,109,44)"
+, "source": "26"
+, "attributes": {}
+, "id": "2136"
+, "size": 14.5}, {"target": "8"
+, "color": "rgb(0,109,44)"
+, "source": "12"
+, "attributes": {}
+, "id": "1704"
+, "size": 5.0}, {"target": "28"
+, "color": "rgb(0,109,44)"
+, "source": "2"
+, "attributes": {}
+, "id": "1395"
+, "size": 11.5}, {"target": "13"
+, "color": "rgb(0,109,44)"
+, "source": "42"
+, "attributes": {}
+, "id": "2632"
+, "size": 0.5}, {"target": "11"
+, "color": "rgb(0,109,44)"
+, "source": "42"
+, "attributes": {}
+, "id": "2631"
+, "size": 0.5}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "15"
+, "attributes": {}
+, "id": "1825"
+, "size": 27.0}, {"target": "31"
+, "color": "rgb(0,109,44)"
+, "source": "20"
+, "attributes": {}
+, "id": "1970"
+, "size": 16.0}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "20"
+, "attributes": {}
+, "id": "1955"
+, "size": 20.5}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "10"
+, "attributes": {}
+, "id": "1650"
+, "size": 5.0}, {"target": "28"
+, "color": "rgb(0,109,44)"
+, "source": "35"
+, "attributes": {}
+, "id": "2429"
+, "size": 0.5}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "27"
+, "attributes": {}
+, "id": "2177"
+, "size": 2.0}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "11"
+, "attributes": {}
+, "id": "1663"
+, "size": 16.0}, {"target": "37"
+, "color": "rgb(0,109,44)"
+, "source": "15"
+, "attributes": {}
+, "id": "1837"
+, "size": 15.5}, {"target": "13"
+, "color": "rgb(0,109,44)"
+, "source": "25"
+, "attributes": {}
+, "id": "2106"
+, "size": 5.5}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "7"
+, "attributes": {}
+, "id": "1525"
+, "size": 44.0}, {"target": "11"
+, "color": "rgb(0,109,44)"
+, "source": "13"
+, "attributes": {}
+, "id": "1742"
+, "size": 14.0}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "44"
+, "attributes": {}
+, "id": "2688"
+, "size": 174.0}, {"target": "12"
+, "color": "rgb(0,109,44)"
+, "source": "30"
+, "attributes": {}
+, "id": "2284"
+, "size": 11.5}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "19"
+, "attributes": {}
+, "id": "1924"
+, "size": 6.0}, {"target": "37"
+, "color": "rgb(0,109,44)"
+, "source": "32"
+, "attributes": {}
+, "id": "2355"
+, "size": 0.5}, {"target": "8"
+, "color": "rgb(0,109,44)"
+, "source": "26"
+, "attributes": {}
+, "id": "2138"
+, "size": 32.5}, {"target": "28"
+, "color": "rgb(0,109,44)"
+, "source": "5"
+, "attributes": {}
+, "id": "1484"
+, "size": 0.5}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "31"
+, "attributes": {}
+, "id": "2315"
+, "size": 35.5}, {"target": "26"
+, "color": "rgb(0,109,44)"
+, "source": "30"
+, "attributes": {}
+, "id": "2296"
+, "size": 11.5}, {"target": "34"
+, "color": "rgb(0,109,44)"
+, "source": "31"
+, "attributes": {}
+, "id": "2341"
+, "size": 34.5}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "34"
+, "attributes": {}
+, "id": "2393"
+, "size": 58.0}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "4"
+, "attributes": {}
+, "id": "1474"
+, "size": 51.0}, {"target": "20"
+, "color": "rgb(0,109,44)"
+, "source": "13"
+, "attributes": {}
+, "id": "1749"
+, "size": 43.0}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "18"
+, "attributes": {}
+, "id": "1905"
+, "size": 13.0}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "3"
+, "attributes": {}
+, "id": "1430"
+, "size": 13.0}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "33"
+, "attributes": {}
+, "id": "2378"
+, "size": 8.0}, {"target": "11"
+, "color": "rgb(0,109,44)"
+, "source": "12"
+, "attributes": {}
+, "id": "1707"
+, "size": 3.0}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "35"
+, "attributes": {}
+, "id": "2431"
+, "size": 0.5}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "36"
+, "attributes": {}
+, "id": "2463"
+, "size": 113.0}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "44"
+, "attributes": {}
+, "id": "2680"
+, "size": 35.0}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "24"
+, "attributes": {}
+, "id": "2068"
+, "size": 8.0}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "14"
+, "attributes": {}
+, "id": "1801"
+, "size": 47.0}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "4"
+, "attributes": {}
+, "id": "1451"
+, "size": 51.5}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "31"
+, "attributes": {}
+, "id": "2338"
+, "size": 42.5}, {"target": "19"
+, "color": "rgb(0,109,44)"
+, "source": "30"
+, "attributes": {}
+, "id": "2290"
+, "size": 8.5}, {"target": "3"
+, "color": "rgb(0,109,44)"
+, "source": "34"
+, "attributes": {}
+, "id": "2392"
+, "size": 99.5}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "26"
+, "attributes": {}
+, "id": "2159"
+, "size": 22.0}, {"target": "31"
+, "color": "rgb(0,109,44)"
+, "source": "10"
+, "attributes": {}
+, "id": "1649"
+, "size": 10.0}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "27"
+, "attributes": {}
+, "id": "2187"
+, "size": 2.5}, {"target": "22"
+, "color": "rgb(0,109,44)"
+, "source": "7"
+, "attributes": {}
+, "id": "1532"
+, "size": 38.0}, {"target": "43"
+, "color": "rgb(0,109,44)"
+, "source": "31"
+, "attributes": {}
+, "id": "2350"
+, "size": 41.0}, {"target": "43"
+, "color": "rgb(0,109,44)"
+, "source": "7"
+, "attributes": {}
+, "id": "1552"
+, "size": 45.0}, {"target": "43"
+, "color": "rgb(0,109,44)"
+, "source": "34"
+, "attributes": {}
+, "id": "2427"
+, "size": 39.0}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "1"
+, "attributes": {}
+, "id": "1370"
+, "size": 0.5}, {"target": "13"
+, "color": "rgb(0,109,44)"
+, "source": "8"
+, "attributes": {}
+, "id": "1563"
+, "size": 53.0}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "37"
+, "attributes": {}
+, "id": "2498"
+, "size": 16.5}, {"target": "18"
+, "color": "rgb(0,109,44)"
+, "source": "16"
+, "attributes": {}
+, "id": "1857"
+, "size": 38.5}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "32"
+, "attributes": {}
+, "id": "2354"
+, "size": 0.5}, {"target": "30"
+, "color": "rgb(0,109,44)"
+, "source": "36"
+, "attributes": {}
+, "id": "2460"
+, "size": 116.5}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "35"
+, "attributes": {}
+, "id": "2430"
+, "size": 0.5}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "19"
+, "attributes": {}
+, "id": "1929"
+, "size": 7.5}, {"target": "15"
+, "color": "rgb(0,109,44)"
+, "source": "2"
+, "attributes": {}
+, "id": "1383"
+, "size": 34.5}, {"target": "30"
+, "color": "rgb(0,109,44)"
+, "source": "24"
+, "attributes": {}
+, "id": "2082"
+, "size": 111.0}, {"target": "28"
+, "color": "rgb(0,109,44)"
+, "source": "40"
+, "attributes": {}
+, "id": "2603"
+, "size": 3.0}, {"target": "15"
+, "color": "rgb(0,109,44)"
+, "source": "16"
+, "attributes": {}
+, "id": "1856"
+, "size": 23.0}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "32"
+, "attributes": {}
+, "id": "2353"
+, "size": 0.5}, {"target": "7"
+, "color": "rgb(0,109,44)"
+, "source": "4"
+, "attributes": {}
+, "id": "1444"
+, "size": 59.0}, {"target": "10"
+, "color": "rgb(0,109,44)"
+, "source": "27"
+, "attributes": {}
+, "id": "2174"
+, "size": 5.5}, {"target": "19"
+, "color": "rgb(0,109,44)"
+, "source": "28"
+, "attributes": {}
+, "id": "2215"
+, "size": 41.0}, {"target": "43"
+, "color": "rgb(0,109,44)"
+, "source": "22"
+, "attributes": {}
+, "id": "2022"
+, "size": 14.0}, {"target": "10"
+, "color": "rgb(0,109,44)"
+, "source": "40"
+, "attributes": {}
+, "id": "2597"
+, "size": 12.0}, {"target": "13"
+, "color": "rgb(0,109,44)"
+, "source": "20"
+, "attributes": {}
+, "id": "1954"
+, "size": 90.5}, {"target": "43"
+, "color": "rgb(0,109,44)"
+, "source": "38"
+, "attributes": {}
+, "id": "2551"
+, "size": 44.0}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "13"
+, "attributes": {}
+, "id": "1744"
+, "size": 13.5}, {"target": "15"
+, "color": "rgb(0,109,44)"
+, "source": "28"
+, "attributes": {}
+, "id": "2212"
+, "size": 20.5}, {"target": "43"
+, "color": "rgb(0,109,44)"
+, "source": "39"
+, "attributes": {}
+, "id": "2591"
+, "size": 56.0}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "29"
+, "attributes": {}
+, "id": "2269"
+, "size": 38.5}, {"target": "19"
+, "color": "rgb(0,109,44)"
+, "source": "34"
+, "attributes": {}
+, "id": "2406"
+, "size": 64.5}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "9"
+, "attributes": {}
+, "id": "1617"
+, "size": 35.5}, {"target": "37"
+, "color": "rgb(0,109,44)"
+, "source": "1"
+, "attributes": {}
+, "id": "1372"
+, "size": 0.5}, {"target": "30"
+, "color": "rgb(0,109,44)"
+, "source": "6"
+, "attributes": {}
+, "id": "1504"
+, "size": 9.5}, {"target": "37"
+, "color": "rgb(0,109,44)"
+, "source": "17"
+, "attributes": {}
+, "id": "1882"
+, "size": 0.5}, {"target": "7"
+, "color": "rgb(0,109,44)"
+, "source": "22"
+, "attributes": {}
+, "id": "1993"
+, "size": 44.0}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "17"
+, "attributes": {}
+, "id": "1878"
+, "size": 0.5}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "9"
+, "attributes": {}
+, "id": "1595"
+, "size": 38.0}, {"target": "3"
+, "color": "rgb(0,109,44)"
+, "source": "18"
+, "attributes": {}
+, "id": "1884"
+, "size": 14.5}, {"target": "2"
+, "color": "rgb(0,109,44)"
+, "source": "21"
+, "attributes": {}
+, "id": "1982"
+, "size": 0.5}, {"target": "25"
+, "color": "rgb(0,109,44)"
+, "source": "11"
+, "attributes": {}
+, "id": "1681"
+, "size": 22.0}, {"target": "28"
+, "color": "rgb(0,109,44)"
+, "source": "21"
+, "attributes": {}
+, "id": "1985"
+, "size": 0.5}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "2"
+, "attributes": {}
+, "id": "1390"
+, "size": 10.0}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "22"
+, "attributes": {}
+, "id": "1991"
+, "size": 13.0}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "7"
+, "attributes": {}
+, "id": "1548"
+, "size": 47.5}, {"target": "20"
+, "color": "rgb(0,109,44)"
+, "source": "27"
+, "attributes": {}
+, "id": "2180"
+, "size": 3.0}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "2"
+, "attributes": {}
+, "id": "1404"
+, "size": 12.5}, {"target": "15"
+, "color": "rgb(0,109,44)"
+, "source": "5"
+, "attributes": {}
+, "id": "1481"
+, "size": 0.5}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "23"
+, "attributes": {}
+, "id": "2047"
+, "size": 20.0}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "5"
+, "attributes": {}
+, "id": "1483"
+, "size": 0.5}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "39"
+, "attributes": {}
+, "id": "2565"
+, "size": 49.0}, {"target": "31"
+, "color": "rgb(0,109,44)"
+, "source": "44"
+, "attributes": {}
+, "id": "2704"
+, "size": 40.0}, {"target": "44"
+, "color": "rgb(0,109,44)"
+, "source": "26"
+, "attributes": {}
+, "id": "2169"
+, "size": 16.5}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "0"
+, "attributes": {}
+, "id": "1358"
+, "size": 0.5}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "22"
+, "attributes": {}
+, "id": "2018"
+, "size": 13.5}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "40"
+, "attributes": {}
+, "id": "2604"
+, "size": 21.0}, {"target": "7"
+, "color": "rgb(0,109,44)"
+, "source": "0"
+, "attributes": {}
+, "id": "1359"
+, "size": 0.5}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "39"
+, "attributes": {}
+, "id": "2557"
+, "size": 58.0}, {"target": "43"
+, "color": "rgb(0,109,44)"
+, "source": "9"
+, "attributes": {}
+, "id": "1630"
+, "size": 35.0}, {"target": "31"
+, "color": "rgb(0,109,44)"
+, "source": "27"
+, "attributes": {}
+, "id": "2189"
+, "size": 3.5}, {"target": "22"
+, "color": "rgb(0,109,44)"
+, "source": "13"
+, "attributes": {}
+, "id": "1750"
+, "size": 10.5}, {"target": "3"
+, "color": "rgb(0,109,44)"
+, "source": "23"
+, "attributes": {}
+, "id": "2025"
+, "size": 30.0}, {"target": "18"
+, "color": "rgb(0,109,44)"
+, "source": "23"
+, "attributes": {}
+, "id": "2037"
+, "size": 43.5}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "18"
+, "attributes": {}
+, "id": "1885"
+, "size": 25.0}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "43"
+, "attributes": {}
+, "id": "2639"
+, "size": 73.0}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "31"
+, "attributes": {}
+, "id": "2346"
+, "size": 33.5}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "7"
+, "attributes": {}
+, "id": "1517"
+, "size": 48.0}, {"target": "38"
+, "color": "rgb(0,109,44)"
+, "source": "25"
+, "attributes": {}
+, "id": "2125"
+, "size": 3.0}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "6"
+, "attributes": {}
+, "id": "1508"
+, "size": 11.5}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "9"
+, "attributes": {}
+, "id": "1626"
+, "size": 31.0}, {"target": "28"
+, "color": "rgb(0,109,44)"
+, "source": "32"
+, "attributes": {}
+, "id": "2352"
+, "size": 0.5}, {"target": "34"
+, "color": "rgb(0,109,44)"
+, "source": "38"
+, "attributes": {}
+, "id": "2543"
+, "size": 46.0}, {"target": "38"
+, "color": "rgb(0,109,44)"
+, "source": "40"
+, "attributes": {}
+, "id": "2611"
+, "size": 3.0}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "44"
+, "attributes": {}
+, "id": "2711"
+, "size": 46.5}, {"target": "7"
+, "color": "rgb(0,109,44)"
+, "source": "11"
+, "attributes": {}
+, "id": "1666"
+, "size": 16.0}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "33"
+, "attributes": {}
+, "id": "2372"
+, "size": 15.0}, {"target": "34"
+, "color": "rgb(0,109,44)"
+, "source": "0"
+, "attributes": {}
+, "id": "1365"
+, "size": 0.5}, {"target": "38"
+, "color": "rgb(0,109,44)"
+, "source": "2"
+, "attributes": {}
+, "id": "1403"
+, "size": 8.0}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "34"
+, "attributes": {}
+, "id": "2415"
+, "size": 37.5}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "16"
+, "attributes": {}
+, "id": "1860"
+, "size": 72.0}, {"target": "8"
+, "color": "rgb(0,109,44)"
+, "source": "6"
+, "attributes": {}
+, "id": "1488"
+, "size": 25.0}, {"target": "34"
+, "color": "rgb(0,109,44)"
+, "source": "4"
+, "attributes": {}
+, "id": "1469"
+, "size": 49.5}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "43"
+, "attributes": {}
+, "id": "2672"
+, "size": 65.5}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "37"
+, "attributes": {}
+, "id": "2493"
+, "size": 40.0}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "10"
+, "attributes": {}
+, "id": "1648"
+, "size": 15.5}, {"target": "30"
+, "color": "rgb(0,109,44)"
+, "source": "12"
+, "attributes": {}
+, "id": "1723"
+, "size": 28.5}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "21"
+, "attributes": {}
+, "id": "1984"
+, "size": 0.5}, {"target": "37"
+, "color": "rgb(0,109,44)"
+, "source": "33"
+, "attributes": {}
+, "id": "2383"
+, "size": 12.5}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "15"
+, "attributes": {}
+, "id": "1839"
+, "size": 20.5}, {"target": "19"
+, "color": "rgb(0,109,44)"
+, "source": "3"
+, "attributes": {}
+, "id": "1420"
+, "size": 17.5}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "11"
+, "attributes": {}
+, "id": "1693"
+, "size": 21.0}, {"target": "7"
+, "color": "rgb(0,109,44)"
+, "source": "20"
+, "attributes": {}
+, "id": "1948"
+, "size": 19.5}, {"target": "38"
+, "color": "rgb(0,109,44)"
+, "source": "29"
+, "attributes": {}
+, "id": "2268"
+, "size": 37.0}, {"target": "31"
+, "color": "rgb(0,109,44)"
+, "source": "38"
+, "attributes": {}
+, "id": "2541"
+, "size": 41.0}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "21"
+, "attributes": {}
+, "id": "1986"
+, "size": 0.5}, {"target": "38"
+, "color": "rgb(0,109,44)"
+, "source": "39"
+, "attributes": {}
+, "id": "2587"
+, "size": 44.5}, {"target": "28"
+, "color": "rgb(0,109,44)"
+, "source": "15"
+, "attributes": {}
+, "id": "1830"
+, "size": 16.0}, {"target": "7"
+, "color": "rgb(0,109,44)"
+, "source": "13"
+, "attributes": {}
+, "id": "1738"
+, "size": 17.0}, {"target": "28"
+, "color": "rgb(0,109,44)"
+, "source": "19"
+, "attributes": {}
+, "id": "1931"
+, "size": 26.5}, {"target": "7"
+, "color": "rgb(0,109,44)"
+, "source": "17"
+, "attributes": {}
+, "id": "1876"
+, "size": 0.5}, {"target": "43"
+, "color": "rgb(0,109,44)"
+, "source": "29"
+, "attributes": {}
+, "id": "2272"
+, "size": 44.5}, {"target": "3"
+, "color": "rgb(0,109,44)"
+, "source": "19"
+, "attributes": {}
+, "id": "1915"
+, "size": 11.5}, {"target": "3"
+, "color": "rgb(0,109,44)"
+, "source": "16"
+, "attributes": {}
+, "id": "1845"
+, "size": 21.0}, {"target": "30"
+, "color": "rgb(0,109,44)"
+, "source": "19"
+, "attributes": {}
+, "id": "1933"
+, "size": 7.0}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "17"
+, "attributes": {}
+, "id": "1877"
+, "size": 0.5}, {"target": "31"
+, "color": "rgb(0,109,44)"
+, "source": "29"
+, "attributes": {}
+, "id": "2262"
+, "size": 39.5}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "37"
+, "attributes": {}
+, "id": "2502"
+, "size": 120.5}, {"target": "20"
+, "color": "rgb(0,109,44)"
+, "source": "25"
+, "attributes": {}
+, "id": "2112"
+, "size": 5.5}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "38"
+, "attributes": {}
+, "id": "2539"
+, "size": 44.0}, {"target": "8"
+, "color": "rgb(0,109,44)"
+, "source": "30"
+, "attributes": {}
+, "id": "2280"
+, "size": 15.5}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "18"
+, "attributes": {}
+, "id": "1899"
+, "size": 58.5}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "37"
+, "attributes": {}
+, "id": "2505"
+, "size": 109.5}, {"target": "26"
+, "color": "rgb(0,109,44)"
+, "source": "6"
+, "attributes": {}
+, "id": "1502"
+, "size": 14.5}, {"target": "39"
+, "color": "rgb(0,109,44)"
+, "source": "38"
+, "attributes": {}
+, "id": "2547"
+, "size": 44.0}, {"target": "40"
+, "color": "rgb(0,109,44)"
+, "source": "10"
+, "attributes": {}
+, "id": "1656"
+, "size": 17.5}, {"target": "28"
+, "color": "rgb(0,109,44)"
+, "source": "3"
+, "attributes": {}
+, "id": "1426"
+, "size": 17.5}, {"target": "19"
+, "color": "rgb(0,109,44)"
+, "source": "41"
+, "attributes": {}
+, "id": "2619"
+, "size": 0.5}, {"target": "37"
+, "color": "rgb(0,109,44)"
+, "source": "35"
+, "attributes": {}
+, "id": "2432"
+, "size": 0.5}, {"target": "25"
+, "color": "rgb(0,109,44)"
+, "source": "42"
+, "attributes": {}
+, "id": "2634"
+, "size": 0.5}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "8"
+, "attributes": {}
+, "id": "1564"
+, "size": 22.0}, {"target": "44"
+, "color": "rgb(0,109,44)"
+, "source": "14"
+, "attributes": {}
+, "id": "1806"
+, "size": 61.5}, {"target": "20"
+, "color": "rgb(0,109,44)"
+, "source": "42"
+, "attributes": {}
+, "id": "2633"
+, "size": 0.5}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "1"
+, "attributes": {}
+, "id": "1371"
+, "size": 0.5}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "15"
+, "attributes": {}
+, "id": "1818"
+, "size": 19.5}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "26"
+, "attributes": {}
+, "id": "2162"
+, "size": 25.5}, {"target": "7"
+, "color": "rgb(0,109,44)"
+, "source": "14"
+, "attributes": {}
+, "id": "1774"
+, "size": 42.5}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "8"
+, "attributes": {}
+, "id": "1582"
+, "size": 61.0}, {"target": "16"
+, "color": "rgb(0,109,44)"
+, "source": "33"
+, "attributes": {}
+, "id": "2367"
+, "size": 63.0}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "11"
+, "attributes": {}
+, "id": "1672"
+, "size": 24.5}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "3"
+, "attributes": {}
+, "id": "1423"
+, "size": 30.0}, {"target": "4"
+, "color": "rgb(0,109,44)"
+, "source": "29"
+, "attributes": {}
+, "id": "2239"
+, "size": 35.0}, {"target": "28"
+, "color": "rgb(0,109,44)"
+, "source": "1"
+, "attributes": {}
+, "id": "1369"
+, "size": 0.5}, {"target": "34"
+, "color": "rgb(0,109,44)"
+, "source": "9"
+, "attributes": {}
+, "id": "1621"
+, "size": 33.5}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "17"
+, "attributes": {}
+, "id": "1881"
+, "size": 0.5}, {"target": "16"
+, "color": "rgb(0,109,44)"
+, "source": "23"
+, "attributes": {}
+, "id": "2036"
+, "size": 46.5}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "24"
+, "attributes": {}
+, "id": "2081"
+, "size": 9.0}, {"target": "31"
+, "color": "rgb(0,109,44)"
+, "source": "14"
+, "attributes": {}
+, "id": "1795"
+, "size": 52.0}, {"target": "23"
+, "color": "rgb(0,109,44)"
+, "source": "28"
+, "attributes": {}
+, "id": "2218"
+, "size": 30.0}, {"target": "18"
+, "color": "rgb(0,109,44)"
+, "source": "5"
+, "attributes": {}
+, "id": "1482"
+, "size": 0.5}, {"target": "3"
+, "color": "rgb(0,109,44)"
+, "source": "5"
+, "attributes": {}
+, "id": "1480"
+, "size": 0.5}, {"target": "11"
+, "color": "rgb(0,109,44)"
+, "source": "25"
+, "attributes": {}
+, "id": "2104"
+, "size": 12.5}, {"target": "26"
+, "color": "rgb(0,109,44)"
+, "source": "12"
+, "attributes": {}
+, "id": "1719"
+, "size": 3.0}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "33"
+, "attributes": {}
+, "id": "2382"
+, "size": 8.5}, {"target": "15"
+, "color": "rgb(0,109,44)"
+, "source": "37"
+, "attributes": {}
+, "id": "2486"
+, "size": 22.0}, {"target": "22"
+, "color": "rgb(0,109,44)"
+, "source": "6"
+, "attributes": {}
+, "id": "1498"
+, "size": 5.0}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "43"
+, "attributes": {}
+, "id": "2663"
+, "size": 71.5}, {"target": "34"
+, "color": "rgb(0,109,44)"
+, "source": "43"
+, "attributes": {}
+, "id": "2667"
+, "size": 52.5}, {"target": "34"
+, "color": "rgb(0,109,44)"
+, "source": "3"
+, "attributes": {}
+, "id": "1431"
+, "size": 13.0}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "28"
+, "attributes": {}
+, "id": "2211"
+, "size": 31.5}, {"target": "29"
+, "color": "rgb(0,109,44)"
+, "source": "41"
+, "attributes": {}
+, "id": "2621"
+, "size": 0.5}, {"target": "26"
+, "color": "rgb(0,109,44)"
+, "source": "8"
+, "attributes": {}
+, "id": "1574"
+, "size": 66.5}, {"target": "15"
+, "color": "rgb(0,109,44)"
+, "source": "21"
+, "attributes": {}
+, "id": "1983"
+, "size": 0.5}, {"target": "27"
+, "color": "rgb(0,109,44)"
+, "source": "22"
+, "attributes": {}
+, "id": "2008"
+, "size": 32.5}, {"target": "37"
+, "color": "rgb(0,109,44)"
+, "source": "41"
+, "attributes": {}
+, "id": "2626"
+, "size": 0.5}, {"target": "43"
+, "color": "rgb(0,109,44)"
+, "source": "44"
+, "attributes": {}
+, "id": "2715"
+, "size": 42.0}, {"target": "16"
+, "color": "rgb(0,109,44)"
+, "source": "18"
+, "attributes": {}
+, "id": "1895"
+, "size": 34.0}, {"target": "15"
+, "color": "rgb(0,109,44)"
+, "source": "23"
+, "attributes": {}
+, "id": "2035"
+, "size": 22.5}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "16"
+, "attributes": {}
+, "id": "1867"
+, "size": 90.5}, {"target": "10"
+, "color": "rgb(0,109,44)"
+, "source": "24"
+, "attributes": {}
+, "id": "2064"
+, "size": 8.0}, {"target": "43"
+, "color": "rgb(0,109,44)"
+, "source": "4"
+, "attributes": {}
+, "id": "1478"
+, "size": 75.0}, {"target": "26"
+, "color": "rgb(0,109,44)"
+, "source": "36"
+, "attributes": {}
+, "id": "2456"
+, "size": 61.0}, {"target": "31"
+, "color": "rgb(0,109,44)"
+, "source": "40"
+, "attributes": {}
+, "id": "2606"
+, "size": 4.0}, {"target": "38"
+, "color": "rgb(0,109,44)"
+, "source": "0"
+, "attributes": {}
+, "id": "1366"
+, "size": 0.5}, {"target": "28"
+, "color": "rgb(0,109,44)"
+, "source": "0"
+, "attributes": {}
+, "id": "1362"
+, "size": 0.5}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "12"
+, "attributes": {}
+, "id": "1727"
+, "size": 5.0}, {"target": "33"
+, "color": "rgb(0,109,44)"
+, "source": "41"
+, "attributes": {}
+, "id": "2623"
+, "size": 0.5}, {"target": "11"
+, "color": "rgb(0,109,44)"
+, "source": "8"
+, "attributes": {}
+, "id": "1561"
+, "size": 19.5}, {"target": "24"
+, "color": "rgb(0,109,44)"
+, "source": "36"
+, "attributes": {}
+, "id": "2454"
+, "size": 120.5}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "43"
+, "attributes": {}
+, "id": "2649"
+, "size": 70.0}, {"target": "37"
+, "color": "rgb(0,109,44)"
+, "source": "36"
+, "attributes": {}
+, "id": "2466"
+, "size": 108.0}, {"target": "14"
+, "color": "rgb(0,109,44)"
+, "source": "25"
+, "attributes": {}
+, "id": "2107"
+, "size": 4.0}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "30"
+, "attributes": {}
+, "id": "2304"
+, "size": 12.0}, {"target": "3"
+, "color": "rgb(0,109,44)"
+, "source": "28"
+, "attributes": {}
+, "id": "2202"
+, "size": 23.0}, {"target": "43"
+, "color": "rgb(0,109,44)"
+, "source": "14"
+, "attributes": {}
+, "id": "1805"
+, "size": 47.0}, {"target": "7"
+, "color": "rgb(0,109,44)"
+, "source": "41"
+, "attributes": {}
+, "id": "2617"
+, "size": 0.5}, {"target": "34"
+, "color": "rgb(0,109,44)"
+, "source": "20"
+, "attributes": {}
+, "id": "1972"
+, "size": 21.0}, {"target": "7"
+, "color": "rgb(0,109,44)"
+, "source": "39"
+, "attributes": {}
+, "id": "2559"
+, "size": 45.0}, {"target": "38"
+, "color": "rgb(0,109,44)"
+, "source": "10"
+, "attributes": {}
+, "id": "1654"
+, "size": 5.5}, {"target": "36"
+, "color": "rgb(0,109,44)"
+, "source": "24"
+, "attributes": {}
+, "id": "2086"
+, "size": 117.5}]}

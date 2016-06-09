@@ -269,9 +269,15 @@ function configSigmaElements(config) {
     }
     $GP.bg = $(sigInst._core.domElements.bg);
     $GP.bg2 = $(sigInst._core.domElements.bg2);
-    var a = [],
-        b,x=1;
-		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Group ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
+    //var a = [],
+    //    b,x=1;
+	//	for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Group ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
+    
+    var a = [];
+    a.push('<div style="line-height:12px"><a href="#rgb(154,150,229)"><div style="width:40px;height:12px;border:1px solid #fff;background:rgb(154,150,229);display:inline-block"></div> STEM (20 members)</a></div>');
+    a.push('<div style="line-height:12px"><a href="#rgb(249,119,67)"><div style="width:40px;height:12px;border:1px solid #fff;background:rgb(249,119,67);display:inline-block"></div> Humanities (15 members)</a></div>');
+    a.push('<div style="line-height:12px"><a href="#rgb(40,179,106)"><div style="width:40px;height:12px;border:1px solid #fff;background:rgb(40,179,106);display:inline-block"></div> Arts (10 members)</a></div>');
+    
     //a.sort();
     $GP.cluster.content(a.join(""));
     b = {
@@ -535,10 +541,10 @@ function nodeActive(a) {
         //f.push("<h2>Mututal (" + size + ")</h2>");
         //(size>0)? f=f.concat(createList(mutual)) : f.push("No mutual links<br>");
         size=Object.size(outgoing);
-        f.push("<h2>Top 5 Outgoing (" + size + ")</h2>");
+        f.push("<h2>Top (5) Outgoing (" + size + ")</h2>");
         (size>0)? f=f.concat(createList(outgoing)) : f.push("No outgoing links<br>");
         size=Object.size(incoming);
-        f.push("<h2>Incoming (" + size + ")</h2>");
+        f.push("<h2>All Incoming (" + size + ")</h2>");
         (size>0)? f=f.concat(createList(incoming)) : f.push("No incoming links<br>");
         
     
@@ -566,13 +572,13 @@ function nodeActive(a) {
         temp_array = [];
         g = 0;
 
-        h = '<span><strong>Discipline Group:</strong> '+f.attributes["Modularity Class"]+'</span><br/>'
-        e.push(h)
+        //h = '<span><strong>Discipline Group:</strong> '+f.attributes["Modularity Class"]+'</span><br/>'
+        //e.push(h)
 
         h = '<span><strong>Link:</strong> '+f.attributes["Link"]+'</span><br/>'
         e.push(h)
 
-        h = '<span><strong>Values for centrality below are given a rank from 0 to 1 where 1 is the least central and 0 being the most central for each measure, respectively.</strong><br>'
+        h = '<span><strong>Scaling</strong><br>0 ---------------------- 1<br>(least central)         (most central)<br>'
         e.push(h)
 
         h = '<span><strong>How far is it to other disciplines? (closeness centrality):</strong> '+f.attributes["closeness"]+'</span><br/>'
@@ -620,7 +626,7 @@ function showCluster(a) {
         }
         sigInst.clusters[a] = e;
         sigInst.draw(2, 2, 2, 2);
-        $GP.info_name.html("<b>"+a+"</b>");
+        //$GP.info_name.html("<b>"+a+"</b>");
         $GP.info_data.hide();
         $GP.info_p.html("Group Members:");
         $GP.info_link.find("ul").html(f.join(""));
