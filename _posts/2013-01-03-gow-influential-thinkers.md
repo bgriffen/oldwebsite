@@ -5,6 +5,8 @@ description: "An investigation in to the relationship between people on Wikipedi
 tags: [gephi, graphs, wikipedia, viz, interactive, python, SPARQL]
 ---
 
+Update! The work seems to have been picked up by [Flowing Data](https://flowingdata.com/2012/07/16/graphing-every-idea-in-history/), [Business Insider](http://www.businessinsider.com/a-complete-map-of-the-most-influential-thinkers-in-history-2012-7), Future Journalism Project](http://tumblr.thefjp.org/post/27336686327/graphing-the-influence-of-thinkers-and-ideas-throughout), [Coppelia](http://www.coppelia.io/2012/06/graphing-the-history-of-philosophy/) and a few other places.
+
 The internet is big — very big. One such way to investigate all of this free online content is through graphs. The network visualisations by Simon Raper in his [fantastic post](http://drunks-and-lampposts.com/2012/06/13/graphing-the-history-of-philosophy/) about graphing the history of philosophy is one example of how to exploit such data. Let’s take this a step further and create a series of graphs using everyone on Wikipedia. Using subsets of this dataset (authors, actors, sports players etc.), we can investigate sub-networks within the larger dataset. In the next series of posts, I will present a few of my findings in each of these sub-networks. For now, I’ll focus on generating the core data set using everyone on Wikipedia as of January 2013. To start, let’s look at how people influenced each other throughout history as entered by the authors of Wikipedia. If you search for a notable figure you might find the following on the sidebar:
 
 <div style="text-align: center;">
@@ -86,4 +88,6 @@ First we need to take a step back and understand where the data is actually crea
 ## Posters
 
 I’ve had specific requests to make my graphs available for print. [Here is a link](http://www.redbubble.com/people/griffsgraphs) to my RedBubble account where you can purchase. It was not my intention from the outset but I don’t have the resources to print them and mail them myself. Feel free to [email me](mailto:brendan.f.griffen@gmail.com) for any further information or ideas you might have for similar type networks.
+
+Here is an example of a [Twitter user](https://pic.twitter.com/G1McQUy1) with the full network!
 
