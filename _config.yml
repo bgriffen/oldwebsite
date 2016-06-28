@@ -1,9 +1,5 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# Configuration File
+# www.brendangriffen.com
 
 # Site Settings
 locale                   : "en-US"
@@ -93,15 +89,6 @@ author:
   youtube          : #itisfullofstars
 
 collections:
-  #docs:
-  #  output: true
-  #  permalink: /:collection/:path/
-  astronomy:
-    output: true
-    permalink: /:collection/:path/
-#  pets:
-#    output: true
-#    permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
@@ -164,7 +151,7 @@ kramdown:
 permalink: /:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York
 
 
 # Plugins
@@ -202,16 +189,6 @@ defaults:
       author_profile: false
       share: false
 
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -219,21 +196,7 @@ tag_archive:
   type: liquid
   path: /tags/
   
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
 
-
-# HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
