@@ -21,6 +21,7 @@ gallery:
   - url: unsplash-gallery-image-3.jpg
     image_path: unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
+#{% include gallery caption="Here is a sample of the kinds of visuals I create." %}
 ---
 
 When I have spare time, I find ways of exploiting large datasets online (ideally semantic) to learn something new about human culture. Some of my previous projects include the following areas:
@@ -35,6 +36,3 @@ When I have spare time, I find ways of exploiting large datasets online (ideally
 
 Many of these appear in my semi-periodic blog posts and others are for private entities.
 
-{% include gallery caption="Here is a sample of the kinds of visuals I create." %}
-
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
