@@ -122,24 +122,30 @@ function initSigma(config) {
 function setupGUI(config) {
 	// Initialise main interface elements
 	var logo=""; // Logo elements
-	
-    logo = '<a href="'+config.logo.link+'"><img src="'+config.logo.file+'" width="220"></a>';
-    
-    $("#maintitle").html(logo);
+	if (config.logo.file) {
 
-    // #title
-    $("#title").html("<h2>"+config.text.title+"</h2>");
+		logo = "<img src=\"" + config.logo.file +"\"";
+		if (config.logo.text) logo+=" alt=\"" + config.logo.text + "\"";
+		logo+=">";
+	} else if (config.logo.text) {
+		logo="<h1>"+config.logo.text+"</h1>";
+	}
+	if (config.logo.link) logo="<a href=\"" + config.logo.link + "\">"+logo+"</a>";
+	$("#maintitle").html(logo);
 
-    // #titletext
-    $("#titletext").html(config.text.titletext);
+	// #title
+	$("#title").html("<h2>"+config.text.title+"</h2>");
 
-    // More information
-    if (config.text.more) {
-        $("#information").html(config.text.more);
-    } else {
-        //hide more information link
-        $("#moreinformation").hide();
-    }
+	// #titletext
+	$("#titletext").html(config.text.intro);
+
+	// More information
+	if (config.text.more) {
+		$("#information").html(config.text.more);
+	} else {
+		//hide more information link
+		$("#moreinformation").hide();
+	}
 
 	// Legend
 
@@ -269,15 +275,9 @@ function configSigmaElements(config) {
     }
     $GP.bg = $(sigInst._core.domElements.bg);
     $GP.bg2 = $(sigInst._core.domElements.bg2);
-    //var a = [],
-    //    b,x=1;
-	//	for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Group ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
-    
-    var a = [];
-    a.push('<div style="line-height:12px"><a href="#rgb(154,150,229)"><div style="width:40px;height:12px;border:1px solid #fff;background:rgb(154,150,229);display:inline-block"></div> STEM (20 members)</a></div>');
-    a.push('<div style="line-height:12px"><a href="#rgb(249,119,67)"><div style="width:40px;height:12px;border:1px solid #fff;background:rgb(249,119,67);display:inline-block"></div> Humanities (15 members)</a></div>');
-    a.push('<div style="line-height:12px"><a href="#rgb(40,179,106)"><div style="width:40px;height:12px;border:1px solid #fff;background:rgb(40,179,106);display:inline-block"></div> Arts (10 members)</a></div>');
-    
+    var a = [],
+        b,x=1;
+		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Group ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
     //a.sort();
     $GP.cluster.content(a.join(""));
     b = {
@@ -537,17 +537,7 @@ function nodeActive(a) {
 		f.push("<h2>Outgoing (" + size + ")</h2>");
 		(size>0)? f=f.concat(createList(outgoing)) : f.push("No outgoing links<br>");
 	} else {
-		//size=Object.size(mutual);
-        //f.push("<h2>Mututal (" + size + ")</h2>");
-        //(size>0)? f=f.concat(createList(mutual)) : f.push("No mutual links<br>");
-        size=Object.size(outgoing);
-        f.push("<h2>Top (5) Outgoing (" + size + ")</h2>");
-        (size>0)? f=f.concat(createList(outgoing)) : f.push("No outgoing links<br>");
-        size=Object.size(incoming);
-        f.push("<h2>All Incoming (" + size + ")</h2>");
-        (size>0)? f=f.concat(createList(incoming)) : f.push("No incoming links<br>");
-        
-    
+		f=f.concat(createList(sigInst.neighbors));
 	}
 	//b is object of active node -- SAH
     b.hidden = !1;
@@ -561,7 +551,6 @@ function nodeActive(a) {
         var a = $(this),
             b = a.attr("rel");
     });
-
     f = b.attr;
     if (f.attributes) {
   		var image_attribute = false;
@@ -571,39 +560,32 @@ function nodeActive(a) {
         e = [];
         temp_array = [];
         g = 0;
+        for (var attr in f.attributes) {
+            var d = f.attributes[attr],
+                h = "";
+			if (attr!=image_attribute) {
+                h = '<span><strong>' + attr + ':</strong> ' + d + '</span><br/>'
+			}
+            //temp_array.push(f.attributes[g].attr);
+            e.push(h)
+        }
 
-        //h = '<span><strong>Discipline Group:</strong> '+f.attributes["Modularity Class"]+'</span><br/>'
-        //e.push(h)
-
-        h = '<span><strong>Link:</strong> '+f.attributes["Link"]+'</span><br/>'
-        e.push(h)
-
-        h = '<span><strong>Scaling</strong><br>0 ---------------------- 1<br>(least central)         (most central)<br>'
-        e.push(h)
-
-        h = '<span><strong>How far is it to other disciplines? (closeness centrality):</strong> '+f.attributes["closeness"]+'</span><br/>'
-        e.push(h)
-
-        h = '<span><strong>How likely is this discipline on the path between two disciplines (betweenness centrality):</strong> '+f.attributes["betweenness"]+'</span><br/>'
-        e.push(h)
-        
-         if (image_attribute) {
-            //image_index = jQuery.inArray(image_attribute, temp_array);
-            $GP.info_name.html("<div><img src=" + f.attributes[image_attribute] + " style=\"vertical-align:middle\" /> <span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
+        if (image_attribute) {
+        	//image_index = jQuery.inArray(image_attribute, temp_array);
+        	$GP.info_name.html("<div><img src=" + f.attributes[image_attribute] + " style=\"vertical-align:middle\" /> <span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
         } else {
-            $GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
+        	$GP.info_name.html("<div><span onmouseover=\"sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex['" + b.id + '\'])" onmouseout="sigInst.refresh()">' + b.label + "</span></div>");
         }
         // Image field for attribute pane
         $GP.info_data.html(e.join("<br/>"))
     }
     $GP.info_data.show();
-    $GP.info_p.html("Strongest Connections");
+    $GP.info_p.html("Connections:");
     $GP.info.animate({width:'show'},350);
 	$GP.info_donnees.hide();
 	$GP.info_donnees.show();
     sigInst.active = a;
     window.location.hash = b.label;
-
 }
 
 function showCluster(a) {
@@ -626,7 +608,7 @@ function showCluster(a) {
         }
         sigInst.clusters[a] = e;
         sigInst.draw(2, 2, 2, 2);
-        //$GP.info_name.html("<b>"+a+"</b>");
+        $GP.info_name.html("<b>" + a + "</b>");
         $GP.info_data.hide();
         $GP.info_p.html("Group Members:");
         $GP.info_link.find("ul").html(f.join(""));
