@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+<br>
+<div class="grid__wrapper">
+  {% for post in site.projects %}
+    {% include archive-portfolio.html type="grid" %}
+  {% endfor %}
+</div>
