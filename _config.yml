@@ -87,6 +87,7 @@ author:
   weibo            :
   xing             :
   youtube          : #itisfullofstars
+  feed             : "feed.xml"
 
 collections:
   projects:
