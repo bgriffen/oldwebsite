@@ -1,0 +1,542 @@
+qname;name;award_type;year_of_fellowship;gender;num_papers;num_papers_before_award;num_papers_during_award;num_papers_after_award;num_cites;num_cites_before_award;num_cites_during_award;num_cites_after_award;num_coauthors;num_of_self_cites
+Deliyannis, C;Constantine Deliyannis;Hubble;1993;m;17;7;4;5;727;127;89;511;34;0
+Bershady, M;Matthew Bershady;Hubble;1992;m;20;1;3;13;728;1;3;724;43;0
+Kerr, M;Matthew Kerr;Einstein;2010;m;8;0;2;5;80;0;23;57;29;0
+Rodney, S;Steven Rodney;Hubble;2012;m;10;5;1;1;66;18;38;10;117;0
+Marzke, R;Ronald O. Marzke;Hubble;1997;m;7;5;1;0;733;104;210;419;15;0
+Pontoppidan, K;Klaus Pontoppidan;Hubble;2006;m;20;7;5;6;905;66;102;737;76;0
+Zabludoff, A;Ann Zabludoff;Hubble;1996;f;14;9;2;1;1258;141;145;972;32;0
+Su, M;Meng Su;Einstein;2012;m;6;4;0;0;254;39;193;22;8;0
+Rauch, M;Michael Rauch;Hubble;1995;m;23;4;4;12;1490;60;104;1326;78;0
+Jorgensen, I;Inger Jorgensen;Hubble;1995;f;18;4;2;8;1637;24;114;1499;38;0
+Trump, J;Jonathan Trump;Hubble;2013;m;13;9;2;0;529;342;187;0;183;0
+Zaldarriaga, M;Matias Zaldarriaga;Hubble;1998;m;23;4;3;8;2703;51;249;2403;19;0
+Kim, J;Ji-hoon Kim;Einstein;2014;m;244;209;18;0;4693;3945;748;0;634;0
+Gallo, E;Elena Gallo;Einstein;2005;f;32;7;4;14;1044;51;183;810;74;0
+Cool, R;Richard Cool;Hubble;2008;m;9;5;0;2;205;31;57;117;65;0
+Catelan, M;Marcio Catelan;Hubble;1998;m;28;14;1;9;969;87;67;815;40;0
+Skemer, A;Andrew Skemer;Hubble;2014;m;10;8;1;0;156;99;57;0;136;0
+Agol, E;Eric Agol;Einstein;2000;m;25;6;5;10;1339;32;114;1193;41;0
+Spaans, M;Marco Spaans;Hubble;1997;m;24;6;2;9;688;21;89;578;26;0
+Sand, D;David Sand;Einstein;2005;m;14;2;1;8;639;81;77;481;87;0
+Bogdanovic, T;Tamara Bogdanovic;Einstein;2009;f;12;5;2;2;362;61;135;166;27;0
+Bakos, G;Gaspar Bakos;Hubble;2004;m;55;40;2;9;1389;143;75;1171;290;0
+Kartaltepe, J;Jeyhan Kartaltepe;Hubble;2011;f;9;6;1;2;294;91;119;84;175;0
+Richards, E;Eric Richards;Hubble;1999;m;11;3;3;2;485;19;142;324;28;0
+Matteo Brogi, M;Matteo Brogi;Hubble;2014;m;0;0;0;0;0;0;0;0;0;0
+Di Matteo, T;Tiziana Di Matteo;Einstein;1998;f;25;5;7;9;3190;5;147;3038;62;0
+Espaillat, C;Catherine Espaillat;Sagan;2012;f;13;9;2;0;507;250;221;36;87;0
+Saumon, D;Didier Saumon;Hubble;1993;m;20;6;2;11;2144;31;73;2040;54;0
+Hawley, S;Suzanne L. Hawley;Hubble;1991;f;39;19;3;15;1775;422;40;1313;95;0
+McDonald, M;Michael McDonald;Hubble;2012;m;23;12;5;1;252;50;154;48;318;0
+Veilleux, S;Sylvain Veilleux;Hubble;1992;m;45;10;3;30;4834;116;114;4604;154;0
+Miller, A;Adam Miller;Hubble;2013;m;60;55;3;0;803;700;103;0;180;0
+Collins, M;Michelle Collins;Hubble;2014;f;26;24;1;0;377;302;75;0;114;0
+Lubin, L;Lori M. Lubin;Hubble;1997;m;21;11;2;6;589;82;71;436;58;0
+Alatalo, K;Katherine Alatalo;Hubble;2015;f;10;6;0;0;129;92;37;0;145;0
+Zaritsky, D;Dennis F. Zaritsky;Hubble;1991;m;56;6;7;39;3756;39;83;3634;170;0
+Barton, E;Elizabeth Barton;Hubble;2001;f;16;6;1;6;643;32;63;548;43;0
+Ballard, S;Sarah Ballard;Sagan;2012;f;13;9;2;1;206;105;86;15;115;0
+Lin, H;Huan Lin;Hubble;1998;nan;69;17;5;43;1501;99;207;1195;181;0
+Verde, L;Licia Verde;Einstein;2002;f;24;6;3;11;1662;45;373;1244;85;0
+Kuepper, A;Andreas Kuepper;Hubble;2013;m;10;9;1;0;256;124;132;0;26;0
+Rasmussen, J;Jesper Rasmussen;Einstein;2007;m;21;12;3;3;452;80;76;296;51;0
+Ness, J;Jan-Uwe Ness;Einstein;2005;m;30;14;3;9;713;121;130;462;180;0
+Blanton, E;Elizabeth Blanton;Einstein;2001;f;14;4;2;3;623;16;114;493;47;0
+Darling, J;Jeremiah Darling;Hubble;2005;m;28;14;2;11;347;64;49;234;35;0
+Quataert, E;Eliot Quataert;Einstein;1999;m;23;2;4;9;1390;9;186;1195;29;0
+Smith, N;Nathan Smith;Hubble;2003;m;107;31;18;44;4637;277;355;4005;368;0
+Poznanski, D;Dovi Poznanski;Einstein;2010;m;10;4;2;1;395;102;100;193;57;0
+Putman, M;Mary Putman;Hubble;2000;f;13;3;1;6;890;31;78;781;89;0
+Hu, R;Renyu Hu;Hubble;2013;m;17;11;5;0;96;24;72;0;43;0
+Lehmer, B;Bret Lehmer;Einstein;2009;m;15;6;2;4;528;102;112;314;158;0
+Jones, T;Tucker Jones;Hubble;2015;m;159;155;1;0;4627;4561;66;0;283;0
+Tsujimoto, M;Masahiro Tsujimoto;Einstein;2006;m;14;9;2;1;255;39;64;152;69;0
+Cooke, R;Ryan Cooke;Hubble;2014;m;18;13;3;0;286;115;171;0;38;0
+Hermes, J;James Hermes;Hubble;2015;m;14;12;0;0;160;121;39;0;118;0
+Baum, S;Stefi Baum;Hubble;1990;f;26;6;4;13;1389;17;81;1291;84;0
+Torrey, P;Paul Torrey;Hubble;2016;m;6;6;0;0;181;181;0;0;35;0
+Moe, M;Maxwell Moe;Einstein;2015;m;8;6;0;0;212;193;19;0;12;0
+Prochaska, J;Jason Prochaska;Hubble;2001;m;56;11;10;28;4162;267;418;3477;187;0
+Mroczkowski, T;Tony Mroczkowski;Einstein;2010;m;6;2;3;1;73;7;32;34;44;0
+King, A;Ashley King;Einstein;2014;m;271;254;10;0;5984;5328;656;0;247;0
+Ford, E;Eric Ford;Hubble;2006;m;43;27;5;4;1951;519;265;1167;170;0
+D'Orazio, D;Daniel D'Orazio;Einstein;2016;m;5;5;0;0;56;56;0;0;10;0
+Dalal, N;Neal Dalal;Hubble;2002;m;16;5;3;4;1148;12;122;1014;28;0
+Sarajedini, A;Ata Sarajedini;Hubble;1995;m;38;11;5;16;1730;173;151;1406;75;0
+Crossfield, I;Ian Crossfield;Sagan;2014;m;14;10;2;0;254;104;150;0;60;0
+Carter, J;Joshua Carter;Hubble;2010;m;50;29;8;3;863;139;275;449;191;0
+Guillochon, J;James Guillochon;Einstein;2013;m;11;3;6;0;279;72;207;0;18;0
+Scolnic, D;Dan Scolnic;Hubble;2016;m;5;5;0;0;91;91;0;0;77;0
+van Dokkum, P;Pieter van Dokkum;Hubble;1999;m;41;5;6;27;5012;104;254;4654;218;0
+Henry, T;Todd Henry;Hubble;1994;m;13;6;1;4;1531;76;78;1377;38;0
+Jiang, L;Linhua Jiang;Hubble;2011;m;35;17;4;11;696;288;199;209;196;0
+Chelouche, D;Doron Chelouche;Einstein;2004;m;19;4;2;11;322;14;27;281;27;0
+Frank, A;Adam Frank;Hubble;1995;m;33;12;3;12;940;58;129;753;67;0
+Sharma, P;Prateek Sharma;Einstein;2008;m;36;17;5;10;607;145;84;378;76;0
+Bogdan, A;Akos Bogdan;Einstein;2011;m;16;5;5;2;154;24;58;72;78;0
+Woo, J;Jong-Hak Woo;Hubble;2008;m;40;28;1;8;1235;400;175;660;104;0
+Squires, G;Gordon Squires;Hubble;1998;m;7;7;0;0;264;71;72;121;18;0
+Womble, D;Donna Womble;Hubble;1992;m;4;1;1;0;50;6;7;37;5;0
+Kewley, L;Lisa Kewley;Hubble;2004;f;20;8;3;6;3800;123;281;3396;73;0
+Bowler, B;Brendan Bowler;Hubble;2016;m;15;15;0;0;423;423;0;0;75;0
+Robinson, T;Tyler Robinson;Sagan;2015;m;69;68;1;0;512;493;19;0;75;0
+Chen, H;Hsiao-Wen Chen;Hubble;2002;m;156;67;11;70;3136;790;168;2178;482;0
+Whitaker, K;Katherine Whitaker;Hubble;2015;f;10;9;0;0;402;318;84;0;85;0
+Fernandez, R;Rodgrigo Fernandez;Einstein;2009;m;23;5;4;8;455;55;60;340;36;0
+Gladders, M;Michael Gladders;Hubble;2005;m;13;9;1;2;880;176;145;559;54;0
+Petropoulou, M;Maria Petropoulou;Einstein;2013;f;17;6;10;0;80;16;64;0;27;0
+Lee, J;Jeong-Eun Lee;Hubble;2005;m;331;117;40;144;5443;1146;460;3837;888;0
+Buote, D;David Buote;Einstein;1998;m;33;11;6;11;1779;132;152;1495;41;0
+Dupuy, T;Trent Dupuy;Hubble;2010;m;14;4;2;4;425;18;115;292;46;0
+Bureau, M;Martin Bureau;Hubble;2001;m;14;7;1;6;581;77;51;453;54;0
+Kraus, A;Adam Kraus;Hubble;2009;m;26;14;3;4;1013;181;150;682;86;0
+Murase, K;Kohta Murase;Hubble;2012;m;38;24;7;0;896;371;455;70;65;0
+Green, P;Paul Green;Hubble;1992;m;43;15;2;21;1264;64;53;1147;163;0
+Jang-Condell, H;Hannah Jang-Condell;Sagan;2007;f;15;5;3;4;226;49;41;136;17;0
+Tycner, C;Christopher Tycner;Sagan;2004;m;11;3;3;2;167;2;23;142;47;0
+Hopkins, A;Andrew Hopkins;Hubble;2001;m;23;8;4;8;2477;38;113;2326;169;0
+Choquet, E;Elodie Choquet;Hubble;2015;f;3;2;1;0;1;0;1;0;31;0
+Behroozi, P;Peter Behroozi;Hubble;2015;m;13;9;0;0;829;660;169;0;49;0
+Bundy, K;Kevin A Bundy;Hubble;2008;m;12;6;2;3;1095;233;302;560;133;0
+Menou, K;Kristen Menou;Einstein;1999;f;31;0;10;17;1139;0;109;1030;64;0
+Kirby, E;Evan Kirby;Hubble;2009;m;27;7;5;8;877;14;168;695;96;0
+Facher-Giguere, C;Claude-Andre Facher-Giguere;Einstein;2013;m;0;0;0;0;0;0;0;0;0;0
+Werk, J;Jessica Werk;Hubble;2013;f;9;7;1;0;278;101;177;0;68;0
+Dvorkin, C;Cora Dvorkin;Hubble;2014;f;11;9;0;0;253;157;96;0;17;0
+Chiang, E;Eugene Chiang;Hubble;2000;m;27;5;7;9;2127;39;173;1915;49;0
+Naoz, S;Smadar Naoz;Einstein;2012;f;20;10;7;0;500;149;279;72;34;0
+Schmidt, F;Fabian Schmidt;Einstein;2012;m;38;26;7;0;673;338;299;36;76;0
+Neilsen, J;Joey Neilsen;Einstein;2012;m;13;6;3;0;201;56;113;32;52;0
+Portegies-Zwart, S;Simon Portegies Zwart;Hubble;1998;m;53;8;8;31;3168;33;171;2964;140;0
+Wiktorowicz, S;Sloane Wiktorowicz;Sagan;2011;m;7;4;0;2;36;8;5;23;11;0
+Dave, R;Romeel Dave;Hubble;2000;m;5;3;2;0;67;9;4;54;6;0
+Keeton, C;Charles Keeton;Hubble;2001;m;26;8;5;9;1451;186;219;1046;34;0
+Gruen, D;Daniel Gruen;Einstein;2015;m;8;5;1;0;47;35;12;0;129;0
+Mukadam, A;Anjum Mukadam;Hubble;2004;m;16;3;2;7;290;2;68;220;265;0
+Finkelstein, S;Steven Finkelstein;Hubble;2011;m;19;11;3;2;768;176;300;292;196;0
+Mann, A;Andrew Mann;Hubble;2015;m;38;34;2;0;412;346;66;0;57;0
+Muirhead, P;Philip Muirhead;Hubble;2013;m;6;3;2;0;179;44;135;0;91;0
+Besla, G;Gurtina Besla;Hubble;2011;f;7;4;2;0;351;111;134;106;25;0
+Hibbard, J;John Hibbard;Hubble;1994;m;12;0;3;7;1106;0;37;1069;44;0
+Gal-Yam, A;Avishay Gal-Yam;Hubble;2003;m;22;3;4;12;1551;15;106;1430;206;0
+Bai, X;Xuening Bai;Hubble;2012;m;35;15;14;1;545;114;333;98;70;0
+Miller, J;Jon Miller;Einstein;2005;m;209;160;13;25;6462;3341;634;2487;489;0
+Biller, B;Beth A Biller;Hubble;2007;f;16;4;1;7;433;23;56;354;170;0
+Rix, H;Hans-Walter R. Rix;Hubble;1991;m;23;7;6;8;1973;5;60;1908;48;0
+Robertson, P;Paul Robertson;Sagan;2015;m;24;21;0;0;181;135;46;0;59;0
+Byun, Y;Yong-Ik Byun;Hubble;1992;m;10;1;3;4;344;0;11;333;12;0
+Lee, J;Janice Lee;Hubble;2006;f;331;131;38;121;5255;1314;493;3448;888;0
+Hopkins, P;Philip Hopkins;Einstein;2011;m;78;46;19;6;6572;2706;2080;1786;221;0
+Blum, R;Robert Blum;Hubble;1995;m;27;6;4;12;1021;26;100;895;99;0
+Wise, J;John Wise;Hubble;2009;nan;15;9;1;1;936;111;185;640;33;0
+Ruszkowski, M;Mateusz Ruszkowski;Einstein;2003;m;19;7;2;8;705;24;131;550;33;0
+Bauer, F;Franz Bauer;Einstein;2004;m;40;14;5;16;1044;138;166;740;121;0
+Shcherbakov, R;Roman Shcherbakov;Hubble;2011;m;14;6;3;0;194;35;95;64;15;0
+Parfrey, K;Kyle Parfrey;Einstein;2015;m;7;6;0;0;86;73;13;0;11;0
+Maughan, B;Benjamin Maughan;Einstein;2004;m;11;1;2;4;557;2;42;513;40;0
+Mesinger, A;Andrei Mesinger;Hubble;2008;m;21;9;3;5;883;141;114;628;36;0
+Parmentier, V;Vivien Parmentier;Sagan;2014;f;7;3;2;0;63;11;52;0;8;0
+Ferrarese, L;Laura Ferrarese;Hubble;1996;f;20;1;2;12;5450;6;111;5333;183;0
+Gaudi, B;B. Scott Gaudi;Hubble;2000;m;27;6;6;10;1065;59;99;907;141;0
+Richards, J;Joseph Richards;Hubble;2013;m;24;21;3;0;296;156;140;0;90;0
+Hornschemeier, A;Ann Hornschemeier;Einstein;2002;f;9;2;3;1;454;86;135;233;73;0
+Kasliwal, M;Mansi Kasliwal;Hubble;2011;f;13;6;2;0;220;45;91;84;158;0
+Modjaz, M;Maryam Modjaz;Hubble;2010;f;12;7;4;1;696;243;216;237;91;0
+Walker, M;Matthew Walker;Hubble;2010;m;169;157;2;6;4696;3633;413;650;140;0
+Lundqvist, P;Peter Lundqvist;Hubble;1990;m;12;2;2;8;345;9;20;316;39;0
+Dai, L;Liang Dai;Einstein;2015;m;31;24;1;0;213;174;39;0;122;0
+Rajagopal, J;Jajadev Rajagopal;Sagan;2002;m;6;5;0;1;24;7;1;16;16;0
+Weisz, D;Daniel Weisz;Hubble;2013;m;16;8;6;0;467;172;295;0;143;0
+Wiseman, J;Jennifer Wiseman;Hubble;1998;f;10;7;0;1;145;25;24;96;9;0
+Schlichting, H;Hilke Schlichting;Hubble;2010;f;15;8;4;2;263;73;62;128;31;0
+Li, L;Li-Xin Li;Einstein;2001;f;226;40;19;149;2993;96;185;2712;505;0
+Bird, S;Simeon Bird;Einstein;2015;m;10;7;0;0;161;137;24;0;33;0
+Zhang, W;Weiquin Zhang;Einstein;2004;m;75;20;9;39;1868;522;177;1169;221;0
+Macri, L;Lucas Macri;Hubble;2002;m;15;8;1;6;440;38;40;362;68;0
+Yunes, N;Nicolas Yunes;Einstein;2010;m;28;13;6;1;714;109;300;305;48;0
+Gnat, O;Orly Gnat;Einstein;2008;f;7;2;3;1;198;9;51;138;7;0
+Herbig, T;Thomas Herbig;Hubble;1993;m;4;1;2;1;190;2;10;178;9;0
+Offner, S;Stella Offner;Hubble;2012;f;18;10;5;0;373;139;186;48;41;0
+Roberts, L;Luke Roberts;Einstein;2013;m;29;25;4;0;348;153;195;0;151;0
+Liu, M;Michael Liu;Hubble;2002;m;75;19;4;47;1866;163;123;1580;218;0
+Cooper, M;Michael Cooper;Hubble;2010;m;22;16;3;0;1125;586;251;288;109;0
+Harris, J;Jason Harris;Hubble;2003;m;34;22;2;8;1198;295;78;825;91;0
+Dalcanton, J;Julianne Dalcanton;Hubble;1994;f;22;1;3;14;1606;1;31;1574;112;0
+Rossi, E;Elena Rossi;Einstein;2005;f;13;5;2;3;385;109;81;195;36;0
+Berger, J;Jean-Philippe Berger;Sagan;2000;m;36;28;1;7;425;249;24;152;120;0
+Callanan, P;Paul Callanan;Hubble;1990;m;23;5;3;13;434;7;29;398;70;0
+Hellier, C;Coel Hellier;Hubble;1992;m;52;11;10;29;1565;67;110;1388;206;0
+Bolte, M;Michael Bolte;Hubble;1990;m;19;11;3;3;592;36;77;479;8;0
+Stone, N;Nicholas Stone;Einstein;2015;m;20;17;1;0;303;273;30;0;36;0
+Staggs, S;Suzanne Staggs;Hubble;1994;f;4;1;3;0;42;0;2;40;9;0
+van Weeren, R;Reinout van Weeren;Einstein;2012;m;22;12;4;3;340;100;187;53;377;0
+Bezanson, R;Rachel Bezanson;Hubble;2013;f;7;3;1;0;274;132;142;0;30;0
+Madigan, A;Ann-Marie Madigan;Einstein;2012;f;6;2;1;1;74;22;42;10;11;0
+Milosavljevic, M;Milos Milosavljevic;Hubble;2005;m;16;5;6;4;1160;158;197;805;29;0
+Fong, W;Wen-fai Fong;Einstein;2014;f;9;5;2;0;264;137;127;0;64;0
+Juric, M;Mario Juric;Hubble;2009;m;4;4;0;0;674;116;214;344;41;0
+Borde, P;Pascal Borde;Sagan;2003;m;7;2;0;2;247;1;32;214;58;0
+Socrates, A;Aristotle Socrates;Hubble;2004;m;12;0;3;7;207;0;16;191;17;0
+Majewski, S;Steven R. Majewski;Hubble;1992;m;24;0;6;17;2211;0;73;2138;114;0
+Carollo, M;Marcella Carollo;Hubble;1996;f;19;5;5;8;1549;32;125;1392;66;0
+Fabrycky, D;Daniel Fabrycky;Sagan;2007;m;9;1;2;2;985;3;108;874;59;0
+Levesque, E;Emily Levesque;Einstein;2010;f;24;5;5;4;746;125;290;331;94;0
+Boettcher, M;Markus Boettcher;Einstein;1999;m;74;16;14;31;1733;44;176;1513;367;0
+Ryan, S;Sean G. Ryan;Hubble;1991;m;31;4;3;21;2248;9;101;2138;50;0
+Jonker, P;Peter Jonker;Einstein;2003;m;37;11;7;14;931;88;105;738;193;0
+Dong, R;Ruobing Dong;Hubble;2013;m;19;11;6;0;244;100;144;0;145;0
+Penny, M;Matthew Penny;Sagan;2014;m;4;3;0;0;45;21;24;0;17;0
+Giavalisco, M;Mauro Giavalisco;Hubble;1995;m;16;4;3;7;2602;11;78;2513;111;0
+Eracleous, M;Michael Eracleous;Hubble;1995;m;24;6;3;11;1473;41;135;1297;46;0
+Barnacka, A;Anna Barnacka;Einstein;2015;f;9;7;0;0;39;30;9;0;20;0
+Siegel, D;Daniel Siegel;Einstein;2016;m;13;11;0;0;154;154;0;0;25;0
+Halverson, S;Sam Halverson;Sagan;2016;m;3;3;0;0;10;10;0;0;22;0
+McQuinn, M;Matthew McQuinn;Einstein;2009;m;23;6;5;6;1057;185;199;673;45;0
+Robertson, B;Brant Robertson;Hubble;2009;nan;23;12;4;3;1782;510;384;888;70;0
+Treu, T;Tommaso Treu;Hubble;2003;m;28;8;5;11;2241;100;254;1887;152;0
+Martin, R;Rebecca Martin;Sagan;2012;f;70;54;10;0;1079;818;222;39;111;0
+Kistler, M;Matthew Kistler;Einstein;2010;m;10;4;1;1;344;84;100;160;21;0
+Geha, M;Marla Geha;Hubble;2003;f;14;2;1;6;938;53;71;814;82;0
+Zepf, S;Stephen Zepf;Hubble;1993;m;23;5;3;11;1279;24;86;1169;47;0
+Wyithe, J;J. Stuart Wyithe;Hubble;2001;m;68;10;14;36;2560;57;224;2279;93;0
+Gezari, S;Suvi Gezari;Hubble;2008;f;16;7;3;4;708;78;111;519;203;0
+Mahdavi, A;Andisheh Mahdavi;Einstein;2001;m;18;6;0;8;793;43;64;686;47;0
+Kravtsov, A;Andrey Kravtsov;Hubble;1999;m;16;3;1;9;3056;26;167;2863;24;0
+Cleeves, L;Lauren Ilsedore Cleeves;Hubble;2015;f;9;5;2;0;60;45;15;0;31;0
+Owen, J;James Owen;Hubble;2014;m;32;20;7;0;889;625;264;0;42;0
+Simmons, B;Brooke Simmons;Einstein;2015;f;6;6;0;0;74;68;6;0;62;0
+Garrison-Kimmel, S;Shea Garrison-Kimmel;Einstein;2015;m;4;4;0;0;117;74;43;0;14;0
+Walterbos, R;Rene Walterbos;Hubble;1990;f;12;7;1;4;709;64;44;601;12;0
+Stassun, K;Keivan Stassun;Hubble;2001;m;18;3;2;10;831;17;51;763;44;0
+Schwab, J;Josiah Schwab;Hubble;2016;m;7;6;0;0;141;141;0;0;16;0
+Tchekhovskoy, A;Alexander Tchekhovskoy;Einstein;2013;m;12;8;2;0;704;293;411;0;23;0
+Fruchter, A;Andrew Fruchter;Hubble;1990;m;22;4;2;13;2198;65;98;2035;119;0
+Fregeau, J;John Fregeau;Einstein;2007;m;10;6;3;0;418;96;82;240;21;0
+Oesch, P;Pascal Oesch;Hubble;2010;m;14;2;2;4;832;35;248;549;173;0
+Strickland, D;David Strickland;Einstein;2000;m;41;24;5;9;2329;547;203;1579;116;0
+Liu, A;Adrian Liu;Hubble;2015;m;17;15;1;0;345;287;58;0;31;0
+Simon, J;Jacob Simon;Sagan;2013;m;61;52;6;0;2230;1608;622;0;230;0
+Bastien, F;Fabienne Bastien;Hubble;2014;f;7;3;1;0;36;3;33;0;21;0
+Barger, A;Amy Barger;Einstein;1999;f;26;4;4;13;2781;65;487;2229;109;0
+Franx, M;Marijn Franx;Hubble;1991;m;17;7;3;5;2127;59;142;1926;31;0
+Schawinski, K;Kevin Schawinski;Einstein;2009;m;17;4;6;2;994;83;301;610;183;0
+Vogeley, M;Michael Vogeley;Hubble;1995;m;5;4;1;0;366;101;60;205;10;0
+Voit, M;Mark Voit;Hubble;1993;m;0;0;0;0;0;0;0;0;0;0
+Sanchis-Ojeda, R;Roberto Sanchis Ojeda;Sagan;2014;m;10;6;2;0;276;122;154;0;105;0
+Kaplan, D;David L A Kaplan;Hubble;2007;m;58;33;8;13;2158;746;281;1131;230;0
+Couch, S;Sean Couch;Hubble;2011;m;11;3;4;2;254;21;34;199;15;0
+Miller, A;Amber Miller;Hubble;2000;f;60;39;1;18;766;107;118;541;180;0
+Regan, M;Michael W. Regan;Hubble;1997;m;17;5;2;7;1008;31;62;915;89;0
+Pfahl, E;Eric Pfahl;Einstein;2002;m;13;1;2;3;549;3;62;484;18;0
+Belikov, R;Ruslan Belikov;Sagan;2005;m;1;0;1;0;15;0;0;15;2;0
+Finkbeiner, D;Douglas Finkbeiner;Hubble;2000;m;17;3;1;11;1742;4;73;1665;118;0
+Liu, J;Jifeng Liu;Einstein;2006;m;270;76;28;141;2931;360;288;2283;809;0
+Lanzetta, K;Kenneth M. Lanzetta;Hubble;1991;m;20;5;4;8;1733;36;137;1560;38;0
+Hinz, P;Philip Hinz;Sagan;2001;m;5;1;0;2;130;9;14;107;22;0
+Corrales, L;Lia Corrales;Einstein;2016;f;6;5;0;0;36;36;0;0;7;0
+Kocsis, B;Bence Kocsis;Einstein;2009;m;18;7;3;3;410;78;88;244;29;0
+Jannuzi, B;Buell Jannuzi;Hubble;1993;m;13;4;3;3;543;26;43;474;44;0
+MacLeod, M;Morgan MacLeod;Einstein;2016;m;7;5;0;0;85;85;0;0;17;0
+Badenes, C;Carlos Badenes;Einstein;2006;m;17;6;3;5;573;24;65;484;38;0
+Rockosi, C;Constance Rockosi;Hubble;2001;f;2;0;1;0;106;0;9;97;9;0
+Diemand, J;Jurg Diemand;Hubble;2006;m;13;6;5;1;1951;148;441;1362;31;0
+Tremblay, P;Pier-Emmanuel Tremblay;Hubble;2013;m;19;11;5;0;383;176;207;0;68;0
+Chaname, J;Julio Chaname;Hubble;2008;m;7;5;0;1;174;45;50;79;11;0
+Digby, A;Andrew Digby;Sagan;2003;m;3;1;0;0;49;0;12;37;19;0
+Brittain, S;Sean Brittain;Sagan;2004;m;12;2;1;5;323;12;44;267;38;0
+Hezaveh, Y;Yashar Hezaveh;Hubble;2015;m;7;6;0;0;86;75;11;0;80;0
+de Jong, R;Roelof de Jong;Hubble;1998;m;17;10;2;5;1274;133;223;918;27;0
+van den Bosch, F;Frank C. van den Bosch;Hubble;1997;m;0;0;0;0;0;0;0;0;0;0
+Line, M;Michael Line;Hubble;2015;m;14;13;0;0;184;154;30;0;39;0
+Medling, A;Anne Medling;Einstein;2016;f;6;6;0;0;36;36;0;0;37;0
+Morley, C;Caroline Morley;Sagan;2016;f;9;9;0;0;235;235;0;0;30;0
+Tremblay, G;Grant Tremblay;Einstein;2014;m;10;8;1;0;89;55;34;0;110;0
+Giacintucci, S;Simona Giacintucci;Einstein;2010;f;19;10;4;2;263;71;77;115;115;0
+Ivans, I;Inese Ivans;Hubble;2002;f;7;3;2;1;602;16;68;518;37;0
+Labbe, I;Ivo F L Labbe;Hubble;2007;m;10;5;0;2;771;157;119;495;95;0
+Mihos, C;Chris Mihos;Hubble;1995;m;1;0;0;1;41;0;0;41;0;0
+Gralla, S;Sam Gralla;Einstein;2011;m;16;4;4;3;226;50;75;101;15;0
+Law, D;David R. Law;Hubble;2008;m;17;6;5;5;1065;98;219;748;65;0
+Gagne, J;Jonathan Gagne;Sagan;2015;m;7;4;0;0;53;23;30;0;46;0
+Wilner, D;David Wilner;Hubble;1996;m;24;7;2;11;935;14;65;856;50;0
+Schnittman, J;Jeremy Schnittman;Einstein;2007;m;25;9;3;9;764;68;172;524;24;0
+Mateo, M;Mario Mateo;Hubble;1990;m;35;16;4;11;3172;96;152;2924;63;0
+Sadowski, A;Aleksander Sadowski;Einstein;2014;m;17;11;5;0;355;131;224;0;50;0
+Hamuy, M;Mario Hamuy;Hubble;2001;m;31;19;5;3;3324;843;322;2159;266;0
+Peek, J;Joshua Peek;Hubble;2011;m;16;11;2;1;285;114;96;75;38;0
+Yu, Q;Qingjuan Yu;Hubble;2003;f;29;12;6;8;1251;41;244;966;31;0
+Wang, L;Lifan Wang;Hubble;1996;f;178;19;11;140;4910;78;59;4773;653;0
+Hansen, B;Brad Hansen;Hubble;1999;m;40;7;3;25;1989;31;177;1781;65;0
+Lee, Y;Young-Wook Lee;Hubble;1990;m;96;14;6;71;2818;16;165;2637;317;0
+Shen, K;Ken Shen;Einstein;2011;m;21;14;2;2;370;89;138;143;42;0
+Leistedt, B;Boris Leistedt;Einstein;2016;m;8;8;0;0;120;120;0;0;19;0
+Finlator, K;Kristian Finlator;Hubble;2009;m;12;4;2;2;578;118;119;341;45;0
+Gaburov, E;Evehenii Gaburov;Hubble;2011;m;8;6;1;0;138;41;62;35;12;0
+Konacki, M;Maciej Konacki;Sagan;2000;m;20;6;1;8;802;7;8;787;41;0
+Hillenbrand, L;Lynne Hillenbrand;Hubble;1994;f;18;2;2;13;3055;27;92;2936;59;0
+Wijnands, R;Rudy Wijnands;Einstein;1999;m;47;11;8;14;2005;124;299;1582;148;0
+Kern, B;Brian Kern;Sagan;2002;m;5;0;1;0;108;0;23;85;9;0
+Ramirez-Ruiz, E;Enrico Ramirez-Ruiz;Einstein;2003;m;25;10;6;7;774;116;143;515;38;0
+van de Ven, G;Glenn van de Ven;Hubble;2006;m;0;0;0;0;0;0;0;0;0;0
+Tegmark, M;Max Tegmark;Hubble;1996;m;72;15;16;31;10208;36;298;9874;322;0
+Ferguson, H;Henry Ferguson;Hubble;1993;m;23;10;3;8;1830;69;131;1630;50;0
+Vogelsberger, M;Mark Vogelsberger;Hubble;2012;m;13;5;6;0;633;122;330;181;54;0
+Tollerud, E;Erik Tollerud;Hubble;2012;m;9;4;2;0;291;109;154;28;37;0
+Safizadeh, N;Neda Safizadeh;Sagan;2002;f;2;2;0;0;20;10;2;8;2;0
+Lopez, L;Laura Lopez;Einstein;2011;f;17;7;4;1;172;34;71;67;62;0
+Zheng, Z;Zheng Zheng;Hubble;2004;m;61;22;6;23;1681;174;147;1360;202;0
+Rozo, E;Eduardo Rozo;Einstein;2009;m;16;4;3;6;582;19;133;430;73;0
+Haiman, Z;Zoltan Haiman;Hubble;1999;m;44;10;10;16;3504;126;417;2961;63;0
+Kobulnicky, H;Henry A Kobulnicky;Hubble;1997;m;30;5;5;14;2199;6;132;2061;106;0
+Lada, E;Elizabeth Lada;Hubble;1993;f;8;6;1;1;929;67;92;770;10;0
+Bradac, M;Marusa Bradac;Hubble;2007;f;13;6;4;2;639;92;138;409;87;0
+Gilbert, K;Karoline Gilbert;Hubble;2010;f;9;7;1;1;211;74;48;89;67;0
+Genel, S;Shy Genel;Hubble;2014;m;9;7;1;0;453;243;210;0;51;0
+Hennawi, J;Joseph Hennawi;Hubble;2004;m;13;1;3;5;755;17;59;679;69;0
+Fumagalli, M;Michele Fumagalli;Hubble;2012;f;19;8;5;1;372;43;257;72;91;0
+Chaboyer, B;Brian Chaboyer;Hubble;1996;m;29;16;2;4;1688;122;384;1182;45;0
+Mandelbaum, R;Rachel Mandelbaum;Hubble;2006;f;21;3;3;8;1528;32;183;1313;182;0
+Boyajian, T;Tabetha Boyajian;Hubble;2009;f;16;5;0;7;390;20;28;342;227;0
+Burgasser, A;Adam Burgasser;Hubble;2001;m;56;4;9;38;3613;46;227;3340;251;0
+Patience, J;Jennifer Patience;Sagan;2004;f;9;4;0;5;375;61;31;283;52;0
+Kollmeier, J;Juna Kollmeier;Hubble;2006;f;12;2;1;4;453;23;65;365;71;0
+Manuel, M;Mario Manuel;Einstein;2013;m;0;0;0;0;0;0;0;0;0;0
+Wechsler, R;Risa Wechsler;Hubble;2003;f;6;4;1;0;975;84;94;797;18;0
+Grundy, W;William M. Grundy;Hubble;1997;m;34;5;2;24;910;21;13;876;121;0
+Artymowicz, P;Pawel Artymowicz;Hubble;1990;m;21;5;3;9;2058;6;34;2018;15;0
+Ellis, J;Justin Ellis;Einstein;2014;m;215;201;7;0;12463;11519;944;0;420;0
+Werner, N;Norbert Werner;Einstein;2008;m;17;6;2;5;390;28;87;275;120;0
+Lopez-Morales, M;Mercedes Lopez-Morales;Hubble;2007;f;14;5;2;3;410;19;109;282;42;0
+Coil, A;Alison Coil;Hubble;2005;f;15;7;3;4;973;82;140;751;112;0
+Hlavacek-Larrondo, J;Julie Hlavacek-Larrondo;Einstein;2012;m;9;4;2;0;80;5;59;16;59;0
+Reichart, D;Daniel Reichart;Hubble;2000;m;15;7;4;2;762;82;217;463;40;0
+Hanson, M;Margaret Hanson;Hubble;1995;f;18;7;2;6;939;11;37;891;33;0
+Nixon, C;Chris Nixon;Einstein;2012;m;29;13;5;2;306;78;168;60;151;0
+Lyra, W;Wladimir Lyra;Sagan;2011;m;14;7;3;2;386;77;129;180;31;0
+Hui, X;Xiaohui Hui;Hubble;1991;m;5;0;4;1;338;0;5;333;9;0
+Kelly, B;Brandon C. Kelly;Hubble;2008;m;31;15;4;6;1028;81;162;785;68;0
+Bentz, M;Misty Bentz;Hubble;2009;f;17;9;2;3;1092;131;288;673;169;0
+Sigurdson, K;Kris Sigurdson;Hubble;2005;m;10;5;3;0;271;11;59;201;15;0
+Ragland, S;Sam Ragland;Sagan;2001;m;12;7;0;5;122;10;5;107;62;0
+Pejcha, O;Ondrej Pejcha;Hubble;2013;m;16;9;4;0;177;71;106;0;26;0
+Kashiyama, K;Kazumi Kashiyama;Einstein;2014;m;11;8;2;0;128;53;75;0;25;0
+Hynes, R;Robert Hynes;Hubble;2002;m;36;14;7;9;954;71;132;751;162;0
+Johnson, S;Sean Johnson;Hubble;2016;m;158;158;0;0;202;202;0;0;56;0
+Baker, J;Joanne C. Baker;Hubble;1998;f;87;41;8;34;3228;437;150;2641;196;0
+Davis, S;Shane Davis;Einstein;2006;m;71;49;7;9;1570;450;174;946;83;0
+Pedretti, E;Ettore Pedretti;Sagan;2003;m;6;2;2;2;71;14;11;46;39;0
+Rodigas, T;Timothy Rodigas;Hubble;2015;m;10;7;1;0;58;47;11;0;125;0
+Van Velzen, S;Sjoert Van Velzen;Hubble;2014;m;9;5;2;0;226;89;137;0;34;0
+Ogrean, G;Georgiana Ogrean;Hubble;2014;f;10;6;2;0;112;33;79;0;93;0
+Gaspari, M;Massimo Gaspari;Einstein;2015;m;11;9;0;0;268;223;45;0;24;0
+Stevenson, K;Kevin Stevenson;Sagan;2014;m;9;3;2;0;201;90;111;0;62;0
+Guhathakurta, P;Puragra Guhathakurta;Hubble;1992;m;16;5;3;5;738;39;82;617;45;0
+Reines, A;Amy Reines;Einstein;2011;f;11;4;2;1;229;28;67;134;21;0
+Degenaar, N;Nathalie Degenaar;Hubble;2011;f;29;5;9;4;305;15;134;156;156;0
+van der Marel, R;Roeland van der Marel;Hubble;1994;m;0;0;0;0;0;0;0;0;0;0
+Pahre, M;Michael A. Pahre;Hubble;1997;m;13;4;6;3;669;32;88;549;36;0
+Fitzgerald, M;Michael Fitzgerald;Sagan;2007;m;50;40;3;4;1781;1521;83;177;84;0
+Follette, K;Kate Follette;Sagan;2016;f;4;4;0;0;50;50;0;0;127;0
+Moesta, P;Philipp Moesta;Einstein;2015;m;7;5;0;0;101;84;17;0;35;0
+Nalewajko, K;Krzysztof Nalewajko;Einstein;2013;m;13;9;3;0;158;56;102;0;26;0
+Mohr, J;Joseph Mohr;Einstein;1998;m;22;18;2;2;949;95;182;672;29;0
+Riechers, D;Dominik A Riechers;Hubble;2007;m;27;5;4;11;949;5;92;852;248;0
+Wood, J;Janet Wood;Hubble;1990;f;107;80;5;17;2514;924;95;1495;62;0
+de Mink, S;Selma de Mink;Einstein;2013;f;10;7;2;0;367;147;220;0;24;0
+Lee, K;Khee-Gan Lee;Hubble;2015;m;125;119;2;0;1856;1772;84;0;528;0
+van Kerwijk, M;Marten van Kerwijk;Hubble;1993;m;0;0;0;0;0;0;0;0;0;0
+Knigge, C;Christian Knigge;Hubble;1998;nan;25;6;3;13;993;27;35;931;66;0
+Fang, T;Taotao Fang;Einstein;2003;m;36;13;4;17;759;90;112;557;106;0
+Sasselov, D;Dimitar Sasselov;Hubble;1993;m;27;14;6;5;634;76;36;522;56;0
+Cumming, A;Andrew Cumming;Hubble;2001;m;23;4;3;10;1498;49;92;1357;76;0
+Leroy, A;Adam Leroy;Hubble;2009;m;17;6;2;6;1394;77;311;1006;123;0
+Quadri, R;Ryan Quadri;Hubble;2010;m;7;5;1;0;241;100;78;63;42;0
+O'Leary, R;Ryan O'Leary;Einstein;2010;m;10;5;2;2;272;89;63;120;15;0
+Strigari, L;Louis E. Strigari;Hubble;2008;m;18;9;4;3;1085;111;324;650;43;0
+Morzinski, K;Katie Morzinski;Sagan;2011;f;3;1;0;1;10;0;3;7;19;0
+Malhotra, S;Sangeeta Malhotra;Hubble;1998;f;18;10;1;6;1281;36;85;1160;88;0
+Pooley, D;David Pooley;Einstein;2004;m;15;6;4;4;738;78;97;563;68;0
+King, J;Jeremy King;Hubble;1993;m;105;58;8;30;2350;532;81;1737;142;0
+Padmanabhan, N;Nikhil Padmanabhan;Hubble;2006;m;15;6;4;1;1501;64;181;1256;100;0
+Schlafly, E;Edward Ford Schlafly;Hubble;2015;m;7;6;0;0;786;596;190;0;71;0
+Foucart, F;Francois Foucart;Einstein;2014;m;12;8;2;0;270;143;127;0;53;0
+Reynolds, C;Chris Reynolds;Hubble;1998;m;53;13;6;29;3015;123;374;2518;128;0
+Kunz, M;Matthew Kunz;Einstein;2011;m;36;26;4;2;772;375;217;180;86;0
+Kasen, D;Daniel N Kasen;Hubble;2007;m;21;7;3;4;1187;63;84;1040;36;0
+Johnson, M;Michael Johnson;Einstein;2016;m;114;114;0;0;1532;1532;0;0;167;0
+Rogers, L;Leslie Rogers;Sagan;2015;f;11;10;0;0;338;308;30;0;20;0
+Janson, M;Markus Janson;Hubble;2011;m;24;10;8;2;369;72;140;157;268;0
+Samsing, J;Johan Samsing;Einstein;2014;m;7;4;2;0;41;16;25;0;8;0
+Bowman, J;Judd D Bowman;Hubble;2007;m;22;13;3;2;722;189;105;428;126;0
+van Haasteren, R;Rutger van Haasteren;Einstein;2013;m;9;5;2;0;239;82;157;0;45;0
+Katz, N;Neal Katz;Hubble;1990;m;20;5;6;7;2703;26;46;2631;32;0
+Coughlin, E;Eric Coughlin;Einstein;2016;m;6;5;0;0;33;33;0;0;9;0
+Sako, M;Masao Sako;Einstein;2001;m;10;3;2;3;600;5;111;484;94;0
+Metcalf, R;Robert Metcalf;Hubble;2002;m;25;11;1;9;790;110;134;546;18;0
+Bernstein, R;Rebecca A. Bernstein;Hubble;1997;f;10;3;1;6;303;10;6;287;14;0
+McCarthy, P;Patrick J. McCarthy;Hubble;1991;m;28;10;5;10;2372;154;204;2014;113;0
+Pawlowski, M;Marcel Pawlowski;Hubble;2016;m;15;14;0;0;362;362;0;0;37;0
+Males, J;Jared Males;Sagan;2013;m;1000;784;203;0;2184;2116;68;0;902;0
+Meyer, M;Michael R. Meyer;Hubble;1997;m;75;46;1;24;1752;4;57;1691;202;0
+Madgwick, D;Darren Madgwick;Hubble;2003;m;7;2;0;0;498;28;169;301;80;0
+Gebhardt, K;Karl Gebhardt;Hubble;1997;m;23;6;1;11;4899;51;61;4787;139;0
+Sembach, K;Kenneth Sembach;Hubble;1992;m;28;1;6;15;1807;3;62;1742;85;0
+Rasia, E;Elena Rasia;Einstein;2006;f;10;2;1;6;524;32;114;378;66;0
+Ho, W;Wynn Ho;Hubble;2003;m;29;6;2;18;809;110;69;630;54;0
+Ozel, F;Feryal Ozel;Hubble;2002;m;21;4;2;13;1269;16;47;1206;25;0
+Isella, A;Andrea Isella;Sagan;2007;f;10;2;2;3;555;14;86;455;30;0
+Younger, J;Joshua Younger;Hubble;2009;m;24;13;2;3;503;81;199;223;143;0
+Newman, J;Jeffrey Newman;Hubble;2003;m;18;13;0;5;705;218;53;434;194;0
+Ghez, A;Andrea Ghez;Hubble;1992;f;17;1;5;10;3516;1;47;3468;92;0
+Hogg, D;David W. Hogg;Hubble;1997;m;45;16;6;16;2686;318;133;2235;154;0
+Vacca, W;William D. Vacca;Hubble;1991;m;17;3;3;10;1836;30;24;1782;48;0
+Trager, S;Scott Trager;Hubble;1999;m;11;5;2;4;1990;92;163;1735;23;0
+Schaller, E;Emily L. Schaller;Hubble;2008;f;10;8;1;0;263;35;103;125;20;0
+Brandt, T;Timothy Brandt;Sagan;2014;m;15;8;4;0;241;120;121;0;204;0
+Moro-Martin, A;Amaya Moro-Martin;Sagan;2005;f;17;6;3;5;347;54;64;229;71;0
+Reddy, N;Naveen Reddy;Hubble;2008;m;14;7;2;3;1477;172;369;936;66;0
+Reid, B;Beth Reid;Hubble;2010;f;13;5;3;2;750;34;332;384;161;0
+Donley, J;Jennifer Donley;Hubble;2012;f;10;9;0;0;606;360;201;45;43;0
+Vink, J;Jacco Vink;Einstein;2000;m;59;9;5;37;3217;50;110;3057;113;0
+Eisenstein, D;Daniel Eisenstein;Hubble;1999;m;26;10;2;12;7364;99;246;7019;395;0
+Ofek, E;Eran Ofek;Einstein;2009;m;31;16;5;6;907;177;161;569;298;0
+Lowenthal, J;James Lowenthal;Hubble;1993;m;10;4;2;3;591;13;28;550;30;0
+Zitrin, A;Adi Zitrin;Hubble;2013;m;21;14;5;0;566;228;338;0;253;0
+Burkhart, B;Blakesley Burkhart;Einstein;2014;f;12;7;3;0;199;119;80;0;31;0
+Faherty, J;Jacqueline Faherty;Hubble;2013;f;11;7;3;0;370;155;215;0;45;0
+Ouchi, M;Masami Ouchi;Hubble;2004;m;14;4;2;5;1742;53;195;1494;184;0
+Wang, Q;Qinde Wang;Hubble;1990;m;107;10;12;79;2707;19;49;2639;270;0
+Katz, B;Boaz Katz;Einstein;2010;m;20;12;5;0;319;102;97;120;47;0
+Pancoast, A;Anna Pancoast;Einstein;2015;f;6;5;0;0;101;82;19;0;55;0
+Kara, E;Erin Kara;Hubble;2015;f;8;6;0;0;118;85;33;0;63;0
+Bryan, G;Greg Bryan;Hubble;1998;m;27;18;5;2;1840;137;126;1577;54;0
+Vandenbroucke, J;Justin Vandenbroucke;Einstein;2012;m;7;7;0;0;81;75;6;0;33;0
+Gu, M;Ming Feng Gu;Einstein;2000;m;41;4;4;27;1064;3;28;1033;92;0
+Pritchard, J;Jonathan R Pritchard;Hubble;2007;m;18;7;3;2;608;57;104;447;37;0
+Soderberg, A;Alicia M Soderberg;Hubble;2007;f;20;13;2;1;1520;276;268;976;306;0
+Worthey, G;Guy Worthey;Hubble;1994;m;22;6;1;12;3668;28;182;3458;24;0
+Kipping, D;David Kipping;Sagan;2011;m;32;10;8;3;697;104;287;306;101;0
+Yee, J;Jennifer Yee;Sagan;2013;f;28;21;4;0;529;421;108;0;430;0
+Treister, E;Ezequiel Treister;Einstein;2008;m;19;7;6;3;891;166;167;558;93;0
+Sheppard, S;Scott Sheppard;Hubble;2004;m;24;6;4;10;578;77;75;426;33;0
+DeMeo, F;Francesca DeMeo;Hubble;2013;f;12;7;4;0;328;139;189;0;54;0
+Osten, R;Rachel Osten;Hubble;2005;f;21;7;5;7;461;92;75;294;78;0
+Ammons, S;Stephen Mark Ammons;Hubble;2009;m;6;1;2;1;105;13;15;77;28;0
+Tobin, J;John Tobin;Hubble;2011;m;24;10;6;5;361;61;144;156;118;0
+McKinney, J;Jonathan McKinney;Einstein;2007;m;16;7;1;6;1510;113;230;1167;15;0
+Dressing, C;Courtney Dressing;Sagan;2015;f;5;3;0;0;191;138;53;0;44;0
+Lee, J;Julia Lee;Einstein;2002;f;331;93;15;200;5549;634;359;4556;888;0
+Bullock, J;James Bullock;Hubble;2002;m;14;8;1;2;3146;180;416;2550;36;0
+Ormel, C;Christiaan Ormel;Hubble;2011;m;18;10;4;2;453;125;151;177;29;0
+Birkby, J;Jayne Birkby;Sagan;2014;f;3;2;0;0;51;14;37;0;62;0
+Irwin, J;Jimmy Irwin;Einstein;1999;m;99;51;7;35;2573;435;212;1926;270;0
+Yang, H;Hsiang-Yi Karen Yang;Einstein;2014;f;109;84;17;0;1148;890;258;0;299;0
+Aufdenberg, J;Jason Aufdenberg;Sagan;2003;m;1000;777;0;222;2158;1850;50;258;902;0
+Neilsen, J;Joseph Neilsen;Hubble;2014;m;13;11;1;0;248;146;102;0;52;0
+Stark, D;Daniel Stark;Hubble;2011;m;23;14;4;3;991;352;304;335;93;0
+Spitkovsky, A;Anatoly Spitkovsky;Einstein;2002;m;7;0;1;4;911;0;22;889;3;0
+Zhu, Z;Zhaohuan Zhu;Hubble;2013;m;89;74;11;0;1650;1182;468;0;175;0
+Layden, A;Andrew Layden;Hubble;1996;m;21;7;4;7;824;17;110;697;37;0
+Parrish, I;Ian Parrish;Einstein;2007;m;11;1;3;2;334;5;64;265;16;0
+Casey, C;Caitlin Casey;Hubble;2010;f;15;5;6;3;336;11;70;255;158;0
+Guzman, R;Rafael Guzman;Hubble;1997;m;10;4;2;3;567;42;116;409;29;0
+Ben-Ami, S;Sagi Ben-Ami;Einstein;2014;m;3;1;1;0;23;4;19;0;78;0
+Reis, R;Rubens Reis;Einstein;2011;m;22;12;8;0;463;168;156;139;79;0
+Metzger, B;Brian Metzger;Einstein;2009;m;28;4;5;11;1208;27;139;1042;69;0
+Krumholz, M;Mark Krumholz;Hubble;2005;m;49;2;10;30;4140;58;216;3866;94;0
+Andrews, S;Sean M Andrews;Hubble;2007;m;24;6;4;9;1722;78;213;1431;84;0
+Strader, J;Jay M Strader;Hubble;2007;m;25;9;3;11;743;116;89;538;99;0
+Reisswig, C;Christian Reisswig;Einstein;2012;m;9;6;3;0;214;115;90;9;32;0
+Schoenrich, R;Ralph Schoenrich;Hubble;2011;m;10;3;3;1;677;78;332;267;14;0
+Siegal-Gaskins, J;Jennifer Siegal-Gaskins;Einstein;2011;f;9;7;0;1;144;62;52;30;18;0
+Pasham, D;Dheeraj Pasham;Einstein;2016;m;9;8;0;0;66;66;0;0;31;0
+Steidel, C;Charles Steidel;Hubble;1990;m;41;4;7;23;8392;35;127;8230;113;0
+Esin, A;Ann Esin;Einstein;1998;f;11;3;4;0;1203;20;186;997;23;0
+Jiang, Y;Yan-Fei Jiang;Einstein;2013;m;70;49;12;0;666;348;318;0;213;0
+Martin, C;Crystal Martin;Hubble;1996;f;84;34;9;35;3198;291;148;2759;162;0
+McCullough, P;Peter McCullough;Hubble;1993;m;18;1;3;12;420;0;14;406;40;0
+Canning, R;Rebecca Canning;Einstein;2015;f;7;6;1;0;45;32;13;0;59;0
+Foreman-Mackey, D;Daniel Foreman-Mackey;Sagan;2015;m;3;2;0;0;335;204;131;0;10;0
+Yanny, B;Brian Yanny;Hubble;1990;m;17;2;2;9;1409;3;37;1369;191;0
+Covey, K;Kevin Covey;Hubble;2009;m;11;8;2;0;337;39;107;191;90;0
+Keisler, R;Ryan Keisler;Hubble;2010;m;5;1;1;1;309;0;144;165;114;0
+Wilkins, D;Dan Wilkins;Einstein;2016;m;26;25;0;0;359;359;0;0;19;0
+Desert, J;Jean-Michel Desert;Sagan;2012;m;7;6;0;0;300;111;171;18;98;0
+Danly, L;Laura Danly;Hubble;1990;f;6;3;2;0;235;1;27;207;6;0
+Garnett, D;Donald Garnett;Hubble;1992;m;30;10;4;12;1910;65;77;1768;55;0
+Blecha, L;Laura Blecha;Einstein;2012;f;7;3;2;1;142;73;53;16;22;0
+Kuchner, M;Marc Kuchner;Sagan;2000;m;16;3;4;3;563;12;13;538;19;0
+Shappee, B;Benjamin Shappee;Hubble;2014;m;6;4;0;0;217;94;123;0;53;0
+Thorburn, J;Julie Thorburn;Hubble;1994;f;7;4;1;1;495;7;83;405;13;0
+Cai, Z;Zheng Cai;Hubble;2016;m;15;15;0;0;94;94;0;0;79;0
+Cackett, E;Edward Cackett;Einstein;2008;m;22;6;5;7;609;28;127;454;113;0
+Shen, Y;Yue Shen;Hubble;2012;m;104;77;11;3;1955;1069;711;175;337;0
+Drout, M;Maria Drout;Einstein;2016;f;6;6;0;0;196;196;0;0;82;0
+Kuijken, K;Konrad H. Kuijken;Hubble;1991;m;24;3;4;12;2042;37;114;1891;48;0
+Keres, D;Dusan Keres;Hubble;2010;m;7;6;1;0;1431;376;510;545;18;0
+Heyl, J;Jeremy Heyl;Einstein;2000;m;55;20;6;23;1190;196;187;807;64;0
+Sijacki, D;Debora Sijacki;Hubble;2010;f;11;8;2;1;738;194;209;335;23;0
+O'Connor, E;Evan O'Connor;Hubble;2014;m;9;8;1;0;266;153;113;0;15;0
+Steiner, J;James Steiner;Einstein;2015;m;30;29;1;0;764;706;58;0;88;0
+Croll, B;Bryce Croll;Sagan;2011;m;13;6;1;2;267;76;119;72;81;0
+Kratter, K;Kaitlin Kratter;Hubble;2012;f;10;7;1;0;344;170;137;37;13;0
+Heinz, S;Sebastian Heinz;Einstein;2003;m;31;10;5;11;1044;88;179;777;59;0
+Lu, L;Limin Lu;Hubble;1994;m;32;10;5;12;1219;73;149;997;81;0
+Rasio, F;Frederic Rasio;Hubble;1992;m;26;7;3;9;1816;22;84;1710;32;0
+Liu, X;Xin Liu;Einstein;2010;f;242;142;35;38;2334;1170;413;751;694;0
+Prieto, J;Jose Prieto;Hubble;2009;nan;15;5;1;5;487;67;123;297;79;0
+Grebel, E;Eva K. Grebel;Hubble;1998;f;18;9;2;5;992;60;118;814;16;0
+Wright, S;Shelley Wright;Hubble;2009;f;13;9;2;0;210;49;71;90;36;0
+Shporer, A;Avi Shporer;Sagan;2013;m;12;10;2;0;232;136;96;0;105;0
+Stein, L;Leo Stein;Einstein;2012;m;5;2;3;0;63;27;26;10;4;0
+Morrison, H;Heather L. Morrison;Hubble;1991;f;20;5;3;11;790;9;53;728;76;0
+Petigura, E;Erik Petigura;Hubble;2015;m;6;4;1;0;171;127;44;0;32;0
+Deason, A;Alis Deason;Hubble;2012;f;16;3;7;0;282;16;212;54;63;0
+Oberg, K;Karin Oberg;Hubble;2009;f;24;4;8;5;1089;65;213;811;101;0
+Redfield, S;Seth Redfield;Hubble;2005;m;18;9;2;4;737;102;92;543;28;0
+Mochejska, B;Barbara Mochejska;Hubble;2002;f;16;9;2;2;359;38;70;251;71;0
+Greene, J;Jenny Greene;Hubble;2006;f;39;12;4;15;1913;240;314;1359;99;0
+Poppenhaeger, K;Katja Poppenhaeger;Sagan;2013;f;13;9;2;0;177;66;111;0;46;0
+Simionescu, A;Aurora Simionescu;Einstein;2009;f;11;2;2;3;326;13;89;224;70;0
+Montet, B;Ben Montet;Sagan;2016;m;5;5;0;0;42;42;0;0;32;0
+Soummer, R;Remi Soummer;Sagan;2003;m;11;0;1;8;529;0;34;495;41;0
+Moran, E;Edward Moran;Einstein;1998;m;17;8;4;4;794;47;96;651;44;0
+Gaensler, B;Bryan Gaensler;Hubble;1998;m;43;4;10;22;2363;23;87;2253;160;0
+McLaughlin, D;Dean E. McLaughlin;Hubble;1997;m;190;177;5;5;2386;533;114;1739;38;0
+Brown, M;Michael Brown;Hubble;1994;m;109;13;5;81;3394;84;36;3274;326;0
+Perley, D;Daniel Perley;Hubble;2011;m;14;5;3;3;464;127;160;177;229;0
+Hsieh, H;Henry Hsieh;Hubble;2010;m;28;12;6;6;603;144;206;253;194;0
+Dey, A;Arjun Dey;Hubble;1997;m;17;6;2;8;953;47;171;735;61;0
+Ireland, M;Michael Ireland;Sagan;2005;m;12;3;2;3;481;2;40;439;34;0
+Hurley, J;Jarrod Hurley;Hubble;2002;m;26;4;2;15;1828;36;173;1619;69;0
+Winter, L;Lisa Winter;Hubble;2009;f;16;6;5;2;381;65;135;181;41;0
+Peiris, H;Hiranya Peiris;Hubble;2004;m;13;5;3;4;1217;127;341;749;26;0
+Johnson, K;Kelsey Johnson;Hubble;2004;m;41;22;5;10;735;198;73;464;87;0
+Sironi, L;Lorenzo Sironi;Einstein;2011;m;19;6;4;4;507;55;178;274;19;0
+Clemens, J;J. Christopher Clemens;Hubble;1993;m;18;4;5;5;554;48;54;452;42;0
+Fischer, P;Philippe Fischer;Hubble;1995;m;25;13;2;6;760;46;40;674;89;0
+Thompson, T;Todd Thompson;Hubble;2002;m;52;22;4;21;2092;185;117;1790;92;0
+Bovy, J;Jo Bovy;Hubble;2011;m;24;8;8;4;912;75;355;482;135;0
+Kaspi, V;Victoria Kaspi;Hubble;1994;m;32;3;4;21;2303;11;151;2141;132;0
+Marrone, D;Daniel Marrone;Hubble;2009;m;8;6;0;0;405;105;102;198;82;0
+Linden, T;Tim Linden;Einstein;2013;m;11;8;1;0;226;75;151;0;19;0
+Luu, J;Jane Luu;Hubble;1992;f;23;7;4;10;1065;27;51;987;24;0
+Stanek, K;Krzysztof Stanek;Hubble;1999;m;20;12;2;4;2380;184;264;1932;106;0
+Winn, J;Joshua Winn;Hubble;2004;m;41;11;4;17;2226;67;128;2031;311;0
+Roth, K;Katherine Roth;Hubble;1995;f;7;2;1;1;137;6;29;102;6;0
+Muno, M;Michael Muno;Hubble;2003;m;30;9;7;5;1604;114;182;1308;155;0
+Fung, J;Jeffrey Fung;Sagan;2016;m;7;7;0;0;64;64;0;0;9;0
+Shields, J;Joseph Shields;Hubble;1993;m;26;12;4;6;785;47;81;657;53;0
+Lewis, N;Nikole Lewis;Sagan;2012;m;8;5;2;0;300;90;187;23;38;0
+Schwab, C;Christian Schwab;Sagan;2012;m;2;1;0;0;4;0;3;1;7;0
+Oppenheimer, B;Ben Oppenheimer;Hubble;1999;m;26;7;4;14;1893;70;116;1707;102;0
+Bordoloi, R;Rongmon Bordoloi;Hubble;2015;m;7;6;1;0;153;126;27;0;133;0
+Bucciantini, N;Niccolo Bucciantini;Hubble;2006;m;25;8;4;10;772;60;112;600;48;0
+Berger, E;Edo Berger;Hubble;2004;m;48;14;6;20;2950;252;432;2266;381;0
+Kalirai, J;Jasonjot Kalirai;Hubble;2005;m;26;8;4;9;992;60;130;802;142;0
+Tremonti, C;Christy Tremonti;Hubble;2005;f;4;3;1;0;1720;50;220;1450;16;0
+Feldmann, R;Robert Feldmann;Hubble;2012;m;15;6;2;1;355;119;185;51;51;0
+Zhu, G;Guangtun Zhu;Hubble;2014;m;17;14;1;0;218;144;74;0;67;0
+Reese, E;Erik Reese;Einstein;2001;m;16;11;1;2;405;131;63;211;67;0
+Barth, A;Aaron Barth;Hubble;2001;m;32;10;5;13;1521;144;168;1209;235;0
