@@ -149,8 +149,8 @@ kramdown:
 
 # Outputting
 permalink: /:title/
-#paginate: 10 # amount of posts to show
-#paginate_path: /page:num/
+paginate: 10 # amount of posts to show
+paginate_path: /page:num/
 timezone: America/New_York
 
 
