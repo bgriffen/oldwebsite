@@ -1,0 +1,15 @@
+main:
+  #- title: "Quick-Start Guide"
+  #  url: /docs/quick-start-guide/
+
+  - title: "About"
+    url: /about/
+
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Vitae"
+    url: /vitae/
+
+  - title: "Contact"
+    url: /contact/
