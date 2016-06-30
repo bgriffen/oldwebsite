@@ -3,14 +3,14 @@ title: "Semi-analytic Models of Galaxy Formation"
 excerpt: "One can quickly explore the parameter space of physically motivated prescriptions for galaxy formation using semi-analytic models."
 header:
   #image: sam_screenshot.jpg
-  teaser: /pages/sam_screenshot.jpg
+  teaser: /images/sam_screenshot.jpg
 sidebar:
   - title: "Role"
     image: sams.jpg
     image_alt: "SAMs"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Collaborator on L-Galaxies, FIBY, Omega SAMs."
+  - title: "Activities"
+    text: "Developing models in the form of code which runs over comsological simulations."
 gallery:
   - url: unsplash-gallery-image-1.jpg
     image_path: unsplash-gallery-image-1-th.jpg
