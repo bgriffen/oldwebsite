@@ -1,5 +1,6 @@
 ---
 title: "Graphs of Wikipedia: Programming Languages"
+excerpt: "How does Haskell influence C++ and how does C++ influence Python? Lets find out."
 share: true
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"

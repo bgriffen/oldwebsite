@@ -1,5 +1,6 @@
 ---
 title: "Music and Mortality"
+excerpt: "Does the '27 club' exist? Do rock and rollers die earlier than classical musicians?"
 share: true
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"

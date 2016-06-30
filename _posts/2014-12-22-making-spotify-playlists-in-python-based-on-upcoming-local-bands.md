@@ -1,5 +1,6 @@
 ---
 title: "Making Spotify Playlists In Python Based On Upcoming Local Bands"
+excerpt: "Want a playlist of the bands playing in the next month in your town?"
 share: true
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"

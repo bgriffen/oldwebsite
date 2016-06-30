@@ -1,5 +1,6 @@
 ---
 title: "Creating a GUI in Python"
+excerpt: "Necessity is the mother of invention. I needed a Python GUI and I made a template for you."
 share: true
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"

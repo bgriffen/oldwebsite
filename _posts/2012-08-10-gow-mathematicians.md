@@ -1,6 +1,7 @@
 
 ---
 title: "Graphs Of Wikipedia: Mathematicians"
+excerpt: "How are all the mathematicians in history connected?"
 share: true
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"

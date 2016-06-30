@@ -1,5 +1,6 @@
 ---
 title: "Graphs Of Wikipedia: Sports"
+excerpt: "How are sports teams connected to one another by past player association?"
 share: true
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"

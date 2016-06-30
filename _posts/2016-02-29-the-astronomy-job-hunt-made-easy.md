@@ -1,5 +1,6 @@
 ---
 title: "The Astronomy Job Hunt Made Easy"
+excerpt: "The ADS website is archaic and not so user friendly. I wrote some Python code to fix that."
 share: true
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"

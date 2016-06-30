@@ -1,5 +1,6 @@
 ---
 title: "Creating Digests Of The Astronomy Arxiv"
+excerpt: "The hottest scientific papers published near you and worldwide, direct to your inbox."
 share: true
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"

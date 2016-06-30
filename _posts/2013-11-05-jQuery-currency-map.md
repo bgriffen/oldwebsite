@@ -1,5 +1,6 @@
 ---
 title: "Basic Interactive Currency Map With jQuery + Python"
+excerpt: "A simple exploration using jQuery to map the world's exchange rates."
 share: true
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "Generating An Institute's Publication Profile"
+excerpt: "How do faculty, postdocs and student's publication profiles compare?"
 share: true
 header:
   teaser: "https://farm5.staticflickr.com/4076/4940499208_b79b77fb0a_z.jpg"
