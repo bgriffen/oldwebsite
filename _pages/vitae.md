@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-
+## Current Position
 Postdoctoral Research Fellow  
 Massachussets Institute of Technology  
 Cambridge, Massachusetts, U.S.A
@@ -17,6 +17,19 @@ Cambridge, Massachusetts, U.S.A
 * Dark matter and structure formation
 * Assembly of the old stellar halo
 * Large-scale semantic data analysis
+
+---
+
+Select from the following:
+
+* [Education](#education)  
+* [Recent Publications](#recent-publications)  
+* [Awards](#awards)  
+* [Computing Expertise](#computing-expertise)  
+* [Advisory Roles](#advisory-roles)  
+* [Conferences](#conferences)  
+* [Teaching Experience](#teaching-experience)  
+* [Outreach](#outreach)  
 
 ## Education
 **2012: Doctorate**  
