@@ -20,7 +20,7 @@ Cambridge, Massachusetts, U.S.A
 
 ---
 
-[Download PDF](CVBrendanGriffenOct2015.pdf)  <i class="fa fa-calendar" aria-hidden="true"></i> **Last Updated**: October, 2015
+[Download PDF](http://brendangriffen.com/assets/CVBrendanGriffenOct2015.pdf)  <i class="fa fa-calendar" aria-hidden="true"></i> **Last Updated**: October, 2015
 
 ---
 
