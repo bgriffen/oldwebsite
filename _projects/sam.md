@@ -6,7 +6,7 @@ header:
   teaser: /pages/sam_screenshot.jpg
 sidebar:
   - title: "Role"
-    image: sams.jpg
+    image: /pages/sam_screenshot.jpg
     image_alt: "SAMs"
     text: "Collaborator on L-Galaxies, FIBY, Omega SAMs."
   - title: "Activities"
