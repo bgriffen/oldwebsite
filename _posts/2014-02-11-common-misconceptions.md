@@ -15,7 +15,7 @@ I recently stumbled upon this [list of common misconceptions on Wikipedia](https
 <div markdown="0"><a href="https://github.com/bgriffen/wikipedia/tree/master/wikimisconceptions" class="btn">Github Repository</a></div>
 </center>
 
-{% highlight Python %}
+```python
 import os, sys; sys.path.insert(0, os.path.join("..", ".."))
 from pattern.web import Wikipedia
 engine = Wikipedia(language="en")
@@ -36,7 +36,7 @@ for s in article.sections:
              print line
              f.write(line.encode("utf8")+"\n")
 f.close()
-{% endhighlight %}
+```
 
 This results in the following output:
 

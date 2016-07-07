@@ -40,7 +40,7 @@ Lastly, most of the people and teams will be American (I’m limited by what Fre
 
 Again I decided to approach this one using matrices. Please see my post on Wikipedia personalities to see how the datasets are preprocessed. I did however have to design a brief program to connect the various teams and players together. It essentially involves a tripple for loop (there are definitely better ways of doing this!). I chose Matlab since a lot of the code from previous posts can easily be copied across to treat new datasets. I’ve written a few functions now which help process Freebases’ somewhat annoying csv outputs – especially if I have to obtain them from the data dumps and not queries. If there is sufficient interest in how my program works, I can make it available. Most of my time was spent trying to understand unicode and encoding formats to interpret non-english names. I actually learned quite a bit about script blocks and how symbols, east-asian scripts etc. are stored – it was something I had wondered about for a long time. In any case, my little program basically converts this:
 
-{% highlight Text %}
+```text
 
 Diego Maradona,Boca Juniors
 David Beckham,LA Galaxy
@@ -52,7 +52,7 @@ Gary Lineker,England national football team
 Gary Lineker,Leicester City F.C.
 etc. etc.
 
-{% endhighlight %}
+```
 
 into two matrices which connect players with players and teams with teams. I really should get better at Perl for this sort of stuff but alas… I haven’t the time.
 

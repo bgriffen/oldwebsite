@@ -17,7 +17,7 @@ I’ve come close on many occasions to losing my entire life’s work. At some p
 
 I’ve written a little bash script to backup a particular folder to a server. It creates a tar file and then synchronises the directories. In the header of the file you will have to change it to suit your needs. You will need to execute it every time you want to backup your work, though this can be easily automated using [cron](https://bradmontgomery.net/blog/automatic-backups-with-cron-tar-and-ssh/#). See [Github repository](https://github.com/bgriffen/backupbuddy).
 
-{% highlight Bash %}
+```bash
 #!/bin/bash
 # backupbuddy.sh
  
@@ -68,4 +68,4 @@ then
     rm $SCRIPT_DIR$BZIP         # IF EXISTS, THEN DELETE
 fi
 echo '+ NOM NOM ALL DONE'
-{% endhighlight %}
+```

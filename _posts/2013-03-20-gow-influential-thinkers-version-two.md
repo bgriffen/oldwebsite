@@ -115,21 +115,21 @@ Those in a rush — scroll to the caveats!
 
 As you can see, we tossed around nested do and while loops but they were just too complicated – the solution matrices.  There are a whole host of ugly problems you encounter if you try solve this using nested do and while loops. All this means is that my connection map will look something like this:
 
-{% highlight Text %}
+```text
 #,A,B,C
 A,0,1,0
 B,1,0,1
 C,1,0,1
-{% endhighlight %}
+```
 
 The number 1 represents a connection between the row and corresponding column e.g. A is connected to B, B is connected A and C and C is connected to only A. I wrote a script in Matlab which calculates just this and generates a new list of new connections. Essentially this works by looping through the rows and checking if there is a connection (=1). If there is a connection, it then finds where the person they are connected to in the same group of rows. Once they are found, their entire row is added to the original person’s row. . If you’re a bit of a coding oracle please let me know if there are faster ways of achieving the same result. So for our matrix above, C influenced A but A influenced B so C should also influence B, right? This algorithm turns the above matrix into this (just for the looping component on 3rd row:
 
-{% highlight Text %}
+```text
 #,A,B,C
 A,0,1,0
 B,1,0,1
 C,1,1,1
-{% endhighlight %}
+```
 
 Specifically, row C is added to row A and the dot product of the two is subtracted. This ensures there is always either a ’1′ or a ’0′ in all cells. The algorithm loops over every row in the matrix and carries out this procedure.
 
@@ -139,7 +139,7 @@ Once you make the matrix there are a whole heap of interesting things you can do
 
 For our example above, once you create the matrix, all you need to do now is simply create a .dl file which contains the following:
 
-{% highlight Text %}
+```text
 dl n=3  
 format = fullmatrix  
 labels:  
@@ -148,7 +148,7 @@ data:
 0 1 0  
 0 0 1  
 1 0 1  
-{% endhighlight %}
+```
 
 This is the information which helped me. Once I obtained this matrix for the Wikipedia network, Gephi was able to import it. Thank-you to whoever made this extension – it is genius.
 

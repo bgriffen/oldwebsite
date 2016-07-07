@@ -20,7 +20,7 @@ For this exercise I just needed the raw list of names and citation count. If you
 
 If you clone the initial script and simply add the following snippet, it will search Google images and download the first 3 images it finds.
 
-{% highlight Python %}
+```python
 for j, astronomer in enumerate(most_successful_astronomers, 1):
     searchTerm = astronomer
     searchTerm = searchTerm.replace(' ','%20')
@@ -52,7 +52,7 @@ for j, astronomer in enumerate(most_successful_astronomers, 1):
                     pass
  
         time.sleep(1.5)
-{% endhighlight %}
+```
 
 Without further ado, I present the Top 100 most cited astronomers as of today. Images are shown where Google could find them.
 

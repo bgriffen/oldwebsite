@@ -13,7 +13,7 @@ tags:
 
 I took another look at [ADS-python](https://github.com/andycasey/ads) (a python tool for ADS) developed by [Andy Casey](http://astrowizici.st/). I modified his example script to email myself a digest of all of the papers published by my institute in the past month. I set it up as an automated cron job (`10 0 1 * * python script.py`) to be run on the 1st of each month so I don't have to run the script anymore to get the digest. You will need [FluentMail](https://github.com/alexandrevicenzi/fluentmail) for this to work. You will also need to allow Gmail to receive login requests from less familiar apps. If you want to use a different email client see [here](https://github.com/alexandrevicenzi/fluentmail#common-smtp-servers). I've setup a [GitHub repository](http://www.github.com/bgriffen/ads.git) for these codes and future codes relating to work done with ADS.
 
-{% highlight Python %}
+```python
 # Core libraries
 from time import localtime
 import sys,os
@@ -78,7 +78,7 @@ if __name__ == "__main__":
     .body(email_content)\
     .send()
 
-{% endhighlight %}
+```
 
 Here is an example of what one of these emails might look like:
 
@@ -90,7 +90,7 @@ I usually read new papers through my RSS reader [Feedly](http://www.feedly.com),
 
  I wanted a 'top 10 most popular' list from the ADS listings from 'yesterday' - whenever that may be. It is convenient to know what is making headlines in the community.
 
-{% highlight Python %}
+```python
 # Core libraries
 from time import localtime
 import numpy as np
@@ -143,7 +143,7 @@ if __name__ == "__main__":
     .body(email_content)\
     .send()
 
-{% endhighlight %}
+```
 
 Here is an example of what one of these emails might look like:
 

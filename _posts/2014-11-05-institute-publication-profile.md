@@ -23,7 +23,7 @@ Then we can click on `Analyze` in the top right to bring up a new panel of infor
 
 Using [ADS-python](https://github.com/andycasey/ads), I can access these metrics for an author with the simple line:
 
-{% highlight Python %}
+```python
 import ads
 metrics = ads.metrics(author_name)
 
@@ -137,8 +137,7 @@ print metrics[0]
   u'roq_index': 40.0,
   u'self-citations': 10,
   u'tori_index': 0.0}}
-
-{% endhighlight %}
+```
 
 Using this data, we can take a look at the distribution of citations, papers and number of people for each of the respective positions.
 

@@ -29,8 +29,7 @@ Read on if you would like to learn how I came to these conclusions.
 
 I needed a few things to tackle this problem. A list of artists and their known life spans and also some information about their popularity. I had already mined Wikipedia via DBpedia so I went back through some old code. You can execute it in the [Virtuoso SPARQL Query Editory](http://dbpedia.org/sparql).
 
-{% highlight SQL %}
-
+```sql
 SELECT DISTINCT str(?plabel) str(?glabel) 
        ?died ?born
        ( 
@@ -62,12 +61,11 @@ WHERE
       ORDER BY DESC ( <LONG::IRI_RANK> (?person) )
     }
   }
-
-{% endhighlight %}
+```
 
 This code extracts our the known information about the musicians and results in the following output:
 
-{% highlight Text %}
+```text
 ...
 "Michael Jackson","Pop music",2009-06-25,1958-08-29
 "Michael Jackson","Rock music",2009-06-25,1958-08-29
@@ -86,11 +84,11 @@ This code extracts our the known information about the musicians and results in 
 "George Harrison","Pop music",2001-11-29,1943-02-25
 ...
 9209 rows
-{% endhighlight %}
+```
 
 I then had to get a way to find out how popular they were so I just searched through Spotify, Last.fm etc. until I found a convenient API and companion module which allowed me to get play counts. It turns out [Last.fm](http://www.last.fm/) has [a nice API](http://www.last.fm/api) which has been made digestible in a [python-lastfm module](https://code.google.com/p/python-lastfm/). First I had to load them into Python which was slightly non-trivial as there are some odd names to deal with. The following code got most of them except for 79 artists which had birth/death dates which were incomplete.
 
-{% highlight Python %}
+```python
 with open(filename) as f:
     for line in f:
         line_split = line.split(',')
@@ -138,11 +136,11 @@ with open(filename) as f:
         except ValueError:
             print "VALUE ERROR"
             missed += 1
-{% endhighlight %}
+```
 
 I then built a dictionary over each genre I wanted to include. I'm absolutely certain there are better ways of doing this but I didn't have time to try more intelligent methods (suggestions welcome).
 
-{% highlight Python %}
+```python
 # initialize dictionary
 averageagelist = {'rock':[],'jazz':[],'folk':[],'metal':[],'blues':[],'classical':[],'pop':[],'misc':[]}
 #... and other dictionaries to be used
@@ -168,13 +166,11 @@ for i in xrange(0,len(artists)):
         deathlist[shortname].append(death[i])
         deathmonthlist[shortname].append(deathmonth[i])
         deathdaylist[shortname].append(deathday[i])
-
-
-{% endhighlight %}
+```
 
 Now all that remains is to connect each artist to Last.fm to get our final piece of data. I also had to feed in appropriate names which required a minor modification to their default names which come from DBpedia.
 
-{% highlight Python %}
+```python
 import lastfm
 api_key='insert-your-key-here'
 api = lastfm.Api(api_key)
@@ -192,17 +188,17 @@ for artist in uniqueartists:
         print "- could not find:",artist
 
 f.close()
-{% endhighlight %}
+```
 
 Then we just need to plot the relevant dictionary.
 
-{% highlight Python %}
+```python
 fig = plt.figure()
 ax = fig.add_subplot(111)
 ax.bar(*zip(*zip(count(), averageage.values())))
 plt.xticks(*zip(*zip(count(0.4), averageage)))
 plt.show()
-{% endhighlight %}
+```
 
 ## Results
 
@@ -212,7 +208,7 @@ Let's just have a look at the life span for each genre with the associated stand
 
 <table style="font-size: 90%; text-align: center">
 <tr>
-<th>Genre</th><th>Sample</th><th>Median</th><th>Mean</th><th>STD</th>
+<td>Genre</td><td>Sample</td><td>Median</td><td>Mean</td><td>STD</td>
 </tr>
 <tr>
 <td>classical</td><td>76</td><td>71</td><td>68</td><td>19</td>
@@ -279,30 +275,30 @@ Interestingly, **classical musicians live the longest** on average and **metal m
 ### Youngest and Oldest
 Rank ordering the youngest and oldest musicians in the list we find:
 
-{% highlight Text %}
+```text
 TOP 5 YOUNGEST MUSICIANS
 Ritchie Valens 17
 Yukiko Okada 18
 John Spence 18
 Nick Traina 19
 Yaki Kadafi 19
-{% endhighlight %}
+```
 
-{% highlight Text %}
+```text
 TOP 5 OLDEST MUSICIANS
 Huey Long  105
 Wade Mainer 104
 Bill Tapia 103
 Orlando Cole 101
 Roman Totenberg 101
-{% endhighlight %}
+```
 
 I noticed some tragic names in the youngest list: John Spence was the front man for *No Doubt* before he took his own life due to the pressure he put on himself. Yukiko Okada was a Japanese pop singer who also took her own life. Ritchie Valens also died tragically in a plane crash in 1959 with the Big Bopper, Buddy Holly and Roger Peterson (aka *the day the music died*). Nick Traina, the lead singer for the punk band *Link 80* also died of a self-induced morphine overdose. From the longer list of young artists I generated my own little play-list to see what these youngsters produced before they shuffled off this mortal coil.
 
 ### 27 club?
 Using this data we can immediately answer the original question. If 27 was indeed a significant age, one of the histograms above should have shown this when clearly they don't. When I do extract out all musicians who had a life span equal to 27 I get the following list of 34 names:
 
-{% highlight Text %}
+```text
 Rudy Lewis
 Freaky Tah
 D. Boon
@@ -337,7 +333,7 @@ Kristen Pfaff
 Jimi Hendrix
 Alexander Bashlachev
 Robert Johnson
-{% endhighlight %}
+```
 
 If we compare it to the [actual list on Wikipedia](https://en.wikipedia.org/wiki/27_Club) (which the data should reflect) we find most of the names in that list. The astute reader will note that there are 44 names on Wikipedia and this is in fact larger than what I get via DBpedia. One example is the not so successful rock and roll singer [Dickie Pride](https://en.wikipedia.org/wiki/Dickie_Pride) -- I checked my raw data and indeed, he does not exist. This is most likely because DBpedia hasn't indexed his page yet (though the page has been [around since 2008](https://en.wikipedia.org/w/index.php?title=Dickie_Pride&dir=prev&action=history)). This highlights the fact that the data, whilst rich, is ultimately incomplete. In time, DBpedia will fill out most of these darker corners.
 
@@ -350,7 +346,7 @@ I connected up the names to the Last.fm database and used the number of unique p
 
 Feeding this into scikits.statsmodels in Python we get a bunch of statistics about the regression.
 
-{% highlight Bash %}
+```bash
                             OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                      y   R-squared:                       0.005
@@ -372,7 +368,7 @@ Prob(Omnibus):                  0.003   Jarque-Bera (JB):               11.349
 Skew:                          -0.161   Prob(JB):                      0.00343
 Kurtosis:                       3.050   Cond. No.                         218.
 ==============================================================================
-{% endhighlight %}
+```
 
 There is a weak trend indicating that **the more popular you are, the shorter your lifespan**. Does this line up with stereotypes about the hard and fast lifestyle of many musicians? Maybe.
 

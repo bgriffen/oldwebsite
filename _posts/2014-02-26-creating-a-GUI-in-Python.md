@@ -26,9 +26,9 @@ Conveniently, all of the tools required to get you started (and then some) come 
 
 Download the [Enthought distribution tools](https://www.enthought.com/) appropriate for your system. If you have an academic email then you can get it for free. Be sure to get the **32-bit** (rh5) version as the 64-bit version does not contain Mayavi. If you're on OSX then just get the .dmg image for OSX.
 
-{% highlight Bash %}
+```bash
 bash epd-7.3-2-rh5-x86.sh 
-{% endhighlight %}  
+``` 
 
 _edit_: if you don't want to use EPD's distribution and just want to use standalone `TraitsUI`, please change the import modules inside the `Common.py` folder to the following (you will need [TraitsUI](https://github.com/enthought/traitsui) however):
 
@@ -49,9 +49,10 @@ Keep in mind the software may be updated so some of these imports might not work
 
 If you want to cut to the chase you can [clone the template from the respository]("https://github.com/bgriffen/PythonGUITemplate") and run in your terminal window:
 
-{% highlight Python %}
+```python
 python main.py
-{% endhighlight %}
+``` 
+
 
 This should open up the template window with an empty canvas. Explore the code structure though there will be more on this later.
 
@@ -76,45 +77,45 @@ To create the blank slate, I essentially had to take apart what was already avai
 ## Code Layout
 Initially this was all constructed in one giant Python script but eventually it became unmanageable with all of the objects involved in my application so I broke it down into the following set of modules which can be [found in the source](https://github.com/bgriffen/PythonGUITemplate) ([install git](http://git-scm.com/downloads), a version control system and clone the repository to get started). If you haven't already [downloaded the code](https://github.com/bgriffen/PythonGUITemplate) I highly suggest you do so now so you are familiar with what I'm about to discuss.
 
-{% highlight Python %}
+```python
 main.py
-{% endhighlight %}
+```
 
 This contains the master script which controls the application and integrates everything. Once you’ve installed the [Enthought Python Distribution tools](https://support.enthought.com/entries/23407541-Getting-Started-with-EPD-on-OS-X), you can just run this from the command line `python main.py` and it should launch.
 
-{% highlight Python %}
+```python
 Common.py
-{% endhighlight %}
+```
 
 This contains all of the modules which are used globally across the application. You can import function specific modules deeper in the code to improve launch time if you like as well. `Common.py` also constructs the matplotlib figure where you will be plotting (left panel). You’ll also find it imports a whole bunch of other things such as:
 
-{% highlight Python %}
+```python
 from enthought.traits.ui.api import View,UItem, Item, Group, Heading, \
 Label, HSplit, Handler, CheckListEditor, EnumEditor, TableEditor, \
 ListEditor, Tabbed, VGroup, HGroup, RangeEditor, Spring, spring
-{% endhighlight %}
+```
 
 All of these are just apart of the Traits API which you call to put in your GUI. You’ll see how these are used later. I’ve also added a bunch of other commonly used modules for scientific processing but you can remove these if you don’t need them.
 
-{% highlight Python %}
+```python
 firstcalc.py
 secondcalc.py
-{% endhighlight %}
+```
 
 These are effectively the tabs on the right hand panel and the place where you will add your buttons, sliders, tables. They both contain a clone of (roughly) the same thing:
 
-{% highlight Python %}
+```python
 class FirstCalc(HasTraits):
     view = View()
     def __init__(self, main, **kwargs):
         HasTraits.__init__(self)
         self.main = main
-{% endhighlight %}
+```
 
 ## Adding Some Basic Functionality
 Say for instance you want to add a few of the typical buttons, directories etc. Traits has to offer. Your firstcalc.py simply becomes:
 
-{% highlight Python %}
+```python
 from Common import *
 class FirstCalc(HasTraits):
     # Add Traits objects
@@ -156,7 +157,8 @@ class FirstCalc(HasTraits):
  
     def __init__(self, main, **kwargs):
         HasTraits.__init__(self
-{% endhighlight %}
+```
+
 So let’s see what we’ve added when we relaunch.
 <br/>
 <br/>
@@ -180,23 +182,23 @@ Hopefully you can match up each of the objects with what is in the code. It is h
 <br/>
 As we can see from the code the output is simply 1/x which is updated in real-time. Also when I hit the button, a random number is generated. If that number is less than 0.5 then the enabled area becomes illuminated and we can access the objects within (i.e. the Boolean option).  This should give you a basic idea of how to add certain button. Now we want to plot something, say y = mx + c where x and c are dynamic. I added three objects needed:
 
-{% highlight Python %}
+```python
 plotbutton = Button("Plot Me!")
 yintcept = Range(0.0,5.,10.)
 gradient = Range(0.0,5.0,10.)
-{% endhighlight %}
+```
 
 which is inserted into the View() object just like the other objects.
 
-{% highlight Python %}
+```python
 Group(Item(name='gradient',label='gradient'),
       Item(name='yintcept',label='y-intercept'),
       Item(name='plotbutton',show_label=False),show_border=True,label='Plotting Area')
-{% endhighlight %}
+```
 
 We also need to add an action for when the plot button is fired.
 
-{% highlight Python %}
+```python
 def _plotbutton_fired(self):
     y = self.gradient * np.array(range(10)) + self.yintcept
     figure = self.main.display
@@ -209,16 +211,18 @@ def _plotbutton_fired(self):
             markeredgewidth=0.0,
             linestyle='-')
     wx.CallAfter(self.main.display.canvas.draw)
-{% endhighlight %}
+```
+
 ![Traits Example](/assets/pythongui/PythonGUIEx7-1024x599.png)
 <br/>
 <br/>
 Also note how the marker style and marker size is “brought in” or inherited from main.py via self.main.xxx. It is hard to convey here ([try it out!](https://github.com/bgriffen/PythonGUITemplate)), but that now allows you to change the gradient and y-intercept dynamically and it updates on the plot in real-time. It is a much more intuitive (and faster) way to examine complex functions where it is unclear by looking at it how it will change using different inputs.
 
 ## Adding Mayavi Functionality
+
 To implement Mayavi functionality you simply add the following (or something similar which uses your underlying data) to a button function which runs when fired (as above). This will produce something like the next image in the left panel.  There is also some limited documentation here.
 
-{% highlight Python %}
+```python
 def _mayavibutton_fired(self):
     self.main.scene.mlab.clf(figure=self.main.scene.mayavi_scene)
     x = np.array(data['posX'])
@@ -234,11 +238,12 @@ def _mayavibutton_fired(self):
     self.main.scene.mlab.colorbar(title='velocity [km/s]')
     self.main.scene.mlab.show()
     self.main.scene.mlab.outline()
-{% endhighlight %}
+```
 
 That’s the end of my “tutorial/demo” section. If you want to learn how to use the various other layout and object options I suggest taking a look at one of the tools I developed.
 
 ## Example Project
+
 The [Catepillar Project](http://caterpillar.scripts.mit.edu/www/) is one of my main research tasks at MIT which involves looking at several hundreds of simulations of a similar kind. Rather than building endless panels in Matplotlib and tediously plotting different marker types and colors to inspect the data I decided to automate it using the tools described. Thus was born [Caterpillar Made Easy](https://github.com/bgriffen/cme) which is one such tool which which allows you setup and run cosmological simulations on a large cluster, inspect the data dynamically in two and three dimensions. It is based on exactly the same template I have shown above (plus a few hundred hours of coding!). Here are a few screen shots of the sort of thing you can do in this environment. Perhaps you have a study you’re doing which might also benefit from such interactivity and automation. I haven't *officially* released it to the public but I might do so soon. This is just to give you an idea of the sort of things you can achieve. See the project on [Github](https://github.com/bgriffen/cme).
 
 <br/>
@@ -251,5 +256,6 @@ The [Catepillar Project](http://caterpillar.scripts.mit.edu/www/) is one of my m
 ![Traits Example](/assets/pythongui/velocityhaloinspection-1024x619.png)
 <br/>
 <br/>
+
 Head to the repository to see more screenshots. If there is a button, or particular feature you want, you can check through the source code to see how it is generated. Just check the `View()` section which is usually near the top. The rest of the code is just calculations etc. which is specific to the problems I am trying to solve. If you have questions about how to get started, please leave a comment below or if it is more technical in nature, drop me a line via email. Good luck and remember if you are new to this kind of thing: *be patient* -- good things will come.
 

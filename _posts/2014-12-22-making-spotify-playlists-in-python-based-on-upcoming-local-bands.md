@@ -25,7 +25,7 @@ My only point of reference was [this nice post](https://mborgerson.com/creating-
 
 For the following code to work you require Python, libspotify, the pyspotify bindings and critically a Premium Spotify account (sorry!). Alternatively, if you have the free service but still want this content, you can just add this [Spotify link](https://open.spotify.com/user/1254170771/playlist/1Shh4ljWPQrcsvpTKtppm5) which will updated the playlist for you. This code can be found at [this Github repository](https://github.com/bgriffen/spotifylocalbands).
 
-{% highlight Python %}
+```python
 import requests
 import bs4
 import spotify
@@ -109,11 +109,11 @@ session.logout()
 
 print "Check your new playlist soon!"
 
-{% endhighlight %}
+```
 
 The terminal output will be something like the following:
 
-{% highlight bash %}
+```bash
 Upcoming bands playing around Boston....
 Wild Child
 Future Islands
@@ -133,7 +133,7 @@ The Beautiful Ones
 Adding TOP 3 songs of each band to a Spotify playlist...
 Adding 222 band, totaling 541 tracks!
 Adding tracks to playlist: Upcoming LIVE Boston Music
-{% endhighlight %}
+```
 
 *small caveat: rarely the program will scrape the wrong band - please forgive me if it does.*
 
