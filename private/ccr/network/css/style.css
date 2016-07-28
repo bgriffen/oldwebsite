@@ -181,10 +181,11 @@ font-size:14px;
 }
 
 
+
 #developercontainer {
-	margin-left:25px;
-	margin-bottom:25px;
-	position:fixed;
+	margin-left:85%;
+	margin-bottom:2%;
+	position:absolute;
 	bottom:0;
 }
 
