@@ -145,4 +145,15 @@ Again, if you don't have any programming experience or don't have a Premium Spot
 
 If you know of a website which compiles local music in your area perhaps you could try to modify what I've done and make your own playlist. In any case, I hope you enjoy the new music, soon to be playing live, somewhere near you.
 
-By popular requests, I've added playlists here for [Brisbane](https://open.spotify.com/user/1254170771/playlist/2NTVU0043xOyybaDw65rPl), [Sydney](spotify:user:1254170771:playlist:0xjEwsrg3BWL97kNR5JWny), [Melbourne](https://open.spotify.com/user/1254170771/playlist/5AUh7aL3Wvjgi85a6lyVD9), [Madison (Wisconsin)](https://open.spotify.com/user/1254170771/playlist/2DaCoNbB5ICwXaVGBX7mvo) and [Boston](spotify:user:1254170771:playlist:1Shh4ljWPQrcsvpTKtppm5). Unlike the Bowery Boston playlist generated above, these are based on [Songkick](https://www.songkick.com/home) bands. Let me know below if you want some other cities.
+By popular requests, I've added playlists here for:
+
+*Australia*
+
+* [Brisbane](https://open.spotify.com/user/1254170771/playlist/2NTVU0043xOyybaDw65rPl)  
+* [Sydney](spotify:user:1254170771:playlist:0xjEwsrg3BWL97kNR5JWny)  
+* [Melbourne](https://open.spotify.com/user/1254170771/playlist/5AUh7aL3Wvjgi85a6lyVD9)
+
+*USA*  
+
+* [Madison (Wisconsin)](https://open.spotify.com/user/1254170771/playlist/2DaCoNbB5ICwXaVGBX7mvo)
+* [Boston](spotify:user:1254170771:playlist:1Shh4ljWPQrcsvpTKtppm5). Unlike the Bowery Boston playlist generated above, these are based on [Songkick](https://www.songkick.com/home) bands. Let me know below if you want some other cities.
