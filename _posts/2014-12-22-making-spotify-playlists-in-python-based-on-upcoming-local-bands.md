@@ -141,6 +141,12 @@ Here is an example of what one of these playlists might look like inside Spotify
 
 [![spotify-playlists](/assets/spotifylocalbands/spotify_playlist.png)](/assets/spotifylocalbands/spotify_playlist.png)
 
+Or you can try it our directly!
+
+<center>
+<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3A1254170771%3Aplaylist%3A1Shh4ljWPQrcsvpTKtppm5" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>  
+</center>  
+
 Again, if you don't have any programming experience or don't have a Premium Spotify account [this playlist](https://open.spotify.com/user/1254170771/playlist/1Shh4ljWPQrcsvpTKtppm5) is public if you still want the playlist for the Boston area (this will work if you have a free account). I'll use my account update it at the start of the every month.
 
 If you know of a website which compiles local music in your area perhaps you could try to modify what I've done and make your own playlist. In any case, I hope you enjoy the new music, soon to be playing live, somewhere near you.
