@@ -161,5 +161,7 @@ By popular requests, I've added playlists here for:
 
 **USA**  
 
-* [Madison (Wisconsin)](https://open.spotify.com/user/1254170771/playlist/2DaCoNbB5ICwXaVGBX7mvo)
-* [Boston](https://open.spotify.com/user/1254170771/playlist/1Shh4ljWPQrcsvpTKtppm5). Unlike the Bowery Boston playlist generated above, these are based on [Songkick](https://www.songkick.com/home) bands. Let me know below if you want some other cities.
+* [Madison](https://open.spotify.com/user/1254170771/playlist/2DaCoNbB5ICwXaVGBX7mvo)
+* [Boston](https://open.spotify.com/user/1254170771/playlist/1Shh4ljWPQrcsvpTKtppm5)  
+
+Unlike the Bowery Boston playlist generated above, these are based on [Songkick](https://www.songkick.com/home) bands. Let me know below if you want some other cities.
