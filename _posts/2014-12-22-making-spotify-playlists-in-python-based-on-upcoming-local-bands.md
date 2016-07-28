@@ -141,7 +141,7 @@ Here is an example of what one of these playlists might look like inside Spotify
 
 [![spotify-playlists](/assets/spotifylocalbands/spotify_playlist.png)](/assets/spotifylocalbands/spotify_playlist.png)
 
-Or you can try it our directly!
+Or you can try it out directly!
 
 <center>
 <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3A1254170771%3Aplaylist%3A1Shh4ljWPQrcsvpTKtppm5" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>  
@@ -156,10 +156,10 @@ By popular requests, I've added playlists here for:
 **Australia**
 
 * [Brisbane](https://open.spotify.com/user/1254170771/playlist/2NTVU0043xOyybaDw65rPl)  
-* [Sydney](spotify:user:1254170771:playlist:0xjEwsrg3BWL97kNR5JWny)  
+* [Sydney](https://open.spotify.com/user/1254170771/playlist/0xjEwsrg3BWL97kNR5JWny)  
 * [Melbourne](https://open.spotify.com/user/1254170771/playlist/5AUh7aL3Wvjgi85a6lyVD9)
 
 **USA**  
 
 * [Madison (Wisconsin)](https://open.spotify.com/user/1254170771/playlist/2DaCoNbB5ICwXaVGBX7mvo)
-* [Boston](spotify:user:1254170771:playlist:1Shh4ljWPQrcsvpTKtppm5). Unlike the Bowery Boston playlist generated above, these are based on [Songkick](https://www.songkick.com/home) bands. Let me know below if you want some other cities.
+* [Boston](https://open.spotify.com/user/1254170771/playlist/1Shh4ljWPQrcsvpTKtppm5). Unlike the Bowery Boston playlist generated above, these are based on [Songkick](https://www.songkick.com/home) bands. Let me know below if you want some other cities.
