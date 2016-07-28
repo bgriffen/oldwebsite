@@ -15,7 +15,7 @@ Today it is extremely easy to access music. The days of celebrating 4kb/s via Na
 
 Ordinarily you might go to a website which lists local bands. Then the process of copying and pasting the band names into your music provider manually to hear what sort of music they offered would follow. Many hours of human life are wasted all over the world in carrying out this monotonous process. Continually doing this led to my idea of automating this tedious process via a short and simple program.
 
-I set about making a short program which finds bands with upcoming shows in your area and loads them into a Spotify playlist, auto-magically. My data source for bands is the well known, [Bowery Boston](http://www.boweryboston.com/see-all-shows/) which promotes upcoming bands playing in the Boston area.
+I set about making a short program which finds bands with upcoming shows in your area and loads them into a Spotify playlist, auto-magically. My data source for bands is the well known, [Bowery Boston](http://www.boweryboston.com/see-all-shows/) which promotes upcoming bands playing in the Boston area. Skip to the bottom of the post for playlists for other cities.
 
 [![spotify-playlists](/assets/spotifylocalbands/bowery_boston.png)](/assets/spotifylocalbands/bowery_boston.png)
 
