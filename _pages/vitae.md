@@ -10,7 +10,15 @@ Postdoctoral Research Fellow
 Massachussets Institute of Technology  
 Cambridge, Massachusetts, U.S.A
 
-## Research Interests
+## Bioengineering Interests
+
+* microfluidic design & fabrication
+* stem cell screening
+* microbioreactor technologies
+* biological image processing
+
+## Astrophysics Interests
+
 * Formation of the satellite population of the Milky Way
 * Contributions of globular clusters to reionization
 * Origin of globular clusters and dwarf galaxies
