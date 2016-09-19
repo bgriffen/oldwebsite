@@ -16,6 +16,7 @@ San Francisco, California
 ## Previous Position
 
 Postdoctoral Research Fellow  
+Kavli Institute for Astrophysics & Space Research  
 Massachussets Institute of Technology  
 Cambridge, Massachusetts, U.S.A
 
