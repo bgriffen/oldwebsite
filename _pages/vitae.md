@@ -7,11 +7,11 @@ author_profile: true
 
 ## Current Position
 
-Co-founder & Chief Information Officer
-Scaled Biolabs Inc.
-479 Jessie st.
-San Francisco, California
-[www.scaledbiolabs.com](http://www.scaledbiolabs.com)
+Co-founder & Chief Information Officer  
+Scaled Biolabs Inc.  
+479 Jessie st.  
+San Francisco, California  
+[www.scaledbiolabs.com](http://www.scaledbiolabs.com)  
 
 ## Previous Position
 
@@ -21,10 +21,10 @@ Cambridge, Massachusetts, U.S.A
 
 ## Bioengineering Interests
 
-* microfluidic design & fabrication
-* stem cell screening
-* microbioreactor technologies
-* biological image processing
+* microfluidic design & fabrication  
+* stem cell screening  
+* microbioreactor technologies  
+* biological image processing  
 
 ## Astrophysics Interests
 
