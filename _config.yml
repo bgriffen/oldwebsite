@@ -6,7 +6,7 @@ locale                   : "en-US"
 title                    : "Brendan Griffen"
 title_separator          : "-"
 name                     : "Brendan Griffen"
-description              : "Astrophysicist @ MIT."
+description              : "Co-founder/CIO Scaled Biolabs Inc. & Astrophysicist"
 url                      : "http://brendangriffen.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/bgriffen/bgriffen.github.io"
@@ -61,8 +61,8 @@ google_ad_slot           :
 author:
   name             : 
   avatar           : "brendan-griffen.jpg"
-  bio              : "Astrophysicist @ MIT"
-  location         : "Cambridge, MA"
+  bio              : "Astrophysicist & Co-founder/CIO @ Scaled Biolabs Inc."
+  location         : "San Francisco, CA"
   email            : "brendan.f.griffen@gmail.com"
   uri              : 
   bitbucket        :
