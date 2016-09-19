@@ -16,7 +16,7 @@ San Francisco, California
 
 Postdoctoral Research Fellow  
 Kavli Institute for Astrophysics & Space Research  
-Massachussets Institute of Technology  
+Massachusetts Institute of Technology  
 Cambridge, Massachusetts, U.S.A
 
 ## Bioengineering Interests
