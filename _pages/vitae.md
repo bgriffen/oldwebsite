@@ -9,7 +9,6 @@ author_profile: true
 
 Co-founder & Chief Information Officer  
 Scaled Biolabs Inc.  
-479 Jessie st.  
 San Francisco, California  
 [www.scaledbiolabs.com](http://www.scaledbiolabs.com)  
 
