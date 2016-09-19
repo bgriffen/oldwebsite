@@ -33,7 +33,6 @@ Cambridge, Massachusetts, U.S.A
 * Origin of globular clusters and dwarf galaxies
 * Dark matter and structure formation
 * Assembly of the old stellar halo
-* Large-scale semantic data analysis
 
 ---
 
