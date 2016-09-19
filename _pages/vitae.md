@@ -23,7 +23,6 @@ Cambridge, Massachusetts, U.S.A
 ## Bioengineering Interests
 
 * microfluidic design & fabrication  
-* stem cell screening  
 * microbioreactor technologies  
 * biological image processing  
 
