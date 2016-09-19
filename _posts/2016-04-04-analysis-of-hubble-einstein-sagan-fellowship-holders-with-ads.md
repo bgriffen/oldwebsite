@@ -132,7 +132,7 @@ The number of women compared to men shows an under 50-50 breakup across time. Th
 
 I opted to show this in a boxplot format. The redline is the median and the edges of the box represent the 25th and 75th percentile. The ends represent the maximum and minimum. From this, we see that people awarded Hubble and Einstein fellowships typically publish (median difference ~ 2) more papers than Sagan fellows at the time of their award. My feeling is that this is perhaps more indicative of the exoplanet field? I'd be interested to hear your feedback on why there is such a difference. One thing to keep in mind is that the maximums and minimums of these box plots are likely just wrong as ADS didn't find a paper matching the name in the case of the minimums and that there were more than one match for a given name in the case of the maximums.
 
-##  Is there any difference between the number of citations women and men have at the time of being awarded?
+##  Is there any difference between the number of papers women and men have at the time of being awarded?
 
 ![number of papers by gender](/assets/fellowships/gender_box.png "number of papers by sex")
 
