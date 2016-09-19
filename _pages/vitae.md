@@ -6,6 +6,15 @@ author_profile: true
 ---
 
 ## Current Position
+
+Co-founder & Chief Information Officer
+Scaled Biolabs Inc.
+479 Jessie st.
+San Francisco, California
+[www.scaledbiolabs.com](http://www.scaledbiolabs.com)
+
+## Previous Position
+
 Postdoctoral Research Fellow  
 Massachussets Institute of Technology  
 Cambridge, Massachusetts, U.S.A
