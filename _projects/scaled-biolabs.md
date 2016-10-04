@@ -26,5 +26,5 @@ gallery:
 [Scaled Biolabs](http://www.scaledbiolabs.com) is accelerating biologic, gene, and cell therapies using smart microfluidic chips. Thousands of cell experiments can be parallelized and automated on our lab-on-a-chip system, increasing throughput, precision, economy, and insight.
 
 <center>
-[<img src="http://www.scaledbiolabs.com">](/assets/pages/scaledbiolabs.jpg)
+[<img src="http://www.brendangriffen.com/assets/pages/scaledbiolabs.jpg">](http://www.scaledbiolabs.com)
 </center>
