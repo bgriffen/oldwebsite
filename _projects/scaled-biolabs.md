@@ -9,7 +9,7 @@ sidebar:
     image: scaledbiolabslogo.png
     image_alt: "logo"
     text: "Co-founder & Chief Information Officer"
-  - title: "Activities"
+  - title: "Mission"
     text: "Scaled Biolabs is accelerating biologic, gene, and cell therapies using smart microfluidic chips."
 gallery:
   - url: unsplash-gallery-image-1.jpg
@@ -26,3 +26,5 @@ gallery:
 Scaled Biolabs is accelerating biologic, gene, and cell therapies using smart microfluidic chips. Thousands of cell experiments can be parallelized and automated on our lab-on-a-chip system, increasing throughput, precision, economy, and insight.
 
 ![/pages/scaledbiolabs.jpg]
+
+![Microfluidics]](/pages/scaledbiolabs.jpg "Microfluidics Chip")
