@@ -1,6 +1,6 @@
 ---
 title: "Scaled Biolabs"
-excerpt: "I'm a co-founder of Scaled Biolabs, a company dedicated to delivering better outcomes for researchers, patients and funding bodies."
+excerpt: "I'm a co-founder of Scaled Biolabs, a company dedicated to turbocharging biotech and biopharma R&D."
 header:
   #image: scaledbiolabslogo.png
   teaser: /pages/scaledbiolabslogo.png
@@ -10,7 +10,7 @@ sidebar:
     image_alt: "logo"
     text: "Co-founder & Chief Information Officer"
   - title: "Activities"
-    text: "Developing 'plug-and-play' software tools to reduce the burden of carrying out discovery science for scientists and research bodies."
+    text: "Scaled Biolabs is accelerating biologic, gene, and cell therapies using smart microfluidic chips."
 gallery:
   - url: unsplash-gallery-image-1.jpg
     image_path: unsplash-gallery-image-1-th.jpg
@@ -23,4 +23,6 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-Coming soon!
+Scaled Biolabs is accelerating biologic, gene, and cell therapies using smart microfluidic chips. Thousands of cell experiments can be parallelized and automated on our lab-on-a-chip system, increasing throughput, precision, economy, and insight.
+
+![/pages/scaledbiolabs.jpg]
