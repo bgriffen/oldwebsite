@@ -21,6 +21,18 @@
     , "id": "18"
     , "size": 10.0},
 
+    {   "label":"Mathematics",
+    "x":-1.625504732131958,
+    "y":-25.236663818359375,
+    "id":"45",
+    "attributes":{
+    "Link": "<a href=\"https://en.wikipedia.org/wiki/Mathematics\" target=\"_blank\">/wiki/Mathematics</a>",
+    "Modularity Class":"science",
+    "closeness":"0.4107",
+    "betweenness":"0.00161"},
+    "color": "rgb(154,150,229)",
+    "size":10},
+
      {"color": "rgb(154,150,229)", 
 "label": "Economics"
 , "x": -12.75311279296875
@@ -67,7 +79,7 @@
 
  {"color": "rgb(154,150,229)", 
 "label": "Biology"
-, "x": -44.5095100402832
+, "x": -35.5095100402832
 , "y": -14.684877395629883
 , "attributes": {"Link": "<a href=\"https://en.wikipedia.org/wiki/biology\" target=\"_blank\">/wiki/biology</a>"
 , "Modularity Class": "science"
@@ -494,12 +506,31 @@
 , "id": "41"
 , "size": 10.0}]
 
-, "edges": [{"target": "6"
+, "edges": [
+{"source":"45","target":"28","id":"71075","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":60},
+{"source":"32","target":"45","id":"4155075","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":54},
+{"source":"1", "target":"45","id":"1161668","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":53},
+{"source":"35","target":"45","id":"838909","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":49},
+{"source":"45","target":"17","id":"70821","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":48},
+{"source":"17","target":"45","id":"2651929","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":45},
+{"source":"14","target":"45","id":"184455","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":38},
+{"source":"45","target":"19","id":"70777","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":35}, 
+{"source":"11","target":"45","id":"2866585","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":33},
+{"source":"38","target":"45","id":"1312314","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":31},
+{"source":"45","target":"23","id":"70791","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":31},
+{"source":"9", "target":"45","id":"3330814","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":30},
+{"source":"18","target":"45","id":"2152212","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":29},
+{"source":"45","target":"36","id":"70772","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":28.0},
+{"source":"45","target":"7","id":"70957","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":15.0},
+{"source":"45","target":"15","id":"71014","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":10.0},
+{"source":"45","target":"8","id":"71062","attributes":{},"arrow":"source","color":"rgb(0,109,44)","size":1.0},
+{"target": "6"
     , "color": "rgb(0,109,44)"
 , "source": "26"
 , "attributes": {},"arrow":"source"
 , "id": "2136"
-, "size": 14.5}, {"target": "8"
+, "size": 14.5}, 
+{"target": "8"
 , "color": "rgb(0,109,44)"
 , "source": "12"
 , "attributes": {},"arrow":"source"
