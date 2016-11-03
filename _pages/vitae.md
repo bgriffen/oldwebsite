@@ -68,48 +68,48 @@ Minors: Cognitive Science & Philosophy
 
 ## Recent Publications
 
-**Tracing the first stars and galaxies of the Milky Way**  
+11. **Tracing the first stars and galaxies of the Milky Way**  
 **Brendan Griffen**, Greg Dooley, Alex Ji, Brian O'Shea, Facundo Gomez, Anna Frebel  
 *Monthly Notices of the Royal Astronomical Society*, Submitted, **2016**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1611.00759 "Link to publication.")   
 <br/>
-**An observer's guide to the (Local Group) dwarf galaxies: predictions for their own dwarf satellite populations**  
-Greg Dooley, Annika Peter, Tianyi Yang, Beth Willman, **Brendan Griffen**, Anna Frebel 
+10. **An observer's guide to the (Local Group) dwarf galaxies: predictions for their own dwarf satellite populations**  
+Greg Dooley, Annika Peter, Tianyi Yang, Beth Willman, **Brendan Griffen**, Anna Frebel  
 *Monthly Notices of the Royal Astronomical Society*, Submitted, **2016**. [ADS](http://adsabs.harvard.edu/abs/2016arXiv161000708D "Link to publication.")   
 <br/>
-**The role of mergers and halo spin in shaping galaxy morphology**  
+9. **The role of mergers and halo spin in shaping galaxy morphology**  
 Vicente Rodriguez-Gomez, Laura Sales, Shy Genel, Annalisa Pillepich, Jolanta Zjupa, Dylan Nelson, **Brendan Griffen**, Paul Torrey, Greg Snyder, Mark Vogelsberger, Volker Springel, Chung-Pei Ma, Lars Hernquist  
 *Monthly Notices of the Royal Astronomical Society*, Submitted, **2016**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1609.09498 "Link to publication.")   
 <br/>
-**Constraining ultra-compact dwarf galaxy formation with galaxy clusters in the local universe**  
+8. **Constraining ultra-compact dwarf galaxy formation with galaxy clusters in the local universe**  
 Joel Pfeffer, Michael Hilker, Holger Baumgardt, **Brendan Griffen**  
 *Monthly Notices of the Royal Astronomical Society*, Accepted, **2016**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1603.00032 "Link to publication.")   
 <br/>
-**The Caterpillar Project: A Large Suite of Milky Way Sized Halos**    
+7 .**The Caterpillar Project: A Large Suite of Milky Way Sized Halos**    
 **Brendan Griffen**, Alexander Ji, Gregory Dooley, Facundo Gómez, Mark Vogelsberger, Brian O'Shea, Anna Frebel  
 *The Astrophysical Journal*, 818, 1, **2016**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1509.01255 "Link to publication.")  
 <br/>
-**An analysis of the evolving comoving number density of galaxies in hydrodynamical simulations**  
+6. **An analysis of the evolving comoving number density of galaxies in hydrodynamical simulations**  
 Paul Torrey, Sarah Wellons, Francisco Machado, **Brendan Griffen**, Dylan Nelson, Vicente Rodriguez-Gomez, Ryan McKinnon, Annalisa Pillepich, Chung-Pei Ma, Mark Vogelsberger, Volker Springel, Lars Hernquist  
 *Monthly Notices of the Royal Astronomical Society*, 454, 3, **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1507.01942 "Link to publication.")  
 <br/>
-**The Illustris Simulation: Public Data Release**  
+5. **The Illustris Simulation: Public Data Release**  
 Dylan Nelson, Annalisa Pillepich, Shy Genel, Mark Vogelsberger, Volker Springel, Paul Torrey, Vicente
 Rodriguez-Gomez, Debora Sijacki, Gregory F. Snyder, **Brendan Griffen**, Federico Marinacci   
 *Astronomy and Computing*, 13, **2015**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1504.00362 "Link to publication.")  
 <br/>
-**Contribution of stripped nuclear clusters to globular cluster and ultracompact dwarf galaxy populations**  
+4. **Contribution of stripped nuclear clusters to globular cluster and ultracompact dwarf galaxy populations**  
 Joel Pfeffer, **Brendan Griffen**, Holger Baumgardt, Michael Hilker  
 *Montly Notices of the Royal Astronomical Society*, 444, 4, **2014.** [ADS](http://adsabs.harvard.edu/abs/2014MNRAS.444.3670P "Link to publication.")  
 <br/>
-**The Effects of Varying Cosmological Parameters on Halo Substructure**  
+3. **The Effects of Varying Cosmological Parameters on Halo Substructure**  
 Gregory Dooley, **Brendan Griffen**, Phillip Zukin, Alexander Ji, Mark Vogelsberger, Lars Hernquist, Anna Frebel  
 *The Astrophysical Journal*, 786, **2014.** [ADS](http://adsabs.harvard.edu/abs/2014ApJ...786...50D "Link to publication.")  
 <br/>
-**The inhomogeneous reionization of the local intergalactic medium by metal-poor globular clusters**  
+2. **The inhomogeneous reionization of the local intergalactic medium by metal-poor globular clusters**  
 **Brendan Griffen**, Michael Drinkwater, Ilian Iliev, Peter Thomas, Garrelt Mellema  
 *Montly Notices of the Royal Astronomical Society*, 431, 4, **2013.** [ADS](http://adsabs.harvard.edu/abs/2013MNRAS.431.3087G "Link to publication.")  
 <br/>
-**Globular cluster formation within the Aquarius simulation**  
+1. **Globular cluster formation within the Aquarius simulation**  
 **Brendan Griffen**, Michael Drinkwater, Peter Thomas, John Helly, Kevin Pimbblet  
 *Montly Notices of the Royal Astronomical Society*, 405, 1, **2013.** [ADS](http://adsabs.harvard.edu/abs/2010MNRAS.405..375G "Link to publication.")  
 
