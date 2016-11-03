@@ -23,7 +23,9 @@ Cambridge, Massachusetts, U.S.A
 
 * microfluidic design & fabrication  
 * microbioreactor technologies  
-* biological image processing  
+* biological image processing
+* regenerative medicine
+* cell therapies, biologics and gene therapies  
 
 ## Astrophysics Interests
 
@@ -66,6 +68,18 @@ Minors: Cognitive Science & Philosophy
 
 ## Recent Publications
 
+**Tracing the first stars and galaxies of the Milky Way**  
+**Brendan Griffen**, Greg Dooley, Alex Ji, Brian O'Shea, Facundo Gomez, Anna Frebel  
+*Monthly Notices of the Royal Astronomical Society*, Submitted, **2016**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1611.00759 "Link to publication.")   
+<br/>
+**An observer's guide to the (Local Group) dwarf galaxies: predictions for their own dwarf satellite populations**  
+Greg Dooley, Annika Peter, Tianyi Yang, Beth Willman, **Brendan Griffen**, Anna Frebel 
+*Monthly Notices of the Royal Astronomical Society*, Submitted, **2016**. [ADS](http://adsabs.harvard.edu/abs/2016arXiv161000708D "Link to publication.")   
+<br/>
+**The role of mergers and halo spin in shaping galaxy morphology**  
+Vicente Rodriguez-Gomez, Laura Sales, Shy Genel, Annalisa Pillepich, Jolanta Zjupa, Dylan Nelson, **Brendan Griffen**, Paul Torrey, Greg Snyder, Mark Vogelsberger, Volker Springel, Chung-Pei Ma, Lars Hernquist  
+*Monthly Notices of the Royal Astronomical Society*, Submitted, **2016**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1609.09498 "Link to publication.")   
+<br/>
 **Constraining ultra-compact dwarf galaxy formation with galaxy clusters in the local universe**  
 Joel Pfeffer, Michael Hilker, Holger Baumgardt, **Brendan Griffen**  
 *Monthly Notices of the Royal Astronomical Society*, Accepted, **2016**. [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1603.00032 "Link to publication.")   
