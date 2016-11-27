@@ -276,6 +276,11 @@ span.projectlistheading {
   line-height: 30px;
   font-size: 18px;
   max-width: 100%
+} 
+
+img { 
+  max-width:  100%; 
+  display: block;
 }
 
 /* Footer 
