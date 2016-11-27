@@ -258,6 +258,22 @@ span.projectlistheading {
 .blog-post{
   padding-top: 15px;
 }
+.blogpost h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.blogpost h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.blogpost h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.blogpost h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
 .blog-title{
   padding-top: 2px;
 }
