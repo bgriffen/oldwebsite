@@ -231,6 +231,27 @@ span.projectlistheading {
 .social h4 > a {
   color: #FFFFFF;
 }
+
+.fa-rss-square {
+  color: #F1EE12;
+}
+
+.fa-twitter {
+  color:#32CCFE;
+}
+.fa-github {
+  color: :#070709;
+}
+.fa-envelope {
+  color: #01FC14;
+}
+.fa-stack-overflow {
+  color:#FF7300;
+}
+.fa-linkedin {
+  color: #0085AE;
+}
+
 .avatar {
   padding-top: 5%;
 }
