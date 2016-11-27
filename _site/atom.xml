@@ -1,0 +1,2099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+    <title type="text" xml:lang="en">Brendan Griffen</title>
+    <link type="application/atom+xml" rel="self" href="http://127.0.0.1:3000//atom.xml"/>
+  
+  <link href="http://127.0.0.1:3000//"/>
+  <id>http://127.0.0.1:3000//</id>
+  <updated>2016-11-27T13:27:04Z</updated>
+  <author>
+    <name>Brendan Griffen</name>
+    <email>brendan.f.griffen@gmail.com</email>
+  </author>
+  <rights type="text">Copyright © 2016 Brendan Griffen. All rights reserved.</rights>
+  
+  <entry>
+  <title type="text">Goodbye Astronomy, Part 1: How I got here</title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:3000//blog//goodbye-astronomy-for-now.html" />
+  <id>http://127.0.0.1:3000//goodbye-astronomy-for-now</id>
+  <published>2016-06-11T00:00:00Z</published>
+  <updated>2016-06-11T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>My dance with an astrophysics career has come to an end. On the whole, its been great but I think it is worthwhile going through how I came to be an astrophysicist, what I&rsquo;ve learnt over the past 10 years and a hint of where I&rsquo;m heading. Whilst I am not ruling out a career in academia <em>entirely</em>, I do consider it a hiatus that may never end. More on that later. For now, let&rsquo;s start at the beginning. I often receive emails from aspiring scientists not really sure where to go in life and so hopefully this post offers some insight by way of explaining how it all worked out for me.</p>
+
+<p>In 1986, through no choice of my own, I came into this world. My father was an architect in Hong Kong at the time and so as luck would have it, I spent a number of years growing up in China. Don&rsquo;t worry, I wasn&rsquo;t the product of &lsquo;Macau entertainment&rsquo;, my mother was also in tow &ndash; happily married. As the picture below from this time period indicates, I was already interested in stuff &ldquo;up there, beyond the clouds&rdquo;.</p>
+
+<p><a href="/assets/goodbye/ME_AS_A_BABY2.JPG"><img src="/assets/goodbye/ME_AS_A_BABY2.JPG" alt="images" /></a><br/>
+<sup>Already a fan of &ldquo;up there&rdquo;.</sup></p>
+
+<p>I remember my early school days in China fondly and recall times when a friend of mine and I would jump the back of the school fence and escape into downtown toy stores. I was more easily spotted due to my golden hair which in hindsight, wasn&rsquo;t the best disguise, especially in Wan Chai, Hong Kong. I remember having relatively early &lsquo;grown-up&rsquo; talks with Dad&rsquo;s friends which usually devolved into arguments about how the <a href="https://www.google.com/search?q=chinese+character+for+chicken&amp;oq=chinese+character+for+chicken&amp;aqs=chrome..69i57.4917j0j1&amp;sourceid=chrome&amp;ie=UTF-8">Chinese character for chicken</a> looks nothing like a chicken. Fast-forward 10 years and a few cities later, I found myself attending a solid school near <a href="https://en.wikipedia.org/wiki/Bargara,_Queensland">my seaside hometown of Bargara</a> (population ~5,000) in mid-coast Australia.</p>
+
+<p><a href="/assets/goodbye/DSCF0045.JPG"><img src="/assets/goodbye/DSCF0045.JPG" alt="images" /></a><br/>
+<sup>The quintessentially oppressed, overly-priveledged 16 year old.</sup></p>
+
+<p>During my high school days I was also very fortunate to have two outstanding teachers who took a keen interest in pushing my scientific pursuits. Mr. Deer (physics) and Mr. Peers (mathematics) spent large amounts of their personal time ensuring that everyone got the very best out of their high school years even though it felt like East Germany at times. I wasn&rsquo;t the best student, but I can safely say, it was mainly my interest and supportive mentors that got me to where I am today, not some uber-mensch TCGA DNA combination. Whilst many of my colleagues may be all nature, I assure you my arrival to 2016 has been by way of nurture.</p>
+
+<p><a href="/assets/goodbye/DSCF0017.JPG"><img src="/assets/goodbye/DSCF0017.JPG" alt="images" /></a><br/>
+<sup>Mr. Peers telling off the back row in Maths B class.</sup></p>
+
+<p><a href="/assets/goodbye/DSCF0041.JPG"><img src="/assets/goodbye/DSCF0041.JPG" alt="images" /></a><br/>
+<sup>After school physics tutorials with Mr. Deer were actually fun as my cousin Jack (right) can attest.</sup></p>
+
+<p>Combining this school environment with a curiosity spurred on by my books I realized around my 14th birthday that i wanted to study astronomy or at the very least a natural science. A photo of my desk around this age(29th of November based on the calendar) indicates a fairly broad interest with a particular focus on history and the natural sciences. In amongst these books you can find <a href="https://www.amazon.com/Chaos-Making-Science-James-Gleick/dp/0143113453/ref=sr_1_1?ie=UTF8&amp;qid=1468262569&amp;sr=8-1&amp;keywords=Chaos+James">Chaos (J. Gleick)</a>, <a href="https://www.amazon.com/Light-Years-Time-Travel-Exploration/dp/0471211826/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1468262865&amp;sr=1-1&amp;keywords=light+years">Light Years (B. Clegg)</a>, <a href="https://www.amazon.com/mc2-Biography-Worlds-Famous-Equation/dp/0330391658/ref=sr_1_19?ie=UTF8&amp;qid=1468262609&amp;sr=8-19&amp;keywords=E%3Dmc%5E2">E=mc<sup>2</sup> (D. Bodanis)</a>, <a href="https://www.amazon.com/Cosmos-Carl-Sagan/dp/0345539435/ref=sr_1_2?ie=UTF8&amp;qid=1468262644&amp;sr=8-2&amp;keywords=cosmos">Cosmos (C. Sagan)</a>, <a href="https://www.amazon.com/Brief-History-Time-Stephen-Hawking/dp/0553380168/ref=sr_1_1?ie=UTF8&amp;qid=1468262536&amp;sr=8-1&amp;keywords=A+Brief+history+of+time">A Brief History of Time (S. Hawking)</a>, <a href="https://www.amazon.com/Build-Time-Machine-Paul-Davies/dp/0141005343/ref=sr_1_4?ie=UTF8&amp;qid=1468262514&amp;sr=8-4&amp;keywords=how+to+build+a+time+machine">How to build at time machine (P. Davies)</a> and <a href="https://www.amazon.com/Fabric-Cosmos-Space-Texture-Reality-ebook/dp/B000XUDGV2/ref=sr_1_12?s=books&amp;ie=UTF8&amp;qid=1468262732&amp;sr=1-12&amp;keywords=TIME">Fabric of the Cosmos (B. Greene)</a> to name a few. You&rsquo;ll also notice Mikhail Gorbachev is keeping an eye on things (made by my brother).</p>
+
+<p><a href="/assets/goodbye/DSCF0002.JPG"><img src="/assets/goodbye/DSCF0002.JPG" alt="images" /></a><br/>
+<sup>Where I learnt many things circa ~2001.</sup></p>
+
+<p>During my 10th year of school we were forced to participate in work experience to give us a taste of the real world. By this point I really was set on studying physics (despite my average grades) and wanted to find somewhere to engage with real world physicists. After some research I found a few universities which took on high-school students for a summer research program. I could count them on one hand but all I needed at the time was just one. The local astronomy club really didn&rsquo;t cut it as it was mainly a re-examination of Saturn&rsquo;s rings or Jupiter&rsquo;s moons every Friday &ndash; I wanted something more.</p>
+
+<p>I applied and was fortunate to get an internship at the Parkes Radio Telescope (yes, where <a href="http://www.imdb.com/title/tt0205873/">The Dish</a> was filmed) under the tutelage of Rick Twardy (its amazing how names stick after all these years). If you know your Australian geography, Parkes is a <a href="https://www.google.com/maps/dir/Bargara+QLD+4670,+Australia/Parkes+NSW+2870,+Australia/data=!4m8!4m7!1m2!1m1!1s0x6bebbffc204bdc31:0x400eef17f20c910!1m2!1m1!1s0x6b1aa9b21e36c657:0x40609b490437c90!3e0">long, long way from my home town</a> (12 hour drive). Dad volunteered to drive me down and as a bonus promised to visit some of the other astronomy facilities in the Australian countryside. I was stoked.</p>
+
+<p>It was a surreal experience and not what I expected at all. I remember photocopying thousands of pages of books from the library as I never had access to such volumes (remember, this is before the Internet actually had lots of content). I was also fortunate to meet my first real life astronomers. They were, as I recall, and odd bunch of folks with a certain enthusiasm which was infectious. I remember many late nights playing <a href="https://en.wikipedia.org/wiki/Abalone_(board_game">Abalone</a>) with one chap, discussing the origin of <a href="https://en.wikipedia.org/wiki/Pulsar">pulsars</a>!</p>
+
+<p><a href="/assets/goodbye/pulsar.JPG"><img src="/assets/goodbye/pulsar.JPG" alt="images" /></a>
+<sup>Discoverying my first pulsar in the summer holidays of Grade 10 at Parkes Radio Telescope.</sup></p>
+
+<p>During my school years, my home town was also fortunate to host <a href="http://www.mso.anu.edu.au/~charley/">Prof. Charlie Lineweaver</a> as part of an ABC science special in regional Australia. I almost wasn&rsquo;t allowed to attened because of the door person being overly strict on the arrival time. A family friend took time of work to get me to the event (30 minutes away) and I was visibly devestated about not being able to meet one of my heros at the time (I had read all his books and articles).</p>
+
+<p>I was allowed in after much convincing and during the proceedings I asked what seemed like fairly fundamental questions I was having about the origin of the <a href="https://en.wikipedia.org/wiki/False_vacuum">False Vacuum</a> (which I still don&rsquo;t fully understand even today). This caught Charlie&rsquo;s ear and he came down to me after and we had a friendly conversation about his recent work. It is so hard to express how vividly I remember those 15 minutes. Mum was kind enought to take our photo at the end of the interaction and as I found out later, <a href="https://smp.uq.edu.au/people/TamaraDavis/">Prof. Tamara Davis</a> was his PhD student at the time and also in attendence! It was crazy to end up working along side her years later at university. I sent her the image in 2011 and this is what she had to say:</p>
+
+<blockquote><p>That is definitely me, and I definitely remember that night (it was my first ever public event like that), and I definitely remember one person in particular asking lots of questions.  Would never have recognised you without being told&hellip; but by telling me about the event you completely reaffirmed my belief in giving public talks.</p></blockquote>
+
+<p><a href="/assets/goodbye/view.jpg"><img src="/assets/goodbye/Tam-Brendan-Charlie.png" alt="images" /></a><br/>
+<sup>Outreach really did payoff as meeting Prof. Charlie Lineweaver was the turning point.</sup></p>
+
+<p>Once this fantastic experience was behind me, I set about getting into university which was the only avenue available to study astronomy open to me. I did enough work to get the grades, nothing more and spent the rest of my spare time in books or reading the photocopy material from my work experience.</p>
+
+<p>Whilst I was building up my knowledge of physics and sparking an ever growing desire to study it long term I also had a great location during my down time to just think. A lot of these creative musings came about during long stays with Mum in the hinterland of the Sunshine Coast of Queensland, Australia as the house she lived in was &lsquo;spartan&rsquo; to say the least. Compost outdoor toilets, rain water, solar energy/hot water, wind turbine, veggie gardens, candles by night, no walls and a giant tree up the middle of the house acting like a staircase all backed by a national rainforest. Classic Sunshine Coast if you&rsquo;ve ever been there.</p>
+
+<p><a href="/assets/goodbye/DSCF0007.JPG"><img src="/assets/goodbye/DSCF0007.JPG" alt="images" /></a>
+<sup>Lots of time to hang out in nature and just ask questions.</sup></p>
+
+<p>Here, I spent hundreds of hours asking family friends all sorts of questions about the world, especially physics and history. The night sky was like nothing I&rsquo;ve ever seen as it was farm land in the country. The alluvial views made a great backdrop for night time ponderings over a game of chess and cup of tea.</p>
+
+<p><a href="/assets/goodbye/view.jpg"><img src="/assets/goodbye/view.jpg" alt="images" /></a><br/>
+<sup>Quite the view from home.</sup></p>
+
+<p>I ended up attending one of the default universities in the capital city of my state and set about on my journey to become an astronomer which was still largely unknown waters. The university offered no astronomy courses until my second year they brought one in then in my third year two more. This pales in comparison to what is available at places like MIT or Caltech for instance but I&rsquo;m me in east cupcake Australia. Each semester I saught out internships at other universities around Australia and was fortunate to get a three month stint at Mt. Stromolo which at the time was the best astronomy institute in Australia.</p>
+
+<p>I soldiered on in my degree and then faced the hardest intellectual challenge of my life &ndash; my Honours (or Masters in one year for USA folks). It was a torturous affair and many nights were lost and friendships gained in the hallowed halls of the physics department. I remember staying up for two days straight prior to submitting my thesis with no guarantee that I would get the grades required to obtain a PhD scholarship (90% or above at the time). The final courses were things like condensed matter physics, computational physics and the dreaded quantum field theory. Not a single course was astronomy so 50% of my time was doing Feynman diagrams whilst the other 50% of my time was spent looking at small galaxies dissolving into other galaxies in simulations &ndash; zero overlap.</p>
+
+<p><a href="/assets/goodbye/DSC01982.JPG"><img src="/assets/goodbye/DSC01982.JPG" alt="images" /></a> <a href="/assets/goodbye/honours.jpg"><img src="/assets/goodbye/honours.jpg" alt="images" /></a> <a href="/assets/goodbye/whiteboard.jpg"><img src="/assets/goodbye/whiteboard.jpg" alt="images" /></a></p>
+
+<h2>Astronomy, The Good</h2>
+
+<ul>
+<li>complete intellectual and personal freedom</li>
+<li>travel the world</li>
+<li>the &lsquo;woah&rsquo; factor when meeting people</li>
+<li></li>
+</ul>
+
+
+<h2>Astronomy, The Bad</h2>
+
+<ul>
+<li></li>
+</ul>
+
+
+<h2>Astronomy, The Ugly</h2>
+
+<ul>
+<li>Long term prospects</li>
+<li>lifestyle choices - not living in city of your own choice</li>
+<li></li>
+</ul>
+
+
+<p><a href="/assets/goodbye/DSC00378.JPG"><img src="/assets/goodbye/DSC00378.JPG" alt="images" /></a></p>
+
+<h2>To the young</h2>
+
+<h2>To the old</h2>
+
+<h2>Moving Forward</h2>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Hubble, Einstein and Sagan Fellows With ADS</title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:3000//blog//analysis-of-hubble-einstein-sagan-fellowship-holders-with-ads.html" />
+  <id>http://127.0.0.1:3000//analysis-of-hubble-einstein-sagan-fellowship-holders-with-ads</id>
+  <published>2016-04-04T00:00:00Z</published>
+  <updated>2016-04-04T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>Now that the job hunt is largely over, I thought it might be interesting to briefly examine the publication profiles of previous and current holders of fellowships which are the most in demand. The core fellowships I focus on are the NASA-funded Einstein, Hubble and Sagan fellowships which often get hundreds of applicants each year. I also include the last round (2016) fellowship holders in this analysis.</p>
+
+<h1>Introduction</h1>
+
+<p>For this study I use only the <a href="https://github.com/andycasey/ads">ADS python</a> explorer and some other mainstream Python tools (primarily <a href="http://pandas.pydata.org/">Pandas</a>). The only part of this analysis which took time was compiling the names and years for all fellowship holders. I eventually found the previous receipients on various NASA related webpages and got the remainder on this year&rsquo;s <a href="http://www.astrobetter.com/wiki/Rumor+Mill">Rumour Mill page</a>.</p>
+
+<p>The primary data set is a list of the following quantities: fellowship type, name, gender, year received, host institution and current institution. In some cases there was no data (only for institutions). Feel free to download the <a href="/assets/fellowships/data/processed.csv">csv file</a> or the <a href="/assets/fellowships/data/processed_dict">dictionary file</a>. You can also get the full <a href="https://docs.google.com/spreadsheets/d/1ByyiRw91dAFzmwZql2kfKbFuv_glNgk1VP76J92mSnM/edit?usp=sharing">Google Doc with the postprocessed analysis</a> but please read on first!  Though, please let me know if your publications are incorrect in the Google Doc &ndash; I don&rsquo;t want to misrepresent people. Also keep in mind I am only using published, refereed, first author papers.</p>
+
+<p>This is an example of the type of data I started with:</p>
+
+<table>
+<thead>
+<tr>
+<th>type     </th>
+<th> year </th>
+<th> sex </th>
+<th> person </th>
+<th>  phd_institute </th>
+<th> host_institute</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hubble   </td>
+<td> 2015 </td>
+<td> f </td>
+<td>  Katherine Alatalo </td>
+<td>   University of California Berkeley    </td>
+<td> Carnegie Observatories/Pasadena</td>
+</tr>
+<tr>
+<td>Hubble   </td>
+<td> 2015 </td>
+<td> m </td>
+<td>  Peter Behroozi </td>
+<td>  Stanford University   </td>
+<td> University of California Berkeley</td>
+</tr>
+<tr>
+<td>Hubble   </td>
+<td> 2015 </td>
+<td> m </td>
+<td>  Rongmon Bordoloi </td>
+<td>    ETH Zurich  </td>
+<td> Massachusetts Institute of Technology</td>
+</tr>
+<tr>
+<td>Hubble   </td>
+<td> 2015 </td>
+<td> f </td>
+<td>  Elodie Choquet </td>
+<td>  University of Paris Diderot  </td>
+<td> Jet Propulsion Laboratory</td>
+</tr>
+<tr>
+<td>Hubble   </td>
+<td> 2015 </td>
+<td> f </td>
+<td>  Lauren Ilsedore </td>
+<td> Cleeves University of Michigan  </td>
+<td>  Smithsonian Astrophysical Observatory</td>
+</tr>
+<tr>
+<td>Einstein </td>
+<td> 2015 </td>
+<td> f </td>
+<td>  Anna Barnacka  </td>
+<td> - </td>
+<td>     Harvard University</td>
+</tr>
+<tr>
+<td>Einstein </td>
+<td> 2015 </td>
+<td> m </td>
+<td> Simeon Bird    </td>
+<td> - </td>
+<td> Johns Hopkins University</td>
+</tr>
+<tr>
+<td>Sagan    </td>
+<td> 2015 </td>
+<td> f </td>
+<td>  Courtney Dressing  </td>
+<td> California Institute of Technology </td>
+<td>  -</td>
+</tr>
+<tr>
+<td>Sagan    </td>
+<td> 2015 </td>
+<td> m </td>
+<td>  Daniel Foreman-Mackey  </td>
+<td> University of Washington </td>
+<td>  -</td>
+</tr>
+</tbody>
+</table>
+
+
+<h1>Goals &amp; Caveats</h1>
+
+<p>A few natural questions one might ask with a list such as this are:</p>
+
+<ul>
+<li>How many fellowship holders have there been over time?</li>
+<li>What is the ratio of male-to-female fellowship holders over time?</li>
+<li>How many papers on average do each type of fellowship holder typically have before being awarded?</li>
+<li>Is there any difference between the number of citations women and men have at the time of being awarded?</li>
+<li>How many citations do they have before, during and after the award?</li>
+<li>Do men or women have more co-authors?</li>
+<li>How many co-authors do each fellow type have?</li>
+<li>How many citations do they have when awarded compared to later in their careers?</li>
+</ul>
+
+
+<p>I must say up front that this analysis is not without its drawbacks.</p>
+
+<ul>
+<li>I had to manually create the sex category based on first names. I actually wrote a gender classifier but I found that I could just do the laborious activity whilst watching a film and achieve a much higher accuracy than my classifier could, even if it did do it in seconds.</li>
+<li>When querying the ADS database, I used the last name and the first initial. Thankfully, most of the names a quite unique but if there are duplicate names in the ADS database, then their paper count and citation count will be inflated. In most plots, it is clear who is affected by this and in most cases, I&rsquo;m simply interested in broad trends.</li>
+<li>I combined the Einstein, Chandra and Fermi fellows into just &ldquo;Einstein fellows&rdquo; (as per <a href="http://cxc.harvard.edu/fellows/fellowslist.html">this page</a>).</li>
+</ul>
+
+
+<h1>Method</h1>
+
+<p>First I queried the ADS database for the publication profiles for each person. This involved constructing a simple dictionary with the relevant quantities I wanted to calculate. With this pruned version of the code:</p>
+
+<pre><code class="python">for paper in papers:
+    # find all papers which cite this paper
+    cites_to_paper = paper.citation
+    citation_count = paper.citation_count
+    paper_year = paper.year
+    paper_references = paper.reference
+    paper_authors = paper.author
+    if citation_count != 0:
+        for cite_to_paper in cites_to_paper:
+            # collect the year
+            year = int(cite_to_paper[:4])
+            # number of papers which cite them before award   
+            if year &lt; year_of_fellowship:
+                num_cites_before_award += 1
+            # number of papers which cite them during award (within 3 year time period)
+            if year &lt; year_of_fellowship+3 and year &gt; year_of_fellowship:
+                num_cites_during_award += 1
+            # number of papers which cite them after award  
+            if year &gt; year_of_fellowship+3:
+                num_cites_after_award += 1    
+    # get number of coauthors
+    if paper_authors: 
+        num_coauthors += len(paper_authors)-1
+    # number of papers which cite them before award   
+    if int(paper_year) &lt; year_of_fellowship:
+        num_papers_before_award += 1
+    # number of papers which cite them during award (within 3 year time period)
+    if int(paper_year) &lt; year_of_fellowship+3 and int(paper_year) &gt; year_of_fellowship:
+        num_papers_during_award += 1
+    # number of papers which cite them after award  
+    if int(paper_year) &gt; year_of_fellowship+3:
+        num_papers_after_award += 1    
+</code></pre>
+
+<p>I obtained the following new set of variables (the names of which are fairly self-explanitory:</p>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center;"> variable </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;"> <code>num_papers</code> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> <code>num_papers_before_award</code> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> <code>num_papers_during_award</code> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> <code>num_papers_after_award</code> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> <code>num_cites</code> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> <code>num_cites_before_award</code> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> <code>num_cites_during_award</code> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> <code>num_cites_after_award</code> </td>
+</tr>
+<tr>
+<td style="text-align:center;"> <code>num_coauthors</code> </td>
+</tr>
+</tbody>
+</table>
+
+
+<p>I have added these quantites to a Google Document which you can explore.</p>
+
+<p><a href="https://docs.google.com/spreadsheets/d/1ByyiRw91dAFzmwZql2kfKbFuv_glNgk1VP76J92mSnM/edit?usp=sharing"><img src="/assets/fellowships/table.png"></a></p>
+
+<h1>Results</h1>
+
+<p>With this curated dataset, I could now turn to my original list of questions</p>
+
+<h2>How many fellowship holders have there been over time?</h2>
+
+<p><img src="/assets/fellowships/total_numbers.png" title="total number of fellowship holders" alt="total number" /></p>
+
+<p>As I expected, there are a great many more Hubble fellows, followed by Einstein and Sagan fellows.</p>
+
+<h2>What is the ratio of male-to-female fellowship holders over time?</h2>
+
+<p><img src="/assets/fellowships/sex_number.png" title="total number based on sex" alt="total number based on sex" /></p>
+
+<p>The number of women compared to men shows an under 50-50 breakup across time. The late 2000s saw the highest female intake for Hubble fellows.</p>
+
+<h2>How many papers on average do each type of fellowship holder typically have before being awarded?</h2>
+
+<p><img src="/assets/fellowships/npapers_box.png" title="Number of papers per type of fellow" alt="Number of papers per type of fellow" /></p>
+
+<p>I opted to show this in a boxplot format. The redline is the median and the edges of the box represent the 25th and 75th percentile. The ends represent the maximum and minimum. From this, we see that people awarded Hubble and Einstein fellowships typically publish (median difference ~ 2) more papers than Sagan fellows at the time of their award. My feeling is that this is perhaps more indicative of the exoplanet field? I&rsquo;d be interested to hear your feedback on why there is such a difference. One thing to keep in mind is that the maximums and minimums of these box plots are likely just wrong as ADS didn&rsquo;t find a paper matching the name in the case of the minimums and that there were more than one match for a given name in the case of the maximums.</p>
+
+<h2>Is there any difference between the number of papers women and men have at the time of being awarded?</h2>
+
+<p><img src="/assets/fellowships/gender_box.png" title="number of papers by sex" alt="number of papers by gender" /></p>
+
+<p>Again, the tail of this distribution is likely wrong due to the aforementioned reasons. Here I group all the data by sex and show the number of first author papers they had the year they were awarded the fellowship. It seems that women have slightly fewer publications than men at the time of their award (median difference ~ 1).</p>
+
+<h2>How many citations do they have before, during and after the award?</h2>
+
+<p><img src="/assets/fellowships/cite_box.png" title="before during and after citations" alt="before during and after" /></p>
+
+<p>Typically, researchers have approximately ~73 citations at the time of their award, ~102 citations during their time as a fellow and ~10 citations each year thereafter.</p>
+
+<h2>Do men or women have more co-authors?</h2>
+
+<p><img src="/assets/fellowships/malevsfemale_numcoauthors.png" title="number of coauthors by sex" alt="number of coauthors by sex" /></p>
+
+<p>It seems, women have more co-authors per paper (median difference ~ 2).</p>
+
+<h2>How many co-authors do each fellow type have?</h2>
+
+<p><img src="/assets/fellowships/fellowship_numcoauthors.png" title="number of coauthors by fellowship" alt="number of coauthors by fellowship" /></p>
+
+<p>It seems Sagan fellows have by far the most number of co-authors followed by Hubble and Einstein fellows.</p>
+
+<h2>How many citations do they have when awarded compared to later in their careers?</h2>
+
+<p><img src="/assets/fellowships/malevsfemale_cites.png" title="future publications" alt="future publications" /></p>
+
+<p>There is a weak trend indicating that if you start out with many citations you tend to get many more per year in subsequent years. This makes sense as certain papers do gain momentum once sufficient circulation has been reached.</p>
+
+<h1>Conclusions</h1>
+
+<p>It isn&rsquo;t the most in-depth analysis but there are only so many hours in the day. I&rsquo;ve got a long list of other things one could investigate but not the time right now. Feel free to take my original dataset and see if there are any other metrics you might want to investigate.</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Mapping Astronomy Publications</title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:3000//blog//mapping-astronomy-publications.html" />
+  <id>http://127.0.0.1:3000//mapping-astronomy-publications</id>
+  <published>2016-03-06T00:00:00Z</published>
+  <updated>2016-03-06T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>A casual Google search of the most recent earthquake events provides a long list of <a href="(http://quakes.globalincidentmap.com/">interactive maps</a>). Generally they look like this:</p>
+
+<p><img src="/assets/paperquake/quakemap.png" title="Quake Map" alt="Quake Map" /></p>
+
+<p>This is a great way to get an instant understanding of the recent earthquake activity. Browsing one of these sites got me thinking about how I could connect this to astronomy papers. See, each paper in the literature has the following list of author affiliations:</p>
+
+<p><a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1509.01255"><img src="http://www.brendangriffen.com/assets/paperquake/aff.png"></a></p>
+
+<p>This <a href="https://github.com/andycasey/ads">Python ADS tool</a> enables me to scrape this affiliation information for all papers in the ADS database. I wanted to see if I could turn this list into a similar map to visualize the &ldquo;pulse of research&rdquo;. My goal here is to create a map akin to the seismic map above where the size of the node is proportional to the number of papers from a given institute or university.</p>
+
+<p>I didn&rsquo;t want to spend much time developing the mapping library so I went searching for a library which has already taken care of the dirty work. I discovered <a href="https://github.com/python-visualization/folium">Folium</a> which is fantastic for mapping and extremely versatile. It uses other tools such as <a href="http://leafletjs.com/">Leaflet</a>, <a href="https://www.mapbox.com/">MapBox</a> and <a href="https://www.openstreetmap.org/#map=5/51.500/-0.100">OpenStreetMap</a>. I highly recommend you check them out if you&rsquo;re interested in digital cartography.</p>
+
+<p>First I needed to get the papers that have been published last month.</p>
+
+<pre><code class="python">import ads
+from datetime import date
+today = date.today()
+papers = list(ads.SearchQuery(pubdate='{0}-{1}'.format(today.year, today.month-1), 
+                              property="refereed",
+                              fl=['first_author','aff','author','bibcode'],
+                              database='astronomy'))
+</code></pre>
+
+<p>I then cycled through all of the paper&rsquo;s affiliations and used <a href="https://github.com/geopy/geopy.git">Geopy</a> to get the latitude and longitude. The tricky part is converting what are normally very specific affiliations into more general affiliations which can be parsed by Geopy. This took a lot more time than I would have liked. To clean the affiliations, I selected only those which contained the following strings: &ldquo;depart&rdquo;, &ldquo;instit&rdquo;, &ldquo;observ&rdquo;, &ldquo;laboratory&rdquo;, &ldquo;univers&rdquo;. This limits the search to primarily universities, institutes, departments and observatories. Please let me know in the comments if there is a tag which might discount an important part of the dataset.</p>
+
+<pre><code class="python">for paper in papers:
+    # use only unique affiliations
+    unique_affiliations = list(set(paper.aff))
+    for affiliation in unique_affiliations:
+        addresses = affiliation.strip().split('; ')
+        for address in addresses:
+            clean_address = generate_searchname(address)
+            location = geolocator.geocode(clean_address)
+            print "Affiliation:      ",address
+            print "Clean Affiliation:",clean_address[:80]
+            print "Google Output:    ",location.address[:80]
+            print "Lat/Long:           %.5f, %.5f" % (location.latitude, location.longitude)
+</code></pre>
+
+<p>This outputs the specific addresses into something which could be understood by <a href="https://github.com/geopy/geopy.git">Geopy</a>. Here are some examples of successful outputs:</p>
+
+<pre><code class="text"># successful addresses
+Paper Aff:      Department of Geological Sciences, University of Michigan, Ann Arbor, MI, USA
+After Cleaning: University of Michigan,  USA
+Google Output:  University of Michigan, 500, Hayward Street, Old West Side, Ann Arbor, Washtenaw
+Lat/Long:       42.29421, -83.71003
+Paper Aff:      School of Earth Sciences and Resources, China University of Geosciences Beijing, Beijing 100083, China
+After Cleaning: China University of Geosciences Beijing, China
+Google Output:  中国地质大学（北京）, 29, 学院路, 海淀区, 后八家, 海淀区, 北京市, 100083, 中国
+Lat/Long:       39.98851, 116.34070
+Affiliation:    Université de Montpellier, France
+Google Output:  UM2, Place Eugène Bataillon, Hôpitaux-Facultés, Montpellier, Hérault, Languedoc-
+Latitude:       43.63230, 3.86427
+Paper Aff:      Instituto de Astrofísica de Canarias, Vía Lácteas/n E-38205 La Laguna, Spain
+After Cleaning: Instituto de Astrofísica de Canarias, Spain
+Google Output:  IAC, Avenida de los Menceyes, La Hornera, Cercado Mesa, San Cristóbal de La Lagu
+Lat/Long:       28.47470, -16.30822
+Paper Aff:      Instituto de Astronomía,Universidad Nacional Autonóma de México, A.P. 70-264, 04510 México D.F., México
+After Cleaning: Universidad Nacional Autonóma de México
+Google Output:  UNAM, Circuito Exterior, Universidad Nacional Autónoma de México, Coyoacán, D.F.
+Lat/Long:       19.32160, -99.18490
+Paper Aff:      Institut für Raumfahrttechnik und Weltraumnutzung, Universität der Bundeswehr München, 85577 Neubiberg, Germany
+After Cleaning: Universität der Bundeswehr München, Germany
+Google Output:  Universitätsbibliothek der Universität der Bundeswehr München, 39, Werner-Heisen
+Lat/Long:       48.08041, 11.63819
+</code></pre>
+
+<p>As you can see, there is quite a bit of success with the non-english institution names. I was worried it wouldn&rsquo;t return anything due to encoding issues. It didn&rsquo;t always work and I often couldn&rsquo;t find ways to code around the edge cases. There were a number of institutes/departments/centers which didn&rsquo;t always work as well.</p>
+
+<pre><code class="text"># failed addresses
+Input: Variable Star Observers League in Japan (VSOLJ), Japan
+Address: Variable Star Observers League in Japan (VSOLJ), 7-1 Kitahatsutomi, Kamagaya, Chiba 273-0126, Japan
+Input: Netherlands Institute for Radio Astronomy (ASTRON)
+Address: Research and Development, Netherlands Institute for Radio Astronomy (ASTRON)
+Input: National Astronomical Observatory of Japan, Japan
+Address: National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka-shi, Tokyo 181-8588, Japan
+Input: Woods Hole Oceanographic Institute,  USA
+Address: Geology and Geophysics Department, Woods Hole Oceanographic Institute, Woods Hole, MA, USA
+</code></pre>
+
+<p>My code didn&rsquo;t every institute so I apologize if your paper isn&rsquo;t on the map. Some of the addresses seem perfectly normal and return good Google results but alas, they weren&rsquo;t picked up. The only hurdle remaining was to make sure that I didn&rsquo;t double count papers and collected papers which came from the same institute across multiple papers. Take for instance the Max Planck Institute papers from Garching:</p>
+
+<pre><code class="text">Max Planck Institut for Astrophysics, Garching,  Germany
+Max Planck Institute for extraterrestrische Physik, Garching,  Germany
+Max Planck Institute for Extraterrestrial Physics, Garching,  Germany
+Max Planck Institute for extraterrestrische Physik, Garching,  Germany
+Max Planck Institute fur Astrophysics, Garching,  Germany
+Max Planck Institute for extraterrestrische Physik (MPE), Garching,  Germany
+</code></pre>
+
+<p>All of these had to be put in the same bin otherwise they would be separate institutes.  Once I took care of these edge cases and had the unique self-similar keys for each location I simply populated them with the relevant paper information (e.g. authors). Again, a little coding gymnastics was required to get this all in working order.</p>
+
+<p>Once all the time-consuming part is finished, it was trivial to populate a map with the relevant information using Folium.</p>
+
+<pre><code class="python">import folium
+# center the map above the equator.
+pub_map = folium.Map(location=[30,0],zoom_start=2)
+# set base circle
+base = 1500
+# loop through all the institutions and set the size of the circle based on the number of papers
+for key in data.keys():    
+    npapers = len(data[key]['bibcode'])
+    marker_name = key.title() + " published " + str(npapers) + " paper(s)"
+    folium.CircleMarker([data[key]['lat'], data[key]['long']],
+                         radius=base*npapers,
+                         color='#3186cc',
+                         popup=marker_name,
+                         fill_color='#3186cc').add_to(pub_map)
+
+# write to file
+pub_map.save('map.html') 
+</code></pre>
+
+<p>Click for either the <a href="http://www.brendangriffen.com/assets/paperquake/paperquake.png">PNG</a> or <a href="/assets/paperquake/map.html" title="Paper Quake!">interactive</a> versions. The image below also links to the interactive version.</p>
+
+<p><a href="http://brendangriffen.com/assets/paperquake/map.html"><img src="http://www.brendangriffen.com/assets/paperquake/paperquake.png"></a></p>
+
+<p>It is kind of exciting to think that every one of these dots represents a new type of inquiry into how the Universe works. Unfortunately, I often narrow my sights to institutes that have people publishing in my own field. This map clearly shows my own ignorance &ndash; there is a vast hive of activity happening all over the world.</p>
+
+<p>I must confess this map only shows ~200 paper&rsquo;s worth of affiliations. I maxed out my API request to Google and couldn&rsquo;t get the full list for the month of February. Also, if the name isn&rsquo;t associated with the institute you select that is because it is the <em>first author</em> of the paper, not necessarily the person attached to that institute. Shoutout to <a href="mailto:jonathan.elliott@cfa.harvard.edu">Jonny Elliot</a> at ADS for assisting with some query optimization.</p>
+
+<p>This is all I had time for last night but one could in principle extend this map to look at the publications over different time periods (e.g. one year) or perhaps geographic clusterings of co-authorship (e.g. highlight nodes which are collaborating together). One could also improve the GUI to better investigate papers or institutes of particular interest. I leave these as an exercise to the reader.</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">The Astronomy Job Hunt Made Easy</title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:3000//blog//the-astronomy-job-hunt-made-easy.html" />
+  <id>http://127.0.0.1:3000//the-astronomy-job-hunt-made-easy</id>
+  <published>2016-02-29T00:00:00Z</published>
+  <updated>2016-02-29T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>Most of the job hunting season is behind us and for many astronomers, firm decisions about the direction of our careers and lives have been set in motion. For the uninitiated, every Fall (northern hemisphere) astronomers facing the end of their contracts (whether that be as a PhD student, postdoc or research scientist) head to the dreaded <a href="https://jobregister.aas.org/">ADS Job Register</a> to see what possible future awaits them (assuming they decide to stay in the field).</p>
+
+<p>I don&rsquo;t know about how my other colleagues feel about this site but I think it is extremely hard to get your desired information. You have to scroll through all the job links and open up separate tabs to determine if jobs titled &ldquo;postdoc in cosmology&rdquo; is for you. Then many of us compile a spreadsheet of the possible options with various due dates and contact emails to actually apply for. Then you also have to do this each month as some fellowships and postdoctoral positions are only announced at particular times. This becomes extremely tedious and only compounds the mental anguish of actually having to intellectually prostitute oneself in the best possible fashion in the hope of being one of the diminishing few to obtain a position.</p>
+
+<p>I wanted to make this process easier so I coded up <a href="https://github.com/bgriffen/easyaasjobs">Easy AAS Jobs</a>. It is a small piece of code based on some other scraping code by <a href="https://github.com/gully">Gully</a>.</p>
+
+<p>In order to get the code working, here are some instructions:</p>
+
+<ol>
+<li>Select the career options you would like to query.</li>
+<li>Select your display options. Note: it is best to just do a full query on your keywords first, then from the in-browser table, select <code>jobids</code> (1st column) which are of interest to you. Add those job ids to the job_ids_filter below.</li>
+<li>Re-run code with your <code>jobids</code> selected and create your deadline plot.</li>
+</ol>
+
+
+<pre><code class="python"># career options
+# select which jobs you would like
+WANT_FACULTY_JOBS = False
+WANT_POSTDOC_JOB = True
+WANT_PHD = False
+WANT_ENGINEERING_OR_TECHSTAFF_JOB = False
+WANT_MANAGEMENT_JOBS = False
+WANT_OTHER_JOBS = False
+
+# display/output options
+WANT_JOBS_PAST_DEADLINE = False  # do you want jobs past the deadline?
+OPEN_RESULTS_IN_BROWSER = True   # do you want a query table in browser?
+WANT_DEADLINE_PLOT = True        # do you want a time line made?
+SELECT_OVER_KEYWORDS = True      # do you want to only include the keywords (in descriptions) selected below?
+FILTER_OVER_JOB_ID = False       # do you want only specific job ids (best to set once you've queried the keyword selected jobs)
+PLOT_KEYWORD_HIST = True         # do you want a histogram of the keywords?
+
+# select your filtered job ids
+if FILTER_OVER_JOB_ID: job_ids_filter = [51388,51391,51554,51591,51624]
+
+# select your keywords
+keywords = ['theor', 'data-intensive', 'computational', 
+            'galax','data science','statistics','simulations', 
+            'high performance computing']
+</code></pre>
+
+<p>To run:</p>
+
+<pre><code class="bash">&gt; python getastrojobs.py
+</code></pre>
+
+<p>Let it compile the data products first, then re-run for analysis. Here are some examples of the types of figures one can make.</p>
+
+<h2>Deadlines specific to your jobs</h2>
+
+<p><img src="https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/jobs_left_timeline.png" title="Deadlines" alt="histogram" /></p>
+
+<h2>Display All Your Jobs In One Table (In Browser)</h2>
+
+<p>I&rsquo;ve found this table particularly useful for deciding if a particular job on offer was of interest (note the announcement details). I also added in a <code>days_left</code> column which tells you how to prioritize applications (i.e. days remaining until due).</p>
+
+<p><img src="https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/easyaasjobstable.png" title="jobs table" alt="tables" /></p>
+
+<h2>Keyword Histograms</h2>
+
+<p>This is more a curiosity than an actual practical plot. It just gives you an idea of the most popular job announcements given a set of keywords.
+<img src="https://raw.githubusercontent.com/bgriffen/easyaasjobs/master/keywords.png" title="Keywords" alt="deadlines" /></p>
+
+<p>It might be a little late in the game to be publishing this but perhaps it might be of use to people for the following year. Good luck!</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Spotify Playlists In Python Based On Upcoming Local Bands</title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:3000//blog//making-spotify-playlists-in-python-based-on-upcoming-local-bands.html" />
+  <id>http://127.0.0.1:3000//making-spotify-playlists-in-python-based-on-upcoming-local-bands</id>
+  <published>2014-12-22T00:00:00Z</published>
+  <updated>2014-12-22T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>Today it is extremely easy to access music. The days of celebrating 4kb/s via Napster are long over. For a small fee or even for free, you can access large quantities of music, on demand. If you know of a band or song, it is easy to find it on Youtube or Spotify (or any of the other services). This is great if you <em>already know</em> the music you are looking for. What about for bands you haven&rsquo;t heard? Yes, there are ways to <a href="http://techcrunch.com/2012/12/06/spotify-following/">discover new music based on current tastes</a> but what about something a little closer to home - what about finding new music which happens to be playing in your local area?</p>
+
+<p>Ordinarily you might go to a website which lists local bands. Then the process of copying and pasting the band names into your music provider manually to hear what sort of music they offered would follow. Many hours of human life are wasted all over the world in carrying out this monotonous process. Continually doing this led to my idea of automating this tedious process via a short and simple program.</p>
+
+<p>I set about making a short program which finds bands with upcoming shows in your area and loads them into a Spotify playlist, auto-magically. My data source for bands is the well known, <a href="http://www.boweryboston.com/see-all-shows/">Bowery Boston</a> which promotes upcoming bands playing in the Boston area. Skip to the bottom of the post for playlists for other cities.</p>
+
+<p><a href="/assets/spotifylocalbands/bowery_boston.png"><img src="/assets/spotifylocalbands/bowery_boston.png" alt="spotify-playlists" /></a></p>
+
+<p>Using this list I created a Spotify playlist containing the top few tracks (as judged by Spotify) of each of the bands about to have a show. I now run this once a month and sync it to my phone. If there is any new music which catches my ear and the price is right, I&rsquo;ll go ahead and buy a ticket.</p>
+
+<p>My only point of reference was <a href="https://mborgerson.com/creating-a-playlist-in-spotify-using-python/">this nice post</a> by <a href="https://twitter.com/MattBorgerson">Matt Borgerson</a>. His <a href="https://github.com/mborgerson/spotify-playlist-from-csv">original code</a> converted a csv file into a playlist - which is a great tool if you already know what bands <em>and</em> tracks you want to listen to. I had to design something slightly different.</p>
+
+<p>For the following code to work you require Python, libspotify, the pyspotify bindings and critically a Premium Spotify account (sorry!). Alternatively, if you have the free service but still want this content, you can just add this <a href="https://open.spotify.com/user/1254170771/playlist/1Shh4ljWPQrcsvpTKtppm5">Spotify link</a> which will updated the playlist for you. This code can be found at <a href="https://github.com/bgriffen/spotifylocalbands">this Github repository</a>.</p>
+
+<pre><code class="python">import requests
+import bs4
+import spotify
+import sys
+import threading
+
+"""
+Requirements:
+libspotify:     https://developer.spotify.com/technologies/libspotify/
+pyspotify:      https://github.com/mopidy/pyspotify
+developer key:  https://devaccount.spotify.com/my-account/keys/
+
+Enjoy the tunes!
+
+"""
+
+logged_in_event = threading.Event()
+
+def connection_state_listener(session):
+    if session.connection.state is spotify.ConnectionState.LOGGED_IN:
+        logged_in_event.set()
+        session = spotify.Session()
+
+session = spotify.Session()
+session.on(spotify.SessionEvent.CONNECTION_STATE_UPDATED,connection_state_listener)
+session.login('username','password')
+
+# somtimes you won't be able to be logged in the first item around
+while not logged_in_event.wait(0.1):
+     session.process_events()
+
+url_name = "http://www.boweryboston.com/see-all-shows/"
+response = requests.get(url_name)
+soup = bs4.BeautifulSoup(response.text)
+
+# scrape the relevant information and put into a list
+bands_split = [elm.a.text.split(",") for elm in soup.find_all('h1',class_='headliners summary')]
+
+# don't forget the support acts!
+supports = [elm.a.text for elm in soup.find_all('h2',class_='supports')]
+bands = sum(bands_split,[])
+all_bands = list(set(bands+supports))
+
+print "Upcoming bands playing around Boston."
+for band in all_bands:
+    print band
+print
+print "Adding TOP 3 songs of each band to a Spotify playlist..."
+all_tracks = []
+for band in all_bands:
+    try:
+        if len(band) != 0:
+            search = session.search(str(band))
+            search.load()
+            if len(search.tracks) &gt; 0:
+                # take the top 5 tracks
+                for i,track in enumerate(search.tracks):
+                    if i &lt;= 2:
+                        all_tracks.append(track)
+    except UnicodeEncodeError:
+        print "UNICODE ERROR - Can't add:",band
+
+# check if you've already made this playlist before
+exists = False
+for i,playlisti in enumerate(session.playlist_container):
+    print playlisti.name
+    if "Upcoming LIVE Boston Music" in playlisti.name:
+        exists = True
+        playlisti.remove_tracks(np.arange(len(playlisti.tracks)))
+        print "Playlist already exists - removing and updating with new tracks!"
+
+if not exists:
+    print "Adding %i band, totalling %i tracks!" % (len(all_bands),len(all_tracks))
+    session.playlist_container.add_new_playlist("Upcoming LIVE Boston Music")
+    playlisti = session.playlist_container[-1]
+
+print "Adding tracks to:",playlisti.name
+playlisti.add_tracks(all_tracks)
+playlisti.load()
+session.logout()
+
+print "Check your new playlist soon!"
+</code></pre>
+
+<p>The terminal output will be something like the following:</p>
+
+<pre><code class="bash">Upcoming bands playing around Boston....
+Wild Child
+Future Islands
+Caroline Smith
+Rohan Padhye
+Sylvan Esso
+The Green
+Sidewalk Driver
+The Fagettes
+Abhishek Shah
+Front Porch Step
+Cropduster
+Preservation Hall Jazz Band
+Sorority Noise
+The Beautiful Ones
+...
+Adding TOP 3 songs of each band to a Spotify playlist...
+Adding 222 band, totaling 541 tracks!
+Adding tracks to playlist: Upcoming LIVE Boston Music
+</code></pre>
+
+<p><em>small caveat: rarely the program will scrape the wrong band - please forgive me if it does.</em></p>
+
+<p>Here is an example of what one of these playlists might look like inside Spotify. It may take a short while for it to show up (a restart sometimes helps).</p>
+
+<p><a href="/assets/spotifylocalbands/spotify_playlist.png"><img src="/assets/spotifylocalbands/spotify_playlist.png" alt="spotify-playlists" /></a></p>
+
+<p>Or you can try it out directly!</p>
+
+<center>
+<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3A1254170771%3Aplaylist%3A1Shh4ljWPQrcsvpTKtppm5" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>  
+</center>
+
+
+<p></p>
+
+<p>Again, if you don&rsquo;t have any programming experience or don&rsquo;t have a Premium Spotify account <a href="https://open.spotify.com/user/1254170771/playlist/1Shh4ljWPQrcsvpTKtppm5">this playlist</a> is public if you still want the playlist for the Boston area (this will work if you have a free account). I&rsquo;ll use my account update it at the start of the every month.</p>
+
+<p>If you know of a website which compiles local music in your area perhaps you could try to modify what I&rsquo;ve done and make your own playlist. In any case, I hope you enjoy the new music, soon to be playing live, somewhere near you.</p>
+
+<p>By popular requests, I&rsquo;ve added playlists here for:</p>
+
+<p><strong>Australia</strong></p>
+
+<ul>
+<li><a href="https://open.spotify.com/user/1254170771/playlist/2NTVU0043xOyybaDw65rPl">Brisbane</a></li>
+<li><a href="https://open.spotify.com/user/1254170771/playlist/0xjEwsrg3BWL97kNR5JWny">Sydney</a></li>
+<li><a href="https://open.spotify.com/user/1254170771/playlist/5AUh7aL3Wvjgi85a6lyVD9">Melbourne</a></li>
+</ul>
+
+
+<p><strong>USA</strong></p>
+
+<ul>
+<li><a href="https://open.spotify.com/user/1254170771/playlist/2DaCoNbB5ICwXaVGBX7mvo">Madison</a></li>
+<li><a href="https://open.spotify.com/user/1254170771/playlist/1Shh4ljWPQrcsvpTKtppm5">Boston</a></li>
+</ul>
+
+
+<p>Unlike the Bowery Boston playlist generated above, these are based on <a href="https://www.songkick.com/home">Songkick</a> bands. Let me know below if you want some other cities.</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Generating An Institute's Publication Profile</title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:3000//blog//institute-publication-profile.html" />
+  <id>http://127.0.0.1:3000//institute-publication-profile</id>
+  <published>2014-11-05T00:00:00Z</published>
+  <updated>2014-11-05T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>Today I wanted to get an idea of my home institute&rsquo;s publication profile based on the <a href="http://space.mit.edu/people/all">staff list from its own website</a>. I&rsquo;m sure if you&rsquo;re in academia you would have the same for your own. My list includes members which belong to various categories: faculty, affiliated faculty, postdoctoral scholar, student and technical staff.</p>
+
+<p>To build the profile, we need to make use of ADS metrics. For example we can search for a paper of interest on ADS labs:</p>
+
+<p><a href="/assets/adspython/example_paper.png"><img src="/assets/adspython/example_paper.png" alt="Paper" /></a></p>
+
+<p>Then we can click on <code>Analyze</code> in the top right to bring up a new panel of information:</p>
+
+<p><a href="/assets/adspython/example_metrics.png"><img src="/assets/adspython/example_metric.png" alt="Metric" /></a></p>
+
+<p>Using <a href="https://github.com/andycasey/ads">ADS-python</a>, I can access these metrics for an author with the simple line:</p>
+
+<pre><code class="python">import ads
+metrics = ads.metrics(author_name)
+
+print metrics[0]
+
+{u'all_reads': {u'Average_number_of_downloads': 73.0,
+  u'Average_number_of_reads': 218.8,
+  u'Median_number_of_downloads': 53.0,
+  u'Median_number_of_reads': 173.5,
+  u'Normalized_number_of_downloads': 1.8,
+  u'Normalized_number_of_reads': 5.2,
+  u'Total_number_of_downloads': 1460,
+  u'Total_number_of_reads': 4375},
+ u'all_stats': {u'Average_citations': 9.6,
+  u'Average_refereed_citations': 5.9,
+  u'H-index': 7,
+  u'Median_citations': 5.5,
+  u'Median_refereed_citations': 2.0,
+  u'Normalized_citations': 0.2,
+  u'Normalized_paper_count': 0.1,
+  u'Normalized_refereed_citations': 0.1,
+  u'Number_of_citing_papers': 160,
+  u'Number_of_papers': 20,
+  u'Refereed_citations': 118,
+  u'Total_citations': 192,
+  u'e-index': 10.2,
+  u'g-index': 13,
+  u'i10-index': 5,
+  u'i100-index': 0,
+  u'm-index': 3.5,
+  u'read10_index': 1,
+  u'roq_index': 41.0,
+  u'self-citations': 12,
+  u'tori_index': 0.0},
+ u'citation_histogram': {u'2013': [23.0,
+   19.0,
+   23.0,
+   19.0,
+   0.0309913153179,
+   0.0251989779794,
+   0.0309913153179,
+   0.0251989779794],
+  u'2014': [169.0,
+   99.0,
+   154.0,
+   97.0,
+   0.207952689976,
+   0.123712598875,
+   0.190817259927,
+   0.121428547883],
+  u'type': u'citation_histogram'},
+ u'metrics_series': {u'2013': [2.0,
+   4.0,
+   1.0,
+   0.00125995174574,
+   2.0,
+   35.0,
+   0.0,
+   0.0],
+  u'2014': [7.0, 13.0, 5.0, 0.00685960767226, 3.5, 41.0, 0.0, 0.0],
+  u'type': u'metrics_series'},
+ u'paper_histogram': {u'2013': [4.0, 4.0, 0.00504776053564, 0.00504776053564],
+  u'2014': [16.0, 11.0, 0.0659490983056, 0.0125452264852],
+  u'type': u'publication_histogram'},
+ u'reads_histogram': {u'1996': [0.0, 0.0, 0.0, 0.0],
+  u'1997': [0.0, 0.0, 0.0, 0.0],
+  u'1998': [0.0, 0.0, 0.0, 0.0],
+  u'1999': [0.0, 0.0, 0.0, 0.0],
+  u'2000': [0.0, 0.0, 0.0, 0.0],
+  u'2001': [0.0, 0.0, 0.0, 0.0],
+  u'2002': [0.0, 0.0, 0.0, 0.0],
+  u'2003': [0.0, 0.0, 0.0, 0.0],
+  u'2004': [0.0, 0.0, 0.0, 0.0],
+  u'2005': [0.0, 0.0, 0.0, 0.0],
+  u'2006': [0.0, 0.0, 0.0, 0.0],
+  u'2007': [0.0, 0.0, 0.0, 0.0],
+  u'2008': [0.0, 0.0, 0.0, 0.0],
+  u'2009': [0.0, 0.0, 0.0, 0.0],
+  u'2010': [0.0, 0.0, 0.0, 0.0],
+  u'2011': [0.0, 0.0, 0.0, 0.0],
+  u'2012': [0.0, 0.0, 0.0, 0.0],
+  u'2013': [951.0, 951.0, 1.14041166693, 1.14041166693],
+  u'2014': [3424.0, 3037.0, 4.10556990785, 3.50217212234],
+  u'type': u'reads_histogram'},
+ u'refereed_reads': {u'Average_number_of_downloads': 87.4,
+  u'Average_number_of_reads': 265.9,
+  u'Median_number_of_downloads': 55.0,
+  u'Median_number_of_reads': 179.0,
+  u'Normalized_number_of_downloads': 1.5,
+  u'Normalized_number_of_reads': 4.6,
+  u'Total_number_of_downloads': 1311,
+  u'Total_number_of_reads': 3988},
+ u'refereed_stats': {u'Average_citations': 11.8,
+  u'Average_refereed_citations': 7.7,
+  u'H-index': 7,
+  u'Median_citations': 7.0,
+  u'Median_refereed_citations': 4.0,
+  u'Normalized_citations': 0.2,
+  u'Normalized_paper_count': 0.0,
+  u'Normalized_refereed_citations': 0.1,
+  u'Number_of_citing_papers': 150,
+  u'Number_of_papers': 15,
+  u'Refereed_citations': 116,
+  u'Total_citations': 177,
+  u'e-index': 10.2,
+  u'g-index': 13,
+  u'i10-index': 5,
+  u'i100-index': 0,
+  u'm-index': 3.5,
+  u'read10_index': 1,
+  u'roq_index': 40.0,
+  u'self-citations': 10,
+  u'tori_index': 0.0}}
+</code></pre>
+
+<p>Using this data, we can take a look at the distribution of citations, papers and number of people for each of the respective positions.</p>
+
+<p><a href="/assets/adspython/mki_profile.png"><img src="/assets/adspython/mki_profile.png" alt="MKI Profile" /></a></p>
+
+<p>3 conclusions can be made about MKI:</p>
+
+<ul>
+<li>There are more students than any other position.</li>
+<li>Students publish the most number of papers.</li>
+<li>Postdocs, faculty and students roughly equally share overall citation count.</li>
+</ul>
+
+
+<p>Though it must be stated that there could be false-positives being found for people who have the same name and this would inflate the number of publications. In any case, I just wanted to demonstrate some basic utility of the data.</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Creating Digests Of The Astronomy Arxiv</title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:3000//blog//creating-digests-of-ads.html" />
+  <id>http://127.0.0.1:3000//creating-digests-of-ads</id>
+  <published>2014-11-04T00:00:00Z</published>
+  <updated>2014-11-04T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>I took another look at <a href="https://github.com/andycasey/ads">ADS-python</a> (a python tool for ADS) developed by <a href="http://astrowizici.st/">Andy Casey</a>. I modified his example script to email myself a digest of all of the papers published by my institute in the past month. I set it up as an automated cron job (<code>10 0 1 * * python script.py</code>) to be run on the 1st of each month so I don&rsquo;t have to run the script anymore to get the digest. You will need <a href="https://github.com/alexandrevicenzi/fluentmail">FluentMail</a> for this to work. You will also need to allow Gmail to receive login requests from less familiar apps. If you want to use a different email client see <a href="https://github.com/alexandrevicenzi/fluentmail#common-smtp-servers">here</a>. I&rsquo;ve setup a <a href="http://www.github.com/bgriffen/ads.git">GitHub repository</a> for these codes and future codes relating to work done with ADS.</p>
+
+<pre><code class="python"># Core libraries
+from time import localtime
+import sys,os
+import subprocess as sub
+
+# Module Libraries
+import ads
+from fluentmail import FluentMail
+
+mail = FluentMail('smtp.gmail.com', 465, 'SSL')
+email_address = 'brendan.f.griffen@gmail.com'
+email_password = 'password'
+output_directory = "./"
+download_papers = False
+my_affiliation = '"Kavli Institute For Astrophysics"'
+
+if __name__ == "__main__":
+
+    # Let's do it for *last* month
+    current_time = localtime()
+
+    # Last month
+    year = current_time.tm_year - 1 if current_time.tm_mon == 1 else current_time.tm_year
+    month = current_time.tm_mon - 1 if current_time.tm_mon &gt; 1 else 12
+
+    # Get all the articles
+    articles1 = ads.search(
+        affiliation=my_affiliation,
+        filter="database:astronomy AND property:refereed",
+        dates="{year}/{month}".format(year=year, month=month))
+
+    articles = list(articles1)
+    print("There were {0} articles found for {year}/{month} with MKI co-authors.".format(len(articles),year=year, month=month))
+
+    # Sort articles
+    sorted_articles = sorted(articles,
+        key=lambda article: [(my_affiliation.strip('"').lower() in affiliation.lower()) for affiliation in article.aff].index(True))
+
+    # Option to download these papers
+    if download_papers:
+        output_folder = output_directory + "{year}_{month}".format(year=year,month=month)
+        cmd_make_this_months_folder = "mkdir -p " + output_folder
+        sub.call([cmd_make_this_months_folder],shell=True)
+
+        filename = output_folder + "/" + article.bibcode + ".pdf"
+        if not os.path.isfile(filename):
+            ads.retrieve_article(article, output_filename=output_folder + "/" + article.bibcode + ".pdf")
+
+    # Construct email content
+    email_content = "There were {num} articles published by astronomy researchers from the {my_affiliation} last month ({year}/{month})"\
+                    .format(num=len(articles),my_affiliation=my_affiliation,year=year,month=month)
+
+    for article in sorted_articles:
+        email_content += article.author[0].split(",")[0] + " et al.\n" +\
+                         article.title[0] + "\n" + article.abstract + "\n" +\
+                         article.url + "\n\n"
+
+    # Email yourself the digest
+    mail.credentials(email_address, email_password)\
+    .from_address(email_address).to(email_address)\
+    .subject('Monthly Institute Arxiv Digest')\
+    .body(email_content)\
+    .send()
+</code></pre>
+
+<p>Here is an example of what one of these emails might look like:</p>
+
+<p><a href="/assets/adspython/monthly_arxiv_digest.png"><img src="/assets/adspython/monthly_arxiv_digest.png" alt="Digest" /></a></p>
+
+<p>I usually read new papers through my RSS reader <a href="http://www.feedly.com">Feedly</a>, which has a feature which tells you roughly how many people have also bookmarked that paper (see the left side). I think this is a rough proxy for &lsquo;interest&rsquo; and I often take more notice of papers with a high number of bookmarks.</p>
+
+<p><a href="/assets/adspython/feedly_popular_papers.png"><img src="/assets/adspython/feedly_popular_papers.png" alt="Most popular" /></a></p>
+
+<p> I wanted a &lsquo;top 10 most popular&rsquo; list from the ADS listings from &lsquo;yesterday&rsquo; - whenever that may be. It is convenient to know what is making headlines in the community.</p>
+
+<pre><code class="python"># Core libraries
+from time import localtime
+import numpy as np
+
+# Module Libraries
+import ads
+from fluentmail import FluentMail
+
+mail = FluentMail('smtp.gmail.com', 465, 'SSL')
+email_address = 'brendan.f.griffen@gmail.com'
+email_password = 'password'
+email_content = ""
+
+if __name__ == "__main__":
+    current_time = localtime()
+    year = current_time.tm_year
+    month = current_time.tm_mon
+    day = current_time.tm_mday-1 # yesterday
+
+    # Get papers
+    papers = list(ads.query(dates="{year}/{month}/{day}"\
+            .format(year=year, month=month, day=day),filter="database:astronomy", rows=200))
+
+    # Get number of reads
+    num_reads_list = []
+    for paper in papers:
+        num_reads = paper.metrics['all_reads']['Total_number_of_reads']
+        num_reads_list.append(num_reads)
+
+    idx_num_reads = np.argsort(np.array(num_reads_list))[::-1]
+
+    # Construct email content
+    email_content = "Top viewed papers for {day}/{month}/{year}\n\n"\
+                    .format(year=year, month=month, day=day)
+
+    for idx,i in enumerate(idx_num_reads[:10]):
+        email_content += str(idx+1) + ". " + \
+        papers[i].author[0].split(",")[0] + " et al. &gt; # reads: " + \
+        str(papers[i].metrics['all_reads']['Total_number_of_reads']) + "\n" + \
+        papers[i].title[0] + "\n" + \
+        papers[i].abstract + "\n" + \
+        papers[i].url + "\n\n"
+
+    print email_content
+    # Email content
+    mail.credentials(email_address, email_password)\
+    .from_address(email_address)\
+    .to(email_address)\
+    .subject("Yesterday's most popular papers!")\
+    .body(email_content)\
+    .send()
+</code></pre>
+
+<p>Here is an example of what one of these emails might look like:</p>
+
+<p><a href="/assets/adspython/yesterdays_most_popular.png"><img src="/assets/adspython/yesterdays_most_popular.png" alt="Most popular" /></a></p>
+
+<p>This is really only the beginning of the sort of thing you can do with nice Python-esk access to the ADS database.</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Music and Mortality</title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:3000//blog//music-and-mortality.html" />
+  <id>http://127.0.0.1:3000//music-and-mortality</id>
+  <published>2014-03-28T00:00:00Z</published>
+  <updated>2014-03-28T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>The <a href="https://en.wikipedia.org/wiki/27_Club">27-club</a> is a group of musicians who have died at the age of 27. Charles Cross, a Hendrix biographer put it as follows:</p>
+
+<blockquote><p>The number of musicians who died at 27 is truly remarkable by any standard. [Although] humans die regularly at all ages, there is a statistical spike for musicians who die at 27.</p></blockquote>
+
+<p>There are a large number of famous musicians who have all died at the age of 27 (e.g. Brian Jones, Alan Wilson, Jimi Hendrix, Janis Joplin and Jim Morrison to name a few). Though, is this just bias on our part or does the data stack up? I decided to investigate the validity of this claim and dig a little deeper combining lifespan statistics within the classic genres, jazz, blues, rock, metal, folk and classical. I then combined the artist information with Last.fm&rsquo;s API to get a proxy for the popularity of an artist now and see if there is any correlation with their lifespan. Do you tend to live a shorter life if you&rsquo;re more popular? If you don&rsquo;t have the time to read the whole post, here are my main conclusions:</p>
+
+<ul>
+<li>classical musicians live the longest on average</li>
+<li>metal musicians live the shortest on average</li>
+<li>all musicians seem to live shorter lives than average</li>
+<li>there is a very weak trend indicating that the more populare you are, the shorter your life span.</li>
+<li>there is no &ldquo;27-club&rdquo; when looking at the entire lifespans of the musicians in any genre (possible origins: romanticism)</li>
+</ul>
+
+
+<p>Read on if you would like to learn how I came to these conclusions.</p>
+
+<h2>The Data</h2>
+
+<p>I needed a few things to tackle this problem. A list of artists and their known life spans and also some information about their popularity. I had already mined Wikipedia via DBpedia so I went back through some old code. You can execute it in the <a href="http://dbpedia.org/sparql">Virtuoso SPARQL Query Editory</a>.</p>
+
+<pre><code class="sql">SELECT DISTINCT str(?plabel) str(?glabel) 
+       ?died ?born
+       ( 
+         IF 
+           (
+             ( datatype (?born) in (xsd:dateTime, xsd:date) )
+             and
+             ( datatype (?died) in (xsd:dateTime, xsd:date) ),
+             bif:datediff('year',xsd:dateTime(str(?born)),xsd:dateTime(str(?died))),
+             "error" 
+           ) 
+       ) AS ?age
+WHERE 
+  { 
+    {
+      SELECT DISTINCT ?person ?plabel ?genre ?glabel ?died ?born 
+      FROM &lt;http://dbpedia.org&gt; 
+      WHERE 
+        { 
+          ?person a &lt;http://dbpedia.org/ontology/MusicalArtist&gt; ;
+                     &lt;http://dbpedia.org/ontology/genre&gt; ?genre ;
+                  &lt;http://dbpedia.org/ontology/deathDate&gt; ?died ;
+                                             rdfs:label ?plabel ;
+                  &lt;http://dbpedia.org/ontology/birthDate&gt; ?born .
+          ?genre rdfs:label ?glabel .
+          FILTER ( lang(?plabel) = "en" )
+          FILTER ( lang(?glabel) = "en" )
+        }
+      ORDER BY DESC ( &lt;LONG::IRI_RANK&gt; (?person) )
+    }
+  }
+</code></pre>
+
+<p>This code extracts our the known information about the musicians and results in the following output:</p>
+
+<pre><code class="text">...
+"Michael Jackson","Pop music",2009-06-25,1958-08-29
+"Michael Jackson","Rock music",2009-06-25,1958-08-29
+"Michael Jackson","Soul music",2009-06-25,1958-08-29
+"Michael Jackson","Disco",2009-06-25,1958-08-29
+"Michael Jackson","Funk",2009-06-25,1958-08-29
+"Michael Jackson","Rhythm and blues",2009-06-25,1958-08-29
+"Michael Jackson","New jack swing",2009-06-25,1958-08-29
+"Elvis Presley","Gospel music",1977-08-16,1935-01-08
+"Elvis Presley","Pop music",1977-08-16,1935-01-08
+"Elvis Presley","Blues",1977-08-16,1935-01-08
+"Elvis Presley","Country music",1977-08-16,1935-01-08
+"Elvis Presley","Rhythm and blues",1977-08-16,1935-01-08
+"Elvis Presley","Rock and roll",1977-08-16,1935-01-08
+"Elvis Presley","Rockabilly",1977-08-16,1935-01-08
+"George Harrison","Pop music",2001-11-29,1943-02-25
+...
+9209 rows
+</code></pre>
+
+<p>I then had to get a way to find out how popular they were so I just searched through Spotify, Last.fm etc. until I found a convenient API and companion module which allowed me to get play counts. It turns out <a href="http://www.last.fm/">Last.fm</a> has <a href="http://www.last.fm/api">a nice API</a> which has been made digestible in a <a href="https://code.google.com/p/python-lastfm/">python-lastfm module</a>. First I had to load them into Python which was slightly non-trivial as there are some odd names to deal with. The following code got most of them except for 79 artists which had birth/death dates which were incomplete.</p>
+
+<pre><code class="python">with open(filename) as f:
+    for line in f:
+        line_split = line.split(',')
+        # this dirty code correctly splits unusual names (e.g. Jr.)
+        if "Jr." in line_split[1] or "Sr." in line_split[1]:
+            nametmp = line_split[0]+''+line_split[1]
+            inx = 1
+        else:
+            nametmp = line_split[0].replace("(musician)","")
+            nametmp = line_split[0].replace("(singer)","")
+
+        inx = 0
+
+        byear = line_split[2+inx].replace('"',"")
+        dyear = line_split[3+inx].replace('"',"")
+        try:
+            # datetime module only works with dates later than 1900 :(
+            if int(dyear.split('-')[0]) &gt; 1900 and int(dyear.split('-')[0]) &gt; 1900:
+                birthdate = datetime.strptime(byear,"%Y-%m-%d")
+                deathdate = datetime.strptime(dyear,"%Y-%m-%d")
+                lifespan = relativedelta(birthdate,deathdate).years
+
+                # check they are not still alive
+                if birthdate.year  == deathdate.year  or lifespan &lt; 5:
+                    print "STILL ALIVE!", nametmp,lifespan
+                elif birthdate.year != deathdate.year and lifespan &gt; 7:
+                    # now we are just dealing with the dead ones
+                    lifespan = relativedelta(birthdate,deathdate).years
+                    birthdates.append(birthdate)
+                    deathdates.append(deathdate)
+
+                    ages.append(lifespan)
+                    birth.append(line_split[2+inx])
+                    death.append(line_split[3+inx])
+
+                    # I also checked month/day distributions for fun
+                    deathday.append(deathdate.strftime("%A"))
+                    birthday.append(birthdate.strftime("%A"))
+                    deathmonth.append(deathdate.strftime("%B"))
+                    birthmonth.append(birthdate.strftime("%B"))
+
+                    artists.append(nametmp.strip('"'))
+                    genres.append(line_split[1+inx].strip('"'))
+
+        except ValueError:
+            print "VALUE ERROR"
+            missed += 1
+</code></pre>
+
+<p>I then built a dictionary over each genre I wanted to include. I&rsquo;m absolutely certain there are better ways of doing this but I didn&rsquo;t have time to try more intelligent methods (suggestions welcome).</p>
+
+<pre><code class="python"># initialize dictionary
+averageagelist = {'rock':[],'jazz':[],'folk':[],'metal':[],'blues':[],'classical':[],'pop':[],'misc':[]}
+#... and other dictionaries to be used
+
+for i in xrange(0,len(artists)):
+    found = False
+    # get list of genres a given artist belongs to
+    catuselist = []
+    for cat in categories:
+        if cat in genres[i]:
+            found = True
+            catuselist.append(cat)
+
+    if not found:
+        catuselist = ['misc']
+
+    # update respective list in dictionary
+    for shortname in catuselist:        
+        averageagelist[shortname].append(ages[i])
+        birthlist[shortname].append(birth[i])
+        birthmonthlist[shortname].append(birthmonth[i])
+        birthdaylist[shortname].append(birthday[i])
+        deathlist[shortname].append(death[i])
+        deathmonthlist[shortname].append(deathmonth[i])
+        deathdaylist[shortname].append(deathday[i])
+</code></pre>
+
+<p>Now all that remains is to connect each artist to Last.fm to get our final piece of data. I also had to feed in appropriate names which required a minor modification to their default names which come from DBpedia.</p>
+
+<pre><code class="python">import lastfm
+api_key='insert-your-key-here'
+api = lastfm.Api(api_key)
+
+fmnotcount = 0
+uniqueartists = list(set(artists))
+f = open('fmartistcount','w')
+for artist in uniqueartists:
+    try:
+        fmartist = api.get_artist(artist.split('(')[0])
+        f.write(artist+','+str(fmartist.stats.playcount)+','+str(fmartist.top_tag)+','+fmartist.image['large']+'\n')
+        print artist.split('(')[0],"playcount",fmartist.stats.playcount
+    except:
+        fmnotcount+=1
+        print "- could not find:",artist
+
+f.close()
+</code></pre>
+
+<p>Then we just need to plot the relevant dictionary.</p>
+
+<pre><code class="python">fig = plt.figure()
+ax = fig.add_subplot(111)
+ax.bar(*zip(*zip(count(), averageage.values())))
+plt.xticks(*zip(*zip(count(0.4), averageage)))
+plt.show()
+</code></pre>
+
+<h2>Results</h2>
+
+<h3>Average Lifespan For Artists In Each Genre</h3>
+
+<p>Let&rsquo;s just have a look at the life span for each genre with the associated standard deviation.</p>
+
+<table style="font-size: 90%; text-align: center">
+<tr>
+<td>Genre</td><td>Sample</td><td>Median</td><td>Mean</td><td>STD</td>
+</tr>
+<tr>
+<td>classical</td><td>76</td><td>71</td><td>68</td><td>19</td>
+</tr>
+<tr>
+<td>jazz</td><td>268</td><td>67</td><td>65</td><td>16</td>
+</tr>
+<tr>
+<td>blues</td><td>774</td><td>64</td><td>61</td><td>16</td>
+</tr>
+<tr>
+<td>pop</td><td>178</td><td>63</td><td>59</td><td>20</td>
+</tr>
+<tr>
+<td>folk</td><td>20</td><td>53</td><td>53</td><td>13</td>
+</tr>
+<tr>
+<td>rock</td><td>794</td><td>47</td><td>46</td><td>13</td>
+</tr>
+<tr>
+<td>metal</td><td>196</td><td>39</td><td>39</td><td>9</td>
+</tr>
+<tr>
+<td>misc</td><td>6190</td><td>61</td><td>59</td><td>18</td>
+</tr>
+</table>
+
+
+<p>Clearly the majority of the artists are in the &lsquo;misc&rsquo; or miscellaneous category. I don&rsquo;t have the time to parse these into the appropriate category so what I present is only a sample dataset of the whole. Feel free to play with the dataset and improve on the classification mechanisms I employed.</p>
+
+<p>Interestingly, <strong>classical musicians live the longest</strong> on average and <strong>metal musicians live the shortest</strong> on average (the difference between a whopping 29 years longer!). Genres like jazz and blues also have longer life-spans compared to the more &lsquo;labor intensive&rsquo; rock and metal (which somewhat confirms the <a href="http://youtu.be/LQ123T3zD2k">&ldquo;better to burn out than fade away&rdquo;</a> mantra). Conversely it seems the lifestyle of jazz and classical musicians lead to longer lives. It is important to note that there are only 20 folk musicians in this sample.</p>
+
+<p><br/>
+<img src="/assets/musicianmortality/all-lifespan-hist.png" alt="Average Lifespan For All Genres" />
+<br/></p>
+
+<p><br/>
+<img src="/assets/musicianmortality/blues-lifespan-hist.png" alt="Average Lifespan For Blues" />
+<br/></p>
+
+<p><br/>
+<img src="/assets/musicianmortality/classical-lifespan-hist.png" alt="Average Lifespan For Classical" />
+<br/></p>
+
+<p><br/>
+<img src="/assets/musicianmortality/folk-lifespan-hist.png" alt="Average Lifespan For Folk" />
+<br/></p>
+
+<p><br/>
+<img src="/assets/musicianmortality/jazz-lifespan-hist.png" alt="Average Lifespan For Jazz" />
+<br/></p>
+
+<p><br/>
+<img src="/assets/musicianmortality/metal-lifespan-hist.png" alt="Average Lifespan For Metal" />
+<br/></p>
+
+<p><br/>
+<img src="/assets/musicianmortality/pop-lifespan-hist.png" alt="Average Lifespan For Pop" />
+<br/></p>
+
+<p><br/>
+<img src="/assets/musicianmortality/rock-lifespan-hist.png" alt="Average Lifespan For Rock" />
+<br/></p>
+
+<h3>Youngest and Oldest</h3>
+
+<p>Rank ordering the youngest and oldest musicians in the list we find:</p>
+
+<pre><code class="text">TOP 5 YOUNGEST MUSICIANS
+Ritchie Valens 17
+Yukiko Okada 18
+John Spence 18
+Nick Traina 19
+Yaki Kadafi 19
+</code></pre>
+
+<pre><code class="text">TOP 5 OLDEST MUSICIANS
+Huey Long  105
+Wade Mainer 104
+Bill Tapia 103
+Orlando Cole 101
+Roman Totenberg 101
+</code></pre>
+
+<p>I noticed some tragic names in the youngest list: John Spence was the front man for <em>No Doubt</em> before he took his own life due to the pressure he put on himself. Yukiko Okada was a Japanese pop singer who also took her own life. Ritchie Valens also died tragically in a plane crash in 1959 with the Big Bopper, Buddy Holly and Roger Peterson (aka <em>the day the music died</em>). Nick Traina, the lead singer for the punk band <em>Link 80</em> also died of a self-induced morphine overdose. From the longer list of young artists I generated my own little play-list to see what these youngsters produced before they shuffled off this mortal coil.</p>
+
+<h3>27 club?</h3>
+
+<p>Using this data we can immediately answer the original question. If 27 was indeed a significant age, one of the histograms above should have shown this when clearly they don&rsquo;t. When I do extract out all musicians who had a life span equal to 27 I get the following list of 34 names:</p>
+
+<pre><code class="text">Rudy Lewis
+Freaky Tah
+D. Boon
+Kurt Cobain
+Janis Joplin
+Valentín Elizalde
+Fat Pat
+Louis Chauvin
+Leslie Harvey
+Mia Zapata
+Jim Morrison
+Ron Pigpen McKernan
+Rockin Robin Roberts
+Alan Wilson 
+Chris Austin
+Jeremy Michael Ward
+Richey Edwards
+Chris Bell 
+Brian Jones
+Seagram
+Dave Alexander 
+Bob Gordon
+Kami 
+André Pretorius 
+Jacob Miller
+Rodrigo 
+Amy Winehouse
+Doug Watkins
+Amar Singh Chamkila
+Pete Ham
+Kristen Pfaff
+Jimi Hendrix
+Alexander Bashlachev
+Robert Johnson
+</code></pre>
+
+<p>If we compare it to the <a href="https://en.wikipedia.org/wiki/27_Club">actual list on Wikipedia</a> (which the data should reflect) we find most of the names in that list. The astute reader will note that there are 44 names on Wikipedia and this is in fact larger than what I get via DBpedia. One example is the not so successful rock and roll singer <a href="https://en.wikipedia.org/wiki/Dickie_Pride">Dickie Pride</a> &ndash; I checked my raw data and indeed, he does not exist. This is most likely because DBpedia hasn&rsquo;t indexed his page yet (though the page has been <a href="https://en.wikipedia.org/w/index.php?title=Dickie_Pride&amp;dir=prev&amp;action=history">around since 2008</a>). This highlights the fact that the data, whilst rich, is ultimately incomplete. In time, DBpedia will fill out most of these darker corners.</p>
+
+<h3>Popularity and Lifespan</h3>
+
+<p>I connected up the names to the Last.fm database and used the number of unique plays as a proxy for <em>popularity</em>. Doing this for the matches it could find I generated a scatter plot of how popularity relates to lifespan. Note that the y-axis is log meaning it goes between 1 count on last.fm up to 1,000,000,000 (10<sup>9</sup>).</p>
+
+<p><br/>
+<img src="/assets/musicianmortality/lastfm-popularity-lifespan.png" alt="last-fm popularity" />
+<br/></p>
+
+<p>Feeding this into scikits.statsmodels in Python we get a bunch of statistics about the regression.</p>
+
+<pre><code class="bash">                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.005
+Model:                            OLS   Adj. R-squared:                  0.005
+Method:                 Least Squares   F-statistic:                     13.78
+Date:                Fri, 28 Mar 2014   Prob (F-statistic):           0.000210
+Time:                        01:40:22   Log-Likelihood:                -4270.3
+No. Observations:                2557   AIC:                             8545.
+Df Residuals:                    2555   BIC:                             8556.
+Df Model:                           1                                         
+==============================================================================
+                 coef    std err          t      P&gt;|t|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+x1            -0.0052      0.001     -3.712      0.000        -0.008    -0.002
+const          4.6365      0.088     52.401      0.000         4.463     4.810
+==============================================================================
+Omnibus:                       11.340   Durbin-Watson:                   1.929
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               11.349
+Skew:                          -0.161   Prob(JB):                      0.00343
+Kurtosis:                       3.050   Cond. No.                         218.
+==============================================================================
+</code></pre>
+
+<p>There is a weak trend indicating that <strong>the more popular you are, the shorter your lifespan</strong>. Does this line up with stereotypes about the hard and fast lifestyle of many musicians? Maybe.</p>
+
+<h3>Average Lifespan For Musicians Over The Last 50 Years</h3>
+
+<p>If we look at average lifespan for each genre broken up into bins of birth, we see how the average lifespan has changed over time for each genre.</p>
+
+<p><br/>
+<img src="/assets/musicianmortality/year-lifespan.png" alt="Average lifespan in each genre over time." />
+<br/></p>
+
+<p>The data fluctuates quite a bit but the overall trend is upwards though still below the mean of the U.S. population average (dashed). It seems any way you cut it, musicians live shorter lives than the average population. Clearly the metal heads aren&rsquo;t doing so well.</p>
+
+<h2>Findings</h2>
+
+<ul>
+<li>classical musicians live the longest on average</li>
+<li>metal musicians live the shortest on average</li>
+<li>all musicians seem to live shorter lives than average</li>
+<li>there is a small trend when comparing popularity to lifespan; the the more popular you are, the shorter your lifespan (highly speculative)</li>
+<li>there is no &ldquo;27-club&rdquo; when looking at the entire lifespans of the musicians in any genre (possible origins: romanticism)</li>
+</ul>
+
+
+<h2>Caveats</h2>
+
+<h3>Last.fm</h3>
+
+<p>Popularity is not just the <em>play counts</em> on Last.fm. Things that are popular now are by no means how they were in the previous decades. Can you guess what song was at number 1 in 1969? The Beatles? James Brown? Beach Boys? It was <em>Archies - Sugar Sugar</em>. Clearly this demonstrates &lsquo;good music&rsquo; now is not what was on everyone&rsquo;s mind during the X0s. I don&rsquo;t really have a way to measure popularity as a function of time via any other source so I just went with what I had. Please suggest other datasets which might help me out here.</p>
+
+<h3>Wikipedia</h3>
+
+<p>Wikipedia&rsquo;s content is made by people like you and me. It has its own biases but I would think for this project they don&rsquo;t really effect the dataset. With zero data to back me up, Wikipedia probably has 90% of all well known musicians in its database (lower limit). Since music is a relatively integral part of people&rsquo;s lives, it stands to reason that the dataset is quite comprehensive and accurate (remember I&rsquo;m only getting the birth/death dates here).</p>
+
+<h3>Transcription</h3>
+
+<p>Transcription errors could be introduced when trying to get the play count from Last.fm. I simply don&rsquo;t have the time to check every single name being fed through the API. Strange names may not return a result and so if you find some people missing then feel free to improve my code. I&rsquo;m also not sure how it deals with the fact that some artists belong to certain bands and may not have a solo career. This will undervalue their popularity on the whole if Last.fm doesn&rsquo;t interpret it correctly. Also Last.fm may have only recently added certain artists and different artists get added at different times. Over sufficiently long time scales this would be washed out but who knows when each of the artists I&rsquo;m using were added and so this must be taken into consideration.</p>
+
+<h3>Genre Inception Offset</h3>
+
+<p>Since classical music has been around much longer than say folk or metal, lifespans will be more accurate and will be with less selection bias. Metal music has been around since the early 1970s and so the maximum the lifespan of a deceased metal musician will be (~40 + maturation age, ~18?) ~58 years. Indeed this is what we see in the distribution of ages. The same goes for all of the other genres (folk slightly older and jazz slightly older still).
+<br>
+<br>
+The overall message I want to convey is that you can test certain cultural sentiments using online data. This is obviously the tip of the iceberg so feel free to take what I have done and build on it - who knows what you might find out.</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Creating a GUI in Python</title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:3000//blog//creating-a-GUI-in-Python.html" />
+  <id>http://127.0.0.1:3000//creating-a-GUI-in-Python</id>
+  <published>2014-02-26T00:00:00Z</published>
+  <updated>2014-02-26T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>So you want to create a Graphical User Interface (GUI)? This tutorial/code might help getting you started. The first feeling I had when I decided to follow this path was <em>intimidation</em>. With much patience and Googling I managed to create something I think will save me time in the future. I&rsquo;ve used this tool countless times already, whether it be to improve my intuition of complex functions, speed up work flows or render dynamic data. The entire Pythonic GUI template I am about to introduce can be found at its own <a href="https://github.com/bgriffen/PythonGUITemplate">Github repository</a>.</p>
+
+<h2>Where do I start?</h2>
+
+<p>Back in December of 2012, I wanted a tool which got me up and running relatively quickly without too much extra “fluff”. After some searching I found <a href="https://github.com/enthought/traits">Traits/TraitsUI</a>. It seemed like a good option since it allowed me to integrate a bunch of other features I already used at the time (e.g. matplotlib for plotting and <a href="http://mayavi.sourceforge.net/">Mayavi</a> for rendering) within one distribution. Enthought state it best.</p>
+
+<blockquote><p>The TraitsUI package is a set of user interface tools designed to complement Traits. In the simplest case, it can automatically generate a user interface for editing a Traits-based object, with no additional coding on the part of the programmer-user.</p></blockquote>
+
+<p>Conveniently, all of the tools required to get you started (and then some) come with the <a href="https://www.enthought.com/">Enthought distribution</a>. For more background on TraitsUI there is (as always) <a href="https://www.youtube.com/watch?v=ohHoU4qvsNs">a Youtube tutorial</a>. First we need to install our required tools.</p>
+
+<h2>Requirements</h2>
+
+<h4>Installing EPD</h4>
+
+<p>Download the <a href="https://www.enthought.com/">Enthought distribution tools</a> appropriate for your system. If you have an academic email then you can get it for free. Be sure to get the <strong>32-bit</strong> (rh5) version as the 64-bit version does not contain Mayavi. If you&rsquo;re on OSX then just get the .dmg image for OSX.</p>
+
+<pre><code class="bash">bash epd-7.3-2-rh5-x86.sh 
+</code></pre>
+
+<p><em>edit</em>: if you don&rsquo;t want to use EPD&rsquo;s distribution and just want to use standalone <code>TraitsUI</code>, please change the import modules inside the <code>Common.py</code> folder to the following (you will need <a href="https://github.com/enthought/traitsui">TraitsUI</a> however):</p>
+
+<pre><code class="python">from traits.api import *
+from traitsui.api import View,UItem, Item, Group, Heading, Label, \
+        HSplit, Handler, CheckListEditor, EnumEditor, TableEditor, FileEditor, \
+        ListEditor, Tabbed, VGroup, HGroup, RangeEditor, Spring, spring
+from traitsui.menu import NoButtons
+from traitsui.wx.editor import Editor
+from traitsui.wx.basic_editor_factory import BasicEditorFactory
+from traitsui.api import ColorTrait
+</code></pre>
+
+<p>Keep in mind the software may be updated so some of these imports might not work in future versions.</p>
+
+<h4>Getting the GUI template</h4>
+
+<p>If you want to cut to the chase you can <a href="" title="https://github.com/bgriffen/PythonGUITemplate">clone the template from the respository</a> and run in your terminal window:</p>
+
+<pre><code class="python">python main.py
+</code></pre>
+
+<p>This should open up the template window with an empty canvas. Explore the code structure though there will be more on this later.</p>
+
+<h2>Googling &ldquo;make a GUI using Traits in Python&rdquo;</h2>
+
+<p>Much to my surprise, there are few examples of how to get started using TraitsUI. Sure you can build very small tool with a slide bar which changes one variable and re-plots it – but there is nothing which brings it all together: multiple tabs, plotting and 3D rendering. The <a href="http://docs.enthought.com/traitsui/tutorials/traits_ui_scientific_app.html#the-gui-elements">examples provided in the documentation</a> are either too basic or too complex for my liking so I spent a few months trying to create something in between &ndash; basically what I wished the Internet had 12 months ago. Back in December 2012, I was transitioning my core research language to Python which took only a short while as I came from MATLAB/FORTRAN/SQL-land. I eventually built <a href="https://github.com/bgriffen/cme">a few useful tools</a> (well at least for me and my research group) with what I’m about to discuss.  Here is the most sophisticated example available in the documentation:
+<br/>
+<br/>
+<img src="/assets/pythongui/TraitsExample.png" alt="Traits Example" />
+<br/>
+<br/>
+Good start right? Whilst it does bring together the main ideas, it didn’t immediately give me a blank slate. It uses a bunch of Pythonic features which at the time I was not familiar with. The <a href="http://docs.enthought.com/traitsui/tutorials/traits_ui_scientific_app.html#the-gui-elements">documentation</a> also didn’t incrementally build up to it. It was a steep learning curve and I often found myself in very deep water.</p>
+
+<h2>Introducing: &ldquo;The Blank Slate&rdquo;</h2>
+
+<p>To create the blank slate, I essentially had to take apart what was already available in the above example whilst being sure I didn’t remove any critical components of the application. This soon became tedious and I felt like I wasn’t learning anything new. There were also a number of features in the basic layout which were not included (e.g. 3D rendering). This was shortly remedied by finding out that Traits does <a href="http://docs.enthought.com/mayavi/mayavi/auto/example_mayavi_traits_ui.html">play nicely with Mayavi</a>. Though my problem now became that of integration: these features existed independent from one another and I couldn’t find anywhere to put them all together (interactivity, plotting, 3D rendering). Eventually, after much head scratching I got it all working. I then stripped it down with the help of a colleague (<a href="https://twitter.com/astrowizicist">@astrowizicist</a>) to create the following. I now use it as my default template to create new scientific applications.
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx1-1024x599.png" alt="Traits Example" />
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx2-1024x598.png" alt="Traits Example" /></p>
+
+<h2>Code Layout</h2>
+
+<p>Initially this was all constructed in one giant Python script but eventually it became unmanageable with all of the objects involved in my application so I broke it down into the following set of modules which can be <a href="https://github.com/bgriffen/PythonGUITemplate">found in the source</a> (<a href="http://git-scm.com/downloads">install git</a>, a version control system and clone the repository to get started). If you haven&rsquo;t already <a href="https://github.com/bgriffen/PythonGUITemplate">downloaded the code</a> I highly suggest you do so now so you are familiar with what I&rsquo;m about to discuss.</p>
+
+<pre><code class="python">main.py
+</code></pre>
+
+<p>This contains the master script which controls the application and integrates everything. Once you’ve installed the <a href="https://support.enthought.com/entries/23407541-Getting-Started-with-EPD-on-OS-X">Enthought Python Distribution tools</a>, you can just run this from the command line <code>python main.py</code> and it should launch.</p>
+
+<pre><code class="python">Common.py
+</code></pre>
+
+<p>This contains all of the modules which are used globally across the application. You can import function specific modules deeper in the code to improve launch time if you like as well. <code>Common.py</code> also constructs the matplotlib figure where you will be plotting (left panel). You’ll also find it imports a whole bunch of other things such as:</p>
+
+<pre><code class="python">from enthought.traits.ui.api import View,UItem, Item, Group, Heading, \
+Label, HSplit, Handler, CheckListEditor, EnumEditor, TableEditor, \
+ListEditor, Tabbed, VGroup, HGroup, RangeEditor, Spring, spring
+</code></pre>
+
+<p>All of these are just apart of the Traits API which you call to put in your GUI. You’ll see how these are used later. I’ve also added a bunch of other commonly used modules for scientific processing but you can remove these if you don’t need them.</p>
+
+<pre><code class="python">firstcalc.py
+secondcalc.py
+</code></pre>
+
+<p>These are effectively the tabs on the right hand panel and the place where you will add your buttons, sliders, tables. They both contain a clone of (roughly) the same thing:</p>
+
+<pre><code class="python">class FirstCalc(HasTraits):
+    view = View()
+    def __init__(self, main, **kwargs):
+        HasTraits.__init__(self)
+        self.main = main
+</code></pre>
+
+<h2>Adding Some Basic Functionality</h2>
+
+<p>Say for instance you want to add a few of the typical buttons, directories etc. Traits has to offer. Your firstcalc.py simply becomes:</p>
+
+<pre><code class="python">from Common import *
+class FirstCalc(HasTraits):
+    # Add Traits objects
+    option = Bool(True)
+    rangex = Range(1,10,5)
+    yval = Float()
+    listoptions = Enum(['Option 1', 'Option 2','Option 2'])
+    stringopt = Str("Default string which can also be empty.")
+    stringoptread = Str("Default string which can also be empty [read-only version].")
+    masterpath = Directory(os.getcwd())
+    button1 = Button("Button 1 Name")
+    floatval = Float()
+    changedcount = Int()
+
+    #Construct the view
+    view = View(
+                Item(name='rangex',label='X-Value'),
+                Item(name='yval',style='readonly',label='1/x',format_str='%.2e'),
+                Item(name='listoptions',label='list of options'),
+                Item(name='stringopt'),
+                Item(name='stringoptread',style='readonly'),
+                Item(name='masterpath',label='Directory'),
+                Group(Item(name='button1',show_label=False)),
+                Group(Item(name='option',label='Boolean Option')
+                     ,enabled_when='floatval &lt; 0.5',label='Enabled Area Upon Random Value &lt; 0.5',show_border=True),
+                Item(name='changedcount',style='readonly',label='Attempts'),
+                Item(name='floatval',label='random generated')
+                )
+
+    def _rangex_changed(self):
+        self.yval = 1./self.rangex
+
+    def _button1_fired(self):
+        self.changedcount += 1
+        self.floatval = random.random()
+
+    def _floatval_changed(self):
+        self.stringopt = "Hey, you changed the integer value!"
+
+    def __init__(self, main, **kwargs):
+        HasTraits.__init__(self
+</code></pre>
+
+<p>So let’s see what we’ve added when we relaunch.
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx3-1024x599.png" alt="Traits Example" />
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx4Zoom.png" alt="Traits Example" />
+<br/>
+<br/>
+Slide the X-value ruler we see the objects change accordingly.
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx5.png" alt="Traits Example" />
+<br/>
+<br/>
+Hopefully you can match up each of the objects with what is in the code. It is hard to convey the interactivity here but I can show a snapshot. Let’s change the slider and hit the button a few times.
+<br/>
+<br/>
+<img src="/assets/pythongui/PythonGUIEx6.png" alt="Traits Example" />
+<br/>
+<br/>
+As we can see from the code the output is simply 1/x which is updated in real-time. Also when I hit the button, a random number is generated. If that number is less than 0.5 then the enabled area becomes illuminated and we can access the objects within (i.e. the Boolean option).  This should give you a basic idea of how to add certain button. Now we want to plot something, say y = mx + c where x and c are dynamic. I added three objects needed:</p>
+
+<pre><code class="python">plotbutton = Button("Plot Me!")
+yintcept = Range(0.0,5.,10.)
+gradient = Range(0.0,5.0,10.)
+</code></pre>
+
+<p>which is inserted into the View() object just like the other objects.</p>
+
+<pre><code class="python">Group(Item(name='gradient',label='gradient'),
+      Item(name='yintcept',label='y-intercept'),
+      Item(name='plotbutton',show_label=False),show_border=True,label='Plotting Area')
+</code></pre>
+
+<p>We also need to add an action for when the plot button is fired.</p>
+
+<pre><code class="python">def _plotbutton_fired(self):
+    y = self.gradient * np.array(range(10)) + self.yintcept
+    figure = self.main.display
+    figure.clear()
+    ax = figure.add_subplot(111)
+    ax = self.main.display.axes[0]
+    ax.plot(np.array(range(10)),y,color=self.main.markercolor,
+            marker=self.main.markerstyle,
+            markersize=self.main.markersize,
+            markeredgewidth=0.0,
+            linestyle='-')
+    wx.CallAfter(self.main.display.canvas.draw)
+</code></pre>
+
+<p><img src="/assets/pythongui/PythonGUIEx7-1024x599.png" alt="Traits Example" />
+<br/>
+<br/>
+Also note how the marker style and marker size is “brought in” or inherited from main.py via self.main.xxx. It is hard to convey here (<a href="https://github.com/bgriffen/PythonGUITemplate">try it out!</a>), but that now allows you to change the gradient and y-intercept dynamically and it updates on the plot in real-time. It is a much more intuitive (and faster) way to examine complex functions where it is unclear by looking at it how it will change using different inputs.</p>
+
+<h2>Adding Mayavi Functionality</h2>
+
+<p>To implement Mayavi functionality you simply add the following (or something similar which uses your underlying data) to a button function which runs when fired (as above). This will produce something like the next image in the left panel.  There is also some limited documentation here.</p>
+
+<pre><code class="python">def _mayavibutton_fired(self):
+    self.main.scene.mlab.clf(figure=self.main.scene.mayavi_scene)
+    x = np.array(data['posX'])
+    y = np.array(data['posY'])
+    z = np.array(data['posZ'])
+    vx = np.array(data['pecVX'])
+    vy = np.array(data['pecVY'])
+    vz = np.array(data['pecVZ'])
+    self.main.scene.mlab.quiver3d(x,y,z,vx,vy,vz)
+    self.main.scene.mlab.xlabel('x-pos')
+    self.main.scene.mlab.ylabel('y-pos')
+    self.main.scene.mlab.zlabel('z-pos')
+    self.main.scene.mlab.colorbar(title='velocity [km/s]')
+    self.main.scene.mlab.show()
+    self.main.scene.mlab.outline()
+</code></pre>
+
+<p>That’s the end of my “tutorial/demo” section. If you want to learn how to use the various other layout and object options I suggest taking a look at one of the tools I developed.</p>
+
+<h2>Example Project</h2>
+
+<p>The <a href="http://caterpillar.scripts.mit.edu/www/">Catepillar Project</a> is one of my main research tasks at MIT which involves looking at several hundreds of simulations of a similar kind. Rather than building endless panels in Matplotlib and tediously plotting different marker types and colors to inspect the data I decided to automate it using the tools described. Thus was born <a href="https://github.com/bgriffen/cme">Caterpillar Made Easy</a> which is one such tool which which allows you setup and run cosmological simulations on a large cluster, inspect the data dynamically in two and three dimensions. It is based on exactly the same template I have shown above (plus a few hundred hours of coding!). Here are a few screen shots of the sort of thing you can do in this environment. Perhaps you have a study you’re doing which might also benefit from such interactivity and automation. I haven&rsquo;t <em>officially</em> released it to the public but I might do so soon. This is just to give you an idea of the sort of things you can achieve. See the project on <a href="https://github.com/bgriffen/cme">Github</a>.</p>
+
+<p><br/>
+<img src="/assets/pythongui/inspectparams-1024x620.png" alt="Traits Example" />
+<br/>
+<br/>
+<img src="/assets/pythongui/contaminationheatmap-1024x616.png" alt="Traits Example" />
+<br/>
+<br/>
+<img src="/assets/pythongui/velocityhaloinspection-1024x619.png" alt="Traits Example" />
+<br/>
+<br/></p>
+
+<p>Head to the repository to see more screenshots. If there is a button, or particular feature you want, you can check through the source code to see how it is generated. Just check the <code>View()</code> section which is usually near the top. The rest of the code is just calculations etc. which is specific to the problems I am trying to solve. If you have questions about how to get started, please leave a comment below or if it is more technical in nature, drop me a line via email. Good luck and remember if you are new to this kind of thing: <em>be patient</em> &ndash; good things will come.</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Scraping Wikipedia: Common Misconceptions</title>
+  <link rel="alternate" type="text/html" href="http://127.0.0.1:3000//blog//common-misconceptions.html" />
+  <id>http://127.0.0.1:3000//common-misconceptions</id>
+  <published>2014-02-11T00:00:00Z</published>
+  <updated>2014-02-11T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>I recently stumbled upon this <a href="https://en.wikipedia.org/wiki/List_of_common_misconceptions">list of common misconceptions on Wikipedia</a> which contains a wide range of interesting tidbits. For instance, did you know Napoleon was taller than average for a Frenchman and that Vikings did not wear helmets with horns? There are a great number of little factoids and I wondered if I could not just scrape the first sentence to get the core facts of the article. I ended up writing a ~20 line Python script which uses the very useful Pattern suite to strip down the Wikipedia article into its basic content and output the first sentence. This work can also be found on Github. There are a few minor parsing errors but it turned out OK. Extremely basic, but fun.</p>
+
+<center>
+<div markdown="0"><a href="https://github.com/bgriffen/wikipedia/tree/master/wikimisconceptions" class="btn">Github Repository</a></div>
+</center>
+
+
+<pre><code class="python">import os, sys; sys.path.insert(0, os.path.join("..", ".."))
+from pattern.web import Wikipedia
+engine = Wikipedia(language="en")
+article = engine.search("list of common misconceptions", cached=True, timeout=30)
+f = open("wikimisconceptions.txt",'w')
+for s in article.sections:
+    f.write("\n")&lt;br title="s.title.upper()&lt;br" /&gt;    f.write(title.encode("utf8")+"\n")
+    print ""
+    print title
+    facts = s.content.split("*")
+    num = -1
+    for fact in facts:
+         num += 1
+         if "See also" not in fact \
+         and "Further information" not in fact \
+         and "Main articles" not in fact and fact != "":
+             line = str(num) + "." + fact.split(".")"."
+             print line
+             f.write(line.encode("utf8")+"\n")
+f.close()
+</code></pre>
+
+<p>This results in the following output:</p>
+
+<h4>ANCIENT TO MODERN HISTORY</h4>
+
+<ol>
+<li>Vomiting was not a regular part of Roman dining customs.</li>
+<li>It is true that life expectancy in the Middle Ages and earlier was low; however, one should not infer that people usually died around the age of 30.</li>
+<li>There is no evidence that Vikings wore horns on their helmets.</li>
+<li>King Canute did not command the tide to reverse in a fit of delusional arrogance.</li>
+<li>There is no evidence that iron maidens were invented in the Middle Ages or even used for torture.</li>
+<li>The plate armor of European soldiers did not stop soldiers from moving around or necessitate a crane to get them into a saddle.</li>
+<li>Modern historians dispute the popular misconception that the chastity belt, a device designed to prevent women from having sexual intercourse, was invented in medieval times.</li>
+<li>Medieval Europeans did not believe Earth was flat; in fact, from the time of the ancient Greek philosophers Plato and Aristotle on, belief in a spherical Earth remained almost universal among European intellectuals.</li>
+<li>Columbus never reached any land that now forms part of the mainland United States of America; most of the landings Columbus made on his four voyages, including the initial October 12, 1492 landing (the anniversary of which forms the basis of Columbus Day), were in the Caribbean Islands.</li>
+<li>There is a legend that Marco Polo imported pasta from China which originated with the Macaroni Journal, published by an association of food industries with the goal of promoting the use of pasta in the United States.</li>
+<li>Contrary to the popular image of the Pilgrim Fathers, the early settlers of the Plymouth Colony did not wear all black, and their capotains (hats) were shorter and rounder than the widely depicted tall hat with a buckle on it.</li>
+<li>The accused at the Salem witch trials were not burned at the stake, they either died in prison or were hanged.</li>
+<li>Marie Antoinette did not say “let them eat cake” when she heard that the French peasantry were starving due to a shortage of bread.</li>
+<li>George Washington did not have wooden teeth.</li>
+<li>The signing of the United States Declaration of Independence did not occur on July 4, 1776.</li>
+<li>Benjamin Franklin did not propose that the wild turkey be used as the symbol for the United States instead of the bald eagle.</li>
+<li>There was never a bill to make German the official language of the United States that was defeated by one vote in the House of Representatives, nor has one been proposed at the state level.</li>
+</ol>
+
+
+<h4>MODERN HISTORY</h4>
+
+<ol>
+<li>Napoleon Bonaparte was not short; rather he was slightly taller than the average Frenchman of his time.</li>
+<li>Cinco de Mayo is not Mexico’s Independence Day, but the celebration of the Mexican Army’s victory over the French in the Battle of Puebla on May 5, 1862.</li>
+<li>The Great Chicago Fire of 1871 was not caused by Mrs.</li>
+<li>The claim that Frederick Remington, on assignment to Cuba, telegraphed William Randolph Hearst that “.</li>
+<li>The popular image of Santa Claus was not created by The Coca-Cola Company as an advertising gimmick; by the time Coca-Cola began using Santa Claus’s image in the 1930s, Santa Claus had already taken his modern form in popular culture, having already seen extensive use in other companies’ advertisements and other mass media.</li>
+<li>Italian dictator Benito Mussolini did not “make the trains run on time”.</li>
+<li>There was no widespread outbreak of panic across the United States in response to Orson Welles’ 1938 radio adaptation of H.</li>
+<li>There is no evidence of Polish cavalry mounting a brave but futile charge against German tanks using lances and sabres during the German invasion of Poland in 1939.</li>
+<li>During the occupation of Denmark by the Nazis during World War II, King Christian X of Denmark did not thwart Nazi attempts to identify Jews by wearing a yellow star himself.</li>
+<li>Albert Einstein did not fail mathematics in school.</li>
+<li>Actor Ronald Reagan was never seriously considered for the role of Rick Blaine in the 1942 film classic Casablanca, eventually played by Humphrey Bogart.</li>
+<li>Eva Perón never uttered the quote “I will return and I will be millions”.</li>
+<li>The Rolling Stones were not performing “Sympathy for the Devil” at the 1969 Altamont Free Concert when Meredith Hunter was stabbed to death by a member of the local Hells Angels chapter that was serving as security.</li>
+</ol>
+
+
+<h4>LEGISLATION AND CRIME</h4>
+
+<ol>
+<li>It is rarely necessary to wait 24 hours before filing a missing person’s report; in instances where there is evidence of violence or of an unusual absence, law enforcement agencies in the United States often stress the importance of beginning an investigation promptly.</li>
+<li>Entrapment law in the United States does not require police officers to identify themselves as police in the case of a sting or other undercover work.</li>
+</ol>
+
+
+<h4>FOOD AND COOKING</h4>
+
+<ol>
+<li>Searing meat does not “seal in” moisture, and in fact may actually cause meat to lose moisture.</li>
+<li>Some people believe that food items cooked with wine or liquor will be totally non-alcoholic, because alcohol’s low boiling point causes it to evaporate quickly when heated.</li>
+<li>Monosodium glutamate (MSG) has a widespread reputation for triggering migraine headache exacerbations, but there are no consistent data to support this relationship.</li>
+<li>Sushi does not mean “raw fish”, and not all sushi includes raw fish.</li>
+<li>Microwave ovens do not cook food from the inside out.</li>
+<li>Placing metal inside a microwave oven does not damage the oven’s electronics.</li>
+<li>The functional principle of a microwave oven is not related to the resonance frequencies of water, and microwave ovens can therefore operate at many different frequencies.</li>
+<li>The Twinkie does not have an infinite shelf life; its listed shelf life is approximately 45 days (25 in its original formulation) and generally remains on a store shelf for only 7 to 10 days.</li>
+<li>Fortune cookies, despite being associated with Chinese cuisine in the United States, were in fact invented and brought to the U.</li>
+</ol>
+
+
+<h4>WORDS AND PHRASES</h4>
+
+<ol>
+<li>Non-standard, slang or colloquial terms used by English speakers are sometimes alleged not to be real words.</li>
+<li>The word “fuck” did not originate in Christianized Anglo-Saxon England (7th century CE) as an acronym for “Fornication Under Consent of King”; nor did it originate as an acronym for “For Unlawful Carnal Knowledge”, either as a sign posted above adulterers in the stocks, or as a criminal charge against members of the British Armed Forces; nor did it originate during the 15th-century Battle of Agincourt as a corruption of “pluck yew” (an idiom falsely attributed to the English for drawing a longbow).</li>
+<li>The word “crap” did not originate as a back-formation of British plumber Thomas Crapper’s surname, nor does his name originate from the word “crap”, although the surname may have helped popularize the word.</li>
+<li>The expression “rule of thumb” did not originate from a law allowing a man to beat his wife with a stick no thicker than his thumb, and there is no evidence that such a law ever existed.</li>
+<li>“Golf” did not originate as an acronym of “Gentlemen Only, Ladies Forbidden”.</li>
+<li>The word “gringo” did not originate during the Mexican-American War (1846–1848), the Venezuelan War of Independence (1811–1823), the Mexican Revolution (1910–1920), or in the American Old West (c.</li>
+<li>“420″ did not originate as the Los Angeles police or penal code for marijuana use.</li>
+<li>The word “the” was never pronounced or spelled “ye” in Old or Middle English.</li>
+<li>“Xmas” did not originate as a secular plan to “take the Christ out of Christmas”.</li>
+<li>Although the expression “the enemy of my enemy is my friend” is often described as an Arabic proverb, there is no evidence of such an origin.</li>
+</ol>
+
+
+<h4>ASTRONOMY</h4>
+
+<ol>
+<li>It is commonly claimed that the Great Wall of China is the only human-made object visible from the Moon.</li>
+<li>Black holes, contrary to their common image, have the same gravitational effects as any other equal mass in their place.</li>
+<li>Meteorites are not necessarily hot when they reach the Earth.</li>
+<li>When a meteor or spacecraft enters the atmosphere, the heat of entry is not (primarily) caused by friction, but by adiabatic compression of air in front of the object.</li>
+<li>Egg balancing is possible on every day of the year, not just the vernal equinox, and there is no evidence of a relationship between astronomical phenomena and the ability to balance an egg.</li>
+</ol>
+
+
+<h4>VERTEBRATES</h4>
+
+<ol>
+<li>Older elephants that are near death do not leave their herd and instinctively direct themselves toward a specific location known as an elephants’ graveyard to die.</li>
+<li>Bulls are not enraged by the color red, used in capes by professional matadors.</li>
+<li>Lemmings do not engage in mass suicidal dives off cliffs when migrating.</li>
+<li>Bats are not blind.</li>
+<li>Ostriches do not hide their heads in the sand to hide from enemies.</li>
+<li>It is not harmful to baby birds to pick them up and return them to their nests, despite the common belief that doing so will cause the mother to reject them.</li>
+<li>A duck’s quack actually does echo, although the echo may be difficult to hear for humans under some circumstances.</li>
+<li>The notion that goldfish have a memory span of just a few seconds is false.</li>
+<li>Sharks can actually suffer from cancer.</li>
+</ol>
+
+
+<h4>INVERTEBRATES</h4>
+
+<ol>
+<li>It is a common misconception that an earthworm becomes two worms when cut in half.</li>
+<li>Houseflies do not have an average lifespan of 24 hours.</li>
+<li>According to urban legend, the daddy longlegs spider (Pholcus phalangioides) is the most venomous spider in the world, but the shape of their mandibles leaves them unable to bite humans, rendering them harmless to our species.</li>
+<li>The flight mechanism and aerodynamics of the bumblebee (as well as other insects) are actually quite well understood, in spite of the urban legend that calculations show that they should not be able to fly.</li>
+</ol>
+
+
+<h4>PLANTS</h4>
+
+<ol>
+<li>Poinsettias are not highly toxic to humans or cats.</li>
+<li>Flowering sunflowers do not track the Sun across the sky.</li>
+</ol>
+
+
+<h4>EVOLUTION</h4>
+
+<ol>
+<li>The word theory in the theory of evolution does not imply mainstream scientific doubt regarding its validity; the concepts of theory and hypothesis have specific meanings in a scientific context.</li>
+<li>Evolution does not attempt to explain the origin of life or the origin and development of the universe.</li>
+<li>Humans did not evolve from either of the living species of chimpanzees.</li>
+<li>Evolution is not a progression from inferior to superior organisms, and it also does not necessarily result in an increase in complexity.</li>
+<li>Evolution does not “plan” to improve an organism’s fitness to survive.</li>
+<li>Humans and (non-avian) dinosaurs did not coexist.</li>
+<li>Dinosaurs did not become extinct due to being generally maladapted or unable to cope with normal climatic change, a view found in many older textbooks.</li>
+<li>Mammals did not evolve from any modern group of reptiles.</li>
+</ol>
+
+
+<h4>HUMAN BODY AND HEALTH</h4>
+
+<ol>
+<li>Waking sleepwalkers does not harm them.</li>
+<li>In South Korea, it is commonly and incorrectly believed that sleeping in a closed room with an electric fan running can be fatal.</li>
+<li>Eating less than an hour before swimming does not increase the risk of experiencing muscle cramps or drowning.</li>
+<li>Drowning is often thought to be a violent struggle, where the victim waves and calls for help.</li>
+<li>It is a common misconception that hydrogen peroxide is a disinfectant or antiseptic for treating wounds.</li>
+<li>Human blood in veins is not actually blue.</li>
+<li>Exposure to a vacuum, or experiencing uncontrolled decompression, does not cause the body to explode, or internal fluids to boil.</li>
+<li>Antibiotics do not cure the common cold, because it is caused by a virus infection against which antibiotics are useless.</li>
+<li>A person doesn’t become resistant to certain antibiotics.</li>
+</ol>
+
+
+<h4>SENSES</h4>
+
+<ol>
+<li>All different tastes can be detected on all parts of the tongue by taste buds, with slightly increased sensitivities in different locations depending on the person, contrary to the popular belief that specific tastes only correspond to specific mapped sites on the tongue.</li>
+<li>Humans have more than the commonly cited five senses.</li>
+</ol>
+
+
+<h4>SKIN AND HAIR</h4>
+
+<ol>
+<li>Water-induced wrinkles are not caused by the skin absorbing water and swelling.</li>
+<li>Shaving does not cause terminal hair to grow back thicker or coarser or darker.</li>
+<li>Hair and fingernails do not continue to grow after a person dies.</li>
+<li>Hair care products cannot actually “repair” split ends and damaged hair.</li>
+</ol>
+
+
+<h4>NUTRITION, FOOD, AND DRINK</h4>
+
+<ol>
+<li>Eight glasses or two to three liters of water a day are not needed to maintain health.</li>
+<li>Sugar does not cause hyperactivity in children.</li>
+<li>Alcoholic beverages do not make one warmer.</li>
+<li>Alcohol does not necessarily kill brain cells.</li>
+<li>A vegetarian or vegan diet can provide enough protein for adequate nutrition.</li>
+<li>Swallowed chewing gum does not take seven years to digest.</li>
+</ol>
+
+
+<h4>HUMAN SEXUALITY</h4>
+
+<ol>
+<li>There is no physiological basis for the belief that having sex in the days leading up to a sporting event or contest is detrimental to performance.</li>
+</ol>
+
+
+<h4>BRAIN</h4>
+
+<ol>
+<li>Mental abilities are not absolutely separated into the left and right cerebral hemispheres of the brain.</li>
+<li>Until recently, medical experts believed that humans were born with all of the brain cells they would ever have.</li>
+<li>Vaccines do not cause autism or autism spectrum disorders.</li>
+<li>People do not use only ten percent of their brains.</li>
+</ol>
+
+
+<h4>DISEASE</h4>
+
+<ol>
+<li>Drinking milk or consuming other dairy products does not increase mucus production.</li>
+<li>Humans cannot catch warts from toads or other animals; the bumps on a toad are not warts.</li>
+<li>Neither cracking one’s knuckles nor exercising while in good health causes osteoarthritis.</li>
+<li>Eating nuts, popcorn, or seeds does not increase the risk of diverticulitis.</li>
+<li>The Trendelenburg position (lying on the back with the feet elevated) for treating hypotension or shock is not supported by evidence and may in fact be harmful.</li>
+<li>Stress plays a relatively minor role in hypertension – contrary to common belief.</li>
+<li>In those with the common cold the color of the sputum or nasal secretion may vary from clear to yellow to green and does not indicate the class of agent causing the infection.</li>
+<li>In general, Vitamin C does not prevent the common cold, although it may have a protective effect during intense cold-weather exercise and may slightly reduce the duration of colds.</li>
+<li>In people with eczema, bathing does not dry the skin and may in fact be beneficial.</li>
+</ol>
+
+
+<h4>MATERIALS SCIENCE</h4>
+
+<ol>
+<li>Glass does not flow at room temperature as a high-viscosity liquid.</li>
+<li>Most diamonds are not formed from highly compressed coal.</li>
+</ol>
+
+
+<h4>MATHEMATICS</h4>
+
+<ol>
+<li>When an event with equally probable outcomes comes out the same way several times in succession, the other outcome is not more likely next time.</li>
+<li>There is no evidence that the ancient Greeks designed the Parthenon to deliberately match the golden ratio.</li>
+</ol>
+
+
+<h4>PHYSICS</h4>
+
+<ol>
+<li>It is not true that air takes the same time to travel above and below an aircraft’s wing.</li>
+<li>Blowing over a curved piece of paper does not demonstrate Bernoulli’s principle.</li>
+<li>The Coriolis effect does not determine the direction that water rotates in a bathtub drain or a flushing toilet, so this direction is not influenced by location.</li>
+<li>Gyroscopic forces or geometric trail are not required for a rider to balance a bicycle or for it to demonstrate self-stability.</li>
+<li>The idea that lightning never strikes the same place twice is one of the oldest and most well-known superstitions about lightning.</li>
+<li>A penny dropped from the Empire State Building will not kill a person or crack the sidewalk.</li>
+<li>When the ambient temperature is low, temporarily decreasing the temperature setting on a building’s programmable thermostat.</li>
+</ol>
+
+
+<h4>PSYCHOLOGY</h4>
+
+<ol>
+<li>There is no scientific evidence for the existence of “photographic” or eidetic memory (the ability to remember images with so high a precision as to mimic a camera).</li>
+<li>Schizophrenia is not the same thing as dissociative identity disorder, namely split or multiple personalities.</li>
+</ol>
+
+
+<h4>SPORTS</h4>
+
+<ol>
+<li>Abner Doubleday did not invent baseball.</li>
+<li>The black belt in martial arts does not necessarily indicate expert level or mastery.</li>
+</ol>
+
+
+<h4>HEBREW BIBLE</h4>
+
+<ol>
+<li>The forbidden fruit mentioned in the Book of Genesis is commonly assumed to be an apple, and is widely depicted as such in Western art.</li>
+</ol>
+
+
+<h4>BUDDHISM</h4>
+
+<ol>
+<li>The historical Buddha was not obese.</li>
+<li>The Buddha is not a god.</li>
+</ol>
+
+
+<h4>CHRISTIANITY</h4>
+
+<ol>
+<li>There is no evidence that Jesus was born on December 25.</li>
+<li>Nowhere in the Bible does it say exactly three magi came to visit the baby Jesus, nor that they were kings, rode on camels, or that their names were Casper, Melchior and Balthazar.</li>
+<li>The Immaculate Conception is not synonymous with the virgin birth of Jesus, nor is it a supposed belief in the virgin birth of Mary, his mother.</li>
+<li>The idea that Mary Magdalene was a prostitute before meeting Jesus is not found anywhere in the Bible.</li>
+<li>Roman Catholic dogma does not say that the pope is either sinless or always infallible.</li>
+</ol>
+
+
+<h4>ISLAM</h4>
+
+<ol>
+<li>A fatwā is a non-binding legal opinion issued by an Islamic scholar under Islamic law.</li>
+<li>The word “jihad” does not always mean “holy war”; literally, the word in Arabic means “struggle”.</li>
+<li>The Quran does not promise martyrs 72 virgins in heaven.</li>
+</ol>
+
+
+<h4>LITERATURE</h4>
+
+<ol>
+<li>Frankenstein was not the name of the monster in the novel Frankenstein; or, The Modern Prometheus by Mary Shelley; rather it was the surname of the monster’s creator, Victor Frankenstein.</li>
+</ol>
+
+
+<h4>MUSIC</h4>
+
+<ol>
+<li>“Edelweiss” is not the national anthem of Austria, but is in fact an original composition created for the musical The Sound of Music.</li>
+<li>“Twinkle Twinkle Little Star” was not composed by Wolfgang Amadeus Mozart when he was 5 years old; he only composed variations on the tune, which originated from a French folk song, and only at the age of 25 or 26.</li>
+</ol>
+
+
+<h4>INVENTIONS</h4>
+
+<ol>
+<li>George Washington Carver did not invent peanut butter, though he reputedly discovered three hundred uses for peanuts and hundreds more for soybeans, pecans, and sweet potatoes.</li>
+<li>Thomas Crapper did not invent the flush toilet; flushing toilets were first used in the Indus Valley Civilization, around the 26th century BCE.</li>
+<li>Thomas Edison did not invent the light bulb.</li>
+<li>Henry Ford did not invent either the automobile or the assembly line.</li>
+<li>Guglielmo Marconi did not invent the radio, but only modernized it for public broadcasting and communication.</li>
+<li>Al Gore never said that he “invented” the Internet, although Gore did say, “During my service in the United States Congress, I took the initiative in creating the Internet.</li>
+<li>James Watt did not invent the steam engine, nor were his ideas on steam engine power inspired by a kettle lid pressured open by steam.</li>
+</ol>
+
+
+<h4>COMPUTING</h4>
+
+<ol>
+<li>Computers running Mac OS X are not immune to malware such as trojan horses, although malware for this operating system is significantly less common.</li>
+</ol>
+
+
+<h4>TRANSPORTATION</h4>
+
+<ol>
+<li>Toilet waste is never intentionally jettisoned from an aircraft.</li>
+<li>Automotive batteries stored on a concrete floor do not discharge any faster than they would on other surfaces, in spite of worry among Americans that concrete harms batteries.</li>
+</ol>
+
+ ]]></content>
+</entry>
+
+
+
+</feed>

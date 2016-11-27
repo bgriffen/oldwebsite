@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta name="author" content="Brendan Griffen" />
+    <meta name="description" content="Musings of an individual exploring the very large and the very small.">
+    <link rel="favicon" href="/static/img/favicon.ico">
+
+    
+      <title>Graphs of Wikipedia: Programming Languages</title>
+    
+	
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+    crossorigin="anonymous">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="/static/css/syntax.css" />
+
+    <!-- Google Analytics -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2011187-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+  <!-- Main Body-->
+  <body>
+  <!-- Wrap all page content here -->
+  <div id="wrap">
+    <!-- Navbar header -->
+    <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/blog.html">BLOG</a></li>
+        <li><a href="/bio.html"">BIO</a></li>
+        <li><a href="/scaledbiolabs.html">BIOTECH</a></li>
+        <li><a href="/astrophysics.html">ASTROPHYSICS</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" id="st_insights_js" src="http://w.sharethis.com/button/buttons.js?publisher=4c4961d4-1888-423c-9cce-30a753eaf0e0"></script>
+<script type="text/javascript">stLight.options({publisher: "4c4961d4-1888-423c-9cce-30a753eaf0e0", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+
+</nav>
+
+    <div class="container">
+	<div class="blog-post">
+		<h3>
+		  <strong><a href="/gow-programming-languages.html">Graphs of Wikipedia: Programming Languages</a></strong>
+		</h3>
+	</div>
+	<div class="blog-title">
+		<h4>
+		January 19, 2014
+			&nbsp;&nbsp;
+			
+			 <span class="label label-success">programming</span>
+			
+			 <span class="label label-success">python</span>
+			
+			 <span class="label label-success">language</span>
+			
+			 <span class="label label-success">graphs</span>
+			
+			 <span class="label label-success">gephi</span>
+			
+		</h4>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div class="blogpost">
+			  <p>A while back I posted about <a href="http://127.0.0.1:3000//gow-influential-thinkers/">a graph of the personalities on Wikipedia</a>. This time I wanted to see which programming languages were linked to one another by user-entered “Influenced” and “Influenced-by” information. Take for instance the functional language Haskell:</p>
+
+<p><a href="/assets/wikipedia/Haskell-Programming-Wiki.png"><img src="/assets/wikipedia/Haskell-Programming-Wiki.png" alt="gow-wikipedia" /></a></p>
+
+<p>In the infobox on the side we find a large list of languages Haskell is connected to in one way or another. <a href="https://en.wikipedia.org/wiki/Haskell_(programming_language">Wikipedia devotes an entire section</a>#Related_languages) to how it is related to other programming languages for those interested.</p>
+
+<center>
+[![gow-wikipedia](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)](/assets/wikipedia/Haskell-Programming-Wiki-Zoom.png)
+</center>
+
+
+<p>It must be emphasized that the links are user-generated and any such comparison is largely subjective in nature (especially when comparing concepts rather than syntax). The following query <a href="http://dbpedia.org/snorql/">executed here</a> provided me with the bulk of the data:</p>
+
+<pre><code class="sql">SELECT *
+WHERE { ?p a &lt;http://dbpedia.org/ontology/ProgrammingLanguage&gt; .
+?p &lt;http://dbpedia.org/ontology/influenced&gt; ?influenced . }
+</code></pre>
+
+<p>The output was then decoded using a <a href="http://meyerweb.com/eric/tools/dencoder/">nifty URL decoder</a>. It was then fed through <a href="https://github.com/bgriffen/griffsgraphs/blob/master/programminglanguages/proglanguages.py">a Python script</a> to arrange it in a format most suitable for Gephi. The graph below represents the connections between all programming languages in Wikipedia. A force algorithm was applied such that closer nodes are more strongly connected in nature. The size of the node indicates how many connections that language has to the others in the network. The colors are achieved by carrying out a modularity algorithm applied by Gephi to highlight subnetworks. The curvature of outgoing edges is clockwise indicating influence direction. Lisp for example has many clockwise edges going out and only few counter-clockwise coming in. I can see some relations in the languages I am familiar with but perhaps you notice a few things that are flat out wrong? Please let me know in the comments as I’d be interested in hearing your thoughts. The raw Gephi graph data (.dl, .dfg, .gephi, .dexf, .gml etc.) can be <a href="http://127.0.0.1:3000//data/programminglanguage-data.zip">found here</a>.</p>
+
+<p>The one uses curved edges:
+<a href="/assets/wikipedia/programminglanguages-label.png"><img src="/assets/wikipedia/programminglanguages-label.png" alt="gow-wikipedia" /></a></p>
+
+<p>This one uses directed edges:
+<a href="/assets/wikipedia/programminglanguagesarrows-label.png"><img src="/assets/wikipedia/programminglanguagesarrows-label.png" alt="gow-wikipedia" /></a></p>
+
+<p>As one might expect all of the major players are the biggest nodes. C, Haskell, Lisp, Python and Java all feature prominently. Anything strange you notice? Let me know in the comments. I really must commend the designers on their nomenclature. See if you can find one of the more humorous languages by zooming in. I also obtained the designer of each language and connected the people together based on the programming languages they were involved with. This was obtained by the following query:</p>
+
+<pre><code class="sql">SELECT *
+WHERE {?p a &lt;http://dbpedia.org/ontology/ProgrammingLanguage&gt; .
+?p &lt;http://dbpedia.org/ontology/designer&gt; ?designer . }
+</code></pre>
+
+<p>Large nodes do not represent more influential people but simply the people whose work spawned the most number of languages in the subsequent years. As expected, it is a very homogeneous playing field as many people were involved in multiple languages and at times had many collaborators. It must be stressed that the dataset is incomplete and was the result of my somewhat rudimentary way of parsing the data. Without a doubt, things could be improved. I’ve setup <a href="https://github.com/bgriffen/griffsgraphs">a GitHub repository</a> for all (Gephi) graph files and images for those interested. Feel free to embed or share the above images. Lastly, please keep in mind where this data is coming from: contributors of Wikipedia. Whilst they are a studious bunch, they aren’t without faults so take up any problems with the graph with the pages themselves as that is all this represents.</p>
+
+<p><strong>Update!</strong> Since posting there has been some great feedback found on the web. Of particular interest is <a href="http://oreilly.com/news/graphics/prog_lang_poster.pdf">this PDF</a> of the history of programming languages and <a href="http://exploringdata.github.io/vis/programming-languages-influence-network/">this fantastic interactive version</a> of what I was trying to present by <a href="https://twitter.com/yaph">Ramiro Gomez</a>. I think it really is time to move to <a href="http://d3js.org/">D3.js</a> and <a href="http://sigmajs.org/">sigma.js</a>.</p>
+
+			  <hr>
+			  <center>To be notified of future posts, please <a href="https://feeds.feedburner.com/brendangriffen"><i class="fa fa-fw fa-rss-square"></i>click here</a>.</center>
+			  <div class="socialsmall">
+	<h4>
+        <center>
+    
+      <a href="mailto:brendan.f.griffen@gmail.com"><i class="fa fa-envelope"></i></a>
+    
+
+    
+	  <a href="http://github.com/bgriffen"><i class="fa fa-github"></i></a>
+    
+    
+    
+	  <a href="http://twitter.com/brendangriffen"><i class="fa fa-twitter"></i></a>
+    
+    
+	  <a href="http://linkedin.com/in/brendangriffen"><i class="fa fa-linkedin"></i></a>
+    
+    
+	  <a href="http://stackoverflow.com/users/1495869/griff"><i class="fa fa-stack-overflow"></i></a>
+    
+    
+    <a href="https://feeds.feedburner.com/brendangriffen"><i class="fa fa-rss-square"></i></a>
+    
+    </center>
+	</h4>
+</div>
+
+
+			   <div class="related-posts">
+			   <hr>
+				   <h5>Related Posts</h5>
+				   
+						<div class="row">
+							 <div class="col-sm-4 col-md-4 col-lg-4">
+								 <h6 style="text-align: right">
+								 	June 11, 2016
+								 </h6>
+							 </div>
+							 <div class="col-sm-8 col-md-8 col-lg-8">
+								 <h6 style="text-align: left">
+								 	<strong><a href="//goodbye-astronomy-for-now.html">Goodbye Astronomy, Part 1: How I got here</a></strong>
+								 </h6>
+							 </div>
+						</div>
+					
+						<div class="row">
+							 <div class="col-sm-4 col-md-4 col-lg-4">
+								 <h6 style="text-align: right">
+								 	April  4, 2016
+								 </h6>
+							 </div>
+							 <div class="col-sm-8 col-md-8 col-lg-8">
+								 <h6 style="text-align: left">
+								 	<strong><a href="//analysis-of-hubble-einstein-sagan-fellowship-holders-with-ads.html">Hubble, Einstein and Sagan Fellows With ADS</a></strong>
+								 </h6>
+							 </div>
+						</div>
+					
+						<div class="row">
+							 <div class="col-sm-4 col-md-4 col-lg-4">
+								 <h6 style="text-align: right">
+								 	March  6, 2016
+								 </h6>
+							 </div>
+							 <div class="col-sm-8 col-md-8 col-lg-8">
+								 <h6 style="text-align: left">
+								 	<strong><a href="//mapping-astronomy-publications.html">Mapping Astronomy Publications</a></strong>
+								 </h6>
+							 </div>
+						</div>
+					
+			   </div>
+			</div>
+		</div>
+	</div>
+	
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//brendangriffen.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                
+
+
+</div>
+
+
+  </div>
+  <!-- Footer -->
+
+  <footer>
+    <div id="footer">
+        <div class="container">
+            <p class="text-muted">© Brendan Griffen 2016. Powered by <a href="http://jekyllrb.com/">Jekyll.</p>
+        </div>
+    </div>
+</footer>
+<div class="footer"></div>
+
+  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+    integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+    crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="/static/js/docs.min.js"></script>
+    <script src="/static/js/main.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+
+  </body>
+</html>
