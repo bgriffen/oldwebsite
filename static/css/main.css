@@ -8,7 +8,7 @@ body {
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #27A822;
   background-image: url(../../assets/background.jpg);
-  
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,7 +116,14 @@ span.projectlistheading {
 .navbar-default .navbar-link:hover {
   color: #6b6b6b;
 }
-@media (max-width: 767px) {
+
+@media (max-width: 768px) {
+  .frontcontainer h3 {
+    font-size: 16px;
+  }
+  .img-circle {
+   width: 100px;
+  }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #6b6b6b;
   }
