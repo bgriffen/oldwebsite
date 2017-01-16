@@ -30,9 +30,9 @@ Acting CEO Ed Painter is one of the older guys of the batch but has a wealth of 
 
 ### Animal Biome
 
-Did you know there are more dogs and cats than there are children in the United States? The microbiome is an area which is now starting to become well known by the mainstream. Animal Biome are using the power of the microbiome of pets to treat conditions such as diabetes and chronic inflammatory bowel disease which affects cats and dogs.
+Did you know there are more dogs and cats than there are children in the United States? Our pets however can suffer similar problems to such as diabetes and chronic inflammatory bowel disease. The power of the microbiome to treat these conditions is now becoming known by the mainstream. Animal Biome have a product which offers an effective treatments for our sick pets.
 
-Holly Ganz is a microbial ecologist out of UC Davis and an all-round lover of cats, dogs and wildlife. She even sports the "talk to me about cat poop" shirt at events around Indie Bio! You immediately know Holly genuinely cares deeply about the health of our companion animals. Her poop pills are already a hit providing immediate health benefits to her customer's pets. 
+CEO Holly Ganz is a microbial ecologist out of UC Davis and an all-round lover of cats, dogs and wildlife. She even sports the "talk to me about cat poop" shirt at events around Indie Bio! You immediately know Holly genuinely cares deeply about the health of our companion animals. Her "poop pills" are already a hit, providing immediate health benefits to her customer's pets. 
 
 
 ### BioInspira
@@ -61,8 +61,6 @@ CEO Karim Galil, much like Holly of Animal Biome, has a certain genuineness abou
 ### Neurocore
 
 To treat depression, some people go through the archaic method of electro-convulsive therapy. Its archaic not very effective -- experts like CEO Mehran, believe things have to change. At Neurocore, they use deep trans-cranial magnetic stimulation to as an effective, non-drug, non-invasive way to treat depression.
-
-Mehran has a very unique style which has to be experienced to be appreciated. 
 
 ### Pure Cultures
 
