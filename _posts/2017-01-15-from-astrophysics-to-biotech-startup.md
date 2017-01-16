@@ -82,7 +82,7 @@ Leo heads the operation with Francia and Juan -- all out of Chile. They had some
 
 ### Viaex 
 
-Filtration is stuck in the past. Viaex have taken a page out of nature, specifically the endoskeleton of lobsters to build a nano-filtration solution which is much more selective (you can remove contaminants of different sizes) and environmentally sustaniable (biodegradable).
+Filtration is stuck in the past. Viaex have taken a page out of nature, specifically the endoskeleton of lobsters to build a nano-filtration solution which is much more selective (you can remove contaminants of different sizes) and environmentally sustainable (biodegradable).
 
 Vivian and Felix have had a really rough trip for the first half of Indie Bio. One of their industrial electro-spinners fell off the back of a truck during transit and completely halted their ability to produce filtration membranes. This hasn't stopped them though -- they have powered on and are getting good early traction. I have a special place in my heart for all things German and it has been great to share some old stories with Felix.
 
