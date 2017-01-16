@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From astrophysics to biotech startup"
+title: "From Astrophysics To Biotech Startup"
 tags:
   - startup
   - indiebio
@@ -10,7 +10,7 @@ share: true
 
 The last four months have been mental.
 
-Last August I was coming to the end of my postdoc in astrophysics at MIT and now I'm running a company, pitching to investors, learning about microfluidics, conducting job interviews and trying to find better ways to kill cancer.
+Last August I was coming to the end of my postdoc in astrophysics at MIT about to head to Germany and now I'm running a company, pitching to investors, learning about microfluidics, conducting job interviews and trying to find better ways to kill cancer.
 
 It's as though I've gone from being a mammal to being an insect. I've traded a slower pace of life in a small pond to a lightning fast pace of life in a very large pond. I won't use your time to go on about my reasons for signing up for all of this but rather take some time to tell you about the companies that are in my current batch at Indie Bio, the world's largest biotech accelerator.
 
