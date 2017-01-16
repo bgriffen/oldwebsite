@@ -56,7 +56,7 @@ They are seated right behind us and its hard not to get in a jousting match with
 
 Matching clinical data to patients using artificial intelligence. Oncologists can't digest all clinical trial data being produced every day and so patients are missing out on access to novel treatments. Mendel are changing that by using machine learning to digest the thousands of clinical trials out there and match them to patients waiting for solutions.
 
-CEO Kareem, much like Holly of Animal Biome, has a certain genuineness about him which is hard to find in the consumer electronics side of San Francisco. One reason he is deeply motivated by their cause is because the problem he is addressing has affected his own family members. I've also had some good python chats with Bernal who is dangerously chill on a level that only Dan (Venomyx) and Steve (Pure Cultures) could compare.
+CEO Karim Galil, much like Holly of Animal Biome, has a certain genuineness about him which is hard to find in the consumer electronics side of San Francisco. One reason he is deeply motivated by their cause is because the problem he is addressing has affected his own family members. I've also had some good python chats with Bernal who is dangerously chill on a level that only Dan (Venomyx) and Steve (Pure Cultures) could compare.
 
 ### Neurocore
 
