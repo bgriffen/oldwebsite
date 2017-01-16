@@ -3,7 +3,7 @@ layout: post
 title: "From astrophysics to biotech startup"
 tags:
   - startup
-  - astronomy
+  - indiebio
   - biotech
 share: true
 ---
@@ -66,7 +66,7 @@ Mehran has a very unique style which has to be experienced to be appreciated.
 
 ### Pure Cultures
 
-Anti-biotics are a big problem -- so big that the FDA is restricting the use of them more and more. A solution to this is to create a probiotic solution which improves hatch to harvest times and the health of livestock. Pure Cultures our of Denver Colorado aim to do just that and already have products on the market which achieve both those goals and more.
+Anti-biotics are a big problem -- so big that the FDA is restricting the use of them more and more every year. A solution to this is to create pro-biotics which improves hatch to harvest times and the health of livestock. Pure Cultures our of Denver Colorado aim to do just that and already have products on the market which achieve both those goals and more.
 
 Steve is the sort of guy who combines a certain mountain chill with rural genuineness and business acumen. He also does a killer Guns n' Roses performance when the timing is right. He also brings the Indie Bio family together for campfire-like chats when things get tough -- something we all appreciate.
 
