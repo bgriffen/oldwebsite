@@ -60,7 +60,7 @@ CEO Karim Galil, much like Holly of Animal Biome, has a certain genuineness abou
 
 ### Neurocore
 
-To treat depression, some people go through the archaic method of electro-convulsive therapy. Its archaic not very effective. Jacking the brain with volts of electricity on the surface is not the way to go -- worst still, experts like CEO Mehran, believe things have to change. At Neurocore, they use deep trans-cranial magnetic stimulation to as an effective, non-drug, non-invasive way to treat depression.
+To treat depression, some people go through the archaic method of electro-convulsive therapy. Its archaic not very effective -- experts like CEO Mehran, believe things have to change. At Neurocore, they use deep trans-cranial magnetic stimulation to as an effective, non-drug, non-invasive way to treat depression.
 
 Mehran has a very unique style which has to be experienced to be appreciated. 
 
