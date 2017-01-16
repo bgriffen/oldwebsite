@@ -44,7 +44,7 @@ Ray and Benson have been going from strength to strength. Whilst we've all joked
 
 ### Catalog 
 
-"Infinite Data Archives" pretty much says it all. Nate "ukelele" Roquet and Hyunjun "stressed-out" Park are storing digital information in DNA molecules. They've already stored 1kb and are well on their way to 1 Mb in time for demo day. They want to shrink down giant storage facilities and put them in test tubes. DNA lasts longer and has far higher storage density than hard drives or tapes so it seems like an inevitable technology because nature has already done better than we ever could.
+"Infinite Data Archives" pretty much says it all. Nate "ukelele" Roquet and Hyunjun Park are storing digital information in DNA molecules. They've already stored 1kb and are well on their way to 1 Mb in time for demo day. They want to shrink down giant storage facilities and put them in test tubes. DNA lasts longer and has far higher storage density than hard drives or tapes so it seems like an inevitable technology because nature has already done better than we ever could.
 
 ### DxRx 
 
