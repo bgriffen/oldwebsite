@@ -54,13 +54,13 @@ They are seated right behind us and its hard not to get in a jousting match with
 
 ### Mendel.ai
 
-Matching clinical data to patients using artificial intelligence. Oncologists can't digest all clinical trial data being produced every day and so patients are missing out on access to novel treatments. Mendel are changing that by using machine learning to digest the thousands of clinical trials out there and match them to patients.
+Matching clinical data to patients using artificial intelligence. Oncologists can't digest all clinical trial data being produced every day and so patients are missing out on access to novel treatments. Mendel are changing that by using machine learning to digest the thousands of clinical trials out there and match them to patients waiting for solutions.
 
 CEO Kareem, much like Holly of Animal Biome, has a certain genuineness about him which is hard to find in the consumer electronics side of San Francisco. One reason he is deeply motivated by their cause is because the problem he is addressing has affected his own family members. I've also had some good python chats with Bernal who is dangerously chill on a level that only Dan (Venomyx) and Steve (Pure Cultures) could compare.
 
 ### Neurocore
 
-To treat depression, some people go through the archaic method of electro-convulsive therapy. Its archaic, ineffective and not targeted. Jacking the brain with volts of electricity on the surface is not the way to go -- worst still, experts like CEO Mehran, believe things have to change. At Neurocore, they use deep trans-cranial magnetic stimulation to as an effective, non-drug, non-invasive way to treat depression.
+To treat depression, some people go through the archaic method of electro-convulsive therapy. Its archaic not very effective. Jacking the brain with volts of electricity on the surface is not the way to go -- worst still, experts like CEO Mehran, believe things have to change. At Neurocore, they use deep trans-cranial magnetic stimulation to as an effective, non-drug, non-invasive way to treat depression.
 
 Mehran has a very unique style which has to be experienced to be appreciated. 
 
