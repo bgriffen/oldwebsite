@@ -92,7 +92,7 @@ Vivian and Felix have had a really rough trip for the first half of Indie Bio. O
 
 Universal snake anti-venom. Currently, people uses horses to make one anti-venom for one snake bite. This is seriously archaic. Dan "Danimal" Dempsey and Deepankar "don't mention the cricket" Roy are out to change all that. They are developing universal snake anti-venom so that one key can open many locks and that's not even the best part. The best part is that you can carry it in your backpack because it can be used at room temperature which means rural farmers can administer it without the need for refrigeration.
 
-We sit directly opposite these awesome guys. If you ever want a taste of California, talk to Dan. If you ever want a taste of India, go to Little Delhi with Deepankar. I just want to say I've enjoyed nothing better than seeing Deepanker hammering around in a suit and tie spreading the good gospel of Venomyx. Check his draws though, he might have some pizza tucked away.
+We sit directly opposite these awesome guys. If you ever want a taste of California, talk to Dan. If you ever want a taste of India, go to Little Delhi with Deepankar. I just want to say I've enjoyed nothing better than seeing Deepanker hammering around in a suit and tie spreading the good gospel of Venomyx. 
 
 Anyway, I'll wrap it up here for now but if you ever want to come and chat to these companies or check out Indie Bio whilst we are still here, please shoot me an email and I'll give you a tour. Similarly, if you want to talk to any of the folks I just mentioned, please let me know and I'll put you in contact.
 
