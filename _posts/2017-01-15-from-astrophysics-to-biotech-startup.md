@@ -78,7 +78,7 @@ If you ever want to get a glimpse at what pure, unbridled "can-do-anything" ment
 
 Being able to turn saturated fat into unsaturated fat opens up a whole new portal into different kinds of foods and products worldwide. GEA Enzymes combine computational chemistry with hardcore biochemistry to achieve just this process all the whilst keeping the unsaturated fat liquid at room temperature. Think of healthy dark chocolate being liquid at room temperature. 
 
-Leo heads the operation with Francia and Juan -- all out of Chile. They had some visa issues at the start but we're all glad they finally made it as they've added a certain energy to the place -- especially on Karaoke nights!
+Leo heads the operation with Francia and Juan -- all out of Chile. They had some visa issues at the start but we're all glad they finally made it as they've added a certain energy to the place, especially on Karaoke nights!
 
 ### Viaex 
 
