@@ -81,7 +81,7 @@ I also exported this to a JSON file to make it an interactive version (click to 
 
 [<img src="http://www.brendangriffen.com/assets/wikipedia/FullInfluenceGraph.png">](/assets/thinkers/)
 
-[<img src="http://www.brendangriffen.com/assets/wikipedia/Nietzsche.png">](/assets/wikipedia/Nietzsche.png)
+[<img src="http://brendangriffen.com/assets/thinkers/">](/assets/wikipedia/Nietzsche.png)
 
 If I am interested in one author and want some inspiration as to who to read next I can just search this graph and find a name I don't know but is closely related by influence.
 
