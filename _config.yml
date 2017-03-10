@@ -11,7 +11,7 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://127.0.0.1:3000/
+url: http://www.brendangriffen.com
 baseurl: /
 title: Brendan Griffen
 author: Brendan Griffen
@@ -23,6 +23,7 @@ twitter: brendangriffen
 linkedin: brendangriffen
 feed: brendangriffen
 stackoverflow: users/1495869/griff   #e.g: users/2735833/proton1h1
+medium: brendangriffen
 #Comment out if you don't want disqus 
 disqus: brendangriffen
 google_analytics: UA-2011187-3
