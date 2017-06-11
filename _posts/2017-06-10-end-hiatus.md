@@ -7,9 +7,9 @@ tags:
 ---
 I haven't posted much content over the past year as I've been quite preoccupied with other activities. It's time to chage that.
 
-The number and quality of data visualization tools available on the web have increased markedly over the past few years. It is time to bring the presentation of my work into the new age. To this end I'm retroactively going to update my previous blog posts to be more easily read and used. 
+The number and quality of data visualization tools available on the web has increased markedly over the past few years. It is time to bring the presentation of my work into the new era. To this end I'm retroactively going to update my previous blog posts to be more easily read and used. 
 
-Starting from today each of my blog posts will be a standalone Jupyter notebook. This hopefully will allow people to work through the same process I did in achieving a given result. Additionally, my posts which contained static figures output from matplotlib will now be rendered dynamically using tools such as [Plotly](https://plot.ly/python/). What does this mean in practice? Let's quickly take a look at a stock set of library imports.
+Starting from today each of my blog posts will be a standalone Jupyter notebook. This hopefully will allow people to work through the same process I did in achieving a given result. Additionally, my posts which contained static figures output from matplotlib will now be rendered dynamically using tools such as [Plotly](https://plot.ly/python/). What does this mean in practice? Let's quickly take a look.
 
 
 ```python
@@ -190,8 +190,3 @@ The embedded interactivity adds so much more value to a dataset. [Github renderi
 This is all part of my goal to make projects more open source and reproducible. It also allows others to build on whatever I'm working on for their own projects which is how I got started all those years ago.
 
 Anyway, I'm looking forward to posting some of my new musings soon. Stay tuned!
-
-
-```python
-
-```
