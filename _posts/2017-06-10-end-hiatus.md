@@ -190,8 +190,3 @@ The embedded interactivity adds so much more value to a dataset. [Github renderi
 This is all part of my goal to make projects more open source and reproducible. It also allows others to build on whatever I'm working on for their own projects which is how I got started all those years ago.
 
 Anyway, I'm looking forward to posting some of my new musings soon. Stay tuned!
-
-
-```python
-
-```
