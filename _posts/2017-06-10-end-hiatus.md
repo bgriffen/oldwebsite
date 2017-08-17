@@ -5,6 +5,8 @@ share: true
 tags:
 - dataviz
 ---
+
+
 I haven't posted much content over the past year as I've been quite preoccupied with other activities. It's time to change.
 
 The number and quality of data visualization tools available on the web has increased markedly over the past few years. It is time to bring the presentation of my work into the new era. To this end I'm retroactively going to update my previous blog posts to be more easily read and used. 
