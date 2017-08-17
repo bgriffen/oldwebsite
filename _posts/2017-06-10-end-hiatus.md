@@ -175,13 +175,13 @@ layout = go.Layout(
 # render using plotly
 
 fig = go.Figure(data=data, layout=layout)
-py.iplot(fig, filename='life-expectancy-per-GDP-2007')
+py.iplot(fig, filename='blog/endhiatus/life-expectancy-per-GDP-2007')
 ```
 
 
 
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~bgriffen/371.embed" height="525px" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~bgriffen/503.embed" height="525px" width="100%"></iframe>
 
 
 
