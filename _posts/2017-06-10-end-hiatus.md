@@ -180,6 +180,8 @@ fig = go.Figure(data=data, layout=layout)
 py.iplot(fig, filename='blog/endhiatus/life-expectancy-per-GDP-2007')
 ```
 
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~bgriffen/503.embed" height="525px" width="100%"></iframe>
+
 The embedded interactivity adds so much more value to a dataset. [Github rendering Jupyter notebooks](https://help.github.com/articles/working-with-jupyter-notebook-files-on-github/) means presenting data through my blog is a breeze. Speaking of data, I will also make the data available for all my musings so that you can play around with [the exact notebook](https://github.com/bgriffen/projects) I used seamlessly.
 
 This is all part of my goal to make projects more open source and reproducible. It also allows others to build on whatever I'm working on for their own projects which is how I got started all those years ago.
