@@ -3,7 +3,7 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
     input: GFM
-permalink: title
+permalink: /blog/:title.html
 paginate: 5
 gems: [jekyll-paginate]
 port: 3000
