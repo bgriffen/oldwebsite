@@ -254,23 +254,23 @@ pre {
   color: #FFFFFF;
 }
 
-.fa-rss-square {
+.fa-rss-square a:hover {
   color: #B4F112;
 }
 
-.fa-twitter {
+.fa-twitter a:hover {
   color:#32CCFE;
 }
-.fa-github {
+.fa-github a:hover {
   color: :#070709;
 }
-.fa-envelope {
+.fa-envelope a:hover {
   color: #01FC14;
 }
-.fa-stack-overflow {
+.fa-stack-overflow a:hover {
   color:#FF7300;
 }
-.fa-linkedin {
+.fa-linkedin a:hover {
   color: #0085AE;
 }
 
