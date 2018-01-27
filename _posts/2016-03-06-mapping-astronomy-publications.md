@@ -11,7 +11,7 @@ share: true
 
 A casual Google search of the most recent earthquake events provides a long list of [interactive maps]((http://quakes.globalincidentmap.com/)). Generally they look like this:
 
-![Quake Map](/assets/paperquake/quakemap.png "Quake Map")
+![blogpic](/assets/paperquake/quakemap.png "Quake Map")
 
 This is a great way to get an instant understanding of the recent earthquake activity. Browsing one of these sites got me thinking about how I could connect this to astronomy papers. See, each paper in the literature has the following list of author affiliations:
 
