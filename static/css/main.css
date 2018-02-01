@@ -162,12 +162,17 @@ pre {
 -------------------------------------------------- */
 
 .frontcontainer {
+  height: 450px;
+  position: absolute;
   width: auto;
   text-align: center;
   color: #FFFFFF;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .frontcontainer .text-muted {
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 .frontcontainer a {
   color: #FCF901;
@@ -175,7 +180,6 @@ pre {
 .frontcontainer a:hover {
   color: #F1EE12;
 }
-
 
 
 .listcontainer {
