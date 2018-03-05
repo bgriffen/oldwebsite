@@ -47,6 +47,55 @@ blockquote p {
   display: inline;
 }
 
+.simplelist {
+  /* Screenshots are all Grabbed at 2x size = 2200 by 1435 on retina */
+  /* then resized to 300px wide */ 
+text-align: justify;}
+  .simplelist .container {
+    margin-left: 170px; 
+    text-align: justify;}
+  .simplelist img {
+    width: 160px;
+    height: 189px;
+    float: left;
+    margin-top: 7px;
+    padding-right: 1em; }
+
+ul.simplelist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; 
+  text-align: justify;}
+  ul.simplelist li {
+    min-height: 110px;
+    padding: 1em;
+    text-align: justify;
+    transition: opacity 0.2s ease;
+    opacity: 1.0;
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial"; }
+
+span.simplelistheading {
+  font-weight: 600;
+  font-size: 19.2px; 
+  text-align: left;
+  }
+
+
+.simplelistcontainer {
+  width: auto;
+  max-width: 800px;
+  text-align: left;
+}
+.simplelistcontainer .text-muted {
+  margin: 20px 0;
+}
+.simplelistcontainer a {
+  color: #27A822;
+}
+.simplelistcontainer a:hover {
+  color: #267723;
+}
+
 .projectlist {
   /* Screenshots are all Grabbed at 2x size = 2200 by 1435 on retina */
   /* then resized to 300px wide */ }
