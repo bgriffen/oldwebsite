@@ -15,7 +15,7 @@ Now that the job hunt is largely over, I thought it might be interesting to brie
 
 For this study I use only the [ADS python](https://github.com/andycasey/ads) explorer and some other mainstream Python tools (primarily [Pandas](http://pandas.pydata.org/)). The only part of this analysis which took time was compiling the names and years for all fellowship holders. I eventually found the previous receipients on various NASA related webpages and got the remainder on this year's [Rumour Mill page](http://www.astrobetter.com/wiki/Rumor+Mill). 
 
-The primary data set is a list of the following quantities: fellowship type, name, gender, year received, host institution and current institution. In some cases there was no data (only for institutions). Feel free to download the CSV file below using the elipses on the relevant Airtable base. Please let me know if your publications are incorrect in the Google Doc -- I don't want to misrepresent people. Also keep in mind I am only using published, refereed, first author papers.
+The primary data set is a list of the following quantities: fellowship type, name, gender, year received, host institution and current institution. In some cases there was no data (only for institutions). Feel free to download the CSV file below using the elipses on the relevant Airtable base. Please let me know if your publications are incorrect in the table below -- I don't want to misrepresent people. Also keep in mind I am only using published, refereed, first author papers.
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrFmUw9RdnDFJMAQ?backgroundColor=gray" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
