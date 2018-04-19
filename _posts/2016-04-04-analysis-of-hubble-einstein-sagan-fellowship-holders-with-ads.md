@@ -15,23 +15,11 @@ Now that the job hunt is largely over, I thought it might be interesting to brie
 
 For this study I use only the [ADS python](https://github.com/andycasey/ads) explorer and some other mainstream Python tools (primarily [Pandas](http://pandas.pydata.org/)). The only part of this analysis which took time was compiling the names and years for all fellowship holders. I eventually found the previous receipients on various NASA related webpages and got the remainder on this year's [Rumour Mill page](http://www.astrobetter.com/wiki/Rumor+Mill). 
 
-The primary data set is a list of the following quantities: fellowship type, name, gender, year received, host institution and current institution. In some cases there was no data (only for institutions). Feel free to download the [csv file](/assets/fellowships/data/processed.csv) or the [dictionary file](/assets/fellowships/data/processed_dict). You can also get the full [Google Doc with the postprocessed analysis](https://docs.google.com/spreadsheets/d/1ByyiRw91dAFzmwZql2kfKbFuv_glNgk1VP76J92mSnM/edit?usp=sharing) but please read on first!  Though, please let me know if your publications are incorrect in the Google Doc -- I don't want to misrepresent people. Also keep in mind I am only using published, refereed, first author papers.
+The primary data set is a list of the following quantities: fellowship type, name, gender, year received, host institution and current institution. In some cases there was no data (only for institutions). Feel free to download the CSV file below using the elipses on the relevant Airtable base. Please let me know if your publications are incorrect in the Google Doc -- I don't want to misrepresent people. Also keep in mind I am only using published, refereed, first author papers.
 
-This is an example of the type of data I started with:
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrFmUw9RdnDFJMAQ?backgroundColor=gray" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-type     | year | sex | person |  phd_institute | host_institute
- --      | --   | -- | -- | -- | --
-Hubble   | 2015 | f |  Katherine Alatalo |   University of California Berkeley    | Carnegie Observatories/Pasadena
-Hubble   | 2015 | m |  Peter Behroozi |  Stanford University   | University of California Berkeley
-Hubble   | 2015 | m |  Rongmon Bordoloi |    ETH Zurich  | Massachusetts Institute of Technology
-Hubble   | 2015 | f |  Elodie Choquet |  University of Paris Diderot  | Jet Propulsion Laboratory
-Hubble   | 2015 | f |  Lauren Ilsedore | Cleeves University of Michigan  |  Smithsonian Astrophysical Observatory
-Einstein | 2015 | f |  Anna Barnacka  | - |     Harvard University 
-Einstein | 2015 | m | Simeon Bird    | - | Johns Hopkins University 
-Sagan    | 2015 | f |  Courtney Dressing  | California Institute of Technology |  -
-Sagan    | 2015 | m |  Daniel Foreman-Mackey  | University of Washington |  -
-
-# Goals & Caveats
+# Goals
 
 A few natural questions one might ask with a list such as this are:
 
@@ -43,6 +31,8 @@ A few natural questions one might ask with a list such as this are:
 *  Do men or women have more co-authors?
 *  How many co-authors do each fellow type have?
 *  How many citations do they have when awarded compared to later in their careers?
+
+# Caveats 
 
 I must say up front that this analysis is not without its drawbacks. 
 
@@ -103,10 +93,6 @@ I obtained the following new set of variables (the names of which are fairly sel
 | `num_cites_during_award` |
 | `num_cites_after_award` |
 | `num_coauthors` |
-
-I have added these quantites to a Google Document which you can explore.
-
-[<img src="/assets/fellowships/table.png">](https://docs.google.com/spreadsheets/d/1ByyiRw91dAFzmwZql2kfKbFuv_glNgk1VP76J92mSnM/edit?usp=sharing)
 
 # Results
 
