@@ -260,10 +260,11 @@ pre {
 
 @media (max-width: 768px) {
   .frontcontainer h3 {
-    font-size: 16px;
+    margin: 40px 0px;
+    font-size: 18px;
   }
   .img-circle {
-   width: 100px;
+   width: 120px;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #6b6b6b;
@@ -284,13 +285,11 @@ pre {
   position: static;
   text-align: center;
   color: #FFFFFF;
-  top: 50%;
-  left: 50%;
-  margin-top: 200px;
+  margin: 80px 0px;
 }
 
 .frontcontainer .text-muted {
-  margin: 20px 0px;
+  margin: 0px 0px;
 }
 .frontcontainer a {
   color: #FCF901;
@@ -313,7 +312,6 @@ pre {
 .listcontainer a:hover {
   color: #267723;
 }
-
 
 .container {
   width: auto;
