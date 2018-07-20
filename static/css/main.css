@@ -281,15 +281,14 @@ pre {
 -------------------------------------------------- */
 
 .frontcontainer {
-  height: 450px;
-  position: absolute;
-  width: auto;
+  position: static;
   text-align: center;
   color: #FFFFFF;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 200px;
 }
+
 .frontcontainer .text-muted {
   margin: 20px 0px;
 }
@@ -299,7 +298,6 @@ pre {
 .frontcontainer a:hover {
   color: #F1EE12;
 }
-
 
 .listcontainer {
   width: auto;
