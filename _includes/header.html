@@ -1,29 +1,19 @@
-<nav class="navbar navbar-default">
+<div class="topnav" id="myTopnav">
   <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="{{ site.url }}"><i class="fa fa-home"></i></a>
-    </div>
-    <div id="navbar">
-      <ul class="nav navbar-nav navbar-center">
-      <li><a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i></a></li>
-      <li><a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li>
-      <li><a href="http://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a></li>
-      <li><a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
-      <li><a href="http://stackoverflow.com/{{ site.stackoverflow }}"><i class="fa fa-stack-overflow"></i></a></li>
-      <li><a href="https://feeds.feedburner.com/{{ site.feed }}"><i class="fa fa-rss-square"></i></a></li>
-      <li><a href="https://medium.com/@{{ site.medium }}"><i class="fa fa-medium"></i></a></li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.url }}/blog.html">BLOG</a></li>
-        <li><a href="{{ site.url }}/about.html"">ABOUT</a></li>
-        <li><a href="{{ site.url }}/biotech.html">BIOTECH</a></li>
-        <li><a href="{{ site.url }}/astrophysics.html">ASTROPHYSICS</a></li>
-      </ul>
-    </div>
-  </div>
-  <script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" id="st_insights_js" src="http://w.sharethis.com/button/buttons.js?publisher=4c4961d4-1888-423c-9cce-30a753eaf0e0"></script>
-<script type="text/javascript">stLight.options({publisher: "4c4961d4-1888-423c-9cce-30a753eaf0e0", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-
-</nav>
+  <a href="{{ site.url }}">Home</a>
+  <a href="{{ site.url }}/about.html"">About</a>
+  <a href="{{ site.url }}/blog.html">Blog</a>
+  <a href="{{ site.url }}/biotech.html">Biotech</a>
+  <a href="{{ site.url }}/astrophysics.html">Astro</a>
+  <a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i></a>
+  <a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
+  <a href="http://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a>
+  <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
+  <a href="http://stackoverflow.com/{{ site.stackoverflow }}"><i class="fa fa-stack-overflow"></i></a>
+  <a href="https://feeds.feedburner.com/{{ site.feed }}"><i class="fa fa-rss-square"></i></a>
+  <a href="https://medium.com/@{{ site.medium }}"><i class="fa fa-medium"></i></a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+  </a>
+</div>
+</div>
