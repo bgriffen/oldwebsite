@@ -279,10 +279,16 @@ pre {
 .frontcontainer h1 {
     font-size: 45px;
     font-weight: bold;
+  
+  padding-right:15px;
+  padding-left:15px;
+
   }
 
 .frontcontainer h3 {
   line-height: 1.2;
+  padding-right:15px;
+  padding-left:15px;
   }
 
   .img-circle {
