@@ -11,16 +11,14 @@ title: Blog
 		{% for post in site.posts %}
 		{% if post.share == true %}
 			<div class="row">
-				 <div class="col-sm-4 col-md-4 col-lg-4">
-					 <h5 style="text-align: right">
-					 	{{ post.date | date: "%B %e, %Y" }}
-					 </h5>
-				 </div>
-				 <div class="col-sm-8 col-md-8 col-lg-8">
-					 <h5 style="text-align: left">
+					<h4 style="text-align: center" >
 					 	<strong><a href="{{ site.siteurl }}{{ post.url }}">{{ post.title }}</a></strong>
-					 </h5>
-				 </div>
+					 </h4>
+
+					 <h6 style="text-align: center; padding-bottom: 20px;">
+					 	{{ post.date | date: "%B %e, %Y" }}
+					 </h6>
+					 
 			</div>
 		{% endif %}
 	    {% endfor %}

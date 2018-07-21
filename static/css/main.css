@@ -101,7 +101,7 @@ span.simplelistheading {
   /* then resized to 300px wide */ }
   .projectlist a:hover {
     text-decoration: none;
-    color: inherit; }
+    color: hsl(76, 79%, 51%); }
   .projectlist .container {
     margin-left: 170px; }
   .projectlist img {
@@ -126,7 +126,7 @@ ul.projectlist {
       display: block; }
     ul.projectlist li:hover {
       background-color: #e2e0d7;
-      color: #444;
+      color: hsl(76, 89%, 51%);
       opacity: 1.0; }
 
 span.projectlistheading {
@@ -143,7 +143,7 @@ span.projectlistheading {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    border-color: #ffffff;
+    border-color: hsl(76, 89%, 51%);
 }
 
 .topnav-right {
@@ -155,7 +155,7 @@ span.projectlistheading {
    background-color: #FFFFFF;
     float: left;
     display: block;
-    color: #6b6b6b;
+    color: hsl(76, 79%, 51%);
     text-align: center;
     padding: 14px 17px;
     text-decoration: none;
@@ -167,7 +167,7 @@ span.projectlistheading {
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: hsl(76, 89%, 51%);
 }
 
 /* Add an active class to highlight the current page */
@@ -259,12 +259,24 @@ pre {
 }
 
 @media (max-width: 768px) {
-  .frontcontainer h3 {
-    margin: 40px 0px;
-    font-size: 18px;
+  .frontcontainer {
+  position: static;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 150px;
+}
+.frontcontainer h1 {
+    font-size: 45px;
+    font-weight: bold;
   }
+
+.frontcontainer h3 {
+  line-height: 1.2;
+  }
+
   .img-circle {
    width: 120px;
+
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #6b6b6b;
@@ -285,17 +297,26 @@ pre {
   position: static;
   text-align: center;
   color: #FFFFFF;
-  margin: 80px 0px;
+  margin: 100px 0px;
 }
 
+.frontcontainer h1 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+.frontcontainer h3 {
+  line-height: 1.2;
+  }
+  
 .frontcontainer .text-muted {
   margin: 0px 0px;
 }
 .frontcontainer a {
-  color: #FCF901;
+  color: hsl(76, 79%, 51%);
 }
 .frontcontainer a:hover {
-  color: #F1EE12;
+  color: hsl(76, 89%, 51%);
 }
 
 .listcontainer {
@@ -307,10 +328,10 @@ pre {
   margin: 20px 0;
 }
 .listcontainer a {
-  color: #27A822;
+  color: hsl(76, 79%, 51%);
 }
 .listcontainer a:hover {
-  color: #267723;
+  color: hsl(76, 89%, 51%);
 }
 
 .container {
@@ -347,12 +368,7 @@ pre {
 .panel-default h6 {
   font-size: 15px;
 }
-.panel-default h4 a, h5 a {
-  color: #27A822;
-}
-.panel-default h4 a:hover, h5 a:hover {
-  color: #267723;
-}
+
 .panel{
   border-style: none;
 }
@@ -360,6 +376,10 @@ pre {
   padding-top: -10px;
   text-align: left;
 }
+
+
+}
+
 .socialsmall {
   padding-top: 12px;
   word-spacing: 25px;
@@ -375,23 +395,22 @@ pre {
   color: #FFFFFF;
 }
 
-.fa-rss-square a:hover {
+.fa-rss-square  {
   color: #B4F112;
 }
-
-.fa-twitter a:hover {
+.fa-twitter {
   color:#32CCFE;
 }
-.fa-github a:hover {
+.fa-github  {
   color: :#070709;
 }
-.fa-envelope a:hover {
+.fa-envelope  {
   color: #01FC14;
 }
-.fa-stack-overflow a:hover {
+.fa-stack-overflow  {
   color:#FF7300;
 }
-.fa-linkedin a:hover {
+.fa-linkedin  {
   color: #0085AE;
 }
 
@@ -437,6 +456,8 @@ pre {
   max-width: 100%
 } 
 
+
+
 img { 
   margin: 0 auto;
   max-width:  100%; 
@@ -449,16 +470,21 @@ img {
 
 .footerfront {
   color: #FFFFFF;
+
 }
 .text-muted-front {
   color: #FFFFFF;
   text-align: center;
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .text-muted-front a {
-  color: #B4F112;
+  color: hsl(76, 79%, 51%);
 }
 .text-muted-front a:hover {
-  color: #F1EE12;
+  color: hsl(76, 89%, 51%);
 }
 
 .footer {
