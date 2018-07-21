@@ -1,5 +1,4 @@
+# My Site
 
-# Brendan Griffen's Blog
-
-Heavily modified theme based on [Sustain](https://biomadeira.github.io/sustain).
+Heavily modified theme based on [Sustain](https://jekyller.github.io/sustain/).
 
