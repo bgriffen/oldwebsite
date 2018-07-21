@@ -262,8 +262,7 @@ pre {
   .frontcontainer {
   position: static;
   text-align: center;
-  color: #FFFFFF;
-  padding-top: 30px;
+  color: hsl(282, 87%, 94%);
   padding-left: 50px;
   max-width: 75%;
 }
