@@ -263,7 +263,9 @@ pre {
   position: static;
   text-align: center;
   color: #FFFFFF;
-  padding-top: 150px;
+  padding-top: 100px;
+  padding-left: 50px;
+  max-width: 75%;
 }
 .frontcontainer h1 {
     font-size: 45px;
@@ -297,7 +299,7 @@ pre {
   position: static;
   text-align: center;
   color: #FFFFFF;
-  margin: 100px 0px;
+  margin: 120px 0px;
 }
 
 .frontcontainer h1 {
