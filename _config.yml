@@ -26,8 +26,7 @@ stackoverflow: users/1495869/griff   #e.g: users/2735833/proton1h1
 medium: brendangriffen
 #Comment out if you don't want disqus 
 disqus: brendangriffen
-google_analytics: UA-2011187-3
-
+google_analytics: UA-48672309-1
 
 # needed for travis-ci build
 exclude: [vendor]
