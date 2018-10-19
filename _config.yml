@@ -1,0 +1,81 @@
+title: Brendan Griffen
+description: I work on problems in biotechnology and astrophysics
+disqus_shortname: brendangriffen
+reading_time: true
+words_per_minute: 200
+url: http://www.brendangriffen.com
+
+# Owner/author information
+owner:
+  name: Brendan Griffen
+  avatar: avatar.jpg
+  bio: "I work on problems in biotechnology and astrophysics."
+  email: brendan.f.griffen@gmail.com
+  twitter: brendangriffen
+  github: bgriffen
+  stackexchange: users/1495869/griff
+  linkedin: brendangriffen
+  medium: brendangriffen
+  feed: brendangriffen
+  ? google_plus
+
+# Background image to be tiled on all pages
+? background
+
+# Analytics and webmaster tools stuff
+google_analytics: UA-48672309-1
+? google_verify
+? bing_verify
+
+timezone: America/Los_Angeles
+future: false
+highlighter: rouge
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
