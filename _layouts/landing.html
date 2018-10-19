@@ -1,0 +1,52 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+
+<body id="page" {% if page.image.feature %}class="feature"{% endif %}>
+
+{% include browser-upgrade.html %}
+{% include navigation.html %}
+
+{% if page.image.feature %}
+
+  {% if page.image.credit %}<div class="copywright-credit">&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Credit: Illustris Collaboration</a></div><!-- /.image-credit -->{% endif %}
+  <div class="landing-image">
+    <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+  </div><!-- /.entry-image -->
+{% endif %}
+
+<div id="main" role="main">
+  <article class="hentry">
+    <div class="landing-title ">
+    <div class="centered landing-title-wrap">
+    <img class="user" src="{{ site.siteurl }}/images/{{ site.owner.avatar }}" width="200">
+      <h1>{{ page.title }}</h1>
+      <h2>{{ page.subtitle }}</h2>
+
+      <div class="social">
+          <a href="mailto:{{ site.owner.email}}"><i class="fa fa-envelope fa-2x"></i></a>
+  <a href="http://github.com/{{ site.owner.github }}"><i class="fa fa-github fa-2x"></i></a>
+  <a href="http://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>
+  <a href="http://linkedin.com/in/{{ site.owner.linkedin }}"><i class="fa fa-linkedin fa-2x"></i></a>
+  <a href="http://stackoverflow.com/users/{{ site.owner.stackoverflow }}"><i class="fa fa-stack-overflow fa-2x"></i></a>
+  <a href="https://feeds.feedburner.com/{{ site.owner.feed }}"><i class="fa fa-rss-square fa-2x"></i></a>
+  <a href="https://medium.com/@{{ site.owner.medium }}"><i class="fa fa-medium fa-2x"></i></a>
+  </div>
+      
+      <a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a>
+
+
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+  </article>
+</div><!-- /#main -->
+
+{% include scripts.html %}          
+
+</body>
+</html>
