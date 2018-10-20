@@ -14,14 +14,21 @@ body {
    ========================================================================== */
 
 .entry,
-.hentry,lentry {
+.hentry,
+lentry {
 	@include clearfix;
 
-	h1, h2, h3, h4, h5, h6, p, li {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	li {
 		word-wrap: break-word;
 	}
 }
-
 
 .entry-content {
 	@include font-size(16);
@@ -41,7 +48,9 @@ body {
 	}
 
 	.footnotes {
-		ol, li, p {
+		ol,
+		li,
+		p {
 			@include font-size(14);
 		}
 	}
@@ -71,7 +80,7 @@ body {
 		margin: 10px 20px;
 		font-weight: 700;
 		@include font-rem(32);
-		color: lighten($base-color,20);
+		color: lighten($base-color, 20);
 
 		@media #{$medium} {
 			@include font-rem(48);
@@ -85,7 +94,7 @@ body {
 	h2 {
 		margin: 0;
 		@include font-rem(18);
-		color: lighten($base-color,40);
+		color: lighten($base-color, 40);
 
 		@media #{$medium} {
 			@include font-rem(24);
@@ -93,19 +102,17 @@ body {
 	}
 
 	p {
-		color: lighten($base-color,20);
+		color: lighten($base-color, 20);
 	}
 }
 
 .centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
 }
-
-
 
 .landing-title {
 	text-align: center;
@@ -118,7 +125,7 @@ body {
 		margin: 10px 20px;
 		font-weight: 700;
 		@include font-rem(32);
-		color: lighten($base-color,20);
+		color: lighten($base-color, 20);
 
 		@media #{$medium} {
 			@include font-rem(48);
@@ -132,8 +139,8 @@ body {
 	h2 {
 		margin: 0;
 		@include font-rem(18);
-		
-		color: lighten($base-color,40);
+
+		color: lighten($base-color, 40);
 
 		@media #{$medium} {
 			@include font-rem(24);
@@ -141,23 +148,23 @@ body {
 	}
 
 	p {
-		color: lighten($base-color,20);
+		color: lighten($base-color, 20);
 	}
 }
 
 .avatar {
-  padding-top: 5%;
+	padding-top: 5%;
 }
 
 .user {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
 
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 .feature .header-title {
@@ -183,7 +190,7 @@ body {
 		font-weight: 700;
 		margin: 10px 60px;
 		color: #fff;
-		text-shadow: 1px 1px 4px rgba($base-color,0.6);
+		text-shadow: 1px 1px 4px rgba($base-color, 0.6);
 
 		a {
 			color: #fff;
@@ -206,7 +213,6 @@ body {
 	}
 }
 
-
 .feature .landing-title {
 	position: absolute;
 	top: 0;
@@ -228,7 +234,7 @@ body {
 		font-weight: 700;
 		margin: 10px 60px;
 		color: #fff;
-		text-shadow: 1px 1px 4px rgba($base-color,0.6);
+		text-shadow: 1px 1px 4px rgba($base-color, 0.6);
 
 		a {
 			color: #fff;
@@ -252,60 +258,58 @@ body {
 }
 
 .bg {
-
-    /* Full height */
-    width: 100%;
-    height: 100%;
-    position: fixed;
- }
+	/* Full height */
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
 
 .landing-image {
 	width: 100%;
-    height: 100%;
-    position: fixed;
-	background-position: center center;
+	height: 100%;
+	position: fixed;
 
 	&:after {
-		content: '';
+		content: "";
 		position: fixed;
 		width: 100%;
 		height: 100%;
-		background-color: rgba($base-color,0.3);
+		background-color: rgba($base-color, 0.4);
 	}
 
 	img {
 		width: 100%;
-    height: 100%;
-    position: fixed;
+		height: 100%;
+		position: fixed;
 	}
 }
 
 .entry-image {
 	position: relative;
-	top: -50%; 
-	left: -50%; 
-	width: 200%; 
+	top: -50%;
+	left: -50%;
+	width: 200%;
 	height: 200%;
 	min-height: $feature-image-height;
 	overflow: hidden;
 
 	&:after {
-		content: '';
+		content: "";
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba($base-color,0.3);
+		background-color: rgba($base-color, 0.3);
 	}
 
 	img {
-		position: absolute; 
-		top: 0; 
-		left: 0; 
-		right: 0; 
-		bottom: 0; 
-		margin: auto; 
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
 		min-width: 50%;
 		min-height: $feature-image-height; // match .entry-image min-height
 	}
@@ -313,7 +317,6 @@ body {
 
 // Feature Image height on Front Page
 #post-index {
-
 	&.feature .header-title {
 		height: $front-page-feature-image-height;
 	}
@@ -334,7 +337,7 @@ body {
 	margin: 0 auto;
 	max-width: 440px;
 	padding: 10px 15px;
-	background-color: rgba($base-color,0.5);
+	background-color: rgba($base-color, 0.5);
 	color: #fff;
 	@include font-rem(12);
 	text-align: right;
@@ -363,7 +366,7 @@ body {
 	margin: 0 auto;
 	max-width: 440px;
 	padding: 10px 15px;
-	background-color: rgba($base-color,0.5);
+	background-color: rgba($base-color, 0.5);
 	color: #fff;
 	@include font-rem(12);
 	text-align: right;
@@ -391,14 +394,13 @@ body {
 .entry-meta {
 	@include font-rem(12);
 	text-transform: uppercase;
-	color: lighten($base-color,60);
+	color: lighten($base-color, 60);
 
 	a {
-		color: lighten($base-color,60);
+		color: lighten($base-color, 60);
 	}
 
 	.vcard {
-
 		&:before {
 			content: " by ";
 		}
@@ -409,7 +411,7 @@ body {
 		margin: 4px;
 		color: #fff;
 		border-radius: 3px;
-		background-color: lighten($base-color,50);
+		background-color: lighten($base-color, 50);
 
 		span {
 			float: left;
@@ -417,12 +419,12 @@ body {
 		}
 
 		.count {
-			background-color: lighten($base-color,40);
+			background-color: lighten($base-color, 40);
 			border-radius: 0 3px 3px 0;
 		}
 
 		&:hover {
-			background-color: lighten($base-color,40);
+			background-color: lighten($base-color, 40);
 		}
 	}
 
@@ -441,12 +443,11 @@ header .entry-meta {
 
 #post,
 #page {
-
 	.entry-content {
 		margin: 40px 2px 20px 2px;
 		padding: 10px 15px;
 		background-color: #fff;
-		box-shadow: 0 0 0 0, 0 6px 12px rgba(#000,0.1);
+		box-shadow: 0 0 0 0, 0 6px 12px rgba(#000, 0.1);
 		border-radius: 3px;
 
 		@media #{$medium} {
@@ -470,7 +471,8 @@ header .entry-meta {
 		margin: 40px 2px 20px 2px;
 		padding: 10px 15px;
 		background-color: #fff;
-		box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba(#000,0.1);
+		box-shadow: 0 0 0 1px rgba($border-color, 0.1),
+			0 6px 12px rgba(#000, 0.1);
 		border-radius: 3px;
 
 		@media #{$medium} {
@@ -534,7 +536,7 @@ header .entry-meta {
 	margin: 40px 2px 20px 2px;
 	padding: 40px 15px 25px;
 	background-color: #fff;
-	box-shadow: 0 0 0 1px rgba($border-color,0.1), 0 6px 12px rgba(#000,0.1);
+	box-shadow: 0 0 0 1px rgba($border-color, 0.1), 0 6px 12px rgba(#000, 0.1);
 	border-radius: 3px;
 
 	@media #{$medium} {
@@ -581,7 +583,7 @@ header .entry-meta {
 		margin: 0;
 		@include font-rem(28);
 
-		a { 
+		a {
 			color: $text-color;
 		}
 
@@ -592,22 +594,22 @@ header .entry-meta {
 }
 
 .read-more-list {
-	border-top: solid 2px lighten($base-color,80);
+	border-top: solid 2px lighten($base-color, 80);
 }
 
 .list-item {
 	width: 100%;
 	text-align: left;
 
-	h4 { 
+	h4 {
 		@include font-rem(18);
-		margin-bottom: 0; 
+		margin-bottom: 0;
 	}
 
-	span { 
+	span {
 		display: block;
 		@include font-rem(14);
-		color: lighten($base-color,50);
+		color: lighten($base-color, 50);
 	}
 
 	@media #{$medium} {
@@ -643,7 +645,7 @@ header .entry-meta {
 
 	article {
 		background-color: #fff;
-		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
+		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color, 0.1);
 		border-radius: 3px;
 		margin-bottom: 20px;
 		padding: 25px 15px;
@@ -714,42 +716,41 @@ header .entry-meta {
    ========================================================================== */
 
 .card {
-  box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
-  transition: all .3s ease;
-  position: relative;
+	box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+	position: relative;
 }
 .card:hover {
-  box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.2);
 }
 
 .card-image {
-  height: 100px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+	height: 100px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .card h1 {
-  margin: 0;
+	margin: 0;
 }
 
 .card p {
-  margin: 0 0 30px;
+	margin: 0 0 30px;
 }
 
 .subtitle {
-  margin: 0 0 15px;
+	margin: 0 0 15px;
 }
 
 .card-content {
-  padding: 30px 30px 0px;
+	padding: 30px 30px 0px;
 }
 
-
 .card-details-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 /* 
@@ -760,10 +761,10 @@ header .entry-meta {
 	@include clearfix;
 	margin: 2em auto;
 	text-align: center;
-	color: lighten($text-color,20);
+	color: lighten($text-color, 20);
 
 	a {
-		color: lighten($text-color,20);
+		color: lighten($text-color, 20);
 	}
 }
 
@@ -774,7 +775,7 @@ header .entry-meta {
 .socialcount {
 	@include font-rem(16);
 
-	li { 
+	li {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
@@ -786,61 +787,69 @@ header .entry-meta {
 }
 
 .social {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  word-spacing: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	word-spacing: 25px;
 }
 
-.fa-facebook, .fa-facebook-square {
-    color: #3b5998
+.fa-facebook,
+.fa-facebook-square {
+	color: #3b5998;
 }
-.fa-twitter, .fa-twitter-square {
-    color: #00aced
+.fa-twitter,
+.fa-twitter-square {
+	color: #00aced;
 }
-.fa-google-plus, .fa-google-plus-square {
-    color: #dd4b39
+.fa-google-plus,
+.fa-google-plus-square {
+	color: #dd4b39;
 }
-.fa-youtube, .fa-youtube-play, .fa-youtube-square {
-    color: #bb0000
+.fa-youtube,
+.fa-youtube-play,
+.fa-youtube-square {
+	color: #bb0000;
 }
-.fa-tumblr, .fa-tumblr-square {
-    color: #32506d
+.fa-tumblr,
+.fa-tumblr-square {
+	color: #32506d;
 }
 .fa-vine {
-    color: #00bf8f
+	color: #00bf8f;
 }
 .fa-flickr {
-    color: #ff0084
+	color: #ff0084;
 }
 .fa-vimeo-square {
-    color: #aad450
+	color: #aad450;
 }
-.fa-pinterest, .fa-pinterest-square {
-    color: #cb2027
+.fa-pinterest,
+.fa-pinterest-square {
+	color: #cb2027;
 }
-.fa-linkedin, .fa-linkedin-square {
-    color: #007bb6
+.fa-linkedin,
+.fa-linkedin-square {
+	color: #007bb6;
 }
 .fa-instagram {
-    color: #517fa4;
+	color: #517fa4;
 }
 .fa-spotify {
-    color: #1ED760;
+	color: #1ed760;
 }
-.fa-rss-square  {
-  color: #f26522;
-}
-
-.fa-envelope  {
-  color: #8b8b64;
+.fa-rss-square {
+	color: #f26522;
 }
 
-.fa-stack-overflow  {
-  color: #f48024;
+.fa-envelope {
+	color: #8b8b64;
 }
 
-.fa-medium  {
-  color: #00ab6c;
+.fa-stack-overflow {
+	color: #f48024;
+}
+
+.fa-medium {
+	color: #00ab6c;
 }
 
 /* 
@@ -857,7 +866,6 @@ header .entry-meta {
    ========================================================================== */
 
 #goog-fixurl {
-
 	ul {
 		list-style: none;
 		margin-left: 0;
@@ -880,7 +888,7 @@ header .entry-meta {
 	color: $text-color;
 	border-width: 2px !important;
 	border-style: solid !important;
-	border-color: lighten($primary,50);
+	border-color: lighten($primary, 50);
 	border-radius: 3px;
 }
 
