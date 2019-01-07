@@ -1,5 +1,5 @@
 ---
-title: "A GUI In Python The Easy Way"
+title: "A Boilerplate Plotting GUI In Python"
 layout: post
 tags:
   - python
